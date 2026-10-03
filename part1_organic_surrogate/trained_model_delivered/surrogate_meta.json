@@ -1,0 +1,59 @@
+{
+ "main_groups": [
+  1,
+  2,
+  3,
+  8,
+  9,
+  10,
+  11,
+  13,
+  14,
+  15,
+  20,
+  27,
+  52,
+  66,
+  67,
+  68,
+  69,
+  72
+ ],
+ "n_features": 24,
+ "feature_names": [
+  "mg_frac_1",
+  "mg_frac_2",
+  "mg_frac_3",
+  "mg_frac_8",
+  "mg_frac_9",
+  "mg_frac_10",
+  "mg_frac_11",
+  "mg_frac_13",
+  "mg_frac_14",
+  "mg_frac_15",
+  "mg_frac_20",
+  "mg_frac_27",
+  "mg_frac_52",
+  "mg_frac_66",
+  "mg_frac_67",
+  "mg_frac_68",
+  "mg_frac_69",
+  "mg_frac_72",
+  "o_to_c",
+  "n_to_c",
+  "log_molar_mass",
+  "log1p_total_q",
+  "wtf_water",
+  "T_norm"
+ ],
+ "sanity_interp_mae": {
+  "water": 0.010192178189754486,
+  "organic": 0.05998852849006653
+ },
+ "sanity_gen_mae": {
+  "water": 0.02499629743397236,
+  "organic": 0.29765599966049194
+ },
+ "n_organics": 368,
+ "n_points": 29440
+}
