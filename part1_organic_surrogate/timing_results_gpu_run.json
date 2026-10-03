@@ -1,0 +1,18 @@
+{
+  "note": "Measured by the user, running the delivered notebook's Part V cell end-to-end on a Google Colab GPU runtime (NVIDIA T4). Same 6-molecule x 2000-grid-point (12,000 total evaluation) benchmark design as timing_results.json, but on different, slower-CPU hardware, so these numbers are NOT directly comparable in absolute terms to timing_results.json -- only the ratios within this table (all vs. this run's own AIOMFAC baseline) are meaningful across the two tables.",
+  "aiomfac_direct_us": 435.42,
+  "surrogate_pytorch_single_us": 122.59,
+  "surrogate_pytorch_single_speedup": 3.6,
+  "surrogate_pytorch_batched_us": 2.66,
+  "surrogate_pytorch_batched_speedup": 163.6,
+  "surrogate_numpy_single_us": 34.88,
+  "surrogate_numpy_single_speedup": 12.5,
+  "surrogate_numpy_batched_us": 5.47,
+  "surrogate_numpy_batched_speedup": 79.6,
+  "surrogate_gpu_single_us": 351.10,
+  "surrogate_gpu_single_speedup_vs_aiomfac": 1.24,
+  "surrogate_gpu_batched_us": 0.17,
+  "surrogate_gpu_batched_speedup_vs_aiomfac": 2550.2,
+  "surrogate_gpu_batched_speedup_vs_cpu_pytorch_batched": 15.59,
+  "surrogate_gpu_batched_speedup_vs_cpu_numpy_batched": 32.2
+}
