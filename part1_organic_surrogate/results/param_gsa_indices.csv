@@ -1,0 +1,477 @@
+output,parameter,gen_ST,gen_S1,n_systems_using
+ln_gamma_water,a[1:CHn (alkyl) -> 2:Alkene CH2=CH],4.604268728568288e-06,5.3761429409418826e-05,10
+ln_gamma_water,a[1:CHn (alkyl) -> 7:H2O],0.0012637972858424841,0.001187077308752697,65
+ln_gamma_water,a[1:CHn (alkyl) -> 71:Organonitrate CH2ONO2],0.0017602385948886166,0.0018231548675824334,14
+ln_gamma_water,a[2:Alkene CH2=CH -> 1:CHn (alkyl)],2.219058946004885e-06,-6.030052074407297e-06,10
+ln_gamma_water,a[2:Alkene CH2=CH -> 7:H2O],0.002008445983338151,0.0004183060062175639,12
+ln_gamma_water,a[2:Alkene CH2=CH -> 71:Organonitrate CH2ONO2],5.735825965595732e-28,1.1311171502470758e-16,2
+ln_gamma_water,a[7:H2O -> 1:CHn (alkyl)],0.11883738884279212,0.12403930716974419,65
+ln_gamma_water,a[7:H2O -> 2:Alkene CH2=CH],0.0071409627206373985,0.009090117220908602,12
+ln_gamma_water,a[7:H2O -> 71:Organonitrate CH2ONO2],0.007390665973782052,0.0064872380246219045,15
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 1:CHn (alkyl)],0.00010369766009383187,8.870424377548603e-05,14
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 2:Alkene CH2=CH],2.5406784769222724e-05,6.46123212250892e-05,2
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 7:H2O],0.0029215037375299696,0.0020266748520502216,15
+ln_gamma_water,a[1:CHn (alkyl) -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,21
+ln_gamma_water,a[1:CHn (alkyl) -> 69:-OH group; must always be at],0.001093904534846789,0.001141221922219363,27
+ln_gamma_water,a[1:CHn (alkyl) -> 75:Peroxy acyl nitrate C(=O)OON],0.0004164477483453409,0.0006862597971974371,5
+ln_gamma_water,a[7:H2O -> 52:CH1 alkyl attached to OH (wh],0.000342182258729944,0.0004057150024773958,27
+ln_gamma_water,a[7:H2O -> 69:-OH group; must always be at],0.06658233283405028,0.06652220130258674,36
+ln_gamma_water,a[7:H2O -> 75:Peroxy acyl nitrate C(=O)OON],0.0009816702805470344,0.000988004359991805,6
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 1:CHn (alkyl)],0.0,0.0,21
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 7:H2O],8.12546977274883e-08,1.7534001347098934e-05,27
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 69:-OH group; must always be at],5.396096371748314e-05,0.00012138879551155704,27
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 75:Peroxy acyl nitrate C(=O)OON],5.171175142787724e-07,6.825644756110429e-07,2
+ln_gamma_water,a[69:-OH group; must always be at -> 1:CHn (alkyl)],0.000273202579328393,6.216001708439672e-05,27
+ln_gamma_water,a[69:-OH group; must always be at -> 7:H2O],0.03284537521913315,0.03198498745421022,36
+ln_gamma_water,a[69:-OH group; must always be at -> 52:CH1 alkyl attached to OH (wh],0.0002410171297419739,0.00029396491788028146,27
+ln_gamma_water,a[69:-OH group; must always be at -> 75:Peroxy acyl nitrate C(=O)OON],6.11661352718898e-05,-0.00013035427045856852,4
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 1:CHn (alkyl)],0.0002259290292559586,0.00016408981968605782,5
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 7:H2O],0.0035993702261802154,0.0036523076323594994,6
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 52:CH1 alkyl attached to OH (wh],4.937137173482214e-07,-3.2642631606202766e-07,2
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 69:-OH group; must always be at],0.0003979717497416696,0.0005008838983415677,4
+ln_gamma_water,a[2:Alkene CH2=CH -> 10:aldehyde -CH(=O)],0.0002219844697524656,0.0003842947724718334,1
+ln_gamma_water,a[2:Alkene CH2=CH -> 72:Hydroperoxide CH2OOH],4.251145250481891e-05,-0.00030904642784528453,3
+ln_gamma_water,a[7:H2O -> 10:aldehyde -CH(=O)],0.006218359188287461,0.005700445732549593,16
+ln_gamma_water,a[7:H2O -> 72:Hydroperoxide CH2OOH],0.051956237072700605,0.052162325830229395,14
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 2:Alkene CH2=CH],5.021967557884085e-07,3.2460912719980597e-06,1
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 7:H2O],0.0045802764670891125,0.004605843261326034,16
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 72:Hydroperoxide CH2OOH],0.010075371101670809,0.009598731285436285,5
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 2:Alkene CH2=CH],2.683055806225921e-06,-3.3692935680975304e-06,3
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 7:H2O],0.0012143451515916196,-0.0026082262488129346,14
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 10:aldehyde -CH(=O)],0.0006604161029577784,0.000994595430447716,5
+ln_gamma_water,a[1:CHn (alkyl) -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,9
+ln_gamma_water,a[1:CHn (alkyl) -> 73:Peroxy Acid C(=O)OOH],0.00010636775323859858,-3.0378645913988114e-05,7
+ln_gamma_water,a[7:H2O -> 68:CH3 alkyl attached to OH (wh],0.0007255104454686664,0.0008143291949495117,13
+ln_gamma_water,a[7:H2O -> 73:Peroxy Acid C(=O)OOH],0.032422205795763714,0.03182396479647913,8
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 1:CHn (alkyl)],0.0,0.0,9
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 7:H2O],2.4246531430771163e-07,1.1914563122997887e-06,13
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 69:-OH group; must always be at],0.000143639494956906,0.00012763838569216355,13
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 73:Peroxy Acid C(=O)OOH],1.5301397457310007e-06,1.8015524277703203e-06,1
+ln_gamma_water,a[69:-OH group; must always be at -> 68:CH3 alkyl attached to OH (wh],0.00021885782726838385,0.00023680632348670386,13
+ln_gamma_water,a[69:-OH group; must always be at -> 73:Peroxy Acid C(=O)OOH],9.465368159223495e-07,2.963368983163608e-06,2
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 1:CHn (alkyl)],2.828640307546495e-16,-1.1892536627979237e-10,7
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 7:H2O],0.0016837282617447006,0.0016241822739053251,8
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 68:CH3 alkyl attached to OH (wh],1.273836299744871e-17,1.9889605856859394e-11,1
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 69:-OH group; must always be at],0.004030883085572576,0.004651347827502664,2
+ln_gamma_water,a[1:CHn (alkyl) -> 72:Hydroperoxide CH2OOH],0.00034341006806073727,0.000322825430181136,11
+ln_gamma_water,a[1:CHn (alkyl) -> 74:peroxide CH3OOCH3],1.392580092633791e-05,9.43829274432328e-05,3
+ln_gamma_water,a[2:Alkene CH2=CH -> 52:CH1 alkyl attached to OH (wh],5.179944705902854e-08,-5.385310502538034e-07,5
+ln_gamma_water,a[2:Alkene CH2=CH -> 69:-OH group; must always be at],0.00011601136425946516,8.954979540900677e-05,6
+ln_gamma_water,a[2:Alkene CH2=CH -> 74:peroxide CH3OOCH3],6.107479691232751e-07,-2.355376712827185e-06,3
+ln_gamma_water,a[7:H2O -> 74:peroxide CH3OOCH3],4.812184306160457e-07,-1.8819857306999877e-07,3
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 2:Alkene CH2=CH],3.2841630732393634e-08,-6.624836737190274e-06,5
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 72:Hydroperoxide CH2OOH],8.23033449713556e-08,5.61711767273064e-06,3
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 74:peroxide CH3OOCH3],8.671036894169301e-08,-2.970020221783906e-07,3
+ln_gamma_water,a[69:-OH group; must always be at -> 2:Alkene CH2=CH],2.790895910928443e-06,1.6222512617401973e-06,6
+ln_gamma_water,a[69:-OH group; must always be at -> 72:Hydroperoxide CH2OOH],0.001955708278462356,0.00190537190050491,3
+ln_gamma_water,a[69:-OH group; must always be at -> 74:peroxide CH3OOCH3],1.1071111606992819e-05,-8.419337233582935e-05,3
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 1:CHn (alkyl)],5.975471270985094e-06,-9.083954537711357e-06,11
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 52:CH1 alkyl attached to OH (wh],4.764192473398327e-08,2.235102309100726e-06,3
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 69:-OH group; must always be at],0.0002538187630810104,0.00026087253444165466,3
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 74:peroxide CH3OOCH3],0.0002824857939642624,0.0002597694941303088,2
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 1:CHn (alkyl)],1.8256988734428257e-05,-3.231596053855177e-05,3
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 2:Alkene CH2=CH],2.950682591710784e-06,-8.863162478930954e-06,3
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 7:H2O],0.00014147086418403625,0.0001381128840169042,3
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 52:CH1 alkyl attached to OH (wh],4.537383395829736e-07,1.390684526758973e-06,3
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 69:-OH group; must always be at],3.0029204534291684e-05,3.976879124541127e-05,3
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 72:Hydroperoxide CH2OOH],2.300952528364277e-07,1.4712749761984568e-07,2
+ln_gamma_water,a[1:CHn (alkyl) -> 20:Formic acid HC(=O)OH],0.00097408163189765,0.0010904259798861769,7
+ln_gamma_water,a[7:H2O -> 20:Formic acid HC(=O)OH],0.0014599289694544018,0.001436908069543154,8
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 1:CHn (alkyl)],0.0001560455910481328,7.058923038583808e-05,7
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 7:H2O],0.014086164606077386,0.01380174924165496,8
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 68:CH3 alkyl attached to OH (wh],1.8891210176801625e-06,9.200807081211087e-07,1
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 52:CH1 alkyl attached to OH (wh],2.5333377713455503e-06,1.9266251380552653e-05,2
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 69:-OH group; must always be at],0.0006501202565396155,0.0006629001074611133,2
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 71:Organonitrate CH2ONO2],5.620295247618908e-05,5.825169045825187e-05,3
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 20:Formic acid HC(=O)OH],4.1779933293139844e-06,-5.404204722342806e-06,1
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,6
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 71:Organonitrate CH2ONO2],6.293787885901605e-07,8.458189012645903e-06,2
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 20:Formic acid HC(=O)OH],3.8006824451564445e-06,7.533256933633077e-06,2
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,6
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 71:Organonitrate CH2ONO2],3.405250454532171e-06,4.285582725917566e-06,6
+ln_gamma_water,a[69:-OH group; must always be at -> 20:Formic acid HC(=O)OH],0.0003200876571892734,0.0003476663449921921,2
+ln_gamma_water,a[69:-OH group; must always be at -> 71:Organonitrate CH2ONO2],1.6739381267744623e-05,0.0001425599266928026,7
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 20:Formic acid HC(=O)OH],4.4468506749937235e-05,6.526785826139933e-05,3
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 68:CH3 alkyl attached to OH (wh],2.010819114686282e-06,1.420239289670432e-05,2
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 52:CH1 alkyl attached to OH (wh],2.7320317081655823e-06,-3.915441679574478e-05,6
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 69:-OH group; must always be at],0.0003410699806187202,0.00032865317892306184,7
+ln_gamma_water,a[1:CHn (alkyl) -> 13:ether CH3O-],0.00010829645912094162,5.2150794214082054e-05,12
+ln_gamma_water,a[7:H2O -> 13:ether CH3O-],0.004450766406844304,0.004705980465203523,13
+ln_gamma_water,a[13:ether CH3O- -> 1:CHn (alkyl)],4.5978302085219e-05,1.848308793745904e-05,12
+ln_gamma_water,a[13:ether CH3O- -> 7:H2O],0.11043639014385179,0.10937427242810661,13
+ln_gamma_water,a[13:ether CH3O- -> 71:Organonitrate CH2ONO2],9.89994228790583e-07,1.9036198137798552e-06,2
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 13:ether CH3O-],8.205615515999674e-06,-0.0001456237079388296,2
+ln_gamma_water,a[1:CHn (alkyl) -> 9:ketone CH3C(=O)],0.0038650080712858137,0.004216896579426053,21
+ln_gamma_water,a[1:CHn (alkyl) -> 10:aldehyde -CH(=O)],0.0014415432377321445,0.001489200287573606,12
+ln_gamma_water,a[7:H2O -> 9:ketone CH3C(=O)],0.055074619161557925,0.05663743768046871,26
+ln_gamma_water,a[9:ketone CH3C(=O) -> 1:CHn (alkyl)],1.74115781994877e-05,8.296536352175898e-05,21
+ln_gamma_water,a[9:ketone CH3C(=O) -> 7:H2O],0.01217022190875,0.010539800587972506,26
+ln_gamma_water,a[9:ketone CH3C(=O) -> 10:aldehyde -CH(=O)],3.7477226150798955e-05,-6.505876616627578e-06,6
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 1:CHn (alkyl)],0.00015139304627299812,-0.0004428408969279154,12
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 9:ketone CH3C(=O)],0.00029680166055755984,0.0002090217183309387,6
+ln_gamma_water,a[2:Alkene CH2=CH -> 20:Formic acid HC(=O)OH],0.000699495735005373,0.0006896947658918192,1
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 2:Alkene CH2=CH],8.687194663609322e-06,1.2733848764668827e-05,1
+ln_gamma_water,a[9:ketone CH3C(=O) -> 68:CH3 alkyl attached to OH (wh],2.8762717384631197e-07,2.7419816961684154e-06,2
+ln_gamma_water,a[9:ketone CH3C(=O) -> 52:CH1 alkyl attached to OH (wh],5.377101862134353e-07,-6.46857196383694e-06,7
+ln_gamma_water,a[9:ketone CH3C(=O) -> 69:-OH group; must always be at],0.0009372098234225605,0.0009496865118186624,10
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 9:ketone CH3C(=O)],1.3897140470289835e-05,2.7356900199258018e-05,2
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 9:ketone CH3C(=O)],1.1933668509719328e-05,-2.5897483528125108e-05,7
+ln_gamma_water,a[69:-OH group; must always be at -> 9:ketone CH3C(=O)],0.00022466318861324606,0.0006387509905488718,10
+ln_gamma_water,a[9:ketone CH3C(=O) -> 20:Formic acid HC(=O)OH],0.00037659437168059343,0.0003707404268662027,3
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 9:ketone CH3C(=O)],0.0032813910800598687,0.00046085185338757976,3
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 13:ether CH3O-],1.3774099246782368e-05,5.837223936660685e-05,3
+ln_gamma_water,a[13:ether CH3O- -> 10:aldehyde -CH(=O)],2.706964492445291e-07,-8.850433027414468e-06,3
+ln_gamma_water,a[13:ether CH3O- -> 72:Hydroperoxide CH2OOH],0.0007232921997152539,0.0006484992591641181,1
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 13:ether CH3O-],9.211286686672688e-06,1.3115973222991519e-05,1
+ln_gamma_water,a[9:ketone CH3C(=O) -> 72:Hydroperoxide CH2OOH],0.013028418028058748,0.013006376674505073,7
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 9:ketone CH3C(=O)],0.0014259350547304408,0.0011917813718996205,7
+ln_gamma_water,a[9:ketone CH3C(=O) -> 13:ether CH3O-],1.741407823291716e-07,1.6013360209563877e-06,2
+ln_gamma_water,a[9:ketone CH3C(=O) -> 71:Organonitrate CH2ONO2],0.00038130786490403376,0.0004509468484598591,5
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 52:CH1 alkyl attached to OH (wh],3.508296635681801e-06,-1.4181400049171297e-05,4
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 69:-OH group; must always be at],0.0004558032738934811,0.00034950259678606486,5
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 71:Organonitrate CH2ONO2],0.0005493345044489767,0.0005112297619249271,5
+ln_gamma_water,a[13:ether CH3O- -> 9:ketone CH3C(=O)],4.082753796580148e-06,5.057258473919961e-06,2
+ln_gamma_water,a[13:ether CH3O- -> 52:CH1 alkyl attached to OH (wh],4.0251236597279505e-06,3.4714871136209877e-06,5
+ln_gamma_water,a[13:ether CH3O- -> 69:-OH group; must always be at],0.0006790142479861901,0.0015533585728630353,6
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 10:aldehyde -CH(=O)],3.411220702839921e-07,2.3636574721329467e-06,4
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 13:ether CH3O-],6.355514863599892e-07,2.6584184029503382e-06,5
+ln_gamma_water,a[69:-OH group; must always be at -> 10:aldehyde -CH(=O)],0.0008202200872273321,0.0007791169316060326,5
+ln_gamma_water,a[69:-OH group; must always be at -> 13:ether CH3O-],1.204302547945875e-06,-1.551527559003658e-05,6
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 9:ketone CH3C(=O)],0.0001680411138437882,0.00018179184724376649,5
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 10:aldehyde -CH(=O)],0.0010381061503573418,0.0012552231374184394,5
+ln_gamma_water,a[1:CHn (alkyl) -> 11:ester CH3COO],0.0006493099870893585,0.0010940194387690544,5
+ln_gamma_water,a[7:H2O -> 11:ester CH3COO],0.0008290785279428186,0.0008412025199851434,5
+ln_gamma_water,a[11:ester CH3COO -> 1:CHn (alkyl)],0.00011010598126623503,0.00012247475246617915,5
+ln_gamma_water,a[11:ester CH3COO -> 7:H2O],0.003746070153399975,0.004981048556082003,5
+ln_gamma_water,a[11:ester CH3COO -> 52:CH1 alkyl attached to OH (wh],4.3393723460757377e-07,6.870339625028468e-07,1
+ln_gamma_water,a[11:ester CH3COO -> 69:-OH group; must always be at],0.0005103281916555606,0.0006514511236891023,2
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 11:ester CH3COO],1.0260984668918583e-06,2.526164100745375e-06,1
+ln_gamma_water,a[69:-OH group; must always be at -> 11:ester CH3COO],3.433544594470152e-05,4.016438187523143e-05,2
+ln_gamma_water,a[1:CHn (alkyl) -> 3:Aromatic Hydrocarbon ACH],4.256044417908374e-05,-0.0006037957551224398,9
+ln_gamma_water,a[1:CHn (alkyl) -> 8:aromatic carbon alcohol ACH],4.3746603482279805e-05,3.2578827893392674e-05,4
+ln_gamma_water,a[1:CHn (alkyl) -> 27:aromatic nitro group ACNO2],1.835470883071862e-05,4.007451362610308e-05,1
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 1:CHn (alkyl)],2.400587430470764e-06,1.8171811554090564e-05,9
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 7:H2O],0.000623094719463232,0.0006262542575056213,9
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 8:aromatic carbon alcohol ACH],2.3152646130206923e-05,-0.00015586256151425758,4
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 27:aromatic nitro group ACNO2],8.99834557206341e-06,-2.015441288865353e-05,1
+ln_gamma_water,a[7:H2O -> 3:Aromatic Hydrocarbon ACH],0.01324491261598952,0.012742194736021428,9
+ln_gamma_water,a[7:H2O -> 8:aromatic carbon alcohol ACH],0.0028276453858401764,0.0027684316504410227,4
+ln_gamma_water,a[7:H2O -> 27:aromatic nitro group ACNO2],0.0008612166300691447,0.0008633367023873458,1
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 1:CHn (alkyl)],2.443686928640885e-05,6.198245694465337e-05,4
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 3:Aromatic Hydrocarbon ACH],5.008716801425318e-07,-2.8878561485522863e-06,4
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 7:H2O],0.33856951760908155,0.3439107066707431,4
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 27:aromatic nitro group ACNO2],0.0,0.0,1
+ln_gamma_water,a[27:aromatic nitro group ACNO2 -> 1:CHn (alkyl)],8.698736090651466e-17,-4.1323486564790833e-10,1
+ln_gamma_water,a[27:aromatic nitro group ACNO2 -> 3:Aromatic Hydrocarbon ACH],1.4525091088708365e-08,-9.70198440188818e-07,1
+ln_gamma_water,a[27:aromatic nitro group ACNO2 -> 7:H2O],0.00012177869561534875,0.0001616303340175368,1
+ln_gamma_water,a[27:aromatic nitro group ACNO2 -> 8:aromatic carbon alcohol ACH],0.0,0.0,1
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 73:Peroxy Acid C(=O)OOH],7.804592120850764e-08,-3.794899715073161e-07,1
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 52:CH1 alkyl attached to OH (wh],2.429586328958126e-19,1.0681502188264839e-12,1
+ln_gamma_water,a[13:ether CH3O- -> 20:Formic acid HC(=O)OH],1.3254036798412164e-05,2.715607721803739e-05,1
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 13:ether CH3O-],4.7213211058397474e-06,-9.983966890087776e-06,1
+ln_gamma_water,a[2:Alkene CH2=CH -> 9:ketone CH3C(=O)],3.8236756376878785e-05,5.031109717354535e-05,4
+ln_gamma_water,a[9:ketone CH3C(=O) -> 2:Alkene CH2=CH],4.88689802868376e-07,4.484983145254765e-06,4
+ln_gamma_water,a[7:H2O -> 67:?],0.017783615323847896,0.018926465158786075,5
+ln_gamma_water,a[67:? -> 7:H2O],0.00042824363357940994,0.0012671345215334445,5
+ln_gamma_water,a[67:? -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,3
+ln_gamma_water,a[67:? -> 69:-OH group; must always be at],0.0018770221149191594,0.001201507117422672,5
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 67:?],0.0,0.0,3
+ln_gamma_water,a[69:-OH group; must always be at -> 67:?],0.00013688536143680385,6.843654306472193e-05,5
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 20:Formic acid HC(=O)OH],3.5977283345386994e-05,3.3445097244632034e-05,1
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 10:aldehyde -CH(=O)],7.252244389422397e-06,6.244970832888582e-05,1
+ln_gamma_water,a[13:ether CH3O- -> 73:Peroxy Acid C(=O)OOH],4.8301901384668e-08,-5.944678421765313e-06,2
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 13:ether CH3O-],7.262738626045017e-05,7.805511420905784e-05,2
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 68:CH3 alkyl attached to OH (wh],8.380465231914419e-06,5.563310015407756e-06,2
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 10:aldehyde -CH(=O)],3.3213258539697082e-06,-8.22131378359171e-06,2
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 11:ester CH3COO],8.554429759506176e-05,8.88293655918748e-05,1
+ln_gamma_water,a[11:ester CH3COO -> 10:aldehyde -CH(=O)],0.00024429910629376433,0.00023872969024892266,1
+ln_gamma_water,a[9:ketone CH3C(=O) -> 73:Peroxy Acid C(=O)OOH],0.0010774881563329407,0.001043515593487222,3
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 9:ketone CH3C(=O)],0.0005087702403038794,0.00039045905862513774,3
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 75:Peroxy acyl nitrate C(=O)OON],0.0004321892023775033,0.0004886985143922457,1
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 71:Organonitrate CH2ONO2],0.00016753113537346011,0.00016763551575301375,1
+ln_gamma_water,a[9:ketone CH3C(=O) -> 75:Peroxy acyl nitrate C(=O)OON],1.774558043936122e-07,-1.869578309259082e-09,3
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 9:ketone CH3C(=O)],0.00020062517720078186,9.313717332301704e-05,3
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 10:aldehyde -CH(=O)],0.0003596843698885337,0.00038668728009943885,1
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 72:Hydroperoxide CH2OOH],6.475602940657013e-06,-8.497201807381209e-06,1
+ln_gamma_water,a[10:aldehyde -CH(=O) -> 3:Aromatic Hydrocarbon ACH],1.847966349080084e-07,3.2323167325378707e-06,1
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 3:Aromatic Hydrocarbon ACH],3.510105925798362e-07,8.53205840998441e-06,1
+ln_gamma_water,a[20:Formic acid HC(=O)OH -> 73:Peroxy Acid C(=O)OOH],0.006002144897967164,0.0058562123645405405,1
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 20:Formic acid HC(=O)OH],3.100972774218188e-07,6.848030661914082e-06,1
+ln_gamma_water,a[71:Organonitrate CH2ONO2 -> 74:peroxide CH3OOCH3],0.00012233281190609217,0.00012272756437098855,1
+ln_gamma_water,a[74:peroxide CH3OOCH3 -> 71:Organonitrate CH2ONO2],2.619555052174401e-06,2.4488845447299592e-06,1
+ln_gamma_water,a[2:Alkene CH2=CH -> 73:Peroxy Acid C(=O)OOH],1.2785273289781607e-05,1.775245692016058e-05,1
+ln_gamma_water,a[73:Peroxy Acid C(=O)OOH -> 2:Alkene CH2=CH],4.086625311589097e-07,-3.5584144069690477e-06,1
+ln_gamma_water,a[11:ester CH3COO -> 72:Hydroperoxide CH2OOH],8.771287185052782e-05,0.00010606399134294841,1
+ln_gamma_water,a[72:Hydroperoxide CH2OOH -> 11:ester CH3COO],0.0010464235643130797,0.0017797191492415945,1
+ln_gamma_water,a[2:Alkene CH2=CH -> 75:Peroxy acyl nitrate C(=O)OON],1.6031471388859836e-06,-2.703943878692693e-07,1
+ln_gamma_water,a[75:Peroxy acyl nitrate C(=O)OON -> 2:Alkene CH2=CH],2.0573358482517606e-07,4.2819261610955925e-07,1
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 2:Alkene CH2=CH],2.0610707086028475e-09,1.1787060572672747e-07,2
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 2:Alkene CH2=CH],4.088076983799172e-07,-1.5504908044543863e-06,2
+ln_gamma_water,a[2:Alkene CH2=CH -> 3:Aromatic Hydrocarbon ACH],3.019347764667883e-07,-3.897782435612954e-06,2
+ln_gamma_water,a[2:Alkene CH2=CH -> 8:aromatic carbon alcohol ACH],1.0676509492427284e-05,5.109706564601667e-06,2
+ln_gamma_water,a[11:ester CH3COO -> 68:CH3 alkyl attached to OH (wh],5.135219548284916e-06,3.0281668378742506e-06,1
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 11:ester CH3COO],9.573269056792553e-06,1.665008372526916e-05,1
+ln_gamma_water,a[67:? -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,3
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 67:?],0.0,0.0,3
+ln_gamma_water,a[7:H2O -> 66:?],0.00012933100740837632,9.178879532574554e-05,2
+ln_gamma_water,a[66:? -> 7:H2O],1.4192550544475092e-06,-6.905757746334324e-07,2
+ln_gamma_water,a[66:? -> 67:?],0.0,0.0,1
+ln_gamma_water,a[66:? -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,2
+ln_gamma_water,a[66:? -> 69:-OH group; must always be at],0.00010137017892693092,5.783343009704714e-05,2
+ln_gamma_water,a[67:? -> 66:?],0.0,0.0,1
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 66:?],0.0,0.0,2
+ln_gamma_water,a[69:-OH group; must always be at -> 66:?],7.34969972322926e-05,8.139413134328827e-05,2
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 13:ether CH3O-],1.906971742715511e-07,7.722263198028743e-06,2
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 68:CH3 alkyl attached to OH (wh],4.2702316740434316e-08,1.2433059237466126e-05,1
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 52:CH1 alkyl attached to OH (wh],3.2863310000883185e-08,6.675873951460278e-06,2
+ln_gamma_water,a[3:Aromatic Hydrocarbon ACH -> 69:-OH group; must always be at],0.0004761527604670385,0.000774094850661753,2
+ln_gamma_water,a[13:ether CH3O- -> 3:Aromatic Hydrocarbon ACH],8.904870374968827e-07,8.358750791404265e-06,2
+ln_gamma_water,a[13:ether CH3O- -> 68:CH3 alkyl attached to OH (wh],1.690633822840945e-06,3.741340668694184e-05,3
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 3:Aromatic Hydrocarbon ACH],1.4655169514103258e-07,3.298982019668394e-07,1
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 13:ether CH3O-],7.813029589250866e-07,5.205248210601341e-06,3
+ln_gamma_water,a[52:CH1 alkyl attached to OH (wh -> 3:Aromatic Hydrocarbon ACH],1.2390825861564026e-07,-9.41652783303251e-07,2
+ln_gamma_water,a[69:-OH group; must always be at -> 3:Aromatic Hydrocarbon ACH],1.001527492671379e-05,1.6169697473782394e-05,2
+ln_gamma_water,a[66:? -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,1
+ln_gamma_water,a[68:CH3 alkyl attached to OH (wh -> 66:?],0.0,0.0,1
+ln_gamma_water,a[2:Alkene CH2=CH -> 13:ether CH3O-],6.460391529164227e-07,-7.260907636531324e-07,1
+ln_gamma_water,a[8:aromatic carbon alcohol ACH -> 13:ether CH3O-],2.956883332470867e-06,6.297800004604636e-06,1
+ln_gamma_water,a[13:ether CH3O- -> 2:Alkene CH2=CH],4.598127020750585e-08,-4.83124199238837e-07,1
+ln_gamma_water,a[13:ether CH3O- -> 8:aromatic carbon alcohol ACH],3.931921831073669e-05,0.00012565652601656205,1
+ln_gamma_organic,a[1:CHn (alkyl) -> 2:Alkene CH2=CH],1.2037802565680665e-05,0.00010647038912624135,10
+ln_gamma_organic,a[1:CHn (alkyl) -> 7:H2O],0.0018530918785491569,0.001865166928235586,65
+ln_gamma_organic,a[1:CHn (alkyl) -> 71:Organonitrate CH2ONO2],0.0013494047639635424,0.001466489834448652,14
+ln_gamma_organic,a[2:Alkene CH2=CH -> 1:CHn (alkyl)],4.5134183611646326e-06,-1.1472386477949122e-05,10
+ln_gamma_organic,a[2:Alkene CH2=CH -> 7:H2O],0.0011074941465065154,-0.0020079653403878104,12
+ln_gamma_organic,a[2:Alkene CH2=CH -> 71:Organonitrate CH2ONO2],7.207096829952756e-28,1.8697062258657186e-16,2
+ln_gamma_organic,a[7:H2O -> 1:CHn (alkyl)],0.1420594897866468,0.1517685065918515,65
+ln_gamma_organic,a[7:H2O -> 2:Alkene CH2=CH],0.00516905664364291,0.009730536732446414,12
+ln_gamma_organic,a[7:H2O -> 71:Organonitrate CH2ONO2],0.008704133773835646,0.007525199884788124,15
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 1:CHn (alkyl)],0.00018113324060170863,3.123203221400454e-05,14
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 2:Alkene CH2=CH],9.489831823656621e-05,0.000173962075438161,2
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 7:H2O],0.00428502549288619,0.003146653082990115,15
+ln_gamma_organic,a[1:CHn (alkyl) -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,21
+ln_gamma_organic,a[1:CHn (alkyl) -> 69:-OH group; must always be at],0.001212946953200031,0.0012278944410934124,27
+ln_gamma_organic,a[1:CHn (alkyl) -> 75:Peroxy acyl nitrate C(=O)OON],0.0006228459476811429,0.0011458227503705824,5
+ln_gamma_organic,a[7:H2O -> 52:CH1 alkyl attached to OH (wh],0.00030750834345507586,0.000404394182770739,27
+ln_gamma_organic,a[7:H2O -> 69:-OH group; must always be at],0.051591689781055786,0.05143490300440877,36
+ln_gamma_organic,a[7:H2O -> 75:Peroxy acyl nitrate C(=O)OON],0.0014352695610043704,0.0014491615494374532,6
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 1:CHn (alkyl)],0.0,0.0,21
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 7:H2O],7.609468357411447e-08,1.9471854546777043e-05,27
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 69:-OH group; must always be at],4.763001280043242e-05,0.00010701091738071819,27
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 75:Peroxy acyl nitrate C(=O)OON],9.175113819907356e-07,1.2181724954417994e-06,2
+ln_gamma_organic,a[69:-OH group; must always be at -> 1:CHn (alkyl)],0.00034817559592340924,8.619948474482602e-05,27
+ln_gamma_organic,a[69:-OH group; must always be at -> 7:H2O],0.026234650734120984,0.02587685391382163,36
+ln_gamma_organic,a[69:-OH group; must always be at -> 52:CH1 alkyl attached to OH (wh],0.0002691073185245911,0.0003637620182507462,27
+ln_gamma_organic,a[69:-OH group; must always be at -> 75:Peroxy acyl nitrate C(=O)OON],8.969020265466633e-05,-0.00021306974420552506,4
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 1:CHn (alkyl)],0.0004516096330608238,0.00034310259613212876,5
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 7:H2O],0.005569156353685224,0.005515000656991046,6
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 52:CH1 alkyl attached to OH (wh],8.183260143037914e-07,-7.264978117796893e-07,2
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 69:-OH group; must always be at],0.0007124534277693456,0.0009039035883986654,4
+ln_gamma_organic,a[2:Alkene CH2=CH -> 10:aldehyde -CH(=O)],6.255094335883536e-05,0.00012927189207237504,1
+ln_gamma_organic,a[2:Alkene CH2=CH -> 72:Hydroperoxide CH2OOH],1.4547017982448135e-05,-9.088411268759235e-05,3
+ln_gamma_organic,a[7:H2O -> 10:aldehyde -CH(=O)],0.003208144209466215,0.0028892377294324058,16
+ln_gamma_organic,a[7:H2O -> 72:Hydroperoxide CH2OOH],0.026200644170531986,0.02665119459234465,14
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 2:Alkene CH2=CH],4.124313543058174e-07,1.9241416565765066e-06,1
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 7:H2O],0.0034269453541085405,0.0033241675271383176,16
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 72:Hydroperoxide CH2OOH],0.004425475085676873,0.004336426975111821,5
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 2:Alkene CH2=CH],2.4141594643031836e-06,-7.509087047198118e-06,3
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 7:H2O],0.0009042968185833559,-0.0015637473863079061,14
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 10:aldehyde -CH(=O)],0.00026450609137366614,0.00045394362872707995,5
+ln_gamma_organic,a[1:CHn (alkyl) -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,9
+ln_gamma_organic,a[1:CHn (alkyl) -> 73:Peroxy Acid C(=O)OOH],0.00018745831577328,8.63963475940612e-05,7
+ln_gamma_organic,a[7:H2O -> 68:CH3 alkyl attached to OH (wh],0.0003391595785434472,0.000535578480751587,13
+ln_gamma_organic,a[7:H2O -> 73:Peroxy Acid C(=O)OOH],0.031369922649788606,0.03127876970181932,8
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 1:CHn (alkyl)],0.0,0.0,9
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 7:H2O],9.992229974466171e-08,5.862040089925239e-07,13
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 69:-OH group; must always be at],4.9609404967006244e-05,2.853750847637445e-05,13
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 73:Peroxy Acid C(=O)OOH],1.3365258884617991e-06,1.8775272899179273e-06,1
+ln_gamma_organic,a[69:-OH group; must always be at -> 68:CH3 alkyl attached to OH (wh],0.00015907190262833587,0.0001786425406313874,13
+ln_gamma_organic,a[69:-OH group; must always be at -> 73:Peroxy Acid C(=O)OOH],1.3257366528704024e-06,2.9976624863957276e-06,2
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 1:CHn (alkyl)],3.1112891572919895e-16,-1.0649139226187694e-10,7
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 7:H2O],0.001400301185533778,0.0012801953460576628,8
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 68:CH3 alkyl attached to OH (wh],5.971565877549274e-18,9.384684927545611e-12,1
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 69:-OH group; must always be at],0.0033736508801800644,0.003890936623746865,2
+ln_gamma_organic,a[1:CHn (alkyl) -> 72:Hydroperoxide CH2OOH],0.0001471319520413387,0.0001087508648220617,11
+ln_gamma_organic,a[1:CHn (alkyl) -> 74:peroxide CH3OOCH3],2.041858735237695e-05,0.0001335726176229428,3
+ln_gamma_organic,a[2:Alkene CH2=CH -> 52:CH1 alkyl attached to OH (wh],3.3897626330243624e-08,-5.117701908137209e-07,5
+ln_gamma_organic,a[2:Alkene CH2=CH -> 69:-OH group; must always be at],0.00015266886348429864,0.0001251610474787002,6
+ln_gamma_organic,a[2:Alkene CH2=CH -> 74:peroxide CH3OOCH3],9.530411924355381e-07,-3.003091664487048e-06,3
+ln_gamma_organic,a[7:H2O -> 74:peroxide CH3OOCH3],7.346279031804777e-07,-2.26543420310892e-07,3
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 2:Alkene CH2=CH],4.6736277552635206e-08,-1.3767926780880947e-05,5
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 72:Hydroperoxide CH2OOH],8.679203498959633e-08,4.922579841678234e-06,3
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 74:peroxide CH3OOCH3],1.248722429913167e-07,-4.819382024301823e-07,3
+ln_gamma_organic,a[69:-OH group; must always be at -> 2:Alkene CH2=CH],5.6412080696604644e-06,3.245180843535705e-06,6
+ln_gamma_organic,a[69:-OH group; must always be at -> 72:Hydroperoxide CH2OOH],0.0021289234233730363,0.0020943461912863296,3
+ln_gamma_organic,a[69:-OH group; must always be at -> 74:peroxide CH3OOCH3],1.6899775881178897e-05,-0.00013210817977777465,3
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 1:CHn (alkyl)],5.094477788334222e-06,-1.194253493354549e-05,11
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 52:CH1 alkyl attached to OH (wh],3.65877923156198e-08,1.1411368367361993e-06,3
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 69:-OH group; must always be at],0.000265377838853467,0.0002538660152733915,3
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 74:peroxide CH3OOCH3],0.00041034238948287104,0.0003844113634107862,2
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 1:CHn (alkyl)],4.686886479870246e-05,-4.041810307200084e-05,3
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 2:Alkene CH2=CH],1.0559834687121431e-05,-1.1014712318669286e-05,3
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 7:H2O],0.00023296107037855399,0.0002682294191231696,3
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 52:CH1 alkyl attached to OH (wh],6.108575190805251e-07,2.308372953993335e-06,3
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 69:-OH group; must always be at],4.617356954481649e-05,5.8431741430770366e-05,3
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 72:Hydroperoxide CH2OOH],3.134545125949369e-07,3.008073785162176e-06,2
+ln_gamma_organic,a[1:CHn (alkyl) -> 20:Formic acid HC(=O)OH],0.0007341571073630939,0.0008038279110103734,7
+ln_gamma_organic,a[7:H2O -> 20:Formic acid HC(=O)OH],0.0007545899994189564,0.0007584024643452383,8
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 1:CHn (alkyl)],0.00015799026905484432,0.00011995924675385424,7
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 7:H2O],0.007710527769894748,0.007501474147954585,8
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 68:CH3 alkyl attached to OH (wh],1.9367747336396043e-06,-1.5416109442268328e-07,1
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 52:CH1 alkyl attached to OH (wh],1.1798283470028938e-06,9.76421889148718e-06,2
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 69:-OH group; must always be at],0.00042027234364876707,0.0004213575240661076,2
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 71:Organonitrate CH2ONO2],0.00010185384260585456,0.00010692925744041076,3
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 20:Formic acid HC(=O)OH],4.187042062112722e-06,-5.348144294878307e-06,1
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,6
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 71:Organonitrate CH2ONO2],1.0581689627809114e-06,1.3778516607846214e-05,2
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 20:Formic acid HC(=O)OH],1.8411024279204072e-06,5.93003135958218e-06,2
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,6
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 71:Organonitrate CH2ONO2],2.9119328549249185e-06,3.769855557035022e-06,6
+ln_gamma_organic,a[69:-OH group; must always be at -> 20:Formic acid HC(=O)OH],0.00021555704558202,0.00024164993618412938,2
+ln_gamma_organic,a[69:-OH group; must always be at -> 71:Organonitrate CH2ONO2],1.892868402174741e-05,0.00015199401917316603,7
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 20:Formic acid HC(=O)OH],8.089269725655228e-05,0.0001253246306486636,3
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 68:CH3 alkyl attached to OH (wh],2.4655644543230386e-06,2.863000707340227e-05,2
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 52:CH1 alkyl attached to OH (wh],2.1083650675504715e-06,-3.231303357865316e-05,6
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 69:-OH group; must always be at],0.000344115400758944,0.00032545167463208217,7
+ln_gamma_organic,a[1:CHn (alkyl) -> 13:ether CH3O-],5.2356436006132326e-05,-3.573850936174269e-06,12
+ln_gamma_organic,a[7:H2O -> 13:ether CH3O-],0.004878990299610509,0.005288925999060016,13
+ln_gamma_organic,a[13:ether CH3O- -> 1:CHn (alkyl)],3.098055185524538e-05,2.056528421147879e-05,12
+ln_gamma_organic,a[13:ether CH3O- -> 7:H2O],0.058589809193243164,0.057559820063210414,13
+ln_gamma_organic,a[13:ether CH3O- -> 71:Organonitrate CH2ONO2],7.883731380818944e-07,1.3810749324394918e-06,2
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 13:ether CH3O-],2.2513731936499026e-05,-0.00019123056715112993,2
+ln_gamma_organic,a[1:CHn (alkyl) -> 9:ketone CH3C(=O)],0.0027308352735005426,0.003110259172301062,21
+ln_gamma_organic,a[1:CHn (alkyl) -> 10:aldehyde -CH(=O)],0.0003312077986335602,0.0003898112587280092,12
+ln_gamma_organic,a[7:H2O -> 9:ketone CH3C(=O)],0.03992433879443548,0.040990336403418905,26
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 1:CHn (alkyl)],2.2395413243515225e-05,7.457630408669646e-05,21
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 7:H2O],0.01243968962897588,0.010280696368236263,26
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 10:aldehyde -CH(=O)],1.854725667164435e-05,-4.685690699533902e-06,6
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 1:CHn (alkyl)],8.102400120119422e-05,-0.00022946616217082684,12
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 9:ketone CH3C(=O)],0.00015508521982021955,8.003750603485156e-05,6
+ln_gamma_organic,a[2:Alkene CH2=CH -> 20:Formic acid HC(=O)OH],9.604094462202986e-05,9.453340585987407e-05,1
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 2:Alkene CH2=CH],2.364783870927784e-06,3.408554514726778e-06,1
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 68:CH3 alkyl attached to OH (wh],3.5315820276779864e-07,2.3635005341071293e-06,2
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 52:CH1 alkyl attached to OH (wh],1.927280748211281e-07,-4.130628633547165e-06,7
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 69:-OH group; must always be at],0.0008563897857041354,0.0008312353078436462,10
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 9:ketone CH3C(=O)],1.7054116503631256e-05,2.470237974496781e-05,2
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 9:ketone CH3C(=O)],6.130896140404925e-06,-2.0167894532228505e-05,7
+ln_gamma_organic,a[69:-OH group; must always be at -> 9:ketone CH3C(=O)],0.0001529290232661881,0.0005258172691857795,10
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 20:Formic acid HC(=O)OH],0.000259728890291427,0.00023889462970176588,3
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 9:ketone CH3C(=O)],0.0019827019495237148,0.00026605471039328483,3
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 13:ether CH3O-],1.0174231157486992e-05,3.945170702096968e-05,3
+ln_gamma_organic,a[13:ether CH3O- -> 10:aldehyde -CH(=O)],1.0194996302818548e-07,-3.956307787498552e-06,3
+ln_gamma_organic,a[13:ether CH3O- -> 72:Hydroperoxide CH2OOH],0.00028120923318373907,0.00025407630387049474,1
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 13:ether CH3O-],6.761618983532058e-06,1.0275607970706457e-05,1
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 72:Hydroperoxide CH2OOH],0.00593389803868568,0.005888487203792477,7
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 9:ketone CH3C(=O)],0.0006500221352872582,0.0005116259595289346,7
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 13:ether CH3O-],4.718227616883273e-07,3.774277378549437e-06,2
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 71:Organonitrate CH2ONO2],0.0008338952133793548,0.0010337295048266227,5
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 52:CH1 alkyl attached to OH (wh],2.734713512981157e-06,-3.4317091278631325e-05,4
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 69:-OH group; must always be at],0.0002564663325020463,-7.512646296082008e-06,5
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 71:Organonitrate CH2ONO2],0.0004460646628618485,0.0003930217088163194,5
+ln_gamma_organic,a[13:ether CH3O- -> 9:ketone CH3C(=O)],4.105812911553487e-06,5.471470264510855e-06,2
+ln_gamma_organic,a[13:ether CH3O- -> 52:CH1 alkyl attached to OH (wh],2.485134213332105e-06,2.155674252862413e-06,5
+ln_gamma_organic,a[13:ether CH3O- -> 69:-OH group; must always be at],0.0003561937392981775,0.0007958760961285503,6
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 10:aldehyde -CH(=O)],2.8711861110070066e-07,-1.8478019392425708e-06,4
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 13:ether CH3O-],1.0637622890990554e-06,1.9770342695994994e-06,5
+ln_gamma_organic,a[69:-OH group; must always be at -> 10:aldehyde -CH(=O)],0.0004832645511466704,0.0004703250341144581,5
+ln_gamma_organic,a[69:-OH group; must always be at -> 13:ether CH3O-],2.214794928867563e-06,-2.7883433911545262e-05,6
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 9:ketone CH3C(=O)],0.0002782724984086794,0.0002911721128734273,5
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 10:aldehyde -CH(=O)],0.0008933895546292516,0.0011299953167330623,5
+ln_gamma_organic,a[1:CHn (alkyl) -> 11:ester CH3COO],0.00030042533343684134,0.0005415146795695672,5
+ln_gamma_organic,a[7:H2O -> 11:ester CH3COO],0.000405152019048467,0.0004131739758991043,5
+ln_gamma_organic,a[11:ester CH3COO -> 1:CHn (alkyl)],7.297062567527052e-05,7.550600575164767e-05,5
+ln_gamma_organic,a[11:ester CH3COO -> 7:H2O],0.0015754726809713048,0.0021339352485983403,5
+ln_gamma_organic,a[11:ester CH3COO -> 52:CH1 alkyl attached to OH (wh],2.6279183711962295e-07,4.6859874730165205e-07,1
+ln_gamma_organic,a[11:ester CH3COO -> 69:-OH group; must always be at],0.00024200858010529574,0.00030613290508198384,2
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 11:ester CH3COO],6.946596077635836e-07,1.6286549589837454e-06,1
+ln_gamma_organic,a[69:-OH group; must always be at -> 11:ester CH3COO],1.884423104362338e-05,2.1854195829104215e-05,2
+ln_gamma_organic,a[1:CHn (alkyl) -> 3:Aromatic Hydrocarbon ACH],4.86289646108981e-05,-0.0003105514679199082,9
+ln_gamma_organic,a[1:CHn (alkyl) -> 8:aromatic carbon alcohol ACH],3.4522043402497436e-05,1.5474518609680033e-05,4
+ln_gamma_organic,a[1:CHn (alkyl) -> 27:aromatic nitro group ACNO2],2.198991174890591e-05,4.3527396075027334e-05,1
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 1:CHn (alkyl)],2.7241567722431366e-06,1.7480918340077294e-05,9
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 7:H2O],0.000959606217729226,0.0009403980829003651,9
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 8:aromatic carbon alcohol ACH],3.264977944273533e-05,-0.00022500769073803176,4
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 27:aromatic nitro group ACNO2],1.0761259206138898e-05,-2.1916882738495132e-05,1
+ln_gamma_organic,a[7:H2O -> 3:Aromatic Hydrocarbon ACH],0.018123598912975176,0.017869046684008922,9
+ln_gamma_organic,a[7:H2O -> 8:aromatic carbon alcohol ACH],0.003200038933614649,0.003104848857293703,4
+ln_gamma_organic,a[7:H2O -> 27:aromatic nitro group ACNO2],0.0010375921310783105,0.0010415829073188551,1
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 1:CHn (alkyl)],3.510893470301396e-05,8.143557171306537e-05,4
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 3:Aromatic Hydrocarbon ACH],1.2015015579927045e-06,-6.150086406206367e-06,4
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 7:H2O],0.46213661363805675,0.4702305351301649,4
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 27:aromatic nitro group ACNO2],0.0,0.0,1
+ln_gamma_organic,a[27:aromatic nitro group ACNO2 -> 1:CHn (alkyl)],9.395717342280101e-17,-4.1514048395564375e-10,1
+ln_gamma_organic,a[27:aromatic nitro group ACNO2 -> 3:Aromatic Hydrocarbon ACH],1.770898140178856e-08,-1.0050934730295882e-06,1
+ln_gamma_organic,a[27:aromatic nitro group ACNO2 -> 7:H2O],0.00010886428845584393,0.00012964905485355718,1
+ln_gamma_organic,a[27:aromatic nitro group ACNO2 -> 8:aromatic carbon alcohol ACH],0.0,0.0,1
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 73:Peroxy Acid C(=O)OOH],2.4809818509520845e-07,-8.962614733861456e-07,1
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 52:CH1 alkyl attached to OH (wh],2.741403187395758e-19,9.001475853542999e-13,1
+ln_gamma_organic,a[13:ether CH3O- -> 20:Formic acid HC(=O)OH],9.530014450975271e-06,1.8659421055632135e-05,1
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 13:ether CH3O-],1.0368405657706128e-05,-7.848696229390858e-06,1
+ln_gamma_organic,a[2:Alkene CH2=CH -> 9:ketone CH3C(=O)],3.220681396570645e-05,4.4190647750052213e-05,4
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 2:Alkene CH2=CH],9.5680846969051e-07,5.5880866299186365e-06,4
+ln_gamma_organic,a[7:H2O -> 67:?],0.013303864439033187,0.01378734990853633,5
+ln_gamma_organic,a[67:? -> 7:H2O],0.00017336825803629537,0.00043018870470746976,5
+ln_gamma_organic,a[67:? -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,3
+ln_gamma_organic,a[67:? -> 69:-OH group; must always be at],0.0005871699922975244,0.0003830210276721291,5
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 67:?],0.0,0.0,3
+ln_gamma_organic,a[69:-OH group; must always be at -> 67:?],8.39187776541588e-05,5.004765203056555e-05,5
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 20:Formic acid HC(=O)OH],7.614144479635463e-05,6.596536246929526e-05,1
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 10:aldehyde -CH(=O)],1.2035826068482152e-05,0.00011044584697051891,1
+ln_gamma_organic,a[13:ether CH3O- -> 73:Peroxy Acid C(=O)OOH],5.7383136901602034e-08,-4.86125790634417e-06,2
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 13:ether CH3O-],0.0001507180077542456,0.0001488975955477318,2
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 68:CH3 alkyl attached to OH (wh],3.3880885784015085e-06,2.1422086493769406e-06,2
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 10:aldehyde -CH(=O)],1.0547009697515243e-06,-8.263433305016745e-06,2
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 11:ester CH3COO],3.128949657817148e-05,3.273188812935398e-05,1
+ln_gamma_organic,a[11:ester CH3COO -> 10:aldehyde -CH(=O)],6.607512227355381e-05,6.44119928769139e-05,1
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 73:Peroxy Acid C(=O)OOH],0.0007357153822649175,0.0006600129420773346,3
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 9:ketone CH3C(=O)],0.00025653661410457635,0.00018822375432972954,3
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 75:Peroxy acyl nitrate C(=O)OON],0.0007188114555582308,0.0008059402396494342,1
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 71:Organonitrate CH2ONO2],0.00022118457260856113,0.00021548977277360536,1
+ln_gamma_organic,a[9:ketone CH3C(=O) -> 75:Peroxy acyl nitrate C(=O)OON],2.614756528156401e-07,-4.9210460469713673e-08,3
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 9:ketone CH3C(=O)],0.00024466539487474643,9.440780948805919e-05,3
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 10:aldehyde -CH(=O)],0.00028801030149117523,0.00032218370758541444,1
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 72:Hydroperoxide CH2OOH],5.052450864417162e-06,-1.178969675397224e-05,1
+ln_gamma_organic,a[10:aldehyde -CH(=O) -> 3:Aromatic Hydrocarbon ACH],2.9255207565695544e-07,3.6097403331602603e-06,1
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 3:Aromatic Hydrocarbon ACH],5.557315778045913e-07,1.3712707024362612e-05,1
+ln_gamma_organic,a[20:Formic acid HC(=O)OH -> 73:Peroxy Acid C(=O)OOH],0.0056650017706538535,0.005518686896880098,1
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 20:Formic acid HC(=O)OH],3.5249177165329255e-07,7.1494785036198015e-06,1
+ln_gamma_organic,a[71:Organonitrate CH2ONO2 -> 74:peroxide CH3OOCH3],0.00020341063770385994,0.00020340547297467135,1
+ln_gamma_organic,a[74:peroxide CH3OOCH3 -> 71:Organonitrate CH2ONO2],4.278692669064945e-06,4.039867341471897e-06,1
+ln_gamma_organic,a[2:Alkene CH2=CH -> 73:Peroxy Acid C(=O)OOH],1.7341317945488485e-05,2.4437260533927843e-05,1
+ln_gamma_organic,a[73:Peroxy Acid C(=O)OOH -> 2:Alkene CH2=CH],7.077336704277018e-07,-5.9188867546693265e-06,1
+ln_gamma_organic,a[11:ester CH3COO -> 72:Hydroperoxide CH2OOH],7.868637288897119e-05,9.371477897147565e-05,1
+ln_gamma_organic,a[72:Hydroperoxide CH2OOH -> 11:ester CH3COO],0.0008642900263258515,0.0014682127286751627,1
+ln_gamma_organic,a[2:Alkene CH2=CH -> 75:Peroxy acyl nitrate C(=O)OON],3.6006660138500903e-06,-1.0069548258404756e-06,1
+ln_gamma_organic,a[75:Peroxy acyl nitrate C(=O)OON -> 2:Alkene CH2=CH],8.797465162373778e-07,1.4809007134835538e-06,1
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 2:Alkene CH2=CH],5.0375591615679e-09,1.1897353069166072e-07,2
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 2:Alkene CH2=CH],9.316067294924968e-07,-7.491546170079281e-06,2
+ln_gamma_organic,a[2:Alkene CH2=CH -> 3:Aromatic Hydrocarbon ACH],5.876135045941491e-07,-8.708627958621165e-06,2
+ln_gamma_organic,a[2:Alkene CH2=CH -> 8:aromatic carbon alcohol ACH],1.8532630603115375e-05,2.5072662665441234e-05,2
+ln_gamma_organic,a[11:ester CH3COO -> 68:CH3 alkyl attached to OH (wh],2.082538340575124e-06,1.1715916210312137e-06,1
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 11:ester CH3COO],4.511803630968633e-06,7.927781644191325e-06,1
+ln_gamma_organic,a[67:? -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,3
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 67:?],0.0,0.0,3
+ln_gamma_organic,a[7:H2O -> 66:?],4.529657437265128e-05,3.218168988375654e-05,2
+ln_gamma_organic,a[66:? -> 7:H2O],3.311299737693401e-07,-5.9297038702011514e-08,2
+ln_gamma_organic,a[66:? -> 67:?],0.0,0.0,1
+ln_gamma_organic,a[66:? -> 52:CH1 alkyl attached to OH (wh],0.0,0.0,2
+ln_gamma_organic,a[66:? -> 69:-OH group; must always be at],2.141560868106741e-05,1.056002766071208e-05,2
+ln_gamma_organic,a[67:? -> 66:?],0.0,0.0,1
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 66:?],0.0,0.0,2
+ln_gamma_organic,a[69:-OH group; must always be at -> 66:?],2.099267214976554e-05,2.2585953986492465e-05,2
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 13:ether CH3O-],3.991932670176543e-07,1.1729746975191336e-05,2
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 68:CH3 alkyl attached to OH (wh],3.955182581425865e-08,1.154965998713017e-05,1
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 52:CH1 alkyl attached to OH (wh],2.048682468897258e-08,6.165613303974221e-06,2
+ln_gamma_organic,a[3:Aromatic Hydrocarbon ACH -> 69:-OH group; must always be at],0.00032184313936345897,0.00024786315988983376,2
+ln_gamma_organic,a[13:ether CH3O- -> 3:Aromatic Hydrocarbon ACH],1.408479562080984e-06,1.0658117881803166e-05,2
+ln_gamma_organic,a[13:ether CH3O- -> 68:CH3 alkyl attached to OH (wh],1.0968368168869627e-06,2.8404137811312703e-05,3
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 3:Aromatic Hydrocarbon ACH],2.825873701473813e-07,5.283967126128751e-07,1
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 13:ether CH3O-],9.117524523140049e-07,9.829265098334225e-06,3
+ln_gamma_organic,a[52:CH1 alkyl attached to OH (wh -> 3:Aromatic Hydrocarbon ACH],1.577783895013286e-07,-5.453464683769176e-07,2
+ln_gamma_organic,a[69:-OH group; must always be at -> 3:Aromatic Hydrocarbon ACH],1.5234094089414215e-05,2.1253018972229384e-05,2
+ln_gamma_organic,a[66:? -> 68:CH3 alkyl attached to OH (wh],0.0,0.0,1
+ln_gamma_organic,a[68:CH3 alkyl attached to OH (wh -> 66:?],0.0,0.0,1
+ln_gamma_organic,a[2:Alkene CH2=CH -> 13:ether CH3O-],1.2530499297359826e-06,-2.5253158698260977e-06,1
+ln_gamma_organic,a[8:aromatic carbon alcohol ACH -> 13:ether CH3O-],5.67657436663217e-06,1.087559405433527e-05,1
+ln_gamma_organic,a[13:ether CH3O- -> 2:Alkene CH2=CH],8.23947814992876e-08,-7.921012281978564e-07,1
+ln_gamma_organic,a[13:ether CH3O- -> 8:aromatic carbon alcohol ACH],4.208384584976765e-05,0.00013867951727135954,1

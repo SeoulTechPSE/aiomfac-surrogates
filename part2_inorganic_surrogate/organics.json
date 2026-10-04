@@ -1,0 +1,6239 @@
+[
+ {
+  "name": "glucose",
+  "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O",
+  "subgroups": [
+   [
+    26,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    4
+   ],
+   [
+    153,
+    5
+   ]
+  ],
+  "molar_mass_g_mol": 180.0
+ },
+ {
+  "name": "tartaric acid",
+  "smiles": "O=C(O)C(O)C(O)C(=O)O",
+  "subgroups": [
+   [
+    137,
+    2
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 150.0
+ },
+ {
+  "name": "1,2,3-propanetricarboxylic acid",
+  "smiles": "C(C(CC(=O)O)C(=O)O)C(=O)O",
+  "subgroups": [
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    137,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 176.0
+ },
+ {
+  "name": "1,2,4-butanetricarboxylic acid",
+  "smiles": "C(CC(=O)O)C(CC(=O)O)C(=O)O",
+  "subgroups": [
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    137,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 190.0
+ },
+ {
+  "name": "glycerol",
+  "smiles": "OCC(O)CO",
+  "subgroups": [
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 92.0
+ },
+ {
+  "name": "ribose",
+  "smiles": "C1C(C(C(C(O1)O)O)O)O",
+  "subgroups": [
+   [
+    25,
+    1
+   ],
+   [
+    151,
+    4
+   ],
+   [
+    153,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 150.0
+ },
+ {
+  "name": "ethanol",
+  "smiles": "OCC",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 46.0
+ },
+ {
+  "name": "n-propanol",
+  "smiles": "CCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 60.0
+ },
+ {
+  "name": "methanol",
+  "smiles": "CO",
+  "subgroups": [
+   [
+    149,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 32.0
+ },
+ {
+  "name": "ethylenglycol",
+  "smiles": "OCCO",
+  "subgroups": [
+   [
+    150,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 62.0
+ },
+ {
+  "name": "phenolphthalein",
+  "smiles": "O=C1OC(C2=C1C=CC=C2)(C3=CC=C(C=C3)O[H])C4=CC=C(C=C4)O[H]",
+  "subgroups": [
+   [
+    9,
+    12
+   ],
+   [
+    10,
+    4
+   ],
+   [
+    17,
+    2
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 318.0
+ },
+ {
+  "name": "maltitol",
+  "smiles": "C(C1C(C(C(C(O1)OC(C(CO)O)C(C(CO)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    9
+   ]
+  ],
+  "molar_mass_g_mol": 344.0
+ },
+ {
+  "name": "flopropione",
+  "smiles": "CCC(=O)C1=C(C=C(C=C1O)O)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    2
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    17,
+    3
+   ],
+   [
+    19,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 182.0
+ },
+ {
+  "name": "2-methyl-1-propanol",
+  "smiles": "CC(C)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 74.0
+ },
+ {
+  "name": "n-hexanol",
+  "smiles": "CCCCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "n-pentanol",
+  "smiles": "CCCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "benzyl alcohol",
+  "smiles": "c1ccc(cc1)CO",
+  "subgroups": [
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 108.0
+ },
+ {
+  "name": "propan-1,2-diol",
+  "smiles": "CC(O)CO",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 76.0
+ },
+ {
+  "name": "resorcinol",
+  "smiles": "c1cc(cc(c1)O)O",
+  "subgroups": [
+   [
+    9,
+    4
+   ],
+   [
+    17,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 110.0
+ },
+ {
+  "name": "phenyl-salicylate",
+  "smiles": "O=C(Oc2ccccc2)c1c(O)cccc1",
+  "subgroups": [
+   [
+    9,
+    9
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    25,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 214.0
+ },
+ {
+  "name": "dimethylphthalat",
+  "smiles": "O=C(OC)c1ccccc1C(=O)OC",
+  "subgroups": [
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    24,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 194.0
+ },
+ {
+  "name": "diethylphthalat",
+  "smiles": "CCOC(=O)c1ccccc1C(=O)OCC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 222.0
+ },
+ {
+  "name": "2-ethyl-1-hexanol",
+  "smiles": "CCCCC(CC)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "5-methyl-3-heptanol",
+  "smiles": "CCC(C)CC(CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "2-phenyl-1-ethanol",
+  "smiles": "c1ccc(cc1)CCO",
+  "subgroups": [
+   [
+    2,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 122.0
+ },
+ {
+  "name": "2-butanol",
+  "smiles": "CCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 74.0
+ },
+ {
+  "name": "2,2-dimethyl-1-propanol",
+  "smiles": "CC(CO)(C)C",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    148,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "o-xylene",
+  "smiles": "CC1=C(C)C=CC=C1",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 106.0
+ },
+ {
+  "name": "m-xylene",
+  "smiles": "CC1=CC(=CC=C1)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 106.0
+ },
+ {
+  "name": "2-methylpentane",
+  "smiles": "CCCC(C)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "triphenylethene",
+  "smiles": "C1=CC=C(C=C1)C=C(C2=CC=CC=C2)C3=CC=CC=C3",
+  "subgroups": [
+   [
+    8,
+    1
+   ],
+   [
+    9,
+    15
+   ],
+   [
+    10,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 256.0
+ },
+ {
+  "name": "n-buten",
+  "smiles": "C=CCC",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    5,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 56.0
+ },
+ {
+  "name": "4-methylstyrene",
+  "smiles": "CC1=CC=C(C=C1)C=C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "o-terphenyl",
+  "smiles": "C1=CC=C(C=C1)C2=CC=CC=C2C3=CC=CC=C3",
+  "subgroups": [
+   [
+    9,
+    14
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 230.0
+ },
+ {
+  "name": "toluol",
+  "smiles": "Cc1ccccc1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 92.0
+ },
+ {
+  "name": "ethylbenzene",
+  "smiles": "CCc1ccccc1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 106.0
+ },
+ {
+  "name": "propylbenzene",
+  "smiles": "CCCC1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 120.0
+ },
+ {
+  "name": "n-pentylbenzene",
+  "smiles": "CCCCCC1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 148.0
+ },
+ {
+  "name": "n-hexylbenzene",
+  "smiles": "CCCCCCC1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 162.0
+ },
+ {
+  "name": "sec-butylbenzene",
+  "smiles": "CCC(C)C1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "tert-butyl-benzene",
+  "smiles": "CC(C)(C)C1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "3-methylheptane",
+  "smiles": "CCCCC(C)CC",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 114.0
+ },
+ {
+  "name": "cyclohexene",
+  "smiles": "C1CCC=CC1",
+  "subgroups": [
+   [
+    2,
+    4
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 82.0
+ },
+ {
+  "name": "methylcyclohexane",
+  "smiles": "CC1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 98.0
+ },
+ {
+  "name": "ethylcyclohexane",
+  "smiles": "CCC1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 112.0
+ },
+ {
+  "name": "isopropylcyclohexane",
+  "smiles": "CC(C)C1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 126.0
+ },
+ {
+  "name": "sec-butylcyclohexane",
+  "smiles": "CCC(C)C1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 140.0
+ },
+ {
+  "name": "n-butylcyclohexane",
+  "smiles": "CCCCC1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 140.0
+ },
+ {
+  "name": "n-pentylcyclohexane",
+  "smiles": "CCCCCC1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 154.0
+ },
+ {
+  "name": "n-hexylcyclohexane",
+  "smiles": "CCCCCCC1CCCCC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 168.0
+ },
+ {
+  "name": "trans-2-hexene",
+  "smiles": "CCCC=CC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 84.0
+ },
+ {
+  "name": "1-heptene",
+  "smiles": "CCCCCC=C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    5,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 98.0
+ },
+ {
+  "name": "cis-2-octene",
+  "smiles": "CCCCCC=CC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 112.0
+ },
+ {
+  "name": "3-methylhexane",
+  "smiles": "CCCC(C)CC",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 100.0
+ },
+ {
+  "name": "4-methylnonane",
+  "smiles": "CCCCCC(C)CCC",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 142.0
+ },
+ {
+  "name": "2-isopropoxyethanol",
+  "smiles": "CC(C)OCCO",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "2,5-hexanediol",
+  "smiles": "CC(CCC(C)O)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    142,
+    2
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "n-eugenol",
+  "smiles": "COC1=C(C=CC(=C1)CC=C)O",
+  "subgroups": [
+   [
+    2,
+    1
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    24,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 164.0
+ },
+ {
+  "name": "sorbitol",
+  "smiles": "C(C(C(C(C(CO)O)O)O)O)O",
+  "subgroups": [
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    4
+   ],
+   [
+    153,
+    6
+   ]
+  ],
+  "molar_mass_g_mol": 182.0
+ },
+ {
+  "name": "propylencarbonate",
+  "smiles": "CC1COC(=O)O1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "guajacol",
+  "smiles": "COC1=CC=CC=C1O",
+  "subgroups": [
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    24,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 124.0
+ },
+ {
+  "name": "sucrose",
+  "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    4,
+    1
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    5
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "trehalose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "dioctylphthalat",
+  "smiles": "CCCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    12
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 390.0
+ },
+ {
+  "name": "naphthylsalyciate",
+  "smiles": "C1=CC=C2C(=C1)C=CC=C2OC(=O)C3=CC=CC=C3O",
+  "subgroups": [
+   [
+    9,
+    11
+   ],
+   [
+    10,
+    4
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    25,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 264.0
+ },
+ {
+  "name": "vinylacetate",
+  "smiles": "CC(=O)OC=C",
+  "subgroups": [
+   [
+    5,
+    1
+   ],
+   [
+    21,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "xylitol",
+  "smiles": "C(C(C(C(CO)O)O)O)O",
+  "subgroups": [
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    153,
+    5
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "methyl(s)(-)lactate",
+  "smiles": "CC(C(=O)OC)O",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    22,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "(s)-glycerol acetonate",
+  "smiles": "CC1(OCC(O1)CO)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 132.0
+ },
+ {
+  "name": "(r)-nopol",
+  "smiles": "CC1(C)[C@H]2CC=C(CCO)[C@@H]1C2",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 166.0
+ },
+ {
+  "name": "3-hydroxy-2-methylpropionate",
+  "smiles": "CC(CO)C(=O)OC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    22,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "dianin\u2019s compound",
+  "smiles": "CC1(CC(C2=CC=CC=C2O1)(C)C3=CC=C(C=C3)O)COc1ccc(cc1)C2(c3c(OC(C2)(C)C)cccc3)C",
+  "subgroups": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    10,
+    7
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 268.0
+ },
+ {
+  "name": "4-(1-idianyl)phenol",
+  "smiles": "C1CC2=CC=CC=C2C1C3=CC=C(C=C3)O",
+  "subgroups": [
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    17,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 210.0
+ },
+ {
+  "name": "2p-hydroxyphenoxytetrahydropyran",
+  "smiles": "C1CCOC(C1)OC2=CC=CC=C2O",
+  "subgroups": [
+   [
+    2,
+    3
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 194.0
+ },
+ {
+  "name": "salicin",
+  "smiles": "C1=CC=C(C(=C1)CO)OC2C(C(C(C(O2)CO)O)O)O",
+  "subgroups": [
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    153,
+    5
+   ]
+  ],
+  "molar_mass_g_mol": 286.0
+ },
+ {
+  "name": "cholesterol",
+  "smiles": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C",
+  "subgroups": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 386.0
+ },
+ {
+  "name": "beta-d-glucosepentaacetate",
+  "smiles": "CC(=O)OCC1C(C(C(C(O1)OC(=O)C)OC(=O)C)OC(=O)C)OC(=O)C",
+  "subgroups": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    21,
+    5
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 390.0
+ },
+ {
+  "name": "3-pentadecylcyclohexanone",
+  "smiles": "CCCCCCCCCCCCCCCC1CCCC(=O)C1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    19,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 308.0
+ },
+ {
+  "name": "4,4\u2019-dimethoxytetraphenylmethane",
+  "smiles": "COc4ccc(C(c1ccccc1)(c2ccccc2)c3ccc(OC)cc3)cc4",
+  "subgroups": [
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    10,
+    6
+   ],
+   [
+    24,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 380.0
+ },
+ {
+  "name": "lactic acid",
+  "smiles": "CC(C(=O)O)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    137,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 90.0
+ },
+ {
+  "name": "epoxypropane",
+  "smiles": "CC1CO1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    25,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 58.0
+ },
+ {
+  "name": "n-butylacetate",
+  "smiles": "CCCCOC(=O)C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    21,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "camphor",
+  "smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    19,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 166.0
+ },
+ {
+  "name": "dibutylphthalat",
+  "smiles": "CCCCOC(=O)C1=CC=CC=C1C(=O)OCCCC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 250.0
+ },
+ {
+  "name": "o-cresol",
+  "smiles": "CC1=CC=CC=C1O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    17,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 184.0
+ },
+ {
+  "name": "isopropranol",
+  "smiles": "CC(C)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 60.0
+ },
+ {
+  "name": "1,3-butanediol",
+  "smiles": "CC(CCO)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    142,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 90.0
+ },
+ {
+  "name": "2,3-butanediol",
+  "smiles": "CC(C(C)O)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 90.0
+ },
+ {
+  "name": "m-cresol",
+  "smiles": "CC1=CC(=CC=C1)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    17,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 94.0
+ },
+ {
+  "name": "mephenesin",
+  "smiles": "CC1=CC=CC=C1OCC(CO)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 182.0
+ },
+ {
+  "name": "estradiol-17b-cypionate",
+  "smiles": "CC12CCC3C(C1CCC2OC(=O)CCC4CCCC4)CCC5=C3C=CC(=C5)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    22,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 396.0
+ },
+ {
+  "name": "norethylnodrel",
+  "smiles": "CC12CCC3C(C1CCC2(C#C)O)CCC4=C3CCC(=O)C4",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    70,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 298.0
+ },
+ {
+  "name": "beta-estradiol-3-benzoate",
+  "smiles": "CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)OC(=O)C5=CC=CC=C5",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    10,
+    4
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 376.0
+ },
+ {
+  "name": "ursodeoxycholic acid",
+  "smiles": "CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    137,
+    1
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 392.0
+ },
+ {
+  "name": "deoxycholic acid",
+  "smiles": "CC(CCC(=O)O)C1CCC2C1(C(CC3C2CCC4C3(CCC(C4)O)C)O)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    137,
+    1
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 392.0
+ },
+ {
+  "name": "cholic acid",
+  "smiles": "CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    137,
+    1
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 408.0
+ },
+ {
+  "name": "lactose",
+  "smiles": "C(C1C(C(C(C(O1)OC(C(CO)O)C(C(C=O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "diethylhexylphthalat",
+  "smiles": "O=C(OCC(CC)CCCC)C1=CC=CC=C1C(OCC(CC)CCCC)=O",
+  "subgroups": [
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 390.0
+ },
+ {
+  "name": "cholecalciterol",
+  "smiles": "CC(C)CCCC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C",
+  "subgroups": [
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 384.0
+ },
+ {
+  "name": "diethylstilbestrol",
+  "smiles": "CCC(=C(CC)C1=CC=C(C=C1)O)C2=CC=C(C=C2)O",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    2
+   ],
+   [
+    70,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 268.0
+ },
+ {
+  "name": "dehydrocholic acid",
+  "smiles": "CC(CCC(=O)O)C1CCC2C1(C(=O)CC3C2C(=O)CC4C3(CCC(=O)C4)C)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    19,
+    3
+   ],
+   [
+    137,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 402.0
+ },
+ {
+  "name": "cellobiose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "17b-estradiol",
+  "smiles": "CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 272.0
+ },
+ {
+  "name": "aspirin",
+  "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+  "subgroups": [
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    21,
+    1
+   ],
+   [
+    137,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 164.0
+ },
+ {
+  "name": "methyltestosterone",
+  "smiles": "CC12CCC(=O)C=C1CCC3C2CCC4(C3CCC4(C)O)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 302.0
+ },
+ {
+  "name": "progesterone",
+  "smiles": "CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    18,
+    1
+   ],
+   [
+    19,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 314.0
+ },
+ {
+  "name": "citric acid",
+  "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+  "subgroups": [
+   [
+    2,
+    2
+   ],
+   [
+    137,
+    3
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 192.0
+ },
+ {
+  "name": "ergocalciferol",
+  "smiles": "CC(C)C(C)C=CC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C",
+  "subgroups": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 396.0
+ },
+ {
+  "name": "n-nonanol",
+  "smiles": "CCCCCCCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    7
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 144.0
+ },
+ {
+  "name": "2-pentanol",
+  "smiles": "CCCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "3-pentanol",
+  "smiles": "CCC(CC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "2-octanol",
+  "smiles": "CCCCCCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    5
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "4-hetpanol",
+  "smiles": "CCCC(CCC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "4-decanol",
+  "smiles": "CCCCCCC(CCC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    7
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 158.0
+ },
+ {
+  "name": "3-methyl-4-octanol",
+  "smiles": "CCCCC(C(C)CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 144.0
+ },
+ {
+  "name": "2-methyl-2-propanol",
+  "smiles": "CC(C)(C)O",
+  "subgroups": [
+   [
+    141,
+    3
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 74.0
+ },
+ {
+  "name": "2-methyl-2-butanol",
+  "smiles": "CCC(C)(C)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "2-methyl-2-heptanol",
+  "smiles": "CCCCCC(C)(C)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "4-methyl-4-heptanol",
+  "smiles": "CCCC(C)(CCC)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "6-methyl-3-heptanol",
+  "smiles": "CCC(CCC(C)C)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "3-methyl-3-heptanol",
+  "smiles": "CCCCC(C)(CC)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "6-methyl-1-heptanol",
+  "smiles": "CC(C)CCCCCO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "diethylether",
+  "smiles": "CCOCC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    25,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 74.0
+ },
+ {
+  "name": "diisopropylether",
+  "smiles": "CC(C)OC(C)C",
+  "subgroups": [
+   [
+    1,
+    4
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "acetone",
+  "smiles": "CC(=O)C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    18,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 58.0
+ },
+ {
+  "name": "methylethylketone",
+  "smiles": "CCC(=O)C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    18,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 72.0
+ },
+ {
+  "name": "methylisobutylketone",
+  "smiles": "CC(C)CC(=O)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    18,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "ethyl acetate",
+  "smiles": "CCOC(=O)C",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    21,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "benzaldehyde",
+  "smiles": "C1=CC=C(C=C1)C=O",
+  "subgroups": [
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    20,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 106.0
+ },
+ {
+  "name": "acetophenone",
+  "smiles": "CC(=O)C1=CC=CC=C1",
+  "subgroups": [
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    18,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 120.0
+ },
+ {
+  "name": "1,3,5-trinaphthylbenzene",
+  "smiles": "C1=CC=C2C(=C1)C=CC=C2C3=CC(=CC(=C3)C4=CC=CC5=CC=CC=C54)C6=CC=CC7=CC=CC=C76",
+  "subgroups": [
+   [
+    9,
+    24
+   ],
+   [
+    10,
+    12
+   ]
+  ],
+  "molar_mass_g_mol": 456.0
+ },
+ {
+  "name": "decalin",
+  "smiles": "C1CCC2CCCCC2C1",
+  "subgroups": [
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 138.0
+ },
+ {
+  "name": "3-methoxy-1-butanol",
+  "smiles": "CC(CCO)OC",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    24,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "2,4-pentanediol",
+  "smiles": "CC(CC(C)O)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    142,
+    1
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "2-methyl-1-butanol",
+  "smiles": "CCC(C)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "2-ethyl-1-butanol",
+  "smiles": "CCC(CC)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "3-methyl-2-pentanol",
+  "smiles": "CCC(C)C(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "4-methyl-2-pentanol",
+  "smiles": "CC(C)CC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "5-methyl-2-hexanol",
+  "smiles": "CC(C)CCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "3-methyl-4-hexanol",
+  "smiles": "CCC(C)C(CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "4-methyl-3-heptanol",
+  "smiles": "CCCC(C)C(CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "3-methyl-4-heptanol",
+  "smiles": "CCCC(C(C)CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "6-methyl-2-heptanol",
+  "smiles": "CC(C)CCCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "4-methyl-1-heptanol",
+  "smiles": "CCCC(C)CCCO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "2-methyl-1-heptanol",
+  "smiles": "CCCCCC(C)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "2-methyl-3-heptanol",
+  "smiles": "CCCCC(C(C)C)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "3-methylpentane",
+  "smiles": "CCC(C)CC",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "isopropylbenzene",
+  "smiles": "CC(C)C1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 120.0
+ },
+ {
+  "name": "diisobutylphthalat",
+  "smiles": "CC(C)COC(=O)C1=CC=CC=C1C(=O)OCC(C)C",
+  "subgroups": [
+   [
+    1,
+    4
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 262.0
+ },
+ {
+  "name": "1,4-pentanediol",
+  "smiles": "CC(CCCO)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    142,
+    2
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "1,2-pentanediol",
+  "smiles": "CCCC(CO)O",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 104.0
+ },
+ {
+  "name": "1,5-hexanediol",
+  "smiles": "CC(CCCCO)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    142,
+    3
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "iso-eugenol",
+  "smiles": "CC=CC1=CC(=C(C=C1)O)OC",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    24,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 164.0
+ },
+ {
+  "name": "2-methyltetrahydrofuran",
+  "smiles": "CC1CCCO1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    27,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "menthol",
+  "smiles": "CC1CCC(C(C1)O)C(C)C",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    3
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 156.0
+ },
+ {
+  "name": "n-butylbenzene",
+  "smiles": "CCCCC1=CC=CC=C1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "cyclohexanol",
+  "smiles": "C1CCC(CC1)O",
+  "subgroups": [
+   [
+    142,
+    5
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 100.0
+ },
+ {
+  "name": "cycloheptanol",
+  "smiles": "C1CCCC(CC1)O",
+  "subgroups": [
+   [
+    142,
+    6
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 114.0
+ },
+ {
+  "name": "cycloheptane",
+  "smiles": "C1CCCCCC1",
+  "subgroups": [
+   [
+    2,
+    7
+   ]
+  ],
+  "molar_mass_g_mol": 98.0
+ },
+ {
+  "name": "2,3-dimethylbutane",
+  "smiles": "CC(C)C(C)C",
+  "subgroups": [
+   [
+    1,
+    4
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 86.0
+ },
+ {
+  "name": "1-phenyl-1-propanol",
+  "smiles": "CCC(C1=CC=CC=C1)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 136.0
+ },
+ {
+  "name": "1,2-butanediol",
+  "smiles": "CCC(CO)O",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 90.0
+ },
+ {
+  "name": "cis-2-heptene",
+  "smiles": "CCCCC=CC",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 98.0
+ },
+ {
+  "name": "2-methyl-1-pentanol",
+  "smiles": "CCCC(C)CO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "2,2-dimethyl-1-butanol",
+  "smiles": "CCC(C)(C)CO",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    148,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "2,2-dimethyl-1-pentanol",
+  "smiles": "CCCC(C)(C)CO",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    148,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "2,2-dimethyl-1-hexanol",
+  "smiles": "CCCCC(C)(C)CO",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    148,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "2-hexanol",
+  "smiles": "CCCCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "3-hexanol",
+  "smiles": "CCCC(CC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "3-heptanol",
+  "smiles": "CCCCC(CC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "2-heptanol",
+  "smiles": "CCCCCC(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    4
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "4-nonanol",
+  "smiles": "CCCCCC(CCC)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    6
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 144.0
+ },
+ {
+  "name": "3-methyl-4-nonanol",
+  "smiles": "CCCCCC(C(C)CC)O",
+  "subgroups": [
+   [
+    145,
+    3
+   ],
+   [
+    146,
+    5
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 158.0
+ },
+ {
+  "name": "2-methyl-2-pentanol",
+  "smiles": "CCCC(C)(C)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 102.0
+ },
+ {
+  "name": "2-methyl-2-hexanol",
+  "smiles": "CCCCC(C)(C)O",
+  "subgroups": [
+   [
+    141,
+    2
+   ],
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "4-methy-4-octanol",
+  "smiles": "CCCCC(C)(CCC)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    5
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 144.0
+ },
+ {
+  "name": "4-methyl-4-nonanol",
+  "smiles": "CCCCCC(C)(CCC)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    6
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 158.0
+ },
+ {
+  "name": "4-methyl-undecane",
+  "smiles": "CCCCCCCC(C)CCC",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 170.0
+ },
+ {
+  "name": "n-butanol",
+  "smiles": "CCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    2
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 74.0
+ },
+ {
+  "name": "xylose",
+  "smiles": "C(C(C(C(C=O)O)O)O)O",
+  "subgroups": [
+   [
+    20,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    153,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 166.0
+ },
+ {
+  "name": "fructose",
+  "smiles": "C1C(C(C(C(O1)(CO)O)O)O)O",
+  "subgroups": [
+   [
+    25,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    5
+   ]
+  ],
+  "molar_mass_g_mol": 180.0
+ },
+ {
+  "name": "n-heptanol",
+  "smiles": "CCCCCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    5
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "n-octanol",
+  "smiles": "CCCCCCCCO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    146,
+    6
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 130.0
+ },
+ {
+  "name": "3-methyl-1-butanol",
+  "smiles": "CC(C)CCO",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    1
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "1,2,4-butanetriol",
+  "smiles": "C(CO)C(CO)O",
+  "subgroups": [
+   [
+    142,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 106.0
+ },
+ {
+  "name": "benzene",
+  "smiles": "C1=CC=CC=C1",
+  "subgroups": [
+   [
+    9,
+    6
+   ]
+  ],
+  "molar_mass_g_mol": 78.0
+ },
+ {
+  "name": "2,4,6-trimethylheptane",
+  "smiles": "CC(C)CC(C)CC(C)C",
+  "subgroups": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 142.0
+ },
+ {
+  "name": "santonin",
+  "smiles": "CC1C2CCC3(C=CC(=O)C(=C3C2OC1=O)C)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    22,
+    1
+   ],
+   [
+    70,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 246.0
+ },
+ {
+  "name": "maltotetraose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    3
+   ],
+   [
+    26,
+    7
+   ],
+   [
+    150,
+    4
+   ],
+   [
+    151,
+    10
+   ],
+   [
+    153,
+    14
+   ]
+  ],
+  "molar_mass_g_mol": 666.0
+ },
+ {
+  "name": "malic acid",
+  "smiles": "C(C(C(=O)O)O)C(=O)O",
+  "subgroups": [
+   [
+    2,
+    1
+   ],
+   [
+    137,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "pinonic acid",
+  "smiles": "CC(=O)C1CC(C1(C)C)CC(=O)O",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    18,
+    1
+   ],
+   [
+    137,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 184.0
+ },
+ {
+  "name": "2-methylbutane-1,2,3,4-tetraol",
+  "smiles": "CC(CO)(C(CO)O)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 136.0
+ },
+ {
+  "name": "1,2-isopooh",
+  "smiles": "C=C(C)C(CO)OO",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    153,
+    1
+   ],
+   [
+    159,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "trans-beta-iepox",
+  "smiles": "CC1(CO)OC1CO",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 118.0
+ },
+ {
+  "name": "pinic acid",
+  "smiles": "CC1(C(CC1C(=O)O)CC(=O)O)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    137,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 186.0
+ },
+ {
+  "name": "2,4-dimethyl-3-pentanol",
+  "smiles": "CC(C)C(C(C)C)O",
+  "subgroups": [
+   [
+    145,
+    4
+   ],
+   [
+    147,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 116.0
+ },
+ {
+  "name": "erythritol",
+  "smiles": "C(C(C(CO)O)O)O",
+  "subgroups": [
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 122.0
+ },
+ {
+  "name": "2-ethyl-1,3-hexanediol",
+  "smiles": "CCCC(C(CC)CO)O",
+  "subgroups": [
+   [
+    145,
+    2
+   ],
+   [
+    146,
+    3
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 146.0
+ },
+ {
+  "name": "1,2,7-heptanetriol",
+  "smiles": "C(CCC(CO)O)CCO",
+  "subgroups": [
+   [
+    142,
+    4
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 148.0
+ },
+ {
+  "name": "1,2,6-hexanetriol",
+  "smiles": "C(CCO)CC(CO)O",
+  "subgroups": [
+   [
+    142,
+    3
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "2-methyl-1,3-propanediol",
+  "smiles": "CC(CO)CO",
+  "subgroups": [
+   [
+    145,
+    1
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 90.0
+ },
+ {
+  "name": "3-methyl-2-butanol",
+  "smiles": "CC(C)C(C)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    145,
+    2
+   ],
+   [
+    147,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 88.0
+ },
+ {
+  "name": "3-methyl-1,3,5-pentanetriol",
+  "smiles": "CC(CCO)(CCO)O",
+  "subgroups": [
+   [
+    141,
+    1
+   ],
+   [
+    142,
+    2
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 134.0
+ },
+ {
+  "name": "1,3-propanediol",
+  "smiles": "C(CO)CO",
+  "subgroups": [
+   [
+    142,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 76.0
+ },
+ {
+  "name": "gentiobiose",
+  "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    1
+   ],
+   [
+    151,
+    7
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "isomalt",
+  "smiles": "C(C1C(C(C(C(O1)OCC(C(C(C(CO)O)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    7
+   ],
+   [
+    153,
+    9
+   ]
+  ],
+  "molar_mass_g_mol": 344.0
+ },
+ {
+  "name": "isomaltulose",
+  "smiles": "C(C1C(C(C(C(O1)OCC(C(C(C(=O)CO)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    5
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "kojibiose",
+  "smiles": "C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "lactulose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C2O)(CO)O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    4
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "levoglucosan",
+  "smiles": "C1C2C(C(C(C(O1)O2)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    151,
+    3
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 162.0
+ },
+ {
+  "name": "maltoheptaose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)O)CO)CO)CO)CO)CO)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    6
+   ],
+   [
+    26,
+    13
+   ],
+   [
+    150,
+    7
+   ],
+   [
+    151,
+    16
+   ],
+   [
+    153,
+    23
+   ]
+  ],
+  "molar_mass_g_mol": 1152.0
+ },
+ {
+  "name": "maltohexaose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)O)CO)CO)CO)CO)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    5
+   ],
+   [
+    26,
+    11
+   ],
+   [
+    150,
+    6
+   ],
+   [
+    151,
+    14
+   ],
+   [
+    153,
+    20
+   ]
+  ],
+  "molar_mass_g_mol": 990.0
+ },
+ {
+  "name": "maltopentaose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)CO)CO)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    4
+   ],
+   [
+    26,
+    9
+   ],
+   [
+    150,
+    5
+   ],
+   [
+    151,
+    12
+   ],
+   [
+    153,
+    17
+   ]
+  ],
+  "molar_mass_g_mol": 828.0
+ },
+ {
+  "name": "maltotriose",
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    2
+   ],
+   [
+    26,
+    5
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    8
+   ],
+   [
+    153,
+    11
+   ]
+  ],
+  "molar_mass_g_mol": 504.0
+ },
+ {
+  "name": "nigerose",
+  "smiles": "C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    6
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "nystose",
+  "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)COC3(C(C(C(O3)CO)O)O)COC4(C(C(C(O4)CO)O)O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    4,
+    3
+   ],
+   [
+    25,
+    2
+   ],
+   [
+    26,
+    5
+   ],
+   [
+    150,
+    5
+   ],
+   [
+    151,
+    9
+   ],
+   [
+    153,
+    14
+   ]
+  ],
+  "molar_mass_g_mol": 666.0
+ },
+ {
+  "name": "raffinose",
+  "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    4
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    8
+   ],
+   [
+    153,
+    11
+   ]
+  ],
+  "molar_mass_g_mol": 504.0
+ },
+ {
+  "name": "rhamnose",
+  "smiles": "CC1C(C(C(C(O1)O)O)O)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    26,
+    1
+   ],
+   [
+    151,
+    4
+   ],
+   [
+    153,
+    4
+   ]
+  ],
+  "molar_mass_g_mol": 164.0
+ },
+ {
+  "name": "sorbose",
+  "smiles": "C(C(C(C(C(=O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    19,
+    1
+   ],
+   [
+    150,
+    2
+   ],
+   [
+    151,
+    2
+   ],
+   [
+    153,
+    5
+   ]
+  ],
+  "molar_mass_g_mol": 180.0
+ },
+ {
+  "name": "stachyose",
+  "smiles": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OC4(C(C(C(O4)CO)O)O)CO)O)O)O)O)O)O)O)O)O)O",
+  "subgroups": [
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    25,
+    2
+   ],
+   [
+    26,
+    5
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    11
+   ],
+   [
+    153,
+    14
+   ]
+  ],
+  "molar_mass_g_mol": 666.0
+ },
+ {
+  "name": "turanose",
+  "smiles": "C(C1C(C(C(C(O1)OC(C(C(CO)O)O)C(=O)CO)O)O)O)O",
+  "subgroups": [
+   [
+    19,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    150,
+    3
+   ],
+   [
+    151,
+    5
+   ],
+   [
+    153,
+    8
+   ]
+  ],
+  "molar_mass_g_mol": 342.0
+ },
+ {
+  "name": "3-methyl-1,2,3-butanetricarboxylic acid",
+  "smiles": "CC(C)(C(CC(=O)O)C(=O)O)C(=O)O",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    137,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 204.0
+ },
+ {
+  "name": "cyclooctanol",
+  "smiles": "C1CCCC(CCC1)O",
+  "subgroups": [
+   [
+    142,
+    7
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 128.0
+ },
+ {
+  "name": "1,2-dimethylcyclohexane",
+  "smiles": "CC1CCCCC1C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 112.0
+ },
+ {
+  "name": "2-methylbutane",
+  "smiles": "CCC(C)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 72.0
+ },
+ {
+  "name": "4-methylcyclohexen",
+  "smiles": "CC1CCC=CC1",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 96.0
+ },
+ {
+  "name": "acetaldehyd",
+  "smiles": "CC=O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    20,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 44.0
+ },
+ {
+  "name": "spironolactone",
+  "smiles": "CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    18,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    22,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 416.574
+ },
+ {
+  "name": "probucol",
+  "smiles": "CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)SC(C)(C)SC2=CC(=C(C(=C2)C(C)(C)C)O)C(C)(C)C",
+  "subgroups": [
+   [
+    1,
+    14
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    6
+   ],
+   [
+    17,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 516.0
+ },
+ {
+  "name": "1-methyl-1-(p-hydroxyphenyl)-1,2,3,4tetrahydronaphthalene",
+  "smiles": "CC3(c1ccc(O)cc1)CCCc2ccccc23",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    17,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 238.0
+ },
+ {
+  "name": "1,1,3-trimethyl-3-(p-carboxyphenyl)-indan-5-carboxylic acid",
+  "smiles": "CC3(C)CC(C)(c1ccc(C(=O)O)cc1)c2cc(C(=O)O)ccc23",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    9,
+    7
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    137,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 324.0
+ },
+ {
+  "name": "2-benzyl-(3,3\u2019)spirobi-(benzo[f]chroman)",
+  "smiles": "c7ccc(CC3CC2C(CCC1CCCCC12)OC36CCC5C(CCC4CCCCC45)O6)cc7",
+  "subgroups": [
+   [
+    2,
+    16
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    26,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 462.0
+ },
+ {
+  "name": "9,9-bis(p-hydroxyphenyl)fluorene",
+  "smiles": "Oc5ccc(C4(c1ccc(O)cc1)c2ccccc2c3ccccc34)cc5",
+  "subgroups": [
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    10,
+    6
+   ],
+   [
+    17,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 350.0
+ },
+ {
+  "name": "budesonide",
+  "smiles": "CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    26,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 430.0
+ },
+ {
+  "name": "prednisone",
+  "smiles": "CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    2
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    2
+   ]
+  ],
+  "molar_mass_g_mol": 358.0
+ },
+ {
+  "name": "hydrocortisone",
+  "smiles": "CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    152,
+    1
+   ],
+   [
+    153,
+    3
+   ]
+  ],
+  "molar_mass_g_mol": 362.0
+ },
+ {
+  "name": "warfarin",
+  "smiles": "CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O",
+  "subgroups": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    18,
+    1
+   ],
+   [
+    22,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 308.0
+ },
+ {
+  "name": "testosterone",
+  "smiles": "CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C",
+  "subgroups": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 288.0
+ },
+ {
+  "name": "nandrolone",
+  "smiles": "CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 274.0
+ },
+ {
+  "name": "simvastatin",
+  "smiles": "CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C",
+  "subgroups": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    8,
+    1
+   ],
+   [
+    22,
+    2
+   ],
+   [
+    151,
+    1
+   ],
+   [
+    153,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 418.0
+ },
+ {
+  "name": "fluorescamin",
+  "smiles": "C1=CC=C(C=C1)C2=COC3(C2=O)C4=CC=CC=C4C(=O)O3",
+  "subgroups": [
+   [
+    8,
+    1
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    20,
+    2
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    26,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 278.0
+ },
+ {
+  "name": "ibuprofen",
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "subgroups": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    137,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 206.0
+ },
+ {
+  "name": "ketoprofen",
+  "smiles": "CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O",
+  "subgroups": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    137,
+    1
+   ]
+  ],
+  "molar_mass_g_mol": 254.0
+ }
+]

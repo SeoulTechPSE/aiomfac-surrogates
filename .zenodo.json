@@ -1,0 +1,31 @@
+{
+  "title": "aiomfac-surrogates: reproducibility material for \"Neural-network surrogates for AIOMFAC\" (Parts 1 and 2)",
+  "upload_type": "software",
+  "description": "<p>Notebooks, data, trained networks and results that reproduce the tables and figures of the two-part paper series <em>Neural-network surrogates for AIOMFAC</em>: Part 1, binary water–organic activity coefficients, molecular representation and data scale; Part 2, aqueous electrolyte mixtures and organic–electrolyte coupling. All AIOMFAC calls use aiomfac_py, a pure-Python port of the AIOMFAC model. Version 2.0.0 accompanies the revised manuscripts; see CHANGELOG.md.</p>",
+  "creators": [
+    {
+      "name": "Yoo, Kee-Youn",
+      "affiliation": "Seoul National University of Science and Technology (SeoulTech)",
+      "orcid": "0009-0008-3107-501X"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "AIOMFAC",
+    "activity coefficients",
+    "atmospheric aerosol",
+    "surrogate model",
+    "neural network",
+    "group contribution",
+    "electrolytes"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23122266",
+      "relation": "requires",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "version": "v2.0.0"
+}

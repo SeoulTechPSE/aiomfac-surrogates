@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below, together with the relevant paper (Part 1 and/or Part 2)."
+title: "aiomfac-surrogates: reproducibility material for \"Neural-network surrogates for AIOMFAC\" (Parts 1 and 2)"
+type: software
+authors:
+  - family-names: Yoo
+    given-names: Kee-Youn
+    orcid: "https://orcid.org/0009-0008-3107-501X"
+    affiliation: "Seoul National University of Science and Technology (SeoulTech)"
+version: 2.0.0
+license: GPL-3.0-or-later
+repository-code: "https://github.com/SeoulTechPSE/aiomfac-surrogates"
+doi: 10.5281/zenodo.23122610
