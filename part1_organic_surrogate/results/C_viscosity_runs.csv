@@ -1,7 +1,7 @@
-inputs,seed,gen MAE
-structure (C) only,0,1.1943737
-structure (C) only,1,1.2147926
-structure (C) only,2,1.088402
-structure (C) + Tg,0,0.6271926
-structure (C) + Tg,1,0.70058405
-structure (C) + Tg,2,0.59085697
+inputs,seed,gen MAE,gen MAE dry near-glassy,gen MAE hyperbolic subset 298 K
+structure (C) only,0,1.1943737,2.5649023,1.0131637
+structure (C) only,1,1.2147926,3.1723032,0.9738521
+structure (C) only,2,1.088402,2.2334528,0.7908903
+structure (C) + Tg,0,0.6271926,1.6959484,0.3840007
+structure (C) + Tg,1,0.70058405,1.8475478,0.4770988
+structure (C) + Tg,2,0.59085697,1.4631165,0.38996002

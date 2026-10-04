@@ -1,7 +1,7 @@
 {
   "title": "aiomfac-surrogates: reproducibility material for \"Neural-network surrogates for AIOMFAC\" (Parts 1 and 2)",
   "upload_type": "software",
-  "description": "<p>Notebooks, data, trained networks and results that reproduce the tables and figures of the two-part paper series <em>Neural-network surrogates for AIOMFAC</em>: Part 1, binary water–organic activity coefficients, molecular representation and data scale; Part 2, aqueous electrolyte mixtures and organic–electrolyte coupling. All AIOMFAC calls use aiomfac_py, a pure-Python port of the AIOMFAC model. Version 2.0.0 accompanies the revised manuscripts; see CHANGELOG.md.</p>",
+  "description": "<p>Notebooks, data, trained networks and results that reproduce the tables and figures of the two-part paper series <em>Neural-network surrogates for AIOMFAC</em>: Part 1, binary water–organic activity coefficients, molecular representation and data scale; Part 2, aqueous electrolyte mixtures and organic–electrolyte coupling. All AIOMFAC calls use aiomfac_py, a pure-Python port of the AIOMFAC model. Version 2.0.1 accompanies the revised manuscripts; see CHANGELOG.md.</p>",
   "creators": [
     {
       "name": "Yoo, Kee-Youn",
@@ -27,5 +27,5 @@
       "scheme": "doi"
     }
   ],
-  "version": "v2.0.0"
+  "version": "v2.0.1"
 }

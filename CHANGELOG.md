@@ -1,5 +1,20 @@
 # Changelog
 
+## v2.0.1
+
+Corrections after internal review of the revised manuscripts.
+
+- **Part 1, Table 2:** pool C (BIMOG + synthetic N) was evaluated on its own hash split, which also placed some
+  synthetic molecules in the test set. All pools are now evaluated on the same held-out BIMOG molecules
+  (`02_representation_emb_reruns.ipynb` §1); the pooled error of pool C changes from 0.144 to 0.148, the
+  per-category errors are unchanged.
+- **Part 1, viscosity emulator (§7 of `02`):** errors are also reported for dry, near-glassy points
+  (w_water ≤ 0.1, T ≤ Tg + 50 K) and on the 123-molecule subset used for the coefficient model. Fig. 4b shows the
+  first of these.
+- **Part 2:** `02_split_composition_check.ipynb` added; it explains why the error for unseen ion combinations is
+  lower than for new compositions of seen ones (the held-out set contains only single-salt, mostly dilute
+  solutions).
+
 ## v2.0.0
 
 This release accompanies the revised manuscripts of Parts 1 and 2. Results of v1 (v1.0.0, v1.1.0) are superseded;
@@ -19,7 +34,7 @@ available under the git tag `v1.1.0`.
   and the comparison with the GNN at larger data scale.
 - **BAT baseline** (Gorkowski et al., 2019) added.
 - **Coverage analysis:** the halogen "ceiling" of v1 is replaced by an analysis of atoms that S2AS cannot match.
-  These occur in all halogenated and 93 % of nitrogen-containing BIMOG compounds and limit AIOMFAC's accuracy
+  These occur in all halogenated and 93 % of the halogen-free nitrogen-containing BIMOG compounds and limit AIOMFAC's accuracy
   against reality, not surrogate fidelity.
 - **Sensitivity analyses** extended: a real-molecule variance decomposition and a Sobol analysis of AIOMFAC's
   238 interaction parameters were added, and the descriptor-space analysis now reports confidence intervals and an

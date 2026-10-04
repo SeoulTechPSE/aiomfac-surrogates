@@ -41,7 +41,7 @@ pass (`feature_ablation_first_pass.ipynb`) and the R_desc literature-compound ev
 | Sect. 3.3 | `02` §3 (R_emb cross-validation and regression); `06` (unmatched atoms, twin test, R_desc variants) |
 | Table 3, Fig. 2 | `08` (all trained models); BAT: `07` §4 and `02` §5 |
 | Table 4, Fig. 3 | R_emb: `02` §4; R_desc and GNN: `01` §3; BAT on MCM: `03` §4 |
-| Table 5, Fig. 4 | R_emb emulator: `02` §7; T_g-only, T_g + O:C, R_desc, T_g sensitivity, coefficient model: `04` §C1–C3 |
+| Table 5, Fig. 4 | R_emb emulator, including its error for dry, near-glassy points and on the coefficient-model subset: `02` §7; T_g-only, T_g + O:C, R_desc, T_g sensitivity, R_desc on the coefficient-model subset: `04` §C1–C3; coefficient model itself (14.8 ± 5.5): `legacy_v1` |
 | Sect. 3.7, Fig. 5 | `04` §A1–A4 |
 | Sect. 3.8, Table 6, Appendix A Run 1 | `05`; Appendix A Run 2: `legacy_v1/timing_results_gpu_run.json` |
 | Table 7, Fig. 6 | `02` §6; R_desc value for malonic acid: `supplementary/malonic_acid_desc_surrogate.ipynb` |

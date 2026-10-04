@@ -25,6 +25,7 @@ pools = ["A: CHO only", "B: full BIMOG", "C: B + synthetic N"]
 fig, ax = plt.subplots(figsize=(6.3, 3.0)); w = 0.26
 for j, pool in enumerate(pools):
     g = t1[t1.pool == pool]
+    if pool.startswith("A"): g = g.assign(**{c: np.nan for c, _ in cats[1:]})   # the CHO-only pool is compared on CHO molecules only
     m = [g[c].mean() if c in g and g[c].notna().any() else np.nan for c, _ in cats]
     s = [g[c].std(ddof=1) if c in g and g[c].notna().any() else np.nan for c, _ in cats]
     ax.bar(np.arange(4) + (j - 1) * w, m, w * 0.92, yerr=s, color=C[j], label=pool, capsize=2, error_kw=EB)
@@ -71,6 +72,7 @@ plt.tight_layout(rect=(0, 0.06, 1, 1)); plt.savefig(OUT + "fig3_mcm_learning_cur
 
 # ---------- Fig 4: viscosity ----------
 vC = pd.read_csv(P + "C_viscosity_runs.csv").groupby("inputs")["gen MAE"].agg(["mean", "std"])
+vC_dry = pd.read_csv(P + "C_viscosity_runs.csv").groupby("inputs")["gen MAE dry near-glassy"].mean()
 vis = [("Global mean", 2.267, np.nan, MUTED), ("T$_g$ only", 1.388, 0.008, C[3]), ("Descriptors (B)", 1.267, 0.034, C[2]),
        ("T$_g$ + O:C", 1.160, 0.020, C[3]), ("Embedding (C)", vC.loc["structure (C) only", "mean"], vC.loc["structure (C) only", "std"], C[0]),
        ("Descriptors (B) + T$_g$", 0.801, 0.044, C[2]), ("Embedding (C) + T$_g$", vC.loc["structure (C) + Tg", "mean"], vC.loc["structure (C) + Tg", "std"], C[0])]
@@ -84,9 +86,12 @@ ax = axes[1]; best = vC.loc["structure (C) + Tg", "mean"]
 for k, wv in enumerate((0.05, 0.2, 0.5)):
     g = prop[prop.w_water == wv].groupby("bin", observed=True)["Δ (Tg+10 K)"].apply(lambda s: np.median(np.abs(s)))
     ax.plot(range(len(g)), g.values, marker="o", ms=4.5, color=C[k], label=f"w$_{{water}}$ = {wv}")
-ax.axhline(best, color=INK, lw=1, ls="--"); ax.text(3, best + 0.03, "emulator MAE", ha="right", fontsize=7.5)
+dry = vC_dry.loc["structure (C) + Tg"]
+ax.axhline(best, color=INK, lw=1, ls="--"); ax.text(3, best + 0.03, "emulator MAE, all", ha="right", fontsize=7.5)
+ax.axhline(dry, color=INK, lw=1, ls=":"); ax.text(3, dry + 0.03, "emulator MAE, dry and near T$_g$", ha="right", fontsize=7.5)
 ax.set_xticks(range(4), ["T < T$_g$", "0–50", "50–100", "> 100"]); ax.set_xlabel("T − T$_g$ (K)")
-ax.set_ylabel("Median |Δlog$_{10}$η| for T$_g$ + 10 K"); ax.legend(fontsize=7.5); panel(ax, "(b)")
+ax.set_ylabel("Median |Δlog$_{10}$η| for T$_g$ + 10 K"); ax.set_ylim(0, 2.0)
+ax.legend(fontsize=7.5, loc="center right", bbox_to_anchor=(1.0, 0.6)); panel(ax, "(b)")
 plt.tight_layout(); plt.savefig(OUT + "fig4_viscosity.png"); plt.close()
 
 # ---------- Fig 6: literature compounds (representation C, M1 vs M3) ----------

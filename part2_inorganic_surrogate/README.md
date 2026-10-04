@@ -18,6 +18,7 @@ laptop, CPU only). The coupling sections load the Part 1 release checkpoint from
 | Item | Description |
 |---|---|
 | `01_part2_revision.ipynb` | Full analysis (executed, outputs saved) |
+| `02_split_composition_check.ipynb` | Composition of the two test sets and errors at equal ionic strength (Sect. 3.1); loads `models/`, runs in seconds |
 | `training_data.parquet` | 12 000 electrolyte compositions with AIOMFAC labels |
 | `generate_training_data.py` | Generator of `training_data.parquet` (four sampling axes) |
 | `inorganic_component_basis.py` | The 14-ion basis and input/output specification |
@@ -34,6 +35,7 @@ laptop, CPU only). The coupling sections load the Part 1 release checkpoint from
 | Paper item | Notebook section |
 |---|---|
 | Table 1, Fig. 1 | I.1–I.2 (corrected and replicated v1 protocol, 5 seeds) |
+| Sect. 3.1, unseen vs. seen combinations | `02_split_composition_check.ipynb` |
 | Table 2 | I.3 (Fortran reference comparison) |
 | Sect. 3.3 | I.4 (closed-form bisulfate check) |
 | Sect. 3.4 | I.5 (end-to-end cost) |
