@@ -1,0 +1,13 @@
+# Python >= 3.10. Install aiomfac_py (with SMILES decomposition and the Tg predictor) from its repository:
+aiomfac_py[carbonate,smiles,tgml,tgml-smiles] @ git+https://github.com/SeoulTechPSE/aiomfac-python.git
+torch>=2.0
+rdkit
+scikit-learn>=1.1
+scipy
+numpy
+pandas
+pyarrow
+matplotlib
+SALib>=1.4
+particula>=0.2.14   # BAT model (Gorkowski et al., 2019)
+jupyter

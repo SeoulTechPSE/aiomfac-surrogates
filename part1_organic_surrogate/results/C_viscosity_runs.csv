@@ -1,0 +1,7 @@
+inputs,seed,gen MAE
+structure (C) only,0,1.1943737
+structure (C) only,1,1.2147926
+structure (C) only,2,1.088402
+structure (C) + Tg,0,0.6271926
+structure (C) + Tg,1,0.70058405
+structure (C) + Tg,2,0.59085697

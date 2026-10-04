@@ -1,0 +1,25 @@
+compound,model,MAE ln γ_w,MAE ln γ_org,sd (org),max |err|
+Glycerol,M1: BIMOG train,0.004,0.041,0.015,0.092
+"1,2,4-Butanetriol",M1: BIMOG train,0.005,0.038,0.025,0.086
+"2,5-Hexanediol",M1: BIMOG train,0.005,0.043,0.018,0.095
+Ethanol,M1: BIMOG train,0.006,0.032,0.02,0.065
+2-Propanol,M1: BIMOG train,0.005,0.037,0.016,0.085
+Malonic acid,M1: BIMOG train,0.051,0.798,0.238,0.983
+Glycerol,M2: BIMOG train + MCM train,0.006,0.028,0.004,0.083
+"1,2,4-Butanetriol",M2: BIMOG train + MCM train,0.004,0.046,0.02,0.097
+"2,5-Hexanediol",M2: BIMOG train + MCM train,0.008,0.044,0.022,0.128
+Ethanol,M2: BIMOG train + MCM train,0.009,0.041,0.006,0.1
+2-Propanol,M2: BIMOG train + MCM train,0.009,0.033,0.001,0.093
+Malonic acid,M2: BIMOG train + MCM train,0.015,0.195,0.056,0.324
+Glycerol,M3: all BIMOG + all MCM,0.006,0.058,0.024,0.117
+"1,2,4-Butanetriol",M3: all BIMOG + all MCM,0.006,0.03,0.004,0.079
+"2,5-Hexanediol",M3: all BIMOG + all MCM,0.011,0.051,0.051,0.123
+Ethanol,M3: all BIMOG + all MCM,0.008,0.049,0.022,0.11
+2-Propanol,M3: all BIMOG + all MCM,0.011,0.059,0.019,0.115
+Malonic acid,M3: all BIMOG + all MCM,0.01,0.092,0.042,0.19
+Glycerol,M4: M2 without MCM diacids,0.006,0.051,0.017,0.159
+"1,2,4-Butanetriol",M4: M2 without MCM diacids,0.009,0.068,0.004,0.161
+"2,5-Hexanediol",M4: M2 without MCM diacids,0.01,0.064,0.036,0.12
+Ethanol,M4: M2 without MCM diacids,0.008,0.039,0.007,0.085
+2-Propanol,M4: M2 without MCM diacids,0.009,0.036,0.008,0.081
+Malonic acid,M4: M2 without MCM diacids,0.022,0.226,0.205,0.411

@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# MCM species export: download with part1_organic_surrogate/fetch_mcm_species.py (see README)
+mcm_v331_species.tsv
+# large raw intermediate written by 04_sensitivity_viscosity_analyses.ipynb (373 MB); results/param_gsa_meanST.csv is the compact version
+param_gsa_raw.npz
