@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.0.1
+
+Documentation only: the top-level README now describes the excess-Gibbs-energy (v3) material, and `CITATION.cff`
+lists the Zenodo DOIs. Code, data, networks and results are identical to v3.0.0.
+
 ## v3.0.0
 
 This release accompanies the excess-Gibbs-energy revision of both papers. All new material is in
