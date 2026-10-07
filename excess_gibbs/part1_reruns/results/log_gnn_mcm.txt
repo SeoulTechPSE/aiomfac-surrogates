@@ -1,0 +1,11 @@
+  seed 0 n=400: GNN MCM 0.183 BIMOG 1.533 (90s)
+  seed 0 n=2855: GNN MCM 0.073 BIMOG 0.973 (1615s)
+  seed 1 n=400: GNN MCM 0.193 BIMOG 2.005 (1667s)
+  seed 1 n=2855: GNN MCM 0.063 BIMOG 0.987 (3360s)
+  seed 2 n=400: GNN MCM 0.212 BIMOG 1.288 (3411s)
+  seed 2 n=2855: GNN MCM 0.065 BIMOG 0.896 (5106s)
+            MCM org      BIMOG org          MCM w
+n                                                
+400   0.196 ± 0.015  1.609 ± 0.364  0.024 ± 0.002
+2855  0.067 ± 0.005  0.952 ± 0.049  0.008 ± 0.001
+DONE gnn mcm (5106s)

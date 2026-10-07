@@ -1,0 +1,4 @@
+seed 0: 92 epochs, val 0.00032 (444s)
+seed 1: 127 epochs, val 0.00024 (606s)
+seed 2: 96 epochs, val 0.00029 (451s)
+RELEASE DONE

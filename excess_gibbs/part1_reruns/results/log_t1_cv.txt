@@ -1,0 +1,13 @@
+  CV R_count done (808s)
+  CV R_count' done (1650s)
+  CV R_desc done (2544s)
+  CV R_emb done (3564s)
+rep
+R_count     0.278 ± 0.013
+R_count'    0.179 ± 0.010
+R_desc      0.251 ± 0.003
+R_emb       0.155 ± 0.011
+R_emb vs R_desc: mean d -0.096 (-38%), R_emb better for 64% of molecules, Wilcoxon p = 8.9e-09
+R_desc vs R_count: mean d -0.028 (-10%), R_desc better for 60% of molecules, Wilcoxon p = 0.17
+R_count' vs R_desc: mean d -0.071 (-28%), R_count' better for 58% of molecules, Wilcoxon p = 3.1e-05
+DONE cv (3564s)

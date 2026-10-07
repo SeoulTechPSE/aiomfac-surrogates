@@ -1,0 +1,65 @@
+(NH4)2SO4
+  RH 0.95: AIOMFAC conv L1 [] w=36.49 | gex conv L1 [] w=36.35 | direct not_ L2 [] w=36.46 <--
+  RH 0.90: AIOMFAC conv L1 [] w=18.54 | gex conv L1 [] w=18.61 | direct not_ L3 [] w=17.94 <--
+  RH 0.85: AIOMFAC conv L1 [] w=12.68 | gex conv L1 [] w=12.7 | direct not_ L1 [] w=12.64
+  RH 0.82: AIOMFAC conv L1 [] w=10.66 | gex conv L1 [] w=10.67 | direct not_ L3 [] w=10.02 <--
+  RH 0.80: AIOMFAC conv L1 [] w=9.633 | gex conv L1 [] w=9.623 | direct not_ L2 [] w=9.532 <--
+  RH 0.78: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.75: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.70: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.60: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.50: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.40: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct dry L0 ['ammonium_sulfate'] w=0
+  RH 0.30: AIOMFAC dry L0 ['ammonium_sulfate'] w=0 | gex dry L0 ['ammonium_sulfate'] w=0 | direct not_ L3 ['ammonium_sulfate'] w=0.003575 <--
+NaCl
+  RH 0.95: AIOMFAC conv L1 [] w=37.47 | gex conv L1 [] w=37.57 | direct conv L1 [] w=36.3
+  RH 0.90: AIOMFAC conv L1 [] w=19.8 | gex conv L1 [] w=19.79 | direct conv L1 [] w=19.79
+  RH 0.85: AIOMFAC conv L1 [] w=13.83 | gex conv L1 [] w=13.8 | direct not_ L2 [] w=13.84 <--
+  RH 0.82: AIOMFAC conv L1 [] w=11.79 | gex conv L1 [] w=11.76 | direct not_ L2 [] w=12.29 <--
+  RH 0.80: AIOMFAC conv L1 [] w=10.75 | gex conv L1 [] w=10.73 | direct not_ L3 [] w=10.58 <--
+  RH 0.78: AIOMFAC conv L1 [] w=9.888 | gex conv L1 [] w=9.866 | direct not_ L2 [] w=9.774 <--
+  RH 0.75: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+  RH 0.70: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+  RH 0.60: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+  RH 0.50: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+  RH 0.40: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+  RH 0.30: AIOMFAC dry L0 ['halite'] w=0 | gex dry L0 ['halite'] w=0 | direct dry L0 ['halite'] w=0
+NH4NO3
+  RH 0.95: AIOMFAC conv L1 [] w=30.07 | gex conv L1 [] w=30.08 | direct not_ L2 [] w=32.6 <--
+  RH 0.90: AIOMFAC conv L1 [] w=13.19 | gex conv L1 [] w=13.29 | direct not_ L1 [] w=12.99
+  RH 0.85: AIOMFAC conv L1 [] w=7.935 | gex conv L1 [] w=8.002 | direct not_ L2 [] w=7.898 <--
+  RH 0.82: AIOMFAC conv L1 [] w=6.278 | gex conv L1 [] w=6.312 | direct not_ L2 [] w=6.26 <--
+  RH 0.80: AIOMFAC conv L1 [] w=5.473 | gex conv L1 [] w=5.488 | direct not_ L2 [] w=5.534 <--
+  RH 0.78: AIOMFAC conv L1 [] w=4.828 | gex conv L1 [] w=4.825 | direct conv L1 [] w=4.85
+  RH 0.75: AIOMFAC conv L1 [] w=4.068 | gex conv L1 [] w=4.045 | direct conv L1 [] w=4.072
+  RH 0.70: AIOMFAC conv L1 [] w=3.158 | gex conv L1 [] w=3.116 | direct not_ L2 [] w=3.204 <--
+  RH 0.60: AIOMFAC dry L0 ['ammonium_nitrate'] w=0 | gex dry L0 ['ammonium_nitrate'] w=0 | direct not_ L2 ['ammonium_nitrate'] w=0.000195 <--
+  RH 0.50: AIOMFAC dry L0 ['ammonium_nitrate'] w=0 | gex dry L0 ['ammonium_nitrate'] w=0 | direct dry L0 ['ammonium_nitrate'] w=0
+  RH 0.40: AIOMFAC dry L0 ['ammonium_nitrate'] w=0 | gex dry L0 ['ammonium_nitrate'] w=0 | direct dry L0 ['ammonium_nitrate'] w=0
+  RH 0.30: AIOMFAC dry L0 ['ammonium_nitrate'] w=0 | gex dry L0 ['ammonium_nitrate'] w=0 | direct not_ L3 ['ammonium_nitrate'] w=0.00658 <--
+NH4HSO4
+  RH 0.95: AIOMFAC conv L1 [] w=37.26 | gex conv L1 [] w=37.81 | direct not_ L2 [] w=33.39 <--
+  RH 0.90: AIOMFAC conv L1 [] w=18.97 | gex conv L1 [] w=19.1 | direct not_ L2 [] w=18.8 <--
+  RH 0.85: AIOMFAC conv L1 [] w=12.96 | gex conv L1 [] w=12.88 | direct not_ L2 [] w=13.35 <--
+  RH 0.82: AIOMFAC conv L1 [] w=10.91 | gex conv L1 [] w=10.79 | direct not_ L2 [] w=12.02 <--
+  RH 0.80: AIOMFAC conv L1 [] w=9.854 | gex conv L1 [] w=9.723 | direct not_ L2 [] w=10.13 <--
+  RH 0.78: AIOMFAC conv L1 [] w=8.966 | gex conv L1 [] w=8.836 | direct not_ L2 [] w=9.256 <--
+  RH 0.75: AIOMFAC conv L1 [] w=7.856 | gex conv L1 [] w=7.738 | direct not_ L3 [] w=7.737 <--
+  RH 0.70: AIOMFAC conv L1 [] w=6.403 | gex conv L1 [] w=6.321 | direct not_ L3 ['ammonium_bisulfate', 'ammonium_sulfate', 'letovicite'] w=8.352 <--
+  RH 0.60: AIOMFAC conv L1 [] w=4.333 | gex conv L1 [] w=4.337 | direct not_ L3 ['ammonium_bisulfate', 'ammonium_sulfate', 'letovicite'] w=6.256 <--
+  RH 0.50: AIOMFAC conv L1 ['letovicite'] w=2.845 | gex conv L1 ['letovicite'] w=2.899 | direct not_ L3 ['ammonium_bisulfate', 'letovicite'] w=4.858 <--
+  RH 0.40: AIOMFAC conv L1 ['letovicite'] w=1.856 | gex conv L1 ['letovicite'] w=1.884 | direct not_ L3 ['letovicite'] w=2.79 <--
+  RH 0.30: AIOMFAC dry L0 ['ammonium_bisulfate'] w=0 | gex dry L0 ['ammonium_bisulfate'] w=0 | direct dry L0 ['ammonium_bisulfate'] w=0
+NaCl + (NH4)2SO4
+  RH 0.95: AIOMFAC conv L1 [] w=71.78 | gex conv L1 [] w=71.58 | direct not_ L3 [] w=72.39 <--
+  RH 0.90: AIOMFAC conv L1 [] w=35.71 | gex conv L1 [] w=35.54 | direct not_ L2 [] w=38.17 <--
+  RH 0.85: AIOMFAC conv L1 [] w=24.19 | gex conv L1 [] w=23.9 | direct not_ L3 [] w=23.23 <--
+  RH 0.82: AIOMFAC conv L1 [] w=20.32 | gex conv L1 [] w=20.01 | direct not_ L2 [] w=19.52 <--
+  RH 0.80: AIOMFAC conv L1 [] w=18.36 | gex conv L1 [] w=18.05 | direct not_ L2 [] w=17.49 <--
+  RH 0.78: AIOMFAC conv L1 [] w=16.73 | gex conv L1 [] w=16.44 | direct not_ L2 [] w=16.34 <--
+  RH 0.75: AIOMFAC conv L1 [] w=14.73 | gex conv L1 [] w=14.48 | direct not_ L2 [] w=14.48 <--
+  RH 0.70: AIOMFAC conv L1 [] w=12.19 | gex conv L1 [] w=12.03 | direct not_ L3 [] w=12.29 <--
+  RH 0.60: AIOMFAC dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | gex dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | direct dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0
+  RH 0.50: AIOMFAC dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | gex dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | direct dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0
+  RH 0.40: AIOMFAC dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | gex dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | direct dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0
+  RH 0.30: AIOMFAC dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | gex dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0 | direct dry L0 ['ammonium_sulfate', 'sal_ammoniac', 'thenardite'] w=0

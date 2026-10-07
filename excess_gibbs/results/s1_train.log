@@ -1,0 +1,27 @@
+remb_relu seed 0: ep 206 mae_w 0.0161 mae_o 0.1584 sd 0.0284/0.1826 GD 6.61e-02 (15s)
+remb_relu seed 1: ep 89 mae_w 0.0186 mae_o 0.1624 sd 0.0305/0.2147 GD 7.33e-02 (6s)
+remb_relu seed 2: ep 141 mae_w 0.0141 mae_o 0.1239 sd 0.0260/0.1814 GD 6.11e-02 (10s)
+remb_relu seed 3: ep 142 mae_w 0.0186 mae_o 0.1480 sd 0.0300/0.1890 GD 7.45e-02 (10s)
+remb_relu seed 4: ep 160 mae_w 0.0156 mae_o 0.1521 sd 0.0289/0.2007 GD 6.55e-02 (11s)
+remb_silu seed 0: ep 222 mae_w 0.0147 mae_o 0.1118 sd 0.0148/0.0647 GD 2.03e-02 (21s)
+remb_silu seed 1: ep 259 mae_w 0.0149 mae_o 0.1158 sd 0.0162/0.0673 GD 2.50e-02 (26s)
+remb_silu seed 2: ep 169 mae_w 0.0128 mae_o 0.1242 sd 0.0145/0.0703 GD 2.08e-02 (16s)
+remb_silu seed 3: ep 188 mae_w 0.0132 mae_o 0.1097 sd 0.0135/0.0659 GD 2.09e-02 (18s)
+remb_silu seed 4: ep 182 mae_w 0.0150 mae_o 0.1091 sd 0.0174/0.0744 GD 2.72e-02 (17s)
+ge_silu seed 0: ep 147 mae_w 0.0109 mae_o 0.1319 sd 0.0131/0.1001 GD 1.78e-08 (26s)
+ge_silu seed 1: ep 151 mae_w 0.0110 mae_o 0.1414 sd 0.0125/0.0901 GD 1.84e-08 (24s)
+ge_silu seed 2: ep 204 mae_w 0.0102 mae_o 0.1477 sd 0.0114/0.0829 GD 1.79e-08 (34s)
+ge_silu seed 3: ep 133 mae_w 0.0121 mae_o 0.1486 sd 0.0139/0.1008 GD 1.80e-08 (21s)
+ge_silu seed 4: ep 179 mae_w 0.0114 mae_o 0.1500 sd 0.0140/0.1156 GD 1.83e-08 (28s)
+ge_silu_sob seed 0: ep 193 mae_w 0.0108 mae_o 0.1372 sd 0.0109/0.0788 GD 1.83e-08 (61s)
+ge_silu_sob seed 1: ep 209 mae_w 0.0103 mae_o 0.1400 sd 0.0105/0.0678 GD 1.82e-08 (68s)
+ge_silu_sob seed 2: ep 182 mae_w 0.0102 mae_o 0.1452 sd 0.0103/0.0661 GD 1.83e-08 (57s)
+ge_silu_sob seed 3: ep 177 mae_w 0.0109 mae_o 0.1403 sd 0.0111/0.0761 GD 1.78e-08 (56s)
+ge_silu_sob seed 4: ep 174 mae_w 0.0110 mae_o 0.1336 sd 0.0110/0.0800 GD 1.79e-08 (59s)
+                       mae_w            mae_o          mae_sdw          mae_sdo    gd_rel_median
+model                                                                                           
+remb_relu    0.0166 ± 0.0020  0.1490 ± 0.0151  0.0288 ± 0.0018  0.1937 ± 0.0140  0.0681 ± 0.0056
+remb_silu    0.0141 ± 0.0010  0.1141 ± 0.0062  0.0153 ± 0.0015  0.0685 ± 0.0039  0.0228 ± 0.0031
+ge_silu      0.0111 ± 0.0007  0.1439 ± 0.0075  0.0130 ± 0.0010  0.0979 ± 0.0124  0.0000 ± 0.0000
+ge_silu_sob  0.0106 ± 0.0004  0.1393 ± 0.0043  0.0107 ± 0.0003  0.0738 ± 0.0064  0.0000 ± 0.0000
+S1 DONE (585s)

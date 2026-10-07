@@ -1,0 +1,53 @@
+=== Finalized input vector spec (len=15) ===
+  m_Na+      [mol/kg H2O]
+  m_K+       [mol/kg H2O]
+  m_NH4+     [mol/kg H2O]
+  m_Ca2+     [mol/kg H2O]
+  m_H+       [mol/kg H2O]
+  m_Cl-      [mol/kg H2O]
+  m_NO3-     [mol/kg H2O]
+  m_SO4--    [mol/kg H2O]
+  m_HSO4-    [mol/kg H2O]
+  m_HCO3-    [mol/kg H2O]
+  m_CO3--    [mol/kg H2O]
+  m_IO3-     [mol/kg H2O]
+  m_I-       [mol/kg H2O]
+  m_OH-      [mol/kg H2O]
+  T_K        [K]
+
+=== Output vector spec (component ln(gamma), len=15) ===
+  ln_gamma_H2O
+  ln_gamma_Na+
+  ln_gamma_K+
+  ln_gamma_NH4+
+  ln_gamma_Ca2+
+  ln_gamma_H+
+  ln_gamma_Cl-
+  ln_gamma_NO3-
+  ln_gamma_SO4--
+  ln_gamma_HSO4-
+  ln_gamma_HCO3-
+  ln_gamma_CO3--
+  ln_gamma_IO3-
+  ln_gamma_I-
+  ln_gamma_OH-
+
+===== fort
+surrogate + speciation vs Fortran: {'c005': '0.023 ± 0.005', 'c006': '0.029 ± 0.003'}
+AIOMFAC free-species + speciation vs Fortran: {'c005': 0.0117, 'c006': 0.0189}
+species
+ln_gamma_H2O      0.000
+ln_gamma_HCO3-    0.017
+ln_gamma_HSO4-    0.019
+ln_gamma_SO4--    0.024
+ln_gamma_Na+      0.027
+ln_gamma_OH-      0.029
+ln_gamma_IO3-     0.035
+ln_gamma_CO3--    0.039
+ln_gamma_H+       0.040
+ln_gamma_Ca2+     0.061
+===== bis
+mae_m_hso4          0.001 ± 0.000
+rel_err_mean_%      0.109 ± 0.015
+rel_err_median_%    0.047 ± 0.005 
+AIOMFAC-free speciation: max |dm_HSO4| 9.85e-13

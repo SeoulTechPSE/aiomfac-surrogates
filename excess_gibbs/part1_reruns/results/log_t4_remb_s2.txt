@@ -1,0 +1,23 @@
+  seed 2 R_emb MCM only           n=  100: MCM 0.288 BIMOG 1.859 (51s)
+  seed 2 R_emb MCM only           n=  200: MCM 0.142 BIMOG 1.344 (145s)
+  seed 2 R_emb MCM only           n=  400: MCM 0.085 BIMOG 0.736 (336s)
+  seed 2 R_emb MCM only           n=  800: MCM 0.048 BIMOG 0.886 (625s)
+  seed 2 R_emb MCM only           n= 1600: MCM 0.030 BIMOG 0.834 (1139s)
+  seed 2 R_emb MCM only           n= 2855: MCM 0.025 BIMOG 0.496 (1760s)
+  seed 2 R_emb BIMOG train + MCM  n=  312: MCM 0.570 BIMOG 0.139 (1851s)
+  seed 2 R_emb BIMOG train + MCM  n=  712: MCM 0.072 BIMOG 0.108 (2095s)
+  seed 2 R_emb BIMOG train + MCM  n= 1912: MCM 0.036 BIMOG 0.105 (2501s)
+  seed 2 R_emb BIMOG train + MCM  n= 3167: MCM 0.029 BIMOG 0.099 (2966s)
+                              MCM org BIMOG org  MCM w
+regime            n_train_mol                         
+BIMOG train + MCM 312           0.570     0.139  0.058
+                  712           0.072     0.108  0.009
+                  1912          0.036     0.105  0.005
+                  3167          0.029     0.099  0.004
+MCM only          100           0.288     1.859  0.031
+                  200           0.142     1.344  0.017
+                  400           0.085     0.736  0.010
+                  800           0.048     0.886  0.006
+                  1600          0.030     0.834  0.004
+                  2855          0.025     0.496  0.004
+DONE t4 remb (2966s)

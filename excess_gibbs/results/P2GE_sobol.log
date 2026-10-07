@@ -1,0 +1,125 @@
+=== Finalized input vector spec (len=15) ===
+  m_Na+      [mol/kg H2O]
+  m_K+       [mol/kg H2O]
+  m_NH4+     [mol/kg H2O]
+  m_Ca2+     [mol/kg H2O]
+  m_H+       [mol/kg H2O]
+  m_Cl-      [mol/kg H2O]
+  m_NO3-     [mol/kg H2O]
+  m_SO4--    [mol/kg H2O]
+  m_HSO4-    [mol/kg H2O]
+  m_HCO3-    [mol/kg H2O]
+  m_CO3--    [mol/kg H2O]
+  m_IO3-     [mol/kg H2O]
+  m_I-       [mol/kg H2O]
+  m_OH-      [mol/kg H2O]
+  T_K        [K]
+
+=== Output vector spec (component ln(gamma), len=15) ===
+  ln_gamma_H2O
+  ln_gamma_Na+
+  ln_gamma_K+
+  ln_gamma_NH4+
+  ln_gamma_Ca2+
+  ln_gamma_H+
+  ln_gamma_Cl-
+  ln_gamma_NO3-
+  ln_gamma_SO4--
+  ln_gamma_HSO4-
+  ln_gamma_HCO3-
+  ln_gamma_CO3--
+  ln_gamma_IO3-
+  ln_gamma_I-
+  ln_gamma_OH-
+
+===== sobol
+  NaCl: 0 failed AIOMFAC points of 2048 (28s)
+  NaCl+NaNO3+KCl+KNO3: 0 failed AIOMFAC points of 1792 (54s)
+aiomfac-python/src/aiomfac_py/carbonate.py:123: RuntimeWarning: overflow encountered in divide
+  smc_m, sma_m = smc_t / solvmass, sma_t / solvmass
+aiomfac-python/src/aiomfac_py/model.py:125: RuntimeWarning: invalid value encountered in divide
+  return np.concatenate([m_neutral, smc[:nc], sma[:na]]) / sum_molal
+aiomfac-python/src/aiomfac_py/lr.py:41: RuntimeWarning: invalid value encountered in scalar subtract
+  term_i = bb - 1.0 / bb - 2.0 * math.log(bb)
+aiomfac-python/src/aiomfac_py/lr.py:44: RuntimeWarning: invalid value encountered in scalar divide
+  lrw1 = A * SI2 / bb
+aiomfac-python/src/aiomfac_py/mr.py:125: RuntimeWarning: invalid value encountered in multiply
+  oexp1 = st.omega * SI2
+aiomfac-python/src/aiomfac_py/mr.py:127: RuntimeWarning: invalid value encountered in multiply
+  oexp2 = st.omega2 * SI2
+aiomfac-python/src/aiomfac_py/mr.py:142: RuntimeWarning: invalid value encountered in multiply
+  SumBm = (Bka * sma[None, :] + Bkc * smc[None, :]).sum(axis=1)
+aiomfac-python/src/aiomfac_py/mr.py:143: RuntimeWarning: invalid value encountered in multiply
+  Sumkion1 = float(np.sum((Bka + SI * BSka) * mg_x[:, None] * sma[None, :]
+aiomfac-python/src/aiomfac_py/mr.py:144: RuntimeWarning: invalid value encountered in multiply
+  + (Bkc + SI * BSkc) * mg_x[:, None] * smc[None, :]))
+aiomfac-python/src/aiomfac_py/mr.py:145: RuntimeWarning: invalid value encountered in multiply
+  M = Bca + SI * BSca + 2.0 * Z * Cnca + Z * SI * CSca
+aiomfac-python/src/aiomfac_py/mr.py:163: RuntimeWarning: invalid value encountered in multiply
+  SumCBca = ((Bca + Z * Cnca) * sma[None, :]).sum(axis=1)
+aiomfac-python/src/aiomfac_py/mr.py:164: RuntimeWarning: invalid value encountered in multiply
+  SumABca = ((Bca + Z * Cnca) * smc[:, None]).sum(axis=0)
+aiomfac-python/src/aiomfac_py/mr.py:165: RuntimeWarning: invalid value encountered in multiply
+  pair = smc[:, None] * sma[None, :]
+aiomfac-python/src/aiomfac_py/mr.py:166: RuntimeWarning: invalid value encountered in multiply
+  SumBsCA = float(np.sum(BSca * pair)); SumCnca = float(np.sum(Cnca * pair)); SumCsca = float(np.sum(CSca * pair))
+aiomfac-python/src/aiomfac_py/mr.py:167: RuntimeWarning: invalid value encountered in multiply
+  Sumkion2 = float(np.sum(BSka * mg_x[:, None] * sma[None, :] + BSkc * mg_x[:, None] * smc[None, :]))
+aiomfac-python/src/aiomfac_py/mr.py:170: RuntimeWarning: invalid value encountered in multiply
+  + cation_z * SumCnca + 0.5 * zc2 * Z * SumCsca)
+aiomfac-python/src/aiomfac_py/carbonate.py:75: RuntimeWarning: invalid value encountered in multiply
+  return float(2.0 * np.sum(smc[:sr.n_cation] * lam_c) + 2.0 * np.sum(sma[:sr.n_anion] * lam_a))
+aiomfac-python/src/aiomfac_py/carbonate.py:145: RuntimeWarning: divide by zero encountered in scalar divide
+  d1 = ln_k1_bicarb + math.log(max(m_h * m_hco3 / (m_co2 * x_water), 1e-300)) - ln_k1
+aiomfac-python/src/aiomfac_py/mr.py:165: RuntimeWarning: overflow encountered in multiply
+  pair = smc[:, None] * sma[None, :]
+aiomfac-python/src/aiomfac_py/carbonate.py:147: RuntimeWarning: overflow encountered in scalar multiply
+  d3 = ln_kw_bicarb + math.log(max(m_h * m_oh / x_water, 1e-300)) - ln_kw
+aiomfac-python/src/aiomfac_py/carbonate.py:147: RuntimeWarning: overflow encountered in scalar divide
+  d3 = ln_kw_bicarb + math.log(max(m_h * m_oh / x_water, 1e-300)) - ln_kw
+aiomfac-python/src/aiomfac_py/carbonate.py:145: RuntimeWarning: overflow encountered in scalar divide
+  d1 = ln_k1_bicarb + math.log(max(m_h * m_hco3 / (m_co2 * x_water), 1e-300)) - ln_k1
+  Ca(IO3)2+NaHSO4+NaHCO3: 0 failed AIOMFAC points of 1536 (523s)
+                                                      S1                ST          
+source                                           AIOMFAC surrogate AIOMFAC surrogate
+case                   output         factor                                        
+Ca(IO3)2+NaHSO4+NaHCO3 ln_gamma_Ca2+  T_K          0.029    -0.045   0.042     0.099
+                                      m_Ca2+IO3-   0.164     0.064   0.683     0.106
+                                      m_Na+HCO3-   0.121     0.132   0.503     0.206
+                                      m_Na+HSO4-   0.106     0.616   0.656     0.940
+                       ln_gamma_H2O   T_K          0.002     0.001   0.040     0.038
+                                      m_Ca2+IO3-   0.244     0.270   0.369     0.393
+                                      m_Na+HCO3-   0.133     0.147   0.193     0.212
+                                      m_Na+HSO4-   0.466     0.444   0.649     0.607
+                       ln_gamma_HSO4- T_K          0.017     0.002   0.042     0.012
+                                      m_Ca2+IO3-   0.183     0.346   0.410     0.655
+                                      m_Na+HCO3-  -0.003     0.015   0.163     0.086
+                                      m_Na+HSO4-   0.470     0.255   0.797     0.610
+NaCl                   ln_gamma_H2O   T_K          0.009     0.009   0.027     0.029
+                                      m_Na+Cl-     0.987     0.986   1.008     1.008
+                       ln_gamma_Na+   T_K          0.012     0.013   0.018     0.019
+                                      m_Na+Cl-     0.982     0.981   0.987     0.986
+NaCl+NaNO3+KCl+KNO3    ln_gamma_H2O   T_K          0.001     0.001   0.002     0.002
+                                      m_K+Cl-      0.046     0.051   0.059     0.062
+                                      m_K+NO3-     0.671     0.670   0.752     0.749
+                                      m_Na+Cl-     0.046     0.041   0.100     0.091
+                                      m_Na+NO3-    0.183     0.186   0.213     0.214
+                       ln_gamma_K+    T_K          0.010     0.010   0.013     0.013
+                                      m_K+Cl-      0.043     0.048   0.055     0.059
+                                      m_K+NO3-     0.392     0.398   0.449     0.456
+                                      m_Na+Cl-     0.015     0.016   0.059     0.057
+                                      m_Na+NO3-    0.414     0.404   0.513     0.500
+                       ln_gamma_Na+   T_K          0.042     0.044   0.048     0.050
+                                      m_K+Cl-      0.030     0.031   0.117     0.120
+                                      m_K+NO3-     0.312     0.332   0.431     0.455
+                                      m_Na+Cl-     0.004     0.002   0.122     0.115
+                                      m_Na+NO3-    0.332     0.311   0.530     0.503
+                      case          output        S1
+4                     NaCl    ln_gamma_H2O  0.000020
+9                     NaCl    ln_gamma_Na+  0.004032
+20     NaCl+NaNO3+KCl+KNO3    ln_gamma_H2O  0.000121
+31     NaCl+NaNO3+KCl+KNO3    ln_gamma_Na+  0.006354
+42     NaCl+NaNO3+KCl+KNO3     ln_gamma_K+  0.005485
+51  Ca(IO3)2+NaHSO4+NaHCO3    ln_gamma_H2O  0.000185
+60  Ca(IO3)2+NaHSO4+NaHCO3   ln_gamma_Ca2+  0.036001
+69  Ca(IO3)2+NaHSO4+NaHCO3  ln_gamma_HSO4-  0.012588

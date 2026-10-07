@@ -1,0 +1,69 @@
+11040 points: fit 6740, val 748, interp 1872, gen 1680
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+WARNING: not all atoms were correctly matched to AIOMFAC subgroups for the input SMILES at ind 00
+Number of non-H atoms not matched to any AIOMFAC subgroup: 01
+synthetic pool 361 molecules, 7220 points (6s)
+  seed 0: pretraining 31 epochs; A_emb 0.148, A_desc 0.236, B 0.380, C 0.456, D 0.273, E 0.226, F 0.529, G 0.334 (941s; total 947s)
+  seed 1: pretraining 65 epochs; A_emb 0.179, A_desc 0.274, B 0.315, C 0.370, D 0.219, E 0.224, F 0.442, G 0.317 (1085s; total 2033s)
+  seed 2: pretraining 45 epochs; A_emb 0.142, A_desc 0.253, B 0.314, C 0.354, D 0.246, E 0.248, F 0.472, G 0.295 (968s; total 3001s)
+  seed 3: pretraining 28 epochs; A_emb 0.165, A_desc 0.257, B 0.406, C 0.344, D 0.227, E 0.249, F 0.493, G 0.302 (1006s; total 4007s)
+  seed 4: pretraining 43 epochs; A_emb 0.145, A_desc 0.260, B 0.328, C 0.324, D 0.224, E 0.268, F 0.433, G 0.287 (1102s; total 5109s)
+                gen_w        gen_org     interp_org
+model                                              
+A_emb   0.012 ± 0.001  0.156 ± 0.016  0.076 ± 0.012
+A_desc  0.020 ± 0.001  0.256 ± 0.014  0.111 ± 0.013
+B       0.027 ± 0.004  0.349 ± 0.042  0.115 ± 0.010
+C       0.026 ± 0.003  0.370 ± 0.051  0.111 ± 0.019
+D       0.019 ± 0.003  0.238 ± 0.022  0.087 ± 0.014
+E       0.018 ± 0.003  0.243 ± 0.018  0.086 ± 0.012
+F       0.038 ± 0.004  0.474 ± 0.039  0.256 ± 0.043
+G       0.025 ± 0.001  0.307 ± 0.019  0.206 ± 0.012
+C better than B in 2 of 5 seeds; G <= F in 5
+DONE gnn t3 (5109s)

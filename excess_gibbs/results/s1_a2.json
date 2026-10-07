@@ -1,0 +1,3404 @@
+{
+ "pinonaldehyde": {
+  "binodal": {
+   "aiomfac": {
+    "x1": 0.001865373972006217,
+    "x2": 0.675006300623769,
+    "aw": 0.9982499366763755
+   },
+   "ge_release": {
+    "x1": 0.0018252651541171795,
+    "x2": 0.6773437867915457,
+    "aw": 0.9982929567595348
+   },
+   "ge_release_rand": {
+    "x1": 0.0018252651541171795,
+    "x2": 0.6773437867915457,
+    "aw": 0.9982929567595348
+   },
+   "remb_release_raw": {
+    "x1": 0.001724033498824073,
+    "x2": 0.683066504848187,
+    "aw": 0.9984722334783336
+   }
+  },
+  "pe": {
+   "aiomfac": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9977499366763756,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.6754600216745441
+     ],
+     "n_eval": 281,
+     "n_ood": 0,
+     "time_s": 0.029,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9987499366763755,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0013070212009851612
+     ],
+     "n_eval": 335,
+     "n_ood": 0,
+     "time_s": 0.029,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.7154662425651629
+      ],
+      "n_eval": 75,
+      "n_ood": 0,
+      "time_s": 0.01,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6910757383466478
+      ],
+      "n_eval": 77,
+      "n_ood": 0,
+      "time_s": 0.01,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6823939259636828
+      ],
+      "n_eval": 79,
+      "n_ood": 0,
+      "time_s": 0.01,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6797316024849749
+      ],
+      "n_eval": 251,
+      "n_ood": 0,
+      "time_s": 0.027,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6779415053284086
+      ],
+      "n_eval": 272,
+      "n_ood": 0,
+      "time_s": 0.028,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6761390800386724
+      ],
+      "n_eval": 271,
+      "n_ood": 0,
+      "time_s": 0.029,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.675233201523697
+      ],
+      "n_eval": 292,
+      "n_ood": 0,
+      "time_s": 0.031,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015833335797267244
+      ],
+      "n_eval": 214,
+      "n_ood": 0,
+      "time_s": 0.02,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010358841311796853
+      ],
+      "n_eval": 272,
+      "n_ood": 0,
+      "time_s": 0.024,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005087042218099337
+      ],
+      "n_eval": 59,
+      "n_ood": 0,
+      "time_s": 0.009,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010034017919584634
+      ],
+      "n_eval": 28,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9977499366763756,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.6778273779300134,
+      0.0
+     ],
+     "n_eval": 192,
+     "n_ood": 71,
+     "time_s": 0.406,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9987499366763755,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.001311605453119068
+     ],
+     "n_eval": 335,
+     "n_ood": 15,
+     "time_s": 0.512,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9977929567595348,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.6777890957527682,
+      0.0
+     ],
+     "n_eval": 190,
+     "n_ood": 69,
+     "time_s": 0.399,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9987929567595347,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0012642660922404254
+     ],
+     "n_eval": 323,
+     "n_ood": 17,
+     "time_s": 0.383,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.717260799557226
+      ],
+      "n_eval": 69,
+      "n_ood": 16,
+      "time_s": 0.112,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6931789143755486
+      ],
+      "n_eval": 71,
+      "n_ood": 16,
+      "time_s": 0.117,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6846375458996178
+      ],
+      "n_eval": 73,
+      "n_ood": 15,
+      "time_s": 0.119,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6820215042381403,
+       0.0
+      ],
+      "n_eval": 188,
+      "n_ood": 73,
+      "time_s": 0.411,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6802633910868966,
+       0.0
+      ],
+      "n_eval": 196,
+      "n_ood": 78,
+      "time_s": 0.425,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+     },
+     {
+      "rh": 0.997,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6784938624523071,
+       0.0
+      ],
+      "n_eval": 185,
+      "n_ood": 68,
+      "time_s": 0.388,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+     },
+     {
+      "rh": 0.998,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6776047797139526,
+       0.0
+      ],
+      "n_eval": 191,
+      "n_ood": 81,
+      "time_s": 0.417,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001590047863155693
+      ],
+      "n_eval": 193,
+      "n_ood": 14,
+      "time_s": 0.257,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010387695286660779
+      ],
+      "n_eval": 274,
+      "n_ood": 26,
+      "time_s": 0.338,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.000509403017571059
+      ],
+      "n_eval": 63,
+      "n_ood": 33,
+      "time_s": 0.102,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0001003674624473509
+      ],
+      "n_eval": 24,
+      "n_ood": 17,
+      "time_s": 0.059,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release_rand": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9977499366763756,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.6778273963403673
+     ],
+     "n_eval": 184,
+     "n_ood": 63,
+     "time_s": 0.246,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9987499366763755,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0013116054533017865
+     ],
+     "n_eval": 331,
+     "n_ood": 11,
+     "time_s": 0.44,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9977929567595348,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.6777891156196788
+     ],
+     "n_eval": 181,
+     "n_ood": 63,
+     "time_s": 0.24,
+     "message": ""
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9987929567595347,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0012642660924112926
+     ],
+     "n_eval": 319,
+     "n_ood": 13,
+     "time_s": 0.351,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.71726079984787
+      ],
+      "n_eval": 65,
+      "n_ood": 16,
+      "time_s": 0.08,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6931789147516532
+      ],
+      "n_eval": 67,
+      "n_ood": 16,
+      "time_s": 0.081,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6846375463308132
+      ],
+      "n_eval": 69,
+      "n_ood": 15,
+      "time_s": 0.083,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6820215226995423
+      ],
+      "n_eval": 181,
+      "n_ood": 100,
+      "time_s": 0.249,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.680263409550373
+      ],
+      "n_eval": 173,
+      "n_ood": 94,
+      "time_s": 0.245,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6784938809092002
+      ],
+      "n_eval": 178,
+      "n_ood": 96,
+      "time_s": 0.248,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.6776047980679153
+      ],
+      "n_eval": 180,
+      "n_ood": 69,
+      "time_s": 0.239,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015900478634275044
+      ],
+      "n_eval": 189,
+      "n_ood": 10,
+      "time_s": 0.211,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010387695287910807
+      ],
+      "n_eval": 270,
+      "n_ood": 22,
+      "time_s": 0.301,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005094030176243919
+      ],
+      "n_eval": 59,
+      "n_ood": 29,
+      "time_s": 0.073,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010036746244749762
+      ],
+      "n_eval": 21,
+      "n_ood": 14,
+      "time_s": 0.034,
+      "message": ""
+     }
+    ]
+   },
+   "remb_release_raw": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9977499366763756,
+     "status": "not_converged",
+     "n_liquids": 3,
+     "x_org": [
+      0.6836986851823251,
+      0.19188460127746654,
+      0.0
+     ],
+     "n_eval": 6684,
+     "n_ood": 2903,
+     "time_s": 1.922,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-2.26e-03); inner Newton iteration stopped early (line search)"
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9987499366763755,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.001021138436473379
+     ],
+     "n_eval": 643,
+     "n_ood": 387,
+     "time_s": 0.162,
+     "message": ""
+    },
+    "remb_release_raw_onset-0.0005": {
+     "rh": 0.9979722334783336,
+     "status": "not_converged",
+     "n_liquids": 3,
+     "x_org": [
+      0.683504630328124,
+      0.18291025226152405,
+      0.0
+     ],
+     "n_eval": 4608,
+     "n_ood": 1982,
+     "time_s": 1.379,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-2.00e-03); inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset+0.0005": {
+     "rh": 0.9989722334783335,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0004379845520303412
+     ],
+     "n_eval": 444,
+     "n_ood": 425,
+     "time_s": 0.119,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.7215298146928113,
+       0.716632215525246
+      ],
+      "n_eval": 2621,
+      "n_ood": 738,
+      "time_s": 0.604,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.98,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.7093900156769106,
+       0.6911990697932584
+      ],
+      "n_eval": 2546,
+      "n_ood": 368,
+      "time_s": 0.603,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.99,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6899344514972134,
+       0.0
+      ],
+      "n_eval": 15779,
+      "n_ood": 219,
+      "time_s": 5.106,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; stability test still negative (TPD=-1.17e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.993,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.687582468735621,
+       0.0
+      ],
+      "n_eval": 10510,
+      "n_ood": 148,
+      "time_s": 4.095,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; stability test still negative (TPD=-1.38e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.6859756061082654,
+       0.0
+      ],
+      "n_eval": 6775,
+      "n_ood": 522,
+      "time_s": 2.883,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; stability test still negative (TPD=-1.41e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.997,
+      "status": "not_converged",
+      "n_liquids": 3,
+      "x_org": [
+       0.6843384592633034,
+       0.0007250015514716415,
+       0.0
+      ],
+      "n_eval": 8282,
+      "n_ood": 176,
+      "time_s": 3.558,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-2.29e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.998,
+      "status": "not_converged",
+      "n_liquids": 3,
+      "x_org": [
+       0.683480360268175,
+       0.18172745734569526,
+       0.0
+      ],
+      "n_eval": 3678,
+      "n_ood": 1415,
+      "time_s": 1.206,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-2.00e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0016543132195525787
+      ],
+      "n_eval": 1178,
+      "n_ood": 377,
+      "time_s": 0.276,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0003637763979967217
+      ],
+      "n_eval": 440,
+      "n_ood": 426,
+      "time_s": 0.116,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       4.8465560005743106e-08
+      ],
+      "n_eval": 443,
+      "n_ood": 441,
+      "time_s": 0.516,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       6.921890779728947e-09
+      ],
+      "n_eval": 451,
+      "n_ood": 449,
+      "time_s": 0.518,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     }
+    ]
+   }
+  }
+ },
+ "pinonic_acid": {
+  "binodal": {
+   "aiomfac": {
+    "x1": 0.0014705363558751025,
+    "x2": 0.38802454336397213,
+    "aw": 0.9986237887904922
+   },
+   "ge_release": {
+    "x1": 0.0014136111333343101,
+    "x2": 0.38296150366083,
+    "aw": 0.9986799508437112
+   },
+   "ge_release_rand": {
+    "x1": 0.0014136111333343101,
+    "x2": 0.38296150366083,
+    "aw": 0.9986799508437112
+   },
+   "remb_release_raw": {
+    "x1": 0.00149883649722169,
+    "x2": 0.3881598487912353,
+    "aw": 0.9984704159904575
+   }
+  },
+  "pe": {
+   "aiomfac": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9981237887904922,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.38841346162530677
+     ],
+     "n_eval": 47,
+     "n_ood": 0,
+     "time_s": 0.008,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9991237887904921,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0009128282848022188
+     ],
+     "n_eval": 335,
+     "n_ood": 0,
+     "time_s": 0.029,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.4236080801090932
+      ],
+      "n_eval": 46,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.40214979843064075
+      ],
+      "n_eval": 46,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3946543779389236
+      ],
+      "n_eval": 47,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.39236641324949195
+      ],
+      "n_eval": 47,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.390830373726624
+      ],
+      "n_eval": 47,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3892854904607377
+      ],
+      "n_eval": 47,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3885096600284902
+      ],
+      "n_eval": 47,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3881208845949409
+      ],
+      "n_eval": 220,
+      "n_ood": 0,
+      "time_s": 0.025,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010481952814753778
+      ],
+      "n_eval": 156,
+      "n_ood": 0,
+      "time_s": 0.016,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005115620757771793
+      ],
+      "n_eval": 55,
+      "n_ood": 0,
+      "time_s": 0.009,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010044825345341727
+      ],
+      "n_eval": 32,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9981237887904922,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.3834018854956683
+     ],
+     "n_eval": 43,
+     "n_ood": 15,
+     "time_s": 0.085,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9991237887904921,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0009158294877121909
+     ],
+     "n_eval": 323,
+     "n_ood": 17,
+     "time_s": 0.38,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9981799508437113,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.3833574476483136
+     ],
+     "n_eval": 43,
+     "n_ood": 15,
+     "time_s": 0.084,
+     "message": ""
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9991799508437111,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0008545832877442309
+     ],
+     "n_eval": 323,
+     "n_ood": 18,
+     "time_s": 0.385,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.4192458679626466
+      ],
+      "n_eval": 42,
+      "n_ood": 16,
+      "time_s": 0.087,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3973882748560934
+      ],
+      "n_eval": 42,
+      "n_ood": 15,
+      "time_s": 0.088,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38975549060082476
+      ],
+      "n_eval": 42,
+      "n_ood": 15,
+      "time_s": 0.083,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38742600858293696
+      ],
+      "n_eval": 43,
+      "n_ood": 15,
+      "time_s": 0.09,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38586222469025283
+      ],
+      "n_eval": 43,
+      "n_ood": 15,
+      "time_s": 0.085,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38428954950350985
+      ],
+      "n_eval": 43,
+      "n_ood": 15,
+      "time_s": 0.085,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3834998067940807
+      ],
+      "n_eval": 43,
+      "n_ood": 15,
+      "time_s": 0.084,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.38310406680015724,
+       0.0
+      ],
+      "n_eval": 150,
+      "n_ood": 82,
+      "time_s": 0.352,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010521654076352147
+      ],
+      "n_eval": 115,
+      "n_ood": 14,
+      "time_s": 0.158,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005124961252100602
+      ],
+      "n_eval": 64,
+      "n_ood": 29,
+      "time_s": 0.105,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010048395850682296
+      ],
+      "n_eval": 25,
+      "n_ood": 20,
+      "time_s": 0.061,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release_rand": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9981237887904922,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.3834018855448016
+     ],
+     "n_eval": 39,
+     "n_ood": 15,
+     "time_s": 0.055,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9991237887904921,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0009158294878332937
+     ],
+     "n_eval": 319,
+     "n_ood": 13,
+     "time_s": 0.351,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9981799508437113,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.3833574476974486
+     ],
+     "n_eval": 39,
+     "n_ood": 15,
+     "time_s": 0.055,
+     "message": ""
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9991799508437111,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0008545832878522341
+     ],
+     "n_eval": 319,
+     "n_ood": 14,
+     "time_s": 0.352,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.4192458680110725
+      ],
+      "n_eval": 38,
+      "n_ood": 16,
+      "time_s": 0.054,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3973882749048105
+      ],
+      "n_eval": 38,
+      "n_ood": 15,
+      "time_s": 0.053,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3897554906497434
+      ],
+      "n_eval": 38,
+      "n_ood": 15,
+      "time_s": 0.053,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38742600863192894
+      ],
+      "n_eval": 39,
+      "n_ood": 15,
+      "time_s": 0.055,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3858622247392976
+      ],
+      "n_eval": 39,
+      "n_ood": 15,
+      "time_s": 0.055,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.38428954955261035
+      ],
+      "n_eval": 39,
+      "n_ood": 15,
+      "time_s": 0.056,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3834998068432103
+      ],
+      "n_eval": 39,
+      "n_ood": 15,
+      "time_s": 0.056,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.3831040716426082
+      ],
+      "n_eval": 226,
+      "n_ood": 117,
+      "time_s": 0.296,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010521654077927094
+      ],
+      "n_eval": 111,
+      "n_ood": 10,
+      "time_s": 0.127,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005124961252651826
+      ],
+      "n_eval": 60,
+      "n_ood": 25,
+      "time_s": 0.074,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010048395850689483
+      ],
+      "n_eval": 22,
+      "n_ood": 17,
+      "time_s": 0.034,
+      "message": ""
+     }
+    ]
+   },
+   "remb_release_raw": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9981237887904922,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.38148697080308946,
+      0.3735972299933132
+     ],
+     "n_eval": 2846,
+     "n_ood": 372,
+     "time_s": 0.662,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9991237887904921,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      3.893916461745072e-07
+     ],
+     "n_eval": 440,
+     "n_ood": 438,
+     "time_s": 0.517,
+     "message": "inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset-0.0005": {
+     "rh": 0.9979704159904575,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.38311132604724896,
+      0.3742031719721395
+     ],
+     "n_eval": 2109,
+     "n_ood": 372,
+     "time_s": 0.487,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset+0.0005": {
+     "rh": 0.9989704159904574,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.00036879581460608023
+     ],
+     "n_eval": 437,
+     "n_ood": 423,
+     "time_s": 0.117,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.42265047575152426,
+       0.4204177659903207
+      ],
+      "n_eval": 4137,
+      "n_ood": 772,
+      "time_s": 1.055,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.98,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.3836403304449573,
+       0.382587788323479
+      ],
+      "n_eval": 2493,
+      "n_ood": 375,
+      "time_s": 0.574,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.99,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.3842657112718774,
+       0.3742801390355087
+      ],
+      "n_eval": 3180,
+      "n_ood": 373,
+      "time_s": 0.723,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.993,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.38778574392477183,
+       0.37667911009846616
+      ],
+      "n_eval": 2497,
+      "n_ood": 412,
+      "time_s": 0.568,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.384897720615381,
+       0.37870274876535287
+      ],
+      "n_eval": 2461,
+      "n_ood": 372,
+      "time_s": 0.56,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.997,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.3833559030645193,
+       0.3770460207835001
+      ],
+      "n_eval": 2465,
+      "n_ood": 372,
+      "time_s": 0.562,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.998,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.38309409101199227,
+       0.3741795449129308
+      ],
+      "n_eval": 2109,
+      "n_ood": 372,
+      "time_s": 0.484,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0014449716478009682
+      ],
+      "n_eval": 1517,
+      "n_ood": 378,
+      "time_s": 0.361,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0002982497943536218
+      ],
+      "n_eval": 473,
+      "n_ood": 462,
+      "time_s": 0.125,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       4.9353963684495654e-08
+      ],
+      "n_eval": 451,
+      "n_ood": 449,
+      "time_s": 0.529,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       7.9494361270018e-09
+      ],
+      "n_eval": 451,
+      "n_ood": 449,
+      "time_s": 0.52,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     }
+    ]
+   }
+  }
+ },
+ "pinic_acid": {
+  "binodal": {
+   "aiomfac": {
+    "x1": 0.008369471408973417,
+    "x2": 0.20557652856498418,
+    "aw": 0.9936746862931298
+   },
+   "ge_release": {
+    "x1": 0.009379213298391783,
+    "x2": 0.20646128691570326,
+    "aw": 0.9932296731850778
+   },
+   "ge_release_rand": {
+    "x1": 0.009379213298391783,
+    "x2": 0.20646128691570326,
+    "aw": 0.9932296731850778
+   },
+   "remb_release_raw": {
+    "x1": 0.007250817140431568,
+    "x2": 0.20744484273962505,
+    "aw": 0.9956107365619212
+   }
+  },
+  "pe": {
+   "aiomfac": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9931746862931299,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.20635119770737495
+     ],
+     "n_eval": 269,
+     "n_ood": 0,
+     "time_s": 0.029,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9941746862931298,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0074736465374629244
+     ],
+     "n_eval": 168,
+     "n_ood": 0,
+     "time_s": 0.017,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.2579827354049854
+      ],
+      "n_eval": 90,
+      "n_ood": 0,
+      "time_s": 0.011,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.22467886658749014
+      ],
+      "n_eval": 77,
+      "n_ood": 0,
+      "time_s": 0.01,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.21110989577791658
+      ],
+      "n_eval": 78,
+      "n_ood": 0,
+      "time_s": 0.01,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.2066201299374227
+      ],
+      "n_eval": 568,
+      "n_ood": 0,
+      "time_s": 0.053,
+      "message": "inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.006126642406593133
+      ],
+      "n_eval": 353,
+      "n_ood": 0,
+      "time_s": 0.03,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00334872431400882
+      ],
+      "n_eval": 66,
+      "n_ood": 0,
+      "time_s": 0.009,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.002145371485541006
+      ],
+      "n_eval": 39,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015793658822185644
+      ],
+      "n_eval": 36,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010342792763226737
+      ],
+      "n_eval": 32,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005083377888960664
+      ],
+      "n_eval": 30,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010032651614810484
+      ],
+      "n_eval": 26,
+      "n_ood": 0,
+      "time_s": 0.006,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9931746862931299,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.20654922124309097,
+      0.0
+     ],
+     "n_eval": 245,
+     "n_ood": 11,
+     "time_s": 0.491,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh"
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9941746862931298,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.00758920858071935
+     ],
+     "n_eval": 353,
+     "n_ood": 3,
+     "time_s": 0.539,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9927296731850779,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.20725721533419753
+     ],
+     "n_eval": 369,
+     "n_ood": 4,
+     "time_s": 0.875,
+     "message": "inner Newton iteration stopped early (line search)"
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9937296731850778,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.00839941336772326
+     ],
+     "n_eval": 168,
+     "n_ood": 2,
+     "time_s": 0.214,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.25910933790007795
+      ],
+      "n_eval": 99,
+      "n_ood": 2,
+      "time_s": 0.139,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.22536768596255607
+      ],
+      "n_eval": 77,
+      "n_ood": 2,
+      "time_s": 0.117,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.21146701007879848
+      ],
+      "n_eval": 77,
+      "n_ood": 2,
+      "time_s": 0.116,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.20682791233767406
+      ],
+      "n_eval": 206,
+      "n_ood": 9,
+      "time_s": 0.472,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.006212678161140019
+      ],
+      "n_eval": 330,
+      "n_ood": 4,
+      "time_s": 0.392,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.003379082787124256
+      ],
+      "n_eval": 61,
+      "n_ood": 2,
+      "time_s": 0.1,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0021585835618145315
+      ],
+      "n_eval": 32,
+      "n_ood": 3,
+      "time_s": 0.071,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015867099234554674
+      ],
+      "n_eval": 29,
+      "n_ood": 15,
+      "time_s": 0.068,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010375026889721916
+      ],
+      "n_eval": 26,
+      "n_ood": 17,
+      "time_s": 0.065,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005091332232428913
+      ],
+      "n_eval": 24,
+      "n_ood": 18,
+      "time_s": 0.062,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010035799521253108
+      ],
+      "n_eval": 22,
+      "n_ood": 17,
+      "time_s": 0.057,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release_rand": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9931746862931299,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.20654922125875613
+     ],
+     "n_eval": 1392,
+     "n_ood": 255,
+     "time_s": 1.74,
+     "message": ""
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9941746862931298,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.0075892085935722045
+     ],
+     "n_eval": 348,
+     "n_ood": 3,
+     "time_s": 0.505,
+     "message": ""
+    },
+    "ge_release_onset-0.0005": {
+     "rh": 0.9927296731850779,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.20725721597999544
+     ],
+     "n_eval": 454,
+     "n_ood": 115,
+     "time_s": 0.573,
+     "message": ""
+    },
+    "ge_release_onset+0.0005": {
+     "rh": 0.9937296731850778,
+     "status": "converged",
+     "n_liquids": 1,
+     "x_org": [
+      0.00839941337794613
+     ],
+     "n_eval": 163,
+     "n_ood": 2,
+     "time_s": 0.182,
+     "message": ""
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.25910933820879156
+      ],
+      "n_eval": 95,
+      "n_ood": 2,
+      "time_s": 0.11,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.22536768610057079
+      ],
+      "n_eval": 73,
+      "n_ood": 2,
+      "time_s": 0.088,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.2114670101304859
+      ],
+      "n_eval": 73,
+      "n_ood": 2,
+      "time_s": 0.087,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.2068279126202897
+      ],
+      "n_eval": 735,
+      "n_ood": 169,
+      "time_s": 0.917,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.006212678174319494
+      ],
+      "n_eval": 325,
+      "n_ood": 4,
+      "time_s": 0.359,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0033790827903459044
+      ],
+      "n_eval": 57,
+      "n_ood": 2,
+      "time_s": 0.071,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0021585835625718415
+      ],
+      "n_eval": 28,
+      "n_ood": 3,
+      "time_s": 0.041,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015867099237695768
+      ],
+      "n_eval": 25,
+      "n_ood": 11,
+      "time_s": 0.038,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010375026891040239
+      ],
+      "n_eval": 22,
+      "n_ood": 13,
+      "time_s": 0.035,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005091332232963514
+      ],
+      "n_eval": 20,
+      "n_ood": 14,
+      "time_s": 0.033,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010035799521261477
+      ],
+      "n_eval": 19,
+      "n_ood": 14,
+      "time_s": 0.032,
+      "message": ""
+     }
+    ]
+   },
+   "remb_release_raw": {
+    "aiomfac_onset-0.0005": {
+     "rh": 0.9931746862931299,
+     "status": "not_converged",
+     "n_liquids": 3,
+     "x_org": [
+      0.20502883075974127,
+      0.20133531915929226,
+      0.1996782469877881
+     ],
+     "n_eval": 2395,
+     "n_ood": 3,
+     "time_s": 0.585,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "aiomfac_onset+0.0005": {
+     "rh": 0.9941746862931298,
+     "status": "not_converged",
+     "n_liquids": 3,
+     "x_org": [
+      0.2031675193266409,
+      0.20302506625158886,
+      0.20235986941136067
+     ],
+     "n_eval": 4209,
+     "n_ood": 6,
+     "time_s": 1.003,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset-0.0005": {
+     "rh": 0.9951107365619213,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.2321311578819923,
+      0.19277598036640903
+     ],
+     "n_eval": 2561,
+     "n_ood": 10,
+     "time_s": 0.61,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset+0.0005": {
+     "rh": 0.9961107365619212,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.004883078646740847,
+      0.004612357678537036
+     ],
+     "n_eval": 16472,
+     "n_ood": 12,
+     "time_s": 3.706,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.2636253226843021,
+       0.24898563680065336
+      ],
+      "n_eval": 3353,
+      "n_ood": 12,
+      "time_s": 0.778,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.98,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.21840683905344058,
+       0.21128689721305569
+      ],
+      "n_eval": 2206,
+      "n_ood": 3,
+      "time_s": 0.55,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.99,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.2057484802202083,
+       0.2040328595303198
+      ],
+      "n_eval": 2993,
+      "n_ood": 4,
+      "time_s": 0.693,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.993,
+      "status": "not_converged",
+      "n_liquids": 3,
+      "x_org": [
+       0.2044578726387745,
+       0.20329392166123675,
+       0.20314234868396722
+      ],
+      "n_eval": 3551,
+      "n_ood": 4,
+      "time_s": 0.857,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.21018259907811038,
+       0.20161347915558814
+      ],
+      "n_eval": 1947,
+      "n_ood": 11,
+      "time_s": 0.515,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.003397454784801544
+      ],
+      "n_eval": 471,
+      "n_ood": 2,
+      "time_s": 0.122,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00036768947854298305
+      ],
+      "n_eval": 430,
+      "n_ood": 424,
+      "time_s": 0.122,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       4.2089598682131454e-08
+      ],
+      "n_eval": 451,
+      "n_ood": 449,
+      "time_s": 0.52,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       2.0900806332443783e-08
+      ],
+      "n_eval": 451,
+      "n_ood": 449,
+      "time_s": 0.515,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       1.6679673751645708e-08
+      ],
+      "n_eval": 450,
+      "n_ood": 448,
+      "time_s": 0.515,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       6.549872565750126e-10
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.512,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     }
+    ]
+   }
+  }
+ },
+ "terpenylic_acid": {
+  "binodal": {
+   "aiomfac": null,
+   "ge_release": null,
+   "ge_release_rand": null,
+   "remb_release_raw": {
+    "x1": 0.055806388597209336,
+    "x2": 0.08947945236834653,
+    "aw": 0.9860550037814705
+   }
+  },
+  "pe": {
+   "aiomfac": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.16253577948139003
+      ],
+      "n_eval": 53,
+      "n_ood": 0,
+      "time_s": 0.009,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.10272782151873679
+      ],
+      "n_eval": 124,
+      "n_ood": 0,
+      "time_s": 0.014,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.014583725476063788
+      ],
+      "n_eval": 136,
+      "n_ood": 0,
+      "time_s": 0.014,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.008804921840820384
+      ],
+      "n_eval": 56,
+      "n_ood": 0,
+      "time_s": 0.009,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005821935477884762
+      ],
+      "n_eval": 40,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.003268375533338159
+      ],
+      "n_eval": 33,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.002114119739811645
+      ],
+      "n_eval": 32,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015628502001230596
+      ],
+      "n_eval": 30,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010273656778134993
+      ],
+      "n_eval": 29,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005067061224247361
+      ],
+      "n_eval": 29,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010026409323069186
+      ],
+      "n_eval": 24,
+      "n_ood": 0,
+      "time_s": 0.006,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.1602519551798912
+      ],
+      "n_eval": 50,
+      "n_ood": 2,
+      "time_s": 0.091,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.09325346099751544
+      ],
+      "n_eval": 143,
+      "n_ood": 2,
+      "time_s": 0.191,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.014724050605401691
+      ],
+      "n_eval": 54,
+      "n_ood": 2,
+      "time_s": 0.093,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.008935550293760308
+      ],
+      "n_eval": 40,
+      "n_ood": 2,
+      "time_s": 0.081,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005895657047633925
+      ],
+      "n_eval": 33,
+      "n_ood": 2,
+      "time_s": 0.074,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0032958032539637423
+      ],
+      "n_eval": 27,
+      "n_ood": 2,
+      "time_s": 0.065,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0021263465752719567
+      ],
+      "n_eval": 26,
+      "n_ood": 2,
+      "time_s": 0.064,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015697224351196516
+      ],
+      "n_eval": 24,
+      "n_ood": 15,
+      "time_s": 0.062,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010304138095067765
+      ],
+      "n_eval": 23,
+      "n_ood": 16,
+      "time_s": 0.062,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005074657830965473
+      ],
+      "n_eval": 23,
+      "n_ood": 18,
+      "time_s": 0.061,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010029438306179969
+      ],
+      "n_eval": 20,
+      "n_ood": 18,
+      "time_s": 0.055,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release_rand": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.16025195520511418
+      ],
+      "n_eval": 46,
+      "n_ood": 2,
+      "time_s": 0.062,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.09325346105414116
+      ],
+      "n_eval": 139,
+      "n_ood": 2,
+      "time_s": 0.16,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.014724050609421828
+      ],
+      "n_eval": 50,
+      "n_ood": 2,
+      "time_s": 0.064,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.008935550316225106
+      ],
+      "n_eval": 35,
+      "n_ood": 2,
+      "time_s": 0.048,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005895657062583889
+      ],
+      "n_eval": 28,
+      "n_ood": 2,
+      "time_s": 0.041,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0032958032567878158
+      ],
+      "n_eval": 23,
+      "n_ood": 2,
+      "time_s": 0.036,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0021263465759402784
+      ],
+      "n_eval": 22,
+      "n_ood": 2,
+      "time_s": 0.035,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001569722435406954
+      ],
+      "n_eval": 20,
+      "n_ood": 11,
+      "time_s": 0.032,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0010304138096332751
+      ],
+      "n_eval": 19,
+      "n_ood": 12,
+      "time_s": 0.031,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005074657831495002
+      ],
+      "n_eval": 19,
+      "n_ood": 14,
+      "time_s": 0.032,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010029438306195147
+      ],
+      "n_eval": 17,
+      "n_ood": 15,
+      "time_s": 0.029,
+      "message": ""
+     }
+    ]
+   },
+   "remb_release_raw": {
+    "remb_release_raw_onset-0.0005": {
+     "rh": 0.9855550037814705,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.027216333128408658,
+      0.027091432748170326
+     ],
+     "n_eval": 6112,
+     "n_ood": 19,
+     "time_s": 1.428,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "remb_release_raw_onset+0.0005": {
+     "rh": 0.9865550037814704,
+     "status": "not_converged",
+     "n_liquids": 2,
+     "x_org": [
+      0.024370958923831308,
+      0.023531113444122956
+     ],
+     "n_eval": 5318,
+     "n_ood": 15,
+     "time_s": 1.413,
+     "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+    },
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.16212808802235523
+      ],
+      "n_eval": 137,
+      "n_ood": 2,
+      "time_s": 0.046,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "not_converged",
+      "n_liquids": 3,
+      "x_org": [
+       0.12130638745990652,
+       0.1143013119523993,
+       0.10358454647737272
+      ],
+      "n_eval": 4348,
+      "n_ood": 12,
+      "time_s": 1.144,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-1.44e-03); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.99,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.014771818756062363,
+       0.01417931035351165
+      ],
+      "n_eval": 3740,
+      "n_ood": 11,
+      "time_s": 0.856,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00935707749421261
+      ],
+      "n_eval": 1920,
+      "n_ood": 2,
+      "time_s": 0.437,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.003911556317905963,
+       0.003800924773918305
+      ],
+      "n_eval": 1011,
+      "n_ood": 4,
+      "time_s": 0.24,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0011665712579073122
+      ],
+      "n_eval": 390,
+      "n_ood": 381,
+      "time_s": 0.106,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       4.496998126854251e-08
+      ],
+      "n_eval": 449,
+      "n_ood": 446,
+      "time_s": 0.518,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9985,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       2.3360180448248237e-08
+      ],
+      "n_eval": 448,
+      "n_ood": 446,
+      "time_s": 0.519,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       8.61400796833414e-09
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.525,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       1.1545195719917781e-08
+      ],
+      "n_eval": 448,
+      "n_ood": 446,
+      "time_s": 0.517,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       4.303001920796261e-10
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.519,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     }
+    ]
+   }
+  }
+ },
+ "MBTCA": {
+  "binodal": {
+   "aiomfac": null,
+   "ge_release": null,
+   "ge_release_rand": null,
+   "remb_release_raw": null
+  },
+  "pe": {
+   "aiomfac": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.07197209094426477
+      ],
+      "n_eval": 41,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.026700936288880543
+      ],
+      "n_eval": 42,
+      "n_ood": 0,
+      "time_s": 0.008,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.011665788856603373
+      ],
+      "n_eval": 33,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.007797293500722802
+      ],
+      "n_eval": 31,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005399070678838908
+      ],
+      "n_eval": 29,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0031406495602164437
+      ],
+      "n_eval": 29,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0020618133910609293
+      ],
+      "n_eval": 28,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015345710860771597
+      ],
+      "n_eval": 26,
+      "n_ood": 0,
+      "time_s": 0.007,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001015275848586795
+      ],
+      "n_eval": 26,
+      "n_ood": 0,
+      "time_s": 0.006,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005037965561586889
+      ],
+      "n_eval": 26,
+      "n_ood": 0,
+      "time_s": 0.006,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010015114204390177
+      ],
+      "n_eval": 23,
+      "n_ood": 0,
+      "time_s": 0.006,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0680728426481306
+      ],
+      "n_eval": 37,
+      "n_ood": 2,
+      "time_s": 0.078,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.026015215471827672
+      ],
+      "n_eval": 34,
+      "n_ood": 2,
+      "time_s": 0.075,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.011887945524639499
+      ],
+      "n_eval": 27,
+      "n_ood": 2,
+      "time_s": 0.068,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.007967670922780978
+      ],
+      "n_eval": 27,
+      "n_ood": 2,
+      "time_s": 0.069,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005503661066641396
+      ],
+      "n_eval": 25,
+      "n_ood": 2,
+      "time_s": 0.066,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.003183376773612399
+      ],
+      "n_eval": 24,
+      "n_ood": 4,
+      "time_s": 0.065,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.002081699158002045
+      ],
+      "n_eval": 21,
+      "n_ood": 4,
+      "time_s": 0.059,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0015459760692278803
+      ],
+      "n_eval": 20,
+      "n_ood": 16,
+      "time_s": 0.058,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001020432627671389
+      ],
+      "n_eval": 20,
+      "n_ood": 17,
+      "time_s": 0.058,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005051053869976959
+      ],
+      "n_eval": 20,
+      "n_ood": 18,
+      "time_s": 0.059,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010020405787133588
+      ],
+      "n_eval": 19,
+      "n_ood": 17,
+      "time_s": 0.054,
+      "message": ""
+     }
+    ]
+   },
+   "ge_release_rand": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.06807284268307283
+      ],
+      "n_eval": 33,
+      "n_ood": 2,
+      "time_s": 0.048,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.02601521547562786
+      ],
+      "n_eval": 30,
+      "n_ood": 2,
+      "time_s": 0.045,
+      "message": ""
+     },
+     {
+      "rh": 0.99,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.011887945526240522
+      ],
+      "n_eval": 23,
+      "n_ood": 2,
+      "time_s": 0.039,
+      "message": ""
+     },
+     {
+      "rh": 0.993,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.007967670923789654
+      ],
+      "n_eval": 23,
+      "n_ood": 2,
+      "time_s": 0.038,
+      "message": ""
+     },
+     {
+      "rh": 0.995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005503661067300734
+      ],
+      "n_eval": 21,
+      "n_ood": 2,
+      "time_s": 0.036,
+      "message": ""
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0031833767945980873
+      ],
+      "n_eval": 19,
+      "n_ood": 4,
+      "time_s": 0.031,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0020816991619218243
+      ],
+      "n_eval": 17,
+      "n_ood": 4,
+      "time_s": 0.03,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001545976070404315
+      ],
+      "n_eval": 16,
+      "n_ood": 12,
+      "time_s": 0.029,
+      "message": ""
+     },
+     {
+      "rh": 0.999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.001020432627930605
+      ],
+      "n_eval": 16,
+      "n_ood": 13,
+      "time_s": 0.028,
+      "message": ""
+     },
+     {
+      "rh": 0.9995,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.0005051053870546452
+      ],
+      "n_eval": 16,
+      "n_ood": 14,
+      "time_s": 0.028,
+      "message": ""
+     },
+     {
+      "rh": 0.9999,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00010020405787142279
+      ],
+      "n_eval": 16,
+      "n_ood": 14,
+      "time_s": 0.028,
+      "message": ""
+     }
+    ]
+   },
+   "remb_release_raw": {
+    "scan": [
+     {
+      "rh": 0.95,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.07537657924613422
+      ],
+      "n_eval": 439,
+      "n_ood": 2,
+      "time_s": 0.117,
+      "message": ""
+     },
+     {
+      "rh": 0.98,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.024133883391176402,
+       0.023376946202155496
+      ],
+      "n_eval": 2880,
+      "n_ood": 4,
+      "time_s": 0.656,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.99,
+      "status": "not_converged",
+      "n_liquids": 3,
+      "x_org": [
+       0.014750108168017,
+       0.013728078800503337,
+       0.01361646680829542
+      ],
+      "n_eval": 3386,
+      "n_ood": 24,
+      "time_s": 0.945,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; stability test still negative (TPD=-2.50e-04); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.993,
+      "status": "not_converged",
+      "n_liquids": 2,
+      "x_org": [
+       0.007604610614812215,
+       0.007267625243298395
+      ],
+      "n_eval": 2251,
+      "n_ood": 4,
+      "time_s": 0.522,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh, max_neutral_mu_spread; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.005883983746861866
+      ],
+      "n_eval": 6808,
+      "n_ood": 10,
+      "time_s": 1.699,
+      "message": "stability test still negative (TPD=-1.22e-04); inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.997,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.002410900617096433
+      ],
+      "n_eval": 1149,
+      "n_ood": 375,
+      "time_s": 0.273,
+      "message": ""
+     },
+     {
+      "rh": 0.998,
+      "status": "converged",
+      "n_liquids": 1,
+      "x_org": [
+       0.00038250841423599776
+      ],
+      "n_eval": 1193,
+      "n_ood": 1190,
+      "time_s": 0.285,
+      "message": ""
+     },
+     {
+      "rh": 0.9985,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       8.962162586925562e-09
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.524,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       2.8341290581207987e-08
+      ],
+      "n_eval": 448,
+      "n_ood": 446,
+      "time_s": 0.52,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9995,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       1.0840334965521002e-09
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.517,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     },
+     {
+      "rh": 0.9999,
+      "status": "not_converged",
+      "n_liquids": 1,
+      "x_org": [
+       1.874743817190166e-09
+      ],
+      "n_eval": 447,
+      "n_ood": 445,
+      "time_s": 0.541,
+      "message": "equilibrium conditions violated: max_abs_ln_aw_minus_ln_rh; inner Newton iteration stopped early (line search)"
+     }
+    ]
+   }
+  }
+ }
+}

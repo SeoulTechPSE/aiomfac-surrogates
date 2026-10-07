@@ -9,9 +9,15 @@ Fortran reference model.
 |---|---|---|
 | **Part 1** | *Neural-network surrogates for AIOMFAC – Part 1: Binary water–organic activity coefficients, molecular representation and data scale* | [`part1_organic_surrogate/`](part1_organic_surrogate/) |
 | **Part 2** | *Neural-network surrogates for AIOMFAC – Part 2: Aqueous electrolyte mixtures and organic–electrolyte coupling* | [`part2_inorganic_surrogate/`](part2_inorganic_surrogate/) |
+| **v3 (excess Gibbs energy)** | revised versions of Parts 1 and 2: *Thermodynamically consistent* surrogates that predict an excess Gibbs energy | [`excess_gibbs/`](excess_gibbs/) |
 
-Each folder has its own README, which maps every table and figure of the paper to the notebook section that
-produces it. All notebooks are stored **with their outputs**, so results can be inspected without re-running.
+The folders `part1_organic_surrogate/` and `part2_inorganic_surrogate/` reproduce the earlier versions (release
+v2.0.1); [`excess_gibbs/`](excess_gibbs/) reproduces the current versions (release v3.0.0) and reads some data from
+the earlier folders.
+
+Each folder has its own README, which maps every table and figure of the paper to the notebook section or script
+that produces it. Notebooks are stored **with their outputs**, and all result files of the scripts are included, so
+results can be inspected without re-running.
 
 ## What the repository contains
 

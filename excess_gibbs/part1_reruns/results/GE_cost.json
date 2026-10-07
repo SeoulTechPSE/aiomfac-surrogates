@@ -1,0 +1,49 @@
+{
+ "n_parameters": 36465,
+ "numpy_vs_autograd_max_abs": 1.1920928955078125e-06,
+ "aiomfac_median": {
+  "s2as_ms": 1.9124062760965899,
+  "build_ms": 0.04841103916987777,
+  "aiomfac_us": 76.82412501890212
+ },
+ "per_point_us": {
+  "numpy_batched": 2.98231996227211,
+  "numpy_one": 44.74341653985903,
+  "torch_cpu_batched": 3.456717708225672,
+  "torch_cpu_one": 255.43450005352497,
+  "mps_batched": 1.4120003499556333,
+  "mps_one": 2013.403750024736
+ },
+ "table6": [
+  {
+   "points": 1,
+   "aiomfac_ms": 2.0376414402853698,
+   "surrogate_ms": 1.9153885960588621,
+   "speedup": 1.0638266534937386
+  },
+  {
+   "points": 10,
+   "aiomfac_ms": 2.729058565455489,
+   "surrogate_ms": 1.942229475719311,
+   "speedup": 1.405116439418042
+  },
+  {
+   "points": 100,
+   "aiomfac_ms": 9.643229817156678,
+   "surrogate_ms": 2.210638272323801,
+   "speedup": 4.362192556731505
+  },
+  {
+   "points": 1000,
+   "aiomfac_ms": 78.78494233416859,
+   "surrogate_ms": 4.8947262383687,
+   "speedup": 16.095883303256162
+  },
+  {
+   "points": 10000,
+   "aiomfac_ms": 770.2020675042877,
+   "surrogate_ms": 31.73560589881769,
+   "speedup": 24.269335520484944
+  }
+ ]
+}

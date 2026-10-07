@@ -1,0 +1,39 @@
+surrogate trained (318 epochs); held-out MAE water=0.023 organic=0.332
+
+ln_gamma_water (N=4096):
+                         S1  S1_conf     ST  ST_conf  ST_N1024
+factor                                                        
+wtf_water             0.178    0.044  0.687    0.051     0.726
+o_to_c                0.090    0.027  0.259    0.033     0.236
+frac_carboxylic_COOH  0.062    0.022  0.185    0.031     0.212
+log1p_total_q         0.010    0.026  0.174    0.022     0.158
+log_molar_mass        0.042    0.015  0.145    0.014     0.147
+frac_hydroxyl_OH      0.024    0.014  0.058    0.008     0.058
+frac_ester_CCOO       0.010    0.009  0.044    0.007     0.049
+frac_ether_CH2O       0.013    0.008  0.040    0.006     0.040
+n_to_c                0.011    0.009  0.037    0.007     0.038
+frac_amine_CNH        0.006    0.004  0.012    0.002     0.012
+frac_ketone_CH2CO     0.001    0.006  0.012    0.001     0.012
+frac_polyol_CH        0.001    0.004  0.012    0.002     0.011
+T_norm               -0.000    0.002  0.003    0.000     0.003
+frac_aromatic_ACH     0.001    0.001  0.001    0.000     0.001
+
+ln_gamma_organic (N=4096):
+                         S1  S1_conf     ST  ST_conf  ST_N1024
+factor                                                        
+wtf_water             0.461    0.031  0.616    0.041     0.687
+o_to_c                0.119    0.019  0.210    0.022     0.232
+frac_carboxylic_COOH  0.076    0.015  0.126    0.011     0.133
+log1p_total_q         0.002    0.013  0.110    0.012     0.120
+frac_hydroxyl_OH      0.032    0.009  0.046    0.004     0.047
+frac_ester_CCOO       0.016    0.011  0.043    0.005     0.046
+n_to_c                0.007    0.007  0.032    0.005     0.030
+frac_ether_CH2O       0.012    0.006  0.024    0.002     0.025
+log_molar_mass        0.000    0.006  0.019    0.002     0.019
+frac_ketone_CH2CO     0.004    0.005  0.011    0.001     0.011
+frac_amine_CNH        0.004    0.005  0.010    0.001     0.011
+frac_polyol_CH        0.004    0.004  0.010    0.001     0.010
+T_norm                0.002    0.002  0.002    0.000     0.002
+frac_aromatic_ACH    -0.000    0.001  0.001    0.000     0.001
+NN distance: real held-out median 0.82 (95th pct 3.70); Sobol samples median 3.22; beyond 95th pct: 18%
+DONE sobol

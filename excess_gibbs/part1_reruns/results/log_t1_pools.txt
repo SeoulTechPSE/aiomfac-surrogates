@@ -1,0 +1,8 @@
+  pools A: CHO only done (344s)
+  pools B: full BIMOG done (821s)
+  pools C: B + synthetic N done (1422s)
+                            gen_w        gen_org    gen_org_cho gen_org_n_only gen_org_hal_only gen_org_n_and_hal
+A: CHO only         0.023 ± 0.001  0.350 ± 0.021  0.179 ± 0.014  0.699 ± 0.020    0.420 ± 0.151     0.444 ± 0.045
+B: full BIMOG       0.011 ± 0.001  0.150 ± 0.026  0.137 ± 0.023  0.166 ± 0.051    0.200 ± 0.093     0.159 ± 0.021
+C: B + synthetic N  0.010 ± 0.001  0.134 ± 0.012  0.119 ± 0.014  0.155 ± 0.022    0.134 ± 0.025     0.165 ± 0.027
+DONE pools (1422s)

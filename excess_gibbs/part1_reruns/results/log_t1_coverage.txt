@@ -1,0 +1,15 @@
+  coverage seed 0 done (499s)
+  coverage seed 1 done (1072s)
+  coverage seed 2 done (1627s)
+            mean  count
+cat                    
+cho        0.114    243
+hal_only   0.122     22
+n_and_hal  0.109     29
+n_only     0.172     74
+            mean  count
+unmatched              
+False      0.117    245
+True       0.143    123
+error = -0.016 + 0.051 nn [0.027,0.077] + 0.007 |lng| [-0.003,0.017] + -0.006 unmatched [-0.041,+0.034]
+DONE coverage (1628s)

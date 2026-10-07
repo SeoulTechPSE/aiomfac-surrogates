@@ -1,0 +1,19 @@
+  hash CHO R_count done (380s)
+  hash CHO R_count' done (731s)
+  hash CHO R_desc done (1061s)
+  hash CHO R_emb done (1422s)
+  hash BIMOG R_count done (1846s)
+  hash BIMOG R_count' done (2196s)
+  hash BIMOG R_desc done (2683s)
+  hash BIMOG R_emb done (3190s)
+                        gen_w        gen_org
+pool  rep                                   
+CHO   R_count   0.025 ± 0.004  0.364 ± 0.049
+      R_count'  0.014 ± 0.001  0.193 ± 0.030
+      R_desc    0.016 ± 0.001  0.223 ± 0.022
+      R_emb     0.013 ± 0.001  0.179 ± 0.014
+BIMOG R_count   0.013 ± 0.001  0.190 ± 0.023
+      R_count'  0.012 ± 0.000  0.140 ± 0.007
+      R_desc    0.021 ± 0.001  0.317 ± 0.007
+      R_emb     0.011 ± 0.001  0.150 ± 0.026
+DONE hash (3190s)

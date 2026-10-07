@@ -1,0 +1,1659 @@
+{
+ "(NH4)2SO4": {
+  "aiomfac": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 36.48928463648767,
+    "time_s": 0.040949106216430664
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 18.54496495661359,
+    "time_s": 0.03327512741088867
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.6780571520583,
+    "time_s": 0.03449296951293945
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.664915945033522,
+    "time_s": 0.04271197319030762
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.632865939144086,
+    "time_s": 0.04935717582702637
+   },
+   {
+    "rh": 0.78,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05606508255004883
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05076885223388672
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.053124189376831055
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.054708242416381836
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05839705467224121
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05444502830505371
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.04895806312561035
+   }
+  ],
+  "gex": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 36.35383139582899,
+    "time_s": 0.721581220626831
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 18.60727846449109,
+    "time_s": 0.7076261043548584
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.703563923706586,
+    "time_s": 0.6622281074523926
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.665032258511673,
+    "time_s": 0.6656053066253662
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.6233311554006,
+    "time_s": 0.6384060382843018
+   },
+   {
+    "rh": 0.78,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.2260751724243164
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.3088538646697998
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.4726793766021729
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.601356029510498
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.5454561710357666
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.6083590984344482
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.6661267280578613
+   }
+  ],
+  "direct": [
+   {
+    "rh": 0.95,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 36.463131616779684,
+    "time_s": 2.407899856567383
+   },
+   {
+    "rh": 0.9,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 17.940942225338386,
+    "time_s": 5.788035154342651
+   },
+   {
+    "rh": 0.85,
+    "status": "not_converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.637040849133617,
+    "time_s": 9.636367082595825
+   },
+   {
+    "rh": 0.82,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 10.020034165976611,
+    "time_s": 6.208647966384888
+   },
+   {
+    "rh": 0.8,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 9.531905862942626,
+    "time_s": 3.052586078643799
+   },
+   {
+    "rh": 0.78,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.3844790458679199
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.33454275131225586
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.2766590118408203
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.23859310150146484
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.2790520191192627
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_sulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.31731486320495605
+   },
+   {
+    "rh": 0.3,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "ammonium_sulfate": 0.995454
+    },
+    "water_mol": 0.003575436253216877,
+    "time_s": 3.1362180709838867
+   }
+  ]
+ },
+ "NaCl": {
+  "aiomfac": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 37.47392109868195,
+    "time_s": 0.029244184494018555
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 19.800744096868822,
+    "time_s": 0.030719280242919922
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 13.829787961161705,
+    "time_s": 0.03772711753845215
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 11.789837840692739,
+    "time_s": 0.03564810752868652
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.751045128004408,
+    "time_s": 0.039338111877441406
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.887806228586381,
+    "time_s": 0.03805208206176758
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.0553741455078125
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.053305864334106445
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05701923370361328
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05967903137207031
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.05279207229614258
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.0533299446105957
+   }
+  ],
+  "gex": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 37.565408107877204,
+    "time_s": 0.5980448722839355
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 19.79478296334082,
+    "time_s": 0.590933084487915
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 13.803676805800283,
+    "time_s": 0.6750400066375732
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 11.76346505511917,
+    "time_s": 0.7160999774932861
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.72638505141458,
+    "time_s": 0.9452788829803467
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.865587507620717,
+    "time_s": 0.9274840354919434
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.8863720893859863
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.8843562602996826
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.750554084777832
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.7287397384643555
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.7805020809173584
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.7037160396575928
+   }
+  ],
+  "direct": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 36.3021662612734,
+    "time_s": 1.5868840217590332
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 19.78587057538435,
+    "time_s": 1.1712048053741455
+   },
+   {
+    "rh": 0.85,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 13.839842736862701,
+    "time_s": 11.707634210586548
+   },
+   {
+    "rh": 0.82,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 12.285493855458954,
+    "time_s": 6.235127925872803
+   },
+   {
+    "rh": 0.8,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 10.579968416849685,
+    "time_s": 11.012332916259766
+   },
+   {
+    "rh": 0.78,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 9.774383204841168,
+    "time_s": 3.08754301071167
+   },
+   {
+    "rh": 0.75,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 1.1128261089324951
+   },
+   {
+    "rh": 0.7,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.4765939712524414
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.4025108814239502
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.32042503356933594
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.27695488929748535
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "halite": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 22.526407957077026
+   }
+  ]
+ },
+ "NH4NO3": {
+  "aiomfac": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 30.072860119456127,
+    "time_s": 0.030126094818115234
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 13.186650558031053,
+    "time_s": 0.03361105918884277
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 7.934638520293068,
+    "time_s": 0.03737902641296387
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 6.277995109410234,
+    "time_s": 0.03965616226196289
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 5.473337830404532,
+    "time_s": 0.041776180267333984
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.8276319121205615,
+    "time_s": 0.03619694709777832
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.067681148983085,
+    "time_s": 0.03750300407409668
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 3.157598939558142,
+    "time_s": 0.03931283950805664
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.11873888969421387
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.09990191459655762
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.06995201110839844
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.07712507247924805
+   }
+  ],
+  "gex": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 30.08066346108185,
+    "time_s": 1.0619969367980957
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 13.29342228899079,
+    "time_s": 1.1322228908538818
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 8.002286138375492,
+    "time_s": 1.2195839881896973
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 6.31243066078557,
+    "time_s": 1.3092401027679443
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 5.487828789751046,
+    "time_s": 1.3440868854522705
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.825051730974445,
+    "time_s": 1.4628269672393799
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.045303677422864,
+    "time_s": 1.420032024383545
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 3.1162208306129697,
+    "time_s": 1.5143990516662598
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 2.5618860721588135
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 2.104363203048706
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 2.6158692836761475
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 2.7302262783050537
+   }
+  ],
+  "direct": [
+   {
+    "rh": 0.95,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 32.602180420922934,
+    "time_s": 1.8842120170593262
+   },
+   {
+    "rh": 0.9,
+    "status": "not_converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.989779284860838,
+    "time_s": 15.259736061096191
+   },
+   {
+    "rh": 0.85,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 7.897875062859486,
+    "time_s": 5.071959018707275
+   },
+   {
+    "rh": 0.82,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 6.260275572836073,
+    "time_s": 1.8078079223632812
+   },
+   {
+    "rh": 0.8,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 5.533681298601803,
+    "time_s": 3.4118881225585938
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.850209012419854,
+    "time_s": 0.8000409603118896
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.07200393754033,
+    "time_s": 0.4819629192352295
+   },
+   {
+    "rh": 0.7,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 3.2042653347941634,
+    "time_s": 2.9124808311462402
+   },
+   {
+    "rh": 0.6,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {
+     "ammonium_nitrate": 0.999244
+    },
+    "water_mol": 0.0001949605541092484,
+    "time_s": 31.287175178527832
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.47936367988586426
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_nitrate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 4.074188947677612
+   },
+   {
+    "rh": 0.3,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "ammonium_nitrate": 0.980644
+    },
+    "water_mol": 0.006579717454907117,
+    "time_s": 5.981961011886597
+   }
+  ]
+ },
+ "NH4HSO4": {
+  "aiomfac": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 37.262548807850145,
+    "time_s": 0.16837000846862793
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 18.966922863109648,
+    "time_s": 0.2385249137878418
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.960850052630686,
+    "time_s": 0.24606919288635254
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.910397571892085,
+    "time_s": 0.20271992683410645
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.854489326330608,
+    "time_s": 0.20279312133789062
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 8.965501969570418,
+    "time_s": 0.2017359733581543
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 7.855563163251674,
+    "time_s": 0.21362996101379395
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 6.4026628114060795,
+    "time_s": 0.24211573600769043
+   },
+   {
+    "rh": 0.6,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.332515658022003,
+    "time_s": 0.30564093589782715
+   },
+   {
+    "rh": 0.5,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {
+     "letovicite": 0.020236
+    },
+    "water_mol": 2.8452230731412875,
+    "time_s": 0.3832671642303467
+   },
+   {
+    "rh": 0.4,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {
+     "letovicite": 0.037432
+    },
+    "water_mol": 1.8561735615834287,
+    "time_s": 0.3723132610321045
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_bisulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 0.24985694885253906
+   }
+  ],
+  "gex": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 37.80846010919296,
+    "time_s": 1.7534360885620117
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 19.099031868268327,
+    "time_s": 2.561469793319702
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.879979348052373,
+    "time_s": 5.253790855407715
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 10.78761874478718,
+    "time_s": 3.9213478565216064
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 9.723408580875681,
+    "time_s": 5.667273998260498
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 8.835635316336848,
+    "time_s": 5.4482409954071045
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 7.738262244716957,
+    "time_s": 5.935398101806641
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 6.32051371619537,
+    "time_s": 5.49876594543457
+   },
+   {
+    "rh": 0.6,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 4.336610963808625,
+    "time_s": 7.564511060714722
+   },
+   {
+    "rh": 0.5,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {
+     "letovicite": 0.021989
+    },
+    "water_mol": 2.899267620197148,
+    "time_s": 9.823028087615967
+   },
+   {
+    "rh": 0.4,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {
+     "letovicite": 0.039774
+    },
+    "water_mol": 1.883846844844948,
+    "time_s": 10.506871223449707
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_bisulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 3.1939802169799805
+   }
+  ],
+  "direct": [
+   {
+    "rh": 0.95,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 33.390589729573236,
+    "time_s": 8.723725080490112
+   },
+   {
+    "rh": 0.9,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 18.8013111485513,
+    "time_s": 5.41259503364563
+   },
+   {
+    "rh": 0.85,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 13.349530070823374,
+    "time_s": 7.582734107971191
+   },
+   {
+    "rh": 0.82,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 12.015759822370743,
+    "time_s": 7.0557472705841064
+   },
+   {
+    "rh": 0.8,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 10.1254308823175,
+    "time_s": 7.418107986450195
+   },
+   {
+    "rh": 0.78,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 9.255886080367143,
+    "time_s": 7.285077095031738
+   },
+   {
+    "rh": 0.75,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 7.73739063575845,
+    "time_s": 11.390050888061523
+   },
+   {
+    "rh": 0.7,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "ammonium_sulfate": 1e-06,
+     "ammonium_bisulfate": 4e-06,
+     "letovicite": 4e-06
+    },
+    "water_mol": 8.352461387219176,
+    "time_s": 11.857672214508057
+   },
+   {
+    "rh": 0.6,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "ammonium_sulfate": 2e-06,
+     "ammonium_bisulfate": 1e-06,
+     "letovicite": 2e-06
+    },
+    "water_mol": 6.256255297218621,
+    "time_s": 12.686578035354614
+   },
+   {
+    "rh": 0.5,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "ammonium_bisulfate": 3e-05,
+     "letovicite": 0.051068
+    },
+    "water_mol": 4.858332264905543,
+    "time_s": 13.912652969360352
+   },
+   {
+    "rh": 0.4,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {
+     "letovicite": 0.078708
+    },
+    "water_mol": 2.7898093272542375,
+    "time_s": 13.7918860912323
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "ammonium_bisulfate": 1.0
+    },
+    "water_mol": 0.0,
+    "time_s": 17.151674032211304
+   }
+  ]
+ },
+ "NaCl + (NH4)2SO4": {
+  "aiomfac": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 71.77839638222284,
+    "time_s": 0.1110529899597168
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 35.711399493946985,
+    "time_s": 0.10012698173522949
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 24.18714227318718,
+    "time_s": 0.10408782958984375
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 20.31956044290615,
+    "time_s": 0.10999488830566406
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 18.357576064630635,
+    "time_s": 0.1408698558807373
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 16.728341675836106,
+    "time_s": 0.16495299339294434
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 14.731231207352902,
+    "time_s": 0.14049386978149414
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.194669369411795,
+    "time_s": 0.130936861038208
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 0.12990999221801758
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 0.14716410636901855
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 0.15425872802734375
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 0.1603529453277588
+   }
+  ],
+  "gex": [
+   {
+    "rh": 0.95,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 71.57633310467824,
+    "time_s": 2.0797247886657715
+   },
+   {
+    "rh": 0.9,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 35.535998706155866,
+    "time_s": 2.4404890537261963
+   },
+   {
+    "rh": 0.85,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 23.90369134113223,
+    "time_s": 2.447427988052368
+   },
+   {
+    "rh": 0.82,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 20.011783076680054,
+    "time_s": 2.3488283157348633
+   },
+   {
+    "rh": 0.8,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 18.05174502738075,
+    "time_s": 2.1873717308044434
+   },
+   {
+    "rh": 0.78,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 16.437082007883802,
+    "time_s": 2.181408166885376
+   },
+   {
+    "rh": 0.75,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 14.479683667579168,
+    "time_s": 2.2904770374298096
+   },
+   {
+    "rh": 0.7,
+    "status": "converged",
+    "n_liquids": 1,
+    "solids": {},
+    "water_mol": 12.032991017080247,
+    "time_s": 2.4729349613189697
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 4.604743957519531
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 4.6435158252716064
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 5.1453070640563965
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 5.156278610229492
+   }
+  ],
+  "direct": [
+   {
+    "rh": 0.95,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 72.3858323730635,
+    "time_s": 15.005728006362915
+   },
+   {
+    "rh": 0.9,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 38.17492101421159,
+    "time_s": 4.754373788833618
+   },
+   {
+    "rh": 0.85,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 23.22570308395999,
+    "time_s": 11.91441297531128
+   },
+   {
+    "rh": 0.82,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 19.52417463402684,
+    "time_s": 15.074692964553833
+   },
+   {
+    "rh": 0.8,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 17.48647046448368,
+    "time_s": 12.688097953796387
+   },
+   {
+    "rh": 0.78,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 16.337951259472344,
+    "time_s": 11.025585174560547
+   },
+   {
+    "rh": 0.75,
+    "status": "not_converged",
+    "n_liquids": 2,
+    "solids": {},
+    "water_mol": 14.483337313008498,
+    "time_s": 8.46391487121582
+   },
+   {
+    "rh": 0.7,
+    "status": "not_converged",
+    "n_liquids": 3,
+    "solids": {},
+    "water_mol": 12.290485145428764,
+    "time_s": 21.356948852539062
+   },
+   {
+    "rh": 0.6,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 1.1688098907470703
+   },
+   {
+    "rh": 0.5,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 1.2443439960479736
+   },
+   {
+    "rh": 0.4,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 1.110224723815918
+   },
+   {
+    "rh": 0.3,
+    "status": "dry",
+    "n_liquids": 0,
+    "solids": {
+     "sal_ammoniac": 1.0,
+     "thenardite": 0.5,
+     "ammonium_sulfate": 0.5
+    },
+    "water_mol": 0.0,
+    "time_s": 1.4505269527435303
+   }
+  ]
+ }
+}

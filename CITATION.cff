@@ -7,7 +7,7 @@ authors:
     given-names: Kee-Youn
     orcid: "https://orcid.org/0009-0008-3107-501X"
     affiliation: "Seoul National University of Science and Technology (SeoulTech)"
-version: 2.0.1
+version: 3.0.0
 license: GPL-3.0-or-later
 repository-code: "https://github.com/SeoulTechPSE/aiomfac-surrogates"
 doi: 10.5281/zenodo.23122610

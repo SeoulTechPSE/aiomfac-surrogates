@@ -1,5 +1,23 @@
 # Changelog
 
+## v3.0.0
+
+This release accompanies the excess-Gibbs-energy revision of both papers. All new material is in
+[`excess_gibbs/`](excess_gibbs/); the v2 folders are unchanged and reproduce the earlier versions.
+
+- **Part 1:** every surrogate now predicts the molar excess Gibbs energy of the binary water–organic mixture, from
+  which both activity coefficients follow by automatic differentiation (Gibbs–Duhem exact). All tables and figures
+  were regenerated with this output (`excess_gibbs/part1_reruns/`). New analyses: comparison of output forms
+  (unconstrained ReLU/SiLU, excess Gibbs energy with and without a derivative loss), binary liquid–liquid phase
+  separation of the held-out molecules, and phase equilibrium of α-pinene oxidation products with the surrogate inside
+  `aiomfac_py`'s Gibbs-energy-minimization solver. New release ensemble trained on 3705 BIMOG + MCM molecules.
+- **Part 2:** the electrolyte surrogate is now an excess-Gibbs-energy model of the free species of 14 ions
+  (Debye–Hückel term plus a mole-fraction Margules expansion with network coefficients), trained on 80 000 free-species
+  compositions; the bisulfate and carbonate equilibria are solved explicitly (`speciation.py`). The organic–electrolyte
+  coupling (Option C) is a learned cross term of the excess Gibbs energy, trained with two added dilute salt levels.
+  New analysis: phase equilibrium of inorganic particles with the surrogate inside the solver.
+- Requires `aiomfac_py` v1.1.0 (phase-equilibrium solver).
+
 ## v2.0.1
 
 Corrections after internal review of the revised manuscripts.

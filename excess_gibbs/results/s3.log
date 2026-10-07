@@ -1,0 +1,73 @@
+=== Finalized input vector spec (len=15) ===
+  m_Na+      [mol/kg H2O]
+  m_K+       [mol/kg H2O]
+  m_NH4+     [mol/kg H2O]
+  m_Ca2+     [mol/kg H2O]
+  m_H+       [mol/kg H2O]
+  m_Cl-      [mol/kg H2O]
+  m_NO3-     [mol/kg H2O]
+  m_SO4--    [mol/kg H2O]
+  m_HSO4-    [mol/kg H2O]
+  m_HCO3-    [mol/kg H2O]
+  m_CO3--    [mol/kg H2O]
+  m_IO3-     [mol/kg H2O]
+  m_I-       [mol/kg H2O]
+  m_OH-      [mol/kg H2O]
+  T_K        [K]
+
+=== Output vector spec (component ln(gamma), len=15) ===
+  ln_gamma_H2O
+  ln_gamma_Na+
+  ln_gamma_K+
+  ln_gamma_NH4+
+  ln_gamma_Ca2+
+  ln_gamma_H+
+  ln_gamma_Cl-
+  ln_gamma_NO3-
+  ln_gamma_SO4--
+  ln_gamma_HSO4-
+  ln_gamma_HCO3-
+  ln_gamma_CO3--
+  ln_gamma_IO3-
+  ln_gamma_I-
+  ln_gamma_OH-
+
+organics: train 80, calibration 20, test 20; outside the S1 vocabulary: []
+{'train': 15360, 'unseen salt': 1920, 'unseen organic': 1920, 'unseen organic and salt': 480, 'calibration': 2400} (165s)
+Option A decomposition: 324 ternary points
+         total    own  cross
+sp2                         
+H2O      0.007  0.001  0.007
+ion      0.348  0.007  0.348
+organic  0.374  0.033  0.358
+cross seed 0: 1611 epochs (199s)
+cross seed 1: 931 epochs (111s)
+cross seed 2: 1813 epochs (221s)
+guard thresholds: [(np.float64(3.86), '20/20'), (np.float64(3.86), '20/20'), (np.float64(3.86), '20/20')]
+                                        n  H2O A  organic A  cation A  anion A  H2O C  organic C  cation C  anion C  H2O red%  organic red%  cation red%  anion red%
+case                                                                                                                                                                
+interpolation                      2304.0  0.010      0.443     0.931    0.516  0.001      0.033     0.027    0.018    93.672        92.568       97.133      96.441
+unseen salt                        1920.0  0.013      0.615     0.424    0.344  0.003      0.105     0.068    0.120    78.771        82.989       83.997      65.297
+unseen organic                     1920.0  0.017      0.952     0.851    0.346  0.001      0.089     0.052    0.036    91.804        90.656       93.905      89.489
+unseen organic (guarded)           1920.0  0.017      0.952     0.851    0.346  0.001      0.089     0.052    0.036    91.804        90.656       93.905      89.489
+unseen organic and salt             480.0  0.012      0.740     0.428    0.340  0.003      0.150     0.082    0.126    74.667        79.763       80.793      62.847
+unseen organic and salt (guarded)   480.0  0.012      0.740     0.428    0.340  0.003      0.150     0.082    0.126    74.667        79.763       80.793      62.847
+guard threshold 3.86; nn distance malonic acid 2.27, ethanol 0.75
+malonic acid + (NH4)2SO4 (n = 12): MAE Option A -> Option C
+  H2O      0.000 -> 0.001
+  organic  0.020 -> 0.073
+  cation   0.011 -> 0.043
+  anion    0.072 -> 0.007
+ethanol + KCl (n = 13): MAE Option A -> Option C
+  H2O      0.005 -> 0.002
+  organic  0.105 -> 0.042
+  cation   0.803 -> 0.089
+  anion    0.519 -> 0.015
+ethanol + KCl gamma+- Option A: MAE 0.834 (45.5 %)
+ethanol + KCl gamma+- Option C: MAE 0.101 (4.9 %)
+AIOMFAC   vs Lopes: MAE 0.011 (1.9 %), max 5.9 %
+Option A  vs Lopes: MAE 0.047 (8.5 %), max 23.9 %
+Option C  vs Lopes: MAE 0.023 (3.9 %), max 8.5 %
+Option A vs AIOMFAC: 10.6 %; |dln g+-| finite m 0.314, reference term 0.413
+Option C vs AIOMFAC: 3.0 %; |dln g+-| finite m 0.031, reference term 0.028
+S3 DONE (699s)

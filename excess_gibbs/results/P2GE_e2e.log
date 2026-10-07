@@ -1,0 +1,77 @@
+=== Finalized input vector spec (len=15) ===
+  m_Na+      [mol/kg H2O]
+  m_K+       [mol/kg H2O]
+  m_NH4+     [mol/kg H2O]
+  m_Ca2+     [mol/kg H2O]
+  m_H+       [mol/kg H2O]
+  m_Cl-      [mol/kg H2O]
+  m_NO3-     [mol/kg H2O]
+  m_SO4--    [mol/kg H2O]
+  m_HSO4-    [mol/kg H2O]
+  m_HCO3-    [mol/kg H2O]
+  m_CO3--    [mol/kg H2O]
+  m_IO3-     [mol/kg H2O]
+  m_I-       [mol/kg H2O]
+  m_OH-      [mol/kg H2O]
+  T_K        [K]
+
+=== Output vector spec (component ln(gamma), len=15) ===
+  ln_gamma_H2O
+  ln_gamma_Na+
+  ln_gamma_K+
+  ln_gamma_NH4+
+  ln_gamma_Ca2+
+  ln_gamma_H+
+  ln_gamma_Cl-
+  ln_gamma_NO3-
+  ln_gamma_SO4--
+  ln_gamma_HSO4-
+  ln_gamma_HCO3-
+  ln_gamma_CO3--
+  ln_gamma_IO3-
+  ln_gamma_I-
+  ln_gamma_OH-
+
+===== e2e
+AIOMFAC free-species + speciation vs AIOMFAC (interp, n = 1157): {'pooled': np.float64(0.004427203369713121), 'species_mean': np.float64(0.005379680242583937), 'median': np.float64(2.220446049250313e-16), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+AIOMFAC free-species + speciation vs AIOMFAC (gen, n = 423): {'pooled': np.float64(1.0152947299283997e-13), 'species_mean': np.float64(1.223640608194216e-13), 'median': np.float64(8.996756478794611e-17), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  direct seed 0 (14s): {'model': 'direct', 'seed': 0, 'split': 'interp', 'pooled': np.float64(0.04954403661848269), 'species_mean': np.float64(0.05882461253221844), 'median': np.float64(0.018442647748086016), 'converged': 1.0} {'model': 'direct', 'seed': 0, 'split': 'gen', 'pooled': np.float64(0.09150870332570843), 'species_mean': np.float64(0.11579782112425516), 'median': np.float64(0.02913042608337353), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  direct seed 1 (17s): {'model': 'direct', 'seed': 1, 'split': 'interp', 'pooled': np.float64(0.05187307303496393), 'species_mean': np.float64(0.05982672072606631), 'median': np.float64(0.020167464044026084), 'converged': 1.0} {'model': 'direct', 'seed': 1, 'split': 'gen', 'pooled': np.float64(0.10465482626414134), 'species_mean': np.float64(0.13177276896358114), 'median': np.float64(0.03143627661814252), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  direct seed 2 (21s): {'model': 'direct', 'seed': 2, 'split': 'interp', 'pooled': np.float64(0.04135538677645144), 'species_mean': np.float64(0.04763468739409542), 'median': np.float64(0.014706426640894665), 'converged': 1.0} {'model': 'direct', 'seed': 2, 'split': 'gen', 'pooled': np.float64(0.05970023798907679), 'species_mean': np.float64(0.07390080493821682), 'median': np.float64(0.02228454977281054), 'converged': 0.9952718676122931}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  direct seed 3 (24s): {'model': 'direct', 'seed': 3, 'split': 'interp', 'pooled': np.float64(0.048876897284903076), 'species_mean': np.float64(0.0545244363656912), 'median': np.float64(0.019215372490443472), 'converged': 1.0} {'model': 'direct', 'seed': 3, 'split': 'gen', 'pooled': np.float64(0.11011021208983496), 'species_mean': np.float64(0.13957464552673948), 'median': np.float64(0.0224610165683386), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  direct seed 4 (27s): {'model': 'direct', 'seed': 4, 'split': 'interp', 'pooled': np.float64(0.044034731104796096), 'species_mean': np.float64(0.0494180726643882), 'median': np.float64(0.018471207754436114), 'converged': 1.0} {'model': 'direct', 'seed': 4, 'split': 'gen', 'pooled': np.float64(0.10024105234722953), 'species_mean': np.float64(0.12598019972237562), 'median': np.float64(0.026879138859031176), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  gex seed 0 (51s): {'model': 'gex', 'seed': 0, 'split': 'interp', 'pooled': np.float64(0.02066335653178662), 'species_mean': np.float64(0.022852441492952756), 'median': np.float64(0.004255202308904811), 'converged': 1.0} {'model': 'gex', 'seed': 0, 'split': 'gen', 'pooled': np.float64(0.03294934807941555), 'species_mean': np.float64(0.04108469957520214), 'median': np.float64(0.0020341585791842087), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  gex seed 1 (72s): {'model': 'gex', 'seed': 1, 'split': 'interp', 'pooled': np.float64(0.022315668958116524), 'species_mean': np.float64(0.025053874130336832), 'median': np.float64(0.004821749125539357), 'converged': 1.0} {'model': 'gex', 'seed': 1, 'split': 'gen', 'pooled': np.float64(0.027579127849442747), 'species_mean': np.float64(0.033200136746674526), 'median': np.float64(0.0021804918605660226), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  gex seed 2 (95s): {'model': 'gex', 'seed': 2, 'split': 'interp', 'pooled': np.float64(0.02048167197568294), 'species_mean': np.float64(0.02271161175329626), 'median': np.float64(0.004920227540853611), 'converged': 1.0} {'model': 'gex', 'seed': 2, 'split': 'gen', 'pooled': np.float64(0.028598014970387088), 'species_mean': np.float64(0.035058835302135306), 'median': np.float64(0.0021251154933167177), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  gex seed 3 (117s): {'model': 'gex', 'seed': 3, 'split': 'interp', 'pooled': np.float64(0.02098354555310617), 'species_mean': np.float64(0.024325710426141386), 'median': np.float64(0.004700263723673964), 'converged': 1.0} {'model': 'gex', 'seed': 3, 'split': 'gen', 'pooled': np.float64(0.03674617201722102), 'species_mean': np.float64(0.0448636718949296), 'median': np.float64(0.002556294155831182), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:124: RuntimeWarning: Mean of empty slice
+  per = np.nanmean(E, 0)
+  gex seed 4 (138s): {'model': 'gex', 'seed': 4, 'split': 'interp', 'pooled': np.float64(0.022391337414906683), 'species_mean': np.float64(0.025704192239638497), 'median': np.float64(0.005185453960861175), 'converged': 1.0} {'model': 'gex', 'seed': 4, 'split': 'gen', 'pooled': np.float64(0.027149014315783926), 'species_mean': np.float64(0.032312403213641684), 'median': np.float64(0.001960908642995224), 'converged': 1.0}
+research/paper_5/code/s2_part2.py:145: RuntimeWarning: Mean of empty slice
+  pd.DataFrame({k: (np.nanmean(np.stack(v), 0) if isinstance(v, list) else v) for k, v in per.items()},
+                      pooled   species_mean         median      converged
+model  split                                                             
+direct gen     0.093 ± 0.020  0.117 ± 0.026  0.026 ± 0.004  0.999 ± 0.002
+       interp  0.047 ± 0.004  0.054 ± 0.005  0.018 ± 0.002  1.000 ± 0.000
+gex    gen     0.031 ± 0.004  0.037 ± 0.005  0.002 ± 0.000  1.000 ± 0.000
+       interp  0.021 ± 0.001  0.024 ± 0.001  0.005 ± 0.000  1.000 ± 0.000
