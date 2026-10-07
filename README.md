@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="docs/figs/rh0.40_centre_d0.02_j4_k10_D0.3_e0.005_n300.png"
+       alt="aiomfac_py title figure" width="600">
+</p>
+
 # aiomfac-surrogates
 
 Reproducibility material for a two-part paper series on thermodynamically consistent neural-network surrogates for
