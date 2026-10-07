@@ -11,3 +11,10 @@ version: 3.0.0
 license: GPL-3.0-or-later
 repository-code: "https://github.com/SeoulTechPSE/aiomfac-surrogates"
 doi: 10.5281/zenodo.23122610
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23202795
+    description: "Version 3.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23122610
+    description: "All versions (concept DOI)"
