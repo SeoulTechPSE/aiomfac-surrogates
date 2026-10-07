@@ -13,8 +13,8 @@ repository-code: "https://github.com/SeoulTechPSE/aiomfac-surrogates"
 doi: 10.5281/zenodo.23122610
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23202795
-    description: "Version 3.0.0"
+    value: 10.5281/zenodo.23203148
+    description: "Version 3.0.1"
   - type: doi
     value: 10.5281/zenodo.23122610
     description: "All versions (concept DOI)"
