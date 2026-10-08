@@ -1,0 +1,4 @@
+gex_sob seed 0: ep 197 ion 0.0177 lnaw 0.00153 GD 1.25e-09 (2870s)
+               mae_lng_ion      mae_lnaw gd_rel_median
+model                                                 
+gex_sob_l01h  0.0177 ± nan  0.0015 ± nan  0.0000 ± nan

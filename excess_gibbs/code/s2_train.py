@@ -37,6 +37,10 @@ if TAG != "s2":
     _lnaw = np.log(1.0 / (1.0 + 0.01801528 * M.sum(1))) + LGW
     _ok = (_lnaw >= np.log(0.02)) & (np.nanmax(np.abs(LGI), 1) <= 25)
     M, T, LGW, LGI, KIND = M[_ok], T[_ok], LGW[_ok], LGI[_ok], KIND[_ok]
+# derivative labels (s2_dlabels.py) for the Sobolev-type variant "gex_sob": d[ln a_w, ln gamma_i]/d ln m_j
+DL = None
+if TAG != "s2" and os.path.exists(f"../results/{TAG}_dlabels.npz"):
+    DL = np.load(f"../results/{TAG}_dlabels.npz")["D"][_ok]
 NAMES = list(D["names"])
 NI = M.shape[1]
 # water target: ln a_w (AIOMFAC: ln x_w + ln gamma_w, x on the dissociated basis with water as the only neutral)
@@ -129,30 +133,96 @@ class DirectNet(nn.Module):
 
 
 def tens(idx):
-    return (torch.tensor(M[idx], dtype=torch.float32), torch.tensor((T[idx] - 293.15) / 20, dtype=torch.float32),
-            torch.tensor(AT[idx], dtype=torch.float32), torch.tensor(BT[idx], dtype=torch.float32),
-            torch.tensor(LNAW[idx], dtype=torch.float32), torch.tensor(YI[idx], dtype=torch.float32),
-            torch.tensor(PRES[idx]))
+    out = (torch.tensor(M[idx], dtype=torch.float32), torch.tensor((T[idx] - 293.15) / 20, dtype=torch.float32),
+           torch.tensor(AT[idx], dtype=torch.float32), torch.tensor(BT[idx], dtype=torch.float32),
+           torch.tensor(LNAW[idx], dtype=torch.float32), torch.tensor(YI[idx], dtype=torch.float32),
+           torch.tensor(PRES[idx]))
+    if DL is not None:
+        out = out + (torch.tensor(DL[idx], dtype=torch.float32),)
+    return out
+
+
+# derivative loss: weight, form ("mse" or "huber", on standardized residuals) and Huber threshold
+SOB_LAMBDA, SOB_H = float(os.environ.get("SOB_LAMBDA", "0.1")), 1.0e-2
+SOB_LOSS, SOB_DELTA = os.environ.get("SOB_LOSS", "mse"), float(os.environ.get("SOB_DELTA", "1.0"))
+RUN_NAME = os.environ.get("S2_NAME")                 # file name of a variant (default: the kind)
+SOB_DIR = os.environ.get("SOB_DIR", "random")         # "random" (any direction in ln m) or "neutral" (electroneutral)
+
+
+def neutral_directions(v, m):
+    """project directions v in ln m onto the electroneutral subspace sum_j z_j m_j v_j = 0 (molalities m), so that
+    the derivative loss only constrains composition changes by neutral combinations of ions (as in the solver)"""
+    zm = m * torch.as_tensor(Z, dtype=m.dtype)
+    nz = (zm * zm).sum(1, keepdim=True)
+    return v - zm * ((zm * v).sum(1, keepdim=True) / nz.clamp(min=1e-30))
+
+
+def _sob_term(r, ok):
+    """mean over valid entries of the standardized derivative residual r: squared, or Huber (quadratic below
+    SOB_DELTA, linear above), which limits the weight of the heavy tail of the AIOMFAC derivative labels"""
+    if SOB_LOSS == "huber":
+        a = r.abs()
+        v = torch.where(a <= SOB_DELTA, 0.5 * r ** 2, SOB_DELTA * (a - 0.5 * SOB_DELTA)) * 2.0
+    else:
+        v = r ** 2
+    return (v * ok).sum() / ok.sum().clamp(min=1)
+
+
+def directional(net, m, tn, A, b, v, h=SOB_H, create_graph=True):
+    """Directional derivative of (ln a_w, ln gamma_i) along v in ln m (central difference, step h)."""
+    ap, ip = net(m * torch.exp(h * v), tn, A, b, create_graph=create_graph)
+    am, im = net(m * torch.exp(-h * v), tn, A, b, create_graph=create_graph)
+    return (ap - am) / (2 * h), (ip - im) / (2 * h)
+
+
+def directional_labels(dl, v):
+    """AIOMFAC directional derivatives D v (water, ions) and their validity (finite labels of present rows)."""
+    dz = torch.nan_to_num(dl)
+    y = torch.einsum("brj,bj->br", dz, v)
+    ok = torch.isfinite(dl).any(2)                       # rows with at least one finite derivative (present)
+    return y[:, 0], y[:, 1:], ok[:, 0], ok[:, 1:]
 
 
 def train(kind, seed, tr, max_epochs=400, patience=30, batch=256):
     rng = np.random.RandomState(seed); torch.manual_seed(seed)
     tr = tr.copy(); rng.shuffle(tr); nv = int(0.1 * len(tr)); val, fit = tr[:nv], tr[nv:]
-    net = {"ge": GENet, "gex": GEXNet, "direct": DirectNet}[kind]()
+    net = {"ge": GENet, "gex": GEXNet, "gex_sob": GEXNet, "direct": DirectNet}[kind]()
+    sob = kind.endswith("_sob")
+    if sob and DL is None:
+        raise RuntimeError("gex_sob needs the derivative labels of s2_dlabels.py")
     sw = float(LNAW[fit].std()); si = float(LGI[fit][PRES[fit]].std())
     opt = torch.optim.Adam(net.parameters(), lr=1e-3, weight_decay=1e-5)
     Tf, Tv = tens(fit), tens(val)
+    if sob:                                              # scale of the directional-derivative labels
+        g0 = torch.Generator().manual_seed(seed)
+        v0 = torch.randn(Tf[0].shape, generator=g0) * Tf[6]
+        if SOB_DIR == "neutral":
+            v0 = neutral_directions(v0, Tf[0])
+        yw0, yi0, okw0, oki0 = directional_labels(Tf[7], v0)
+        sdw, sdi = float(yw0[okw0].std()), float(yi0[oki0].std())
 
-    def loss(B, cg=True):
-        m, tn, A, b, aw, yi, pr = B
+    def loss(B, cg=True, with_sob=False):
+        m, tn, A, b, aw, yi, pr = B[:7]
         pa, pi = net(m, tn, A, b, create_graph=cg)
         li = (((pi - yi) / si) ** 2 * pr).sum() / pr.sum()
-        return li + (((pa - aw) / sw) ** 2).mean()
+        out = li + (((pa - aw) / sw) ** 2).mean()
+        if with_sob:
+            v = torch.randn(m.shape) * pr                   # random direction among the species present
+            if SOB_DIR == "neutral":
+                v = neutral_directions(v, m)
+            yw, yi_, okw, oki = directional_labels(B[7], v)
+            dw, di = directional(net, m, tn, A, b, v)
+            oki = oki & pr
+            lw = _sob_term((dw - yw) / sdw, okw)
+            ld = _sob_term((di - yi_) / sdi, oki)
+            out = out + SOB_LAMBDA * (lw + ld)
+        return out
     best, st, bad = 1e9, None, 0
     for ep in range(max_epochs):
         net.train(); perm = rng.permutation(len(fit))
         for s in range(0, len(perm), batch):
-            i = torch.from_numpy(perm[s:s + batch]); opt.zero_grad(); loss([t[i] for t in Tf]).backward(); opt.step()
+            i = torch.from_numpy(perm[s:s + batch]); opt.zero_grad()
+            loss([t[i] for t in Tf], with_sob=sob).backward(); opt.step()
         net.eval()
         v = loss(Tv, cg=False).item()
         if v < best - 1e-5:
@@ -166,7 +236,7 @@ def train(kind, seed, tr, max_epochs=400, patience=30, batch=256):
 
 
 def evaluate(net, te, kind):
-    m, tn, A, b, aw, yi, pr = tens(te)
+    m, tn, A, b, aw, yi, pr = tens(te)[:7]
     pa, pi = net(m, tn, A, b, create_graph=False)
     pa, pi = pa.detach().numpy(), pi.detach().numpy()
     ei = np.abs(pi - yi.numpy())[pr.numpy()]
@@ -223,10 +293,13 @@ if __name__ == "__main__":
             r = {"model": kind, "seed": seed, "epochs": ep, **evaluate(net, te, kind), "train_s": time.time() - t0}
             if len(tu) and TAG != "s2":
                 r.update({k + "_unseen": v for k, v in evaluate(net, tu, kind).items()})
-            rows.append(r); torch.save(net.state_dict(), f"../results/{TAG}_models/{kind}{'_release' if REL else ''}_seed{seed}.pt")
+            name = RUN_NAME or kind
+            r["model"] = name
+            rows.append(r); torch.save(net.state_dict(), f"../results/{TAG}_models/{name}{'_release' if REL else ''}_seed{seed}.pt")
             print(f"{kind} seed {seed}: ep {ep} ion {r['mae_lng_ion']:.4f} lnaw {r['mae_lnaw']:.5f} GD {r['gd_rel_median']:.2e} "
                   f"({r['train_s']:.0f}s)", flush=True)
-            pd.DataFrame(rows).to_csv(f"../results/{TAG}_runs_{'release_' if REL else ''}{'_'.join(kinds)}{sfx}.csv", index=False)
+            pd.DataFrame(rows).to_csv(f"../results/{TAG}_runs_{'release_' if REL else ''}{RUN_NAME or '_'.join(kinds)}{sfx}.csv",
+                                      index=False)
     df = pd.DataFrame(rows)
     f = lambda s: f"{s.mean():.4f} ± {s.std(ddof=1):.4f}"
     print(df.groupby("model")[["mae_lng_ion", "mae_lnaw", "gd_rel_median"]].agg(f).to_string())
