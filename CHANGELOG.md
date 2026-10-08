@@ -6,7 +6,7 @@ Adds compiled-derivative evaluation for the phase-equilibrium solver and re-meas
 machine. The networks and accuracy results of v3.0.x are unchanged.
 
 - **JAX Gibbs functions** (`excess_gibbs/code/jax_surrogates.py`): the Part 1 and Part 2 release networks transcribed
-  to JAX with the same weights, for `aiomfac_py.gibbs_model.GibbsLiquidModel` (aiomfac-python `main`). ln a and the
+  to JAX with the same weights, for `aiomfac_py.gibbs_model.GibbsLiquidModel` (aiomfac_py v1.2.0). ln a and the
   Hessian are compiled once and reused; results agree with the torch classes to 1e-14, and the phase-equilibrium
   solves of both papers (55 + 60 states) give the same states as torch and AIOMFAC, 9–19 times faster than torch
   (`jax_check.py`, `jax_pe_bench.py`, `hvp_bench.py`).
@@ -17,7 +17,7 @@ machine. The networks and accuracy results of v3.0.x are unchanged.
   `gex_sob` and variants (weight, Huber loss, electroneutral directions), evaluation (`s2_sob_eval.py`). Derivative
   terms along arbitrary directions in ln m degrade the held-out NH4+–HSO4- pair; restricted to electroneutral
   directions they do not.
-- `requirements.txt`: adds `jax`.
+- `requirements.txt`: adds `jax`; aiomfac_py pinned to v1.2.0.
 
 ## v3.0.1
 

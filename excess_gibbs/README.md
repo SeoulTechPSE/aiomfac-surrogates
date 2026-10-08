@@ -68,7 +68,7 @@ solve the dissociation equilibria with `speciation.speciate`. `s2_pe_gex.Surroga
 `aiomfac_py.phase_equilibrium.PhaseEquilibrium`.
 
 **Fast phase-equilibrium evaluation (JAX).** `code/jax_surrogates.py` transcribes the Part 1 and Part 2 release networks
-to JAX (same weights) as Gibbs functions for `aiomfac_py.gibbs_model.GibbsLiquidModel` (`aiomfac_py` main branch, which includes `gibbs_model`; needs `jax`):
+to JAX (same weights) as Gibbs functions for `aiomfac_py.gibbs_model.GibbsLiquidModel` (`aiomfac_py` v1.2.0 or later; needs `jax`):
 ln a and the Hessian (forward-over-reverse) are compiled once and reused, instead of torch autograd at every call.
 
 | Item | Script → result |
