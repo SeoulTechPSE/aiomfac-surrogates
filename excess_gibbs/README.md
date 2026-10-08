@@ -67,5 +67,16 @@ SO4--, HSO4-, HCO3-, CO3--, IO3-, I-, OH-) at 263–313 K. Use the mean of the f
 solve the dissociation equilibria with `speciation.speciate`. `s2_pe_gex.SurrogatePE` shows how to use it inside
 `aiomfac_py.phase_equilibrium.PhaseEquilibrium`.
 
+**Fast phase-equilibrium evaluation (JAX).** `code/jax_surrogates.py` transcribes the Part 1 and Part 2 release networks
+to JAX (same weights) as Gibbs functions for `aiomfac_py.gibbs_model.GibbsLiquidModel` (aiomfac_py after v1.1.0, with jax):
+ln a and the Hessian (forward-over-reverse) are compiled once and reused, instead of torch autograd at every call.
+
+| Item | Script → result |
+|---|---|
+| agreement with the torch classes (1e-14), cost per call | `code/jax_check.py` → `results/jax_check.json` |
+| phase equilibrium of both papers (55 + 60 states): AIOMFAC, torch, JAX | `code/jax_pe_bench.py` → `results/jax_pe_bench.json` |
+| full Hessian vs Hessian-vector products (dense Newton vs Newton–CG) | `code/hvp_bench.py` → `results/hvp_bench.json` |
+| Sobolev-type derivative loss for GEXNet (derivative labels, `gex_sob`, evaluation) | `code/s2_dlabels.py` → `s2v2_dlabels.npz`; `S2_TAG=s2v2 S2_SEEDS=0 python s2_train.py gex_sob`; `code/s2_sob_eval.py` → `s2v2_sob_eval.json` |
+
 **Cross term.** `results/s3_models/cross_seed{0,1,2}.pt` (class `Cross` in `code/s3_coupling.py`) for water + one
 organic + one salt, used with the two release ensembles above.

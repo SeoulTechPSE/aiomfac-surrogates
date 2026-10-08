@@ -1,0 +1,101 @@
+{
+ "part1": {
+  "pinonaldehyde": {
+   "max_rel_diff_ln_a": 3.675810602679423e-15,
+   "max_rel_diff_hessian": 2.3502838599566396e-14,
+   "us_ln_a_torch": 1825.5545001011342,
+   "us_ln_a_jax": 103.11650021321839,
+   "us_hess_torch": 4112.052000436961,
+   "us_hess_jax": 176.2689998940914,
+   "us_hvp_jax": 128.60400011049933
+  },
+  "pinonic_acid": {
+   "max_rel_diff_ln_a": 2.5788729396671122e-14,
+   "max_rel_diff_hessian": 2.5463599973018226e-14,
+   "us_ln_a_torch": 1900.6279999302933,
+   "us_ln_a_jax": 100.37650008598575,
+   "us_hess_torch": 4193.9869997804635,
+   "us_hess_jax": 169.43299988270155,
+   "us_hvp_jax": 129.69500039616833
+  },
+  "pinic_acid": {
+   "max_rel_diff_ln_a": 9.329255904762444e-16,
+   "max_rel_diff_hessian": 7.900360217722711e-15,
+   "us_ln_a_torch": 1845.7060000400816,
+   "us_ln_a_jax": 108.98200025621918,
+   "us_hess_torch": 4178.41450052947,
+   "us_hess_jax": 161.49900011441787,
+   "us_hvp_jax": 126.32849984584027
+  },
+  "terpenylic_acid": {
+   "max_rel_diff_ln_a": 4.080771934990512e-16,
+   "max_rel_diff_hessian": 6.104894134020775e-15,
+   "us_ln_a_torch": 1914.194499477162,
+   "us_ln_a_jax": 96.5429999268963,
+   "us_hess_torch": 4262.197000571177,
+   "us_hess_jax": 163.57449976567295,
+   "us_hvp_jax": 126.70800015257555
+  },
+  "MBTCA": {
+   "max_rel_diff_ln_a": 5.607665263631968e-16,
+   "max_rel_diff_hessian": 6.581136753229083e-16,
+   "us_ln_a_torch": 1870.3904997892096,
+   "us_ln_a_jax": 100.88299995913985,
+   "us_hess_torch": 4319.129000123212,
+   "us_hess_jax": 158.96349987087888,
+   "us_hvp_jax": 130.94299947624677
+  }
+ },
+ "part2": {
+  "(NH4)2SO4": {
+   "N": 3,
+   "max_rel_diff_ln_a": 1.9285855185671127e-15,
+   "max_rel_diff_hessian": 5.655009820099935e-16,
+   "us_ln_a_torch": 6165.379999856668,
+   "us_ln_a_jax": 180.80199970427202,
+   "us_hess_torch": 25164.560000575875,
+   "us_hess_jax": 495.49949926586123,
+   "us_hvp_jax": 311.6564998890681
+  },
+  "NaCl": {
+   "N": 3,
+   "max_rel_diff_ln_a": 3.180311048341236e-14,
+   "max_rel_diff_hessian": 3.643078415286918e-16,
+   "us_ln_a_torch": 6142.278999959672,
+   "us_ln_a_jax": 179.10099995788187,
+   "us_hess_torch": 24650.47850000701,
+   "us_hess_jax": 512.8534994582878,
+   "us_hvp_jax": 313.2854999421397
+  },
+  "NH4NO3": {
+   "N": 3,
+   "max_rel_diff_ln_a": 1.3952355745311822e-14,
+   "max_rel_diff_hessian": 4.1601004304879073e-16,
+   "us_ln_a_torch": 6064.039999728266,
+   "us_ln_a_jax": 184.2765000219515,
+   "us_hess_torch": 24348.05500024595,
+   "us_hess_jax": 520.3385003369476,
+   "us_hvp_jax": 339.106500177877
+  },
+  "NH4HSO4": {
+   "N": 5,
+   "max_rel_diff_ln_a": 2.4645125792745748e-15,
+   "max_rel_diff_hessian": 6.460021888552418e-16,
+   "us_ln_a_torch": 6245.484999908513,
+   "us_ln_a_jax": 179.2654998098442,
+   "us_hess_torch": 38555.581500077096,
+   "us_hess_jax": 544.5425003927085,
+   "us_hvp_jax": 336.21400007177726
+  },
+  "NaCl + (NH4)2SO4": {
+   "N": 5,
+   "max_rel_diff_ln_a": 2.5769104069619872e-15,
+   "max_rel_diff_hessian": 4.627354937429555e-16,
+   "us_ln_a_torch": 6339.023999771598,
+   "us_ln_a_jax": 188.28449992724927,
+   "us_hess_torch": 36936.9924997045,
+   "us_hess_jax": 580.215999889333,
+   "us_hvp_jax": 316.85000021752785
+  }
+ }
+}
