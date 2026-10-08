@@ -92,6 +92,6 @@ GPL-3.0-or-later (see `LICENSE`), matching `aiomfac_py`, which this repository d
 
 ## Citation
 
-Please cite the relevant paper (Part 1 and/or Part 2), this repository (Zenodo; v3.0.1:
-https://doi.org/10.5281/zenodo.23203148, all versions: https://doi.org/10.5281/zenodo.23122610), and `aiomfac_py`
-(v1.1.0: https://doi.org/10.5281/zenodo.23202730) together with the AIOMFAC papers (Zuend et al., 2008, 2011).
+Please cite the relevant paper (Part 1 and/or Part 2), this repository (Zenodo; v3.1.0:
+https://doi.org/10.5281/zenodo.23248119, all versions: https://doi.org/10.5281/zenodo.23122610), and `aiomfac_py`
+(v1.2.0: https://doi.org/10.5281/zenodo.23248099) together with the AIOMFAC papers (Zuend et al., 2008, 2011).
