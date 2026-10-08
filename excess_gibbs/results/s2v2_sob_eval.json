@@ -15,6 +15,13 @@
   "same_state": 57,
   "n": 60,
   "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.005752024292719815,
+   "NaCl": 0.0020373239885338457,
+   "NH4NO3": 0.018046828371322654,
+   "NH4HSO4": 0.10259441476571873,
+   "NaCl + (NH4)2SO4": 0.02392586820111231
+  },
   "water_rel_err_median": 0.015695423629563887,
   "water_rel_err_max": 0.10259441476571873
  },
@@ -53,6 +60,13 @@
   "same_state": 56,
   "n": 60,
   "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.020109690944086767,
+   "NaCl": 0.003131494040464089,
+   "NH4NO3": 0.008199951054155719,
+   "NH4HSO4": 0.4714790920385906,
+   "NaCl + (NH4)2SO4": 0.00931060758500779
+  },
   "water_rel_err_median": 0.006389908511540643,
   "water_rel_err_max": 0.4714790920385906
  },
@@ -74,5 +88,109 @@
   "converged_or_dry": 60,
   "water_rel_err_median": 0.008639326603193442,
   "water_rel_err_max": 0.44252523595877247
+ },
+ "gex_sob_l001_seed0": {
+  "mae_lng_ion": 0.027401473373174667,
+  "mae_lnaw": 0.0018038301495835185,
+  "gd_rel_median": 1.2436437416667284e-09,
+  "mae_lng_ion_unseen": 0.1657923012971878,
+  "mae_lnaw_unseen": 0.025242358446121216,
+  "gd_rel_median_unseen": 2.1294813447596603e-09,
+  "mae_dlnaw": 0.005999584190565157,
+  "mae_dlng_ion": 0.07275346740294684,
+  "median_rel_dlng_ion": 0.10028008373587964,
+  "mae_dlnaw_unseen": 0.038189256201802614,
+  "mae_dlng_ion_unseen": 0.2137276033341204,
+  "median_rel_dlng_ion_unseen": 0.18209522638992653,
+  "same_state": 57,
+  "n": 60,
+  "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.009099716587344986,
+   "NaCl": 0.0037717084219499597,
+   "NH4NO3": 0.011958457984801996,
+   "NH4HSO4": 0.28055483724591945,
+   "NaCl + (NH4)2SO4": 0.013457565423302786
+  },
+  "water_rel_err_median": 0.00839200009497304,
+  "water_rel_err_max": 0.28055483724591945
+ },
+ "gex_sob_l003_seed0": {
+  "mae_lng_ion": 0.02090829238295555,
+  "mae_lnaw": 0.0015119080198928714,
+  "gd_rel_median": 1.2343518552598886e-09,
+  "mae_lng_ion_unseen": 0.23484334349632263,
+  "mae_lnaw_unseen": 0.034479886293411255,
+  "gd_rel_median_unseen": 2.0829265780257987e-09,
+  "mae_dlnaw": 0.0040276085074430115,
+  "mae_dlng_ion": 0.04315661956290412,
+  "median_rel_dlng_ion": 0.06338387298615694,
+  "mae_dlnaw_unseen": 0.04540631437642827,
+  "mae_dlng_ion_unseen": 0.23055707843481466,
+  "median_rel_dlng_ion_unseen": 0.15583844196331884,
+  "same_state": 56,
+  "n": 60,
+  "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.020693587388400658,
+   "NaCl": 0.0029948918780680067,
+   "NH4NO3": 0.00698270175095228,
+   "NH4HSO4": 0.4321395335642365,
+   "NaCl + (NH4)2SO4": 0.013061793373927544
+  },
+  "water_rel_err_median": 0.00698270175095228,
+  "water_rel_err_max": 0.4321395335642365
+ },
+ "gex_sob_l003h_seed0": {
+  "mae_lng_ion": 0.02577372081577778,
+  "mae_lnaw": 0.0016755643300712109,
+  "gd_rel_median": 1.2433122749732097e-09,
+  "mae_lng_ion_unseen": 0.16738881170749664,
+  "mae_lnaw_unseen": 0.026942450553178787,
+  "gd_rel_median_unseen": 2.124984790248143e-09,
+  "mae_dlnaw": 0.005139541572388933,
+  "mae_dlng_ion": 0.054070516625132264,
+  "median_rel_dlng_ion": 0.07547609752011836,
+  "mae_dlnaw_unseen": 0.041474011263366944,
+  "mae_dlng_ion_unseen": 0.20720568705851689,
+  "median_rel_dlng_ion_unseen": 0.16055996053155713,
+  "same_state": 57,
+  "n": 60,
+  "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.015007639158960528,
+   "NaCl": 0.002612949926348973,
+   "NH4NO3": 0.019263283288861177,
+   "NH4HSO4": 0.310545518503484,
+   "NaCl + (NH4)2SO4": 0.014220068049182744
+  },
+  "water_rel_err_median": 0.00964730637292116,
+  "water_rel_err_max": 0.310545518503484
+ },
+ "gex_sob_l01h_seed0": {
+  "mae_lng_ion": 0.01767422817647457,
+  "mae_lnaw": 0.001534084789454937,
+  "gd_rel_median": 1.2484503504188055e-09,
+  "mae_lng_ion_unseen": 0.2318478226661682,
+  "mae_lnaw_unseen": 0.034529201686382294,
+  "gd_rel_median_unseen": 2.0739832062103745e-09,
+  "mae_dlnaw": 0.0033474020565369884,
+  "mae_dlng_ion": 0.02985442763332952,
+  "median_rel_dlng_ion": 0.04668753227540104,
+  "mae_dlnaw_unseen": 0.04547506671549011,
+  "mae_dlng_ion_unseen": 0.21484384997233524,
+  "median_rel_dlng_ion_unseen": 0.12199557934000697,
+  "same_state": 57,
+  "n": 60,
+  "converged_or_dry": 60,
+  "water_rel_err_max_by_case": {
+   "(NH4)2SO4": 0.013268250603873155,
+   "NaCl": 0.0009974198177600258,
+   "NH4NO3": 0.011633174197199891,
+   "NH4HSO4": 0.5691174702291255,
+   "NaCl + (NH4)2SO4": 0.012860831127522676
+  },
+  "water_rel_err_median": 0.00680922681330276,
+  "water_rel_err_max": 0.5691174702291255
  }
 }
