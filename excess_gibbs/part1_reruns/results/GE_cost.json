@@ -1,49 +1,47 @@
 {
  "n_parameters": 36465,
- "numpy_vs_autograd_max_abs": 1.1920928955078125e-06,
+ "numpy_vs_autograd_max_abs": 1.6689300537109375e-06,
  "aiomfac_median": {
-  "s2as_ms": 1.9124062760965899,
-  "build_ms": 0.04841103916987777,
-  "aiomfac_us": 76.82412501890212
+  "s2as_ms": 2.226016750000781,
+  "build_ms": 0.09131047499522538,
+  "aiomfac_us": 149.4967180005915
  },
  "per_point_us": {
-  "numpy_batched": 2.98231996227211,
-  "numpy_one": 44.74341653985903,
-  "torch_cpu_batched": 3.456717708225672,
-  "torch_cpu_one": 255.43450005352497,
-  "mps_batched": 1.4120003499556333,
-  "mps_one": 2013.403750024736
+  "numpy_batched": 3.416152895833117,
+  "numpy_one": 57.72281700001258,
+  "torch_cpu_batched": 5.296441949993399,
+  "torch_cpu_one": 438.84062399956747
  },
  "table6": [
   {
    "points": 1,
-   "aiomfac_ms": 2.0376414402853698,
-   "surrogate_ms": 1.9153885960588621,
-   "speedup": 1.0638266534937386
+   "aiomfac_ms": 2.466823942996598,
+   "surrogate_ms": 2.229432902896614,
+   "speedup": 1.1064804595785551
   },
   {
    "points": 10,
-   "aiomfac_ms": 2.729058565455489,
-   "surrogate_ms": 1.942229475719311,
-   "speedup": 1.405116439418042
+   "aiomfac_ms": 3.8122944050019214,
+   "surrogate_ms": 2.260178278959112,
+   "speedup": 1.6867228751342618
   },
   {
    "points": 100,
-   "aiomfac_ms": 9.643229817156678,
-   "surrogate_ms": 2.210638272323801,
-   "speedup": 4.362192556731505
+   "aiomfac_ms": 17.266999025055153,
+   "surrogate_ms": 2.5676320395840926,
+   "speedup": 6.724872862955892
   },
   {
    "points": 1000,
-   "aiomfac_ms": 78.78494233416859,
-   "surrogate_ms": 4.8947262383687,
-   "speedup": 16.095883303256162
+   "aiomfac_ms": 151.8140452255875,
+   "surrogate_ms": 5.6421696458338975,
+   "speedup": 26.90703306620441
   },
   {
    "points": 10000,
-   "aiomfac_ms": 770.2020675042877,
-   "surrogate_ms": 31.73560589881769,
-   "speedup": 24.269335520484944
+   "aiomfac_ms": 1497.284507230911,
+   "surrogate_ms": 36.38754570833195,
+   "speedup": 41.14826867501717
   }
  ]
 }

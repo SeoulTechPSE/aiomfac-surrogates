@@ -154,7 +154,21 @@ def part2_gibbs(nets) -> GibbsFunction:
         return ideal_mixing(n) - math.log(MW) * jnp.sum(ni * ions) + G(nw, ni, k) - jnp.dot(ni, k["ref"])
 
     names = ["Water"] + [AIOMFAC_KEY.get(i, i) for i in P2_NAMES]
-    return GibbsFunction(names, g, consts=consts, label="part2_gex")
+    gf = GibbsFunction(names, g, consts=consts, label="part2_gex")
+    gf.G, gf.dG = G, jax.jit(jax.grad(G, argnums=(0, 1)))
+    return gf
+
+
+def part2_activity_fn(gf: GibbsFunction):
+    """(m (14,) free molalities per kg water, T) -> (ln a_w, ln gamma_i molal (14,)), the interface of
+    s2_part2.model_fn and speciation.speciate, with the compiled derivatives of ``gf`` (from :func:`part2_gibbs`)."""
+    def f(m, T):
+        k = gf.constants(T)
+        m = np.asarray(m, dtype=float)
+        dw, di = gf.dG(1.0 / MW, m, k)
+        lnxw = -math.log1p(MW * float(m.sum()))
+        return lnxw + float(dw), lnxw + np.asarray(di) - np.asarray(k["ref"])
+    return f
 
 
 # ====================================================================================================================
@@ -170,4 +184,4 @@ def part2_liquid(ions, nets, gibbs: GibbsFunction | None = None) -> GibbsLiquidM
     return GibbsLiquidModel([], ions, gibbs or part2_gibbs(nets))
 
 
-__all__ = ["P2_NAMES", "part1_gibbs", "part2_gibbs", "part1_liquid", "part2_liquid", "ExplicitLiquidModel"]
+__all__ = ["P2_NAMES", "part1_gibbs", "part2_gibbs", "part2_activity_fn", "part1_liquid", "part2_liquid", "ExplicitLiquidModel"]

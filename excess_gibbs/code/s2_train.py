@@ -142,7 +142,21 @@ def tens(idx):
     return out
 
 
-SOB_LAMBDA, SOB_H = 0.1, 1.0e-2
+# derivative loss: weight, form ("mse" or "huber", on standardized residuals) and Huber threshold
+SOB_LAMBDA, SOB_H = float(os.environ.get("SOB_LAMBDA", "0.1")), 1.0e-2
+SOB_LOSS, SOB_DELTA = os.environ.get("SOB_LOSS", "mse"), float(os.environ.get("SOB_DELTA", "1.0"))
+RUN_NAME = os.environ.get("S2_NAME")                 # file name of a variant (default: the kind)
+
+
+def _sob_term(r, ok):
+    """mean over valid entries of the standardized derivative residual r: squared, or Huber (quadratic below
+    SOB_DELTA, linear above), which limits the weight of the heavy tail of the AIOMFAC derivative labels"""
+    if SOB_LOSS == "huber":
+        a = r.abs()
+        v = torch.where(a <= SOB_DELTA, 0.5 * r ** 2, SOB_DELTA * (a - 0.5 * SOB_DELTA)) * 2.0
+    else:
+        v = r ** 2
+    return (v * ok).sum() / ok.sum().clamp(min=1)
 
 
 def directional(net, m, tn, A, b, v, h=SOB_H, create_graph=True):
@@ -186,8 +200,8 @@ def train(kind, seed, tr, max_epochs=400, patience=30, batch=256):
             yw, yi_, okw, oki = directional_labels(B[7], v)
             dw, di = directional(net, m, tn, A, b, v)
             oki = oki & pr
-            lw = (((dw - yw) / sdw) ** 2 * okw).sum() / okw.sum().clamp(min=1)
-            ld = (((di - yi_) / sdi) ** 2 * oki).sum() / oki.sum().clamp(min=1)
+            lw = _sob_term((dw - yw) / sdw, okw)
+            ld = _sob_term((di - yi_) / sdi, oki)
             out = out + SOB_LAMBDA * (lw + ld)
         return out
     best, st, bad = 1e9, None, 0
@@ -266,10 +280,13 @@ if __name__ == "__main__":
             r = {"model": kind, "seed": seed, "epochs": ep, **evaluate(net, te, kind), "train_s": time.time() - t0}
             if len(tu) and TAG != "s2":
                 r.update({k + "_unseen": v for k, v in evaluate(net, tu, kind).items()})
-            rows.append(r); torch.save(net.state_dict(), f"../results/{TAG}_models/{kind}{'_release' if REL else ''}_seed{seed}.pt")
+            name = RUN_NAME or kind
+            r["model"] = name
+            rows.append(r); torch.save(net.state_dict(), f"../results/{TAG}_models/{name}{'_release' if REL else ''}_seed{seed}.pt")
             print(f"{kind} seed {seed}: ep {ep} ion {r['mae_lng_ion']:.4f} lnaw {r['mae_lnaw']:.5f} GD {r['gd_rel_median']:.2e} "
                   f"({r['train_s']:.0f}s)", flush=True)
-            pd.DataFrame(rows).to_csv(f"../results/{TAG}_runs_{'release_' if REL else ''}{'_'.join(kinds)}{sfx}.csv", index=False)
+            pd.DataFrame(rows).to_csv(f"../results/{TAG}_runs_{'release_' if REL else ''}{RUN_NAME or '_'.join(kinds)}{sfx}.csv",
+                                      index=False)
     df = pd.DataFrame(rows)
     f = lambda s: f"{s.mean():.4f} ± {s.std(ddof=1):.4f}"
     print(df.groupby("model")[["mae_lng_ion", "mae_lnaw", "gd_rel_median"]].agg(f).to_string())

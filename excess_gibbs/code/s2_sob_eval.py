@@ -6,7 +6,8 @@ Same split and protocol as s2_train.py (Table 1 of Part 2); for each seed availa
     present, against AIOMFAC (s2_dlabels.py), held-out compositions and unseen ion pairs;
   * phase equilibrium of the five inorganic particles of Sect. 3.5 (60 states, single network, JAX Gibbs function)
     against AIOMFAC (from jax_pe_bench.json): phase state and particle water.
-Writes ../results/s2v2_sob_eval.json.  Usage: python s2_sob_eval.py [seeds, e.g. 0,1]"""
+Writes (updates) ../results/s2v2_sob_eval.json.
+Usage: python s2_sob_eval.py [seeds, e.g. 0,1] [variants, e.g. gex,gex_sob,gex_sob_l003]"""
 import json
 import os
 import sys
@@ -63,7 +64,7 @@ def deriv_mae(net, idx, n_max=4000):
 
 def pe(net, ref):
     gf = JS.part2_gibbs([net.double()])
-    out = {"same_state": 0, "n": 0, "water_rel_err": [], "converged_or_dry": 0}
+    out = {"same_state": 0, "n": 0, "water_rel_err": [], "converged_or_dry": 0, "water_rel_err_max_by_case": {}}
     for name, (ions, feed) in P2.CASES.items():
         for rh, a in zip(P2.RH, ref[name]["aiomfac"]):
             r = PhaseEquilibrium([], ions, 298.15, liquid_model=JS.part2_liquid(ions, None, gf)).solve(feed, rh)
@@ -73,6 +74,8 @@ def pe(net, ref):
             w = float(sum(L.amounts[0] for L in r.liquids))
             if a["water"] > 0 and w > 0:
                 out["water_rel_err"].append(abs(w / a["water"] - 1))
+                c = out["water_rel_err_max_by_case"]
+                c[name] = max(c.get(name, 0.0), abs(w / a["water"] - 1))
     e = out.pop("water_rel_err")
     out["water_rel_err_median"], out["water_rel_err_max"] = float(np.median(e)), float(np.max(e))
     return out
@@ -82,8 +85,10 @@ if __name__ == "__main__":
     seeds = [int(s) for s in (sys.argv[1] if len(sys.argv) > 1 else "0,1").split(",")]
     te, tu = split()
     ref = json.load(open("../results/jax_pe_bench.json"))["part2"]
-    res = {}
-    for kind in ("gex", "gex_sob"):
+    kinds = (sys.argv[2] if len(sys.argv) > 2 else "gex,gex_sob").split(",")
+    out_path = "../results/s2v2_sob_eval.json"
+    res = json.load(open(out_path)) if os.path.exists(out_path) else {}
+    for kind in kinds:
         for seed in seeds:
             path = f"../results/s2v2_models/{kind}_seed{seed}.pt"
             if not os.path.exists(path):
@@ -93,4 +98,4 @@ if __name__ == "__main__":
                  **deriv_mae(net, te), **{k + "_unseen": v for k, v in deriv_mae(net, tu).items()}, **pe(load(kind, seed), ref)}
             res[f"{kind}_seed{seed}"] = r
             print(kind, seed, {k: round(v, 4) if isinstance(v, float) else v for k, v in r.items()}, flush=True)
-    json.dump(res, open("../results/s2v2_sob_eval.json", "w"), indent=1)
+            json.dump(res, open(out_path, "w"), indent=1)
