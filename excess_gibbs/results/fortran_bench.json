@@ -1,0 +1,7523 @@
+{
+ "machine": {
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "platform": "Linux-6.18.44-fc-v80-x86_64-with-glibc2.39",
+  "gfortran": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "3.11.15",
+  "threads": 1
+ },
+ "cases": [
+  {
+   "group": "p1_bench",
+   "label": "CC(=O)C1CC(CC(=O)O)C1(C)C",
+   "ncomp": 2,
+   "python": {
+    "build_us": 111.71381999702135,
+    "eval_us": 145.48456800002896,
+    "a_w": 1.0513974481785577
+   },
+   "fortran_official": {
+    "build_us": 21.2602,
+    "eval_us": 3.284,
+    "eval_visc_us": 6.89517,
+    "err": 0,
+    "a_w": 1.051397448178559
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.4693,
+    "eval_us": 3.02244,
+    "eval_visc_us": 6.03776,
+    "err": 0,
+    "a_w": 1.051397448178559
+   }
+  },
+  {
+   "group": "p1_bench",
+   "label": "OC(=O)CC1CC(C(=O)O)C1(C)C",
+   "ncomp": 2,
+   "python": {
+    "build_us": 101.56383000321512,
+    "eval_us": 147.39443800135632,
+    "a_w": 1.0096470296999067
+   },
+   "fortran_official": {
+    "build_us": 21.4604,
+    "eval_us": 3.14215,
+    "eval_visc_us": 6.24342,
+    "err": 0,
+    "a_w": 1.009647029699906
+   },
+   "fortran_O3_nobc": {
+    "build_us": 20.0629,
+    "eval_us": 3.10002,
+    "eval_visc_us": 5.87351,
+    "err": 0,
+    "a_w": 1.009647029699906
+   }
+  },
+  {
+   "group": "p1_bench",
+   "label": "OCC(O)CO",
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.29504000257293,
+    "eval_us": 145.28617600080906,
+    "a_w": 0.8136939819369137
+   },
+   "fortran_official": {
+    "build_us": 17.0391,
+    "eval_us": 3.09264,
+    "eval_visc_us": 5.58465,
+    "err": 0,
+    "a_w": 0.8136939819369137
+   },
+   "fortran_O3_nobc": {
+    "build_us": 16.1616,
+    "eval_us": 2.93988,
+    "eval_visc_us": 5.38965,
+    "err": 0,
+    "a_w": 0.8136939819369137
+   }
+  },
+  {
+   "group": "p1_bench",
+   "label": "CC(=O)O",
+   "ncomp": 2,
+   "python": {
+    "build_us": 82.8287599961186,
+    "eval_us": 145.07790400057274,
+    "a_w": 0.8112073175756643
+   },
+   "fortran_official": {
+    "build_us": 14.291,
+    "eval_us": 3.08788,
+    "eval_visc_us": 5.59354,
+    "err": 0,
+    "a_w": 0.8112073175756643
+   },
+   "fortran_O3_nobc": {
+    "build_us": 14.3863,
+    "eval_us": 3.52002,
+    "eval_visc_us": 5.16268,
+    "err": 0,
+    "a_w": 0.8112073175756651
+   }
+  },
+  {
+   "group": "p1_bench",
+   "label": "OCC(O)C(O)C(O)C(O)CO",
+   "ncomp": 2,
+   "python": {
+    "build_us": 86.17821000370895,
+    "eval_us": 145.79539999976987,
+    "a_w": 0.8676660194513254
+   },
+   "fortran_official": {
+    "build_us": 18.07,
+    "eval_us": 3.19818,
+    "eval_visc_us": 5.86028,
+    "err": 0,
+    "a_w": 0.8676660194513257
+   },
+   "fortran_O3_nobc": {
+    "build_us": 16.2833,
+    "eval_us": 2.8528,
+    "eval_visc_us": 5.00072,
+    "err": 0,
+    "a_w": 0.8676660194513257
+   }
+  },
+  {
+   "group": "p1_bench",
+   "label": "OC(=O)c1ccccc1",
+   "ncomp": 2,
+   "python": {
+    "build_us": 88.42361000461096,
+    "eval_us": 146.9930179991934,
+    "a_w": 1.0494464887899162
+   },
+   "fortran_official": {
+    "build_us": 16.2824,
+    "eval_us": 3.28538,
+    "eval_visc_us": 5.82636,
+    "err": 0,
+    "a_w": 1.049446488789916
+   },
+   "fortran_O3_nobc": {
+    "build_us": 14.7926,
+    "eval_us": 2.83315,
+    "eval_visc_us": 4.96171,
+    "err": 0,
+    "a_w": 1.049446488789916
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 1,
+   "ncomp": 2,
+   "python": {
+    "build_us": 94.26769997844531,
+    "eval_us": 143.82748499883746,
+    "a_w": 1.0036450321152184
+   },
+   "fortran_official": {
+    "build_us": 18.4493,
+    "eval_us": 3.09923,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 1.003645032115219
+   },
+   "fortran_O3_nobc": {
+    "build_us": 17.8979,
+    "eval_us": 2.88328,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 1.003645032115219
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 2,
+   "ncomp": 3,
+   "python": {
+    "build_us": 163.58210000362305,
+    "eval_us": 175.5728750003982,
+    "a_w": 1.1030278892863503
+   },
+   "fortran_official": {
+    "build_us": 34.4214,
+    "eval_us": 4.4164,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 1.10302788928635
+   },
+   "fortran_O3_nobc": {
+    "build_us": 32.2813,
+    "eval_us": 4.16896,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 1.10302788928635
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 5,
+   "ncomp": 6,
+   "python": {
+    "build_us": 235.9877000344568,
+    "eval_us": 238.56844499732688,
+    "a_w": 0.8127407201990124
+   },
+   "fortran_official": {
+    "build_us": 52.7461,
+    "eval_us": 6.50904,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.8127407201990116
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.1266,
+    "eval_us": 6.3039,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.8127407201990116
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 10,
+   "ncomp": 11,
+   "python": {
+    "build_us": 394.53790000152367,
+    "eval_us": 363.2349150029768,
+    "a_w": 0.8161764527535452
+   },
+   "fortran_official": {
+    "build_us": 110.621,
+    "eval_us": 11.6517,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.8161764527535448
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.72,
+    "eval_us": 9.66854,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.8161764527535448
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 20,
+   "ncomp": 21,
+   "python": {
+    "build_us": 618.4425999890664,
+    "eval_us": 623.4175100007633,
+    "a_w": 0.6135067839943825
+   },
+   "fortran_official": {
+    "build_us": 194.069,
+    "eval_us": 17.6654,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.6135067839943801
+   },
+   "fortran_O3_nobc": {
+    "build_us": 184.326,
+    "eval_us": 17.1719,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.6135067839943801
+   }
+  },
+  {
+   "group": "p1_multi",
+   "label": 40,
+   "ncomp": 41,
+   "python": {
+    "build_us": 1179.9942499692406,
+    "eval_us": 1166.6395950032893,
+    "a_w": 0.33444192769245423
+   },
+   "fortran_official": {
+    "build_us": 400.057,
+    "eval_us": 31.9861,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.3344419276924462
+   },
+   "fortran_O3_nobc": {
+    "build_us": 366.56,
+    "eval_us": 31.0002,
+    "eval_visc_us": -1.0,
+    "err": 0,
+    "a_w": 0.3344419276924464
+   }
+  },
+  {
+   "group": "p2_fixed",
+   "label": "NaCl",
+   "ncomp": 2,
+   "python": {
+    "build_us": 89.16681999835419,
+    "eval_us": 297.92788600025233,
+    "a_w": 0.9668223500554297
+   },
+   "fortran_official": {
+    "build_us": 19.0991,
+    "eval_us": 4.33091,
+    "eval_visc_us": 13.148,
+    "err": 0,
+    "a_w": 0.9668223500554297
+   },
+   "fortran_O3_nobc": {
+    "build_us": 17.9316,
+    "eval_us": 4.15126,
+    "eval_visc_us": 10.5345,
+    "err": 0,
+    "a_w": 0.9668223500554297
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 0,
+   "ncomp": 5,
+   "python": {
+    "build_us": 133.18166656972608,
+    "eval_us": 359.0956999687478,
+    "a_w": 0.9833809969275652
+   },
+   "fortran_official": {
+    "build_us": 39.8732,
+    "eval_us": 5.86339,
+    "eval_visc_us": 18.1521,
+    "err": 0,
+    "a_w": 0.983380996932933
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.4282,
+    "eval_us": 5.44684,
+    "eval_visc_us": 14.2863,
+    "err": 0,
+    "a_w": 0.983380996932933
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 1,
+   "ncomp": 2,
+   "python": {
+    "build_us": 93.768333196446,
+    "eval_us": 299.2704000462254,
+    "a_w": 0.9993108131807131
+   },
+   "fortran_official": {
+    "build_us": 19.4265,
+    "eval_us": 4.72469,
+    "eval_visc_us": 14.1263,
+    "err": 0,
+    "a_w": 0.9993108131806859
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.174,
+    "eval_us": 4.19225,
+    "eval_visc_us": 10.6808,
+    "err": 0,
+    "a_w": 0.9993108131806859
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 2,
+   "ncomp": 7,
+   "python": {
+    "build_us": 218.12733333111586,
+    "eval_us": 4157.495399977051,
+    "a_w": 0.932222363411898
+   },
+   "fortran_official": {
+    "build_us": 83.1257,
+    "eval_us": 39.2248,
+    "eval_visc_us": 90.223,
+    "err": 0,
+    "a_w": 0.9322223634061537
+   },
+   "fortran_O3_nobc": {
+    "build_us": 78.9463,
+    "eval_us": 31.292,
+    "eval_visc_us": 67.7118,
+    "err": 0,
+    "a_w": 0.9322223634061537
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 3,
+   "ncomp": 4,
+   "python": {
+    "build_us": 213.6833333376368,
+    "eval_us": 3946.1149999624467,
+    "a_w": 0.9501866523212578
+   },
+   "fortran_official": {
+    "build_us": 48.2471,
+    "eval_us": 28.7469,
+    "eval_visc_us": 64.0514,
+    "err": 0,
+    "a_w": 0.9501866523176703
+   },
+   "fortran_O3_nobc": {
+    "build_us": 47.1263,
+    "eval_us": 27.3838,
+    "eval_visc_us": 55.7668,
+    "err": 0,
+    "a_w": 0.9501866523176703
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 4,
+   "ncomp": 7,
+   "python": {
+    "build_us": 402.7016666441341,
+    "eval_us": 3969.2906999334814,
+    "a_w": 0.9740243621561927
+   },
+   "fortran_official": {
+    "build_us": 83.6764,
+    "eval_us": 35.7835,
+    "eval_visc_us": 86.757,
+    "err": 0,
+    "a_w": 0.974024362156062
+   },
+   "fortran_O3_nobc": {
+    "build_us": 82.9106,
+    "eval_us": 29.4652,
+    "eval_visc_us": 63.219,
+    "err": 0,
+    "a_w": 0.974024362156062
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 5,
+   "ncomp": 5,
+   "python": {
+    "build_us": 143.26833327989638,
+    "eval_us": 378.3819999625848,
+    "a_w": 0.9787251469200208
+   },
+   "fortran_official": {
+    "build_us": 39.1776,
+    "eval_us": 5.87737,
+    "eval_visc_us": 18.3105,
+    "err": 0,
+    "a_w": 0.978725146920466
+   },
+   "fortran_O3_nobc": {
+    "build_us": 35.5189,
+    "eval_us": 5.50247,
+    "eval_visc_us": 15.9459,
+    "err": 0,
+    "a_w": 0.978725146920466
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 6,
+   "ncomp": 3,
+   "python": {
+    "build_us": 120.56200012011686,
+    "eval_us": 316.1782000461244,
+    "a_w": 0.9628594642717588
+   },
+   "fortran_official": {
+    "build_us": 25.5103,
+    "eval_us": 5.07532,
+    "eval_visc_us": 15.4234,
+    "err": 0,
+    "a_w": 0.9628594642713159
+   },
+   "fortran_O3_nobc": {
+    "build_us": 27.2278,
+    "eval_us": 7.23257,
+    "eval_visc_us": 18.2282,
+    "err": 0,
+    "a_w": 0.9628594642713159
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 7,
+   "ncomp": 3,
+   "python": {
+    "build_us": 102.127666650631,
+    "eval_us": 345.8232000411954,
+    "a_w": 0.9815267337469599
+   },
+   "fortran_official": {
+    "build_us": 27.1716,
+    "eval_us": 5.4213,
+    "eval_visc_us": 18.2069,
+    "err": 0,
+    "a_w": 0.9815267337550256
+   },
+   "fortran_O3_nobc": {
+    "build_us": 35.8323,
+    "eval_us": 7.30333,
+    "eval_visc_us": 18.3396,
+    "err": 0,
+    "a_w": 0.9815267337550256
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 8,
+   "ncomp": 3,
+   "python": {
+    "build_us": 125.82333329191897,
+    "eval_us": 336.51540006758296,
+    "a_w": 0.9544698710251676
+   },
+   "fortran_official": {
+    "build_us": 27.2469,
+    "eval_us": 5.02101,
+    "eval_visc_us": 15.543,
+    "err": 0,
+    "a_w": 0.9544698710321439
+   },
+   "fortran_O3_nobc": {
+    "build_us": 35.226,
+    "eval_us": 6.60316,
+    "eval_visc_us": 13.0913,
+    "err": 0,
+    "a_w": 0.9544698710321439
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 9,
+   "ncomp": 7,
+   "python": {
+    "build_us": 243.89733334828634,
+    "eval_us": 35357.91540007267,
+    "a_w": 0.8612955823917468
+   },
+   "fortran_official": {
+    "build_us": 106.143,
+    "eval_us": 33.3813,
+    "eval_visc_us": 113.08,
+    "err": 0,
+    "a_w": 0.8610872994943729
+   },
+   "fortran_O3_nobc": {
+    "build_us": 100.639,
+    "eval_us": 27.5051,
+    "eval_visc_us": 81.983,
+    "err": 0,
+    "a_w": 0.8610872994943729
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 10,
+   "ncomp": 10,
+   "python": {
+    "build_us": 235.02833331197812,
+    "eval_us": 4216.555299990432,
+    "a_w": 0.992926087501026
+   },
+   "fortran_official": {
+    "build_us": 87.2166,
+    "eval_us": 34.3393,
+    "eval_visc_us": 82.2623,
+    "err": 0,
+    "a_w": 0.9929260875007935
+   },
+   "fortran_O3_nobc": {
+    "build_us": 84.8387,
+    "eval_us": 26.8242,
+    "eval_visc_us": 61.106,
+    "err": 0,
+    "a_w": 0.9929260875007935
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 11,
+   "ncomp": 5,
+   "python": {
+    "build_us": 138.35066662674458,
+    "eval_us": 363.03609995229635,
+    "a_w": 0.9898733725855885
+   },
+   "fortran_official": {
+    "build_us": 39.076,
+    "eval_us": 5.76269,
+    "eval_visc_us": 18.141,
+    "err": 0,
+    "a_w": 0.9898733725837563
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.8904,
+    "eval_us": 5.44398,
+    "eval_visc_us": 14.0563,
+    "err": 0,
+    "a_w": 0.9898733725837563
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 12,
+   "ncomp": 2,
+   "python": {
+    "build_us": 95.71333339408739,
+    "eval_us": 293.6453999609512,
+    "a_w": 0.9999890608791762
+   },
+   "fortran_official": {
+    "build_us": 20.5285,
+    "eval_us": 4.46235,
+    "eval_visc_us": 14.1053,
+    "err": 0,
+    "a_w": 0.9999890608791762
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.9047,
+    "eval_us": 4.15529,
+    "eval_visc_us": 10.7483,
+    "err": 0,
+    "a_w": 0.9999890608791762
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 13,
+   "ncomp": 10,
+   "python": {
+    "build_us": 253.35200007248204,
+    "eval_us": 7082.10719994895,
+    "a_w": 0.9801998268348552
+   },
+   "fortran_official": {
+    "build_us": 85.9443,
+    "eval_us": 38.9178,
+    "eval_visc_us": 91.039,
+    "err": 0,
+    "a_w": 0.9801998268387689
+   },
+   "fortran_O3_nobc": {
+    "build_us": 83.5048,
+    "eval_us": 30.6234,
+    "eval_visc_us": 71.9431,
+    "err": 0,
+    "a_w": 0.9801998268387689
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 14,
+   "ncomp": 2,
+   "python": {
+    "build_us": 96.62233333074255,
+    "eval_us": 301.2008000041533,
+    "a_w": 0.9991905521788413
+   },
+   "fortran_official": {
+    "build_us": 19.1938,
+    "eval_us": 4.31644,
+    "eval_visc_us": 13.6499,
+    "err": 0,
+    "a_w": 0.999190552178585
+   },
+   "fortran_O3_nobc": {
+    "build_us": 20.2162,
+    "eval_us": 4.18687,
+    "eval_visc_us": 10.8156,
+    "err": 0,
+    "a_w": 0.999190552178585
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 15,
+   "ncomp": 10,
+   "python": {
+    "build_us": 289.40433336780796,
+    "eval_us": 34797.024800082,
+    "a_w": 0.9949268306416987
+   },
+   "fortran_official": {
+    "build_us": 108.814,
+    "eval_us": 4831.92,
+    "eval_visc_us": 9468.98,
+    "err": 17000,
+    "a_w": 0.994923254206471
+   },
+   "fortran_O3_nobc": {
+    "build_us": 105.843,
+    "eval_us": 4007.42,
+    "eval_visc_us": 8037.45,
+    "err": 17000,
+    "a_w": 0.9949232541793285
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 16,
+   "ncomp": 4,
+   "python": {
+    "build_us": 127.6466664421605,
+    "eval_us": 353.0021000187844,
+    "a_w": 0.9724665246918923
+   },
+   "fortran_official": {
+    "build_us": 34.4738,
+    "eval_us": 5.76323,
+    "eval_visc_us": 18.4915,
+    "err": 0,
+    "a_w": 0.972466524695075
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.4677,
+    "eval_us": 5.60111,
+    "eval_visc_us": 14.6962,
+    "err": 0,
+    "a_w": 0.972466524695075
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 17,
+   "ncomp": 7,
+   "python": {
+    "build_us": 193.14100003005782,
+    "eval_us": 5833.112800064555,
+    "a_w": 0.9584327142713162
+   },
+   "fortran_official": {
+    "build_us": 65.9787,
+    "eval_us": 29.3283,
+    "eval_visc_us": 68.0656,
+    "err": 0,
+    "a_w": 0.9584327142722819
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.781,
+    "eval_us": 25.3424,
+    "eval_visc_us": 57.4437,
+    "err": 0,
+    "a_w": 0.9584327142722819
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 18,
+   "ncomp": 4,
+   "python": {
+    "build_us": 234.5756668849693,
+    "eval_us": 643701.6770999435,
+    "a_w": 0.9995677623409155
+   },
+   "fortran_official": {
+    "build_us": 88.0597,
+    "eval_us": 39.9667,
+    "eval_visc_us": 108.25,
+    "err": 0,
+    "a_w": 0.9993732922604199
+   },
+   "fortran_O3_nobc": {
+    "build_us": 85.8433,
+    "eval_us": 33.8005,
+    "eval_visc_us": 85.2599,
+    "err": 0,
+    "a_w": 0.9993732922604199
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 19,
+   "ncomp": 3,
+   "python": {
+    "build_us": 131.71433329262072,
+    "eval_us": 351.8151000207581,
+    "a_w": 0.9941263228507907
+   },
+   "fortran_official": {
+    "build_us": 25.5638,
+    "eval_us": 4.91333,
+    "eval_visc_us": 15.3217,
+    "err": 0,
+    "a_w": 0.9941263228510953
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.8518,
+    "eval_us": 5.39579,
+    "eval_visc_us": 12.2525,
+    "err": 0,
+    "a_w": 0.9941263228510953
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 20,
+   "ncomp": 7,
+   "python": {
+    "build_us": 184.7339999585529,
+    "eval_us": 3962.819800017314,
+    "a_w": 0.965570400332439
+   },
+   "fortran_official": {
+    "build_us": 65.5927,
+    "eval_us": 26.8203,
+    "eval_visc_us": 65.0352,
+    "err": 0,
+    "a_w": 0.9655704003334631
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.6802,
+    "eval_us": 25.0128,
+    "eval_visc_us": 54.6226,
+    "err": 0,
+    "a_w": 0.9655704003334631
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 21,
+   "ncomp": 3,
+   "python": {
+    "build_us": 104.52633341628825,
+    "eval_us": 330.5645000182267,
+    "a_w": 0.9999404214799118
+   },
+   "fortran_official": {
+    "build_us": 48.8131,
+    "eval_us": 9.21021,
+    "eval_visc_us": 29.3095,
+    "err": 0,
+    "a_w": 0.9999404214799071
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.0035,
+    "eval_us": 4.70997,
+    "eval_visc_us": 12.0885,
+    "err": 0,
+    "a_w": 0.9999404214799071
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 22,
+   "ncomp": 3,
+   "python": {
+    "build_us": 109.34366673609475,
+    "eval_us": 325.05649996892316,
+    "a_w": 0.9732935539934717
+   },
+   "fortran_official": {
+    "build_us": 45.3394,
+    "eval_us": 4.94867,
+    "eval_visc_us": 15.8028,
+    "err": 0,
+    "a_w": 0.9732935540026564
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.1427,
+    "eval_us": 4.63238,
+    "eval_visc_us": 12.6348,
+    "err": 0,
+    "a_w": 0.9732935540026564
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 23,
+   "ncomp": 2,
+   "python": {
+    "build_us": 85.54200000313965,
+    "eval_us": 316.01040000168723,
+    "a_w": 0.9999572141557936
+   },
+   "fortran_official": {
+    "build_us": 19.0865,
+    "eval_us": 4.14909,
+    "eval_visc_us": 13.0498,
+    "err": 0,
+    "a_w": 0.9999572141557923
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.0863,
+    "eval_us": 4.00488,
+    "eval_visc_us": 11.7873,
+    "err": 0,
+    "a_w": 0.9999572141557923
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 24,
+   "ncomp": 10,
+   "python": {
+    "build_us": 313.0806665770554,
+    "eval_us": 643080.8296000578,
+    "a_w": 0.9527997399807561
+   },
+   "fortran_official": {
+    "build_us": 117.934,
+    "eval_us": 44.2042,
+    "eval_visc_us": 137.429,
+    "err": 0,
+    "a_w": 0.9530052914370911
+   },
+   "fortran_O3_nobc": {
+    "build_us": 116.895,
+    "eval_us": 37.606,
+    "eval_visc_us": 108.767,
+    "err": 0,
+    "a_w": 0.9530052914370911
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 25,
+   "ncomp": 3,
+   "python": {
+    "build_us": 114.11233329757427,
+    "eval_us": 333.25140002489206,
+    "a_w": 0.9992753699333622
+   },
+   "fortran_official": {
+    "build_us": 26.0131,
+    "eval_us": 5.41472,
+    "eval_visc_us": 15.96,
+    "err": 0,
+    "a_w": 0.9992753699334098
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.0259,
+    "eval_us": 4.82337,
+    "eval_visc_us": 12.3417,
+    "err": 0,
+    "a_w": 0.9992753699334098
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 26,
+   "ncomp": 10,
+   "python": {
+    "build_us": 306.0616666819745,
+    "eval_us": 11398.077800004103,
+    "a_w": 0.9983853297558232
+   },
+   "fortran_official": {
+    "build_us": 110.459,
+    "eval_us": 29.4413,
+    "eval_visc_us": 94.366,
+    "err": 0,
+    "a_w": 0.9983951583845685
+   },
+   "fortran_O3_nobc": {
+    "build_us": 105.94,
+    "eval_us": 26.0026,
+    "eval_visc_us": 76.4578,
+    "err": 0,
+    "a_w": 0.9983951583845685
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 27,
+   "ncomp": 5,
+   "python": {
+    "build_us": 131.0653333348455,
+    "eval_us": 364.1493999566592,
+    "a_w": 0.9956183867985768
+   },
+   "fortran_official": {
+    "build_us": 38.249,
+    "eval_us": 5.75281,
+    "eval_visc_us": 17.9636,
+    "err": 0,
+    "a_w": 0.9956183867979873
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.0097,
+    "eval_us": 5.37618,
+    "eval_visc_us": 14.4365,
+    "err": 0,
+    "a_w": 0.9956183867979873
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 28,
+   "ncomp": 2,
+   "python": {
+    "build_us": 137.55700001638616,
+    "eval_us": 3712.1182999726443,
+    "a_w": 0.9995696918572764
+   },
+   "fortran_official": {
+    "build_us": 37.6976,
+    "eval_us": 21.2397,
+    "eval_visc_us": 48.249,
+    "err": 0,
+    "a_w": 0.9995696918575
+   },
+   "fortran_O3_nobc": {
+    "build_us": 36.8259,
+    "eval_us": 19.6699,
+    "eval_visc_us": 43.8966,
+    "err": 0,
+    "a_w": 0.9995696918575
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 29,
+   "ncomp": 2,
+   "python": {
+    "build_us": 99.44566681951983,
+    "eval_us": 293.61740007516346,
+    "a_w": 0.9833043309946984
+   },
+   "fortran_official": {
+    "build_us": 20.0784,
+    "eval_us": 4.26915,
+    "eval_visc_us": 13.6829,
+    "err": 0,
+    "a_w": 0.9833043309910273
+   },
+   "fortran_O3_nobc": {
+    "build_us": 20.5877,
+    "eval_us": 4.40849,
+    "eval_visc_us": 11.2406,
+    "err": 0,
+    "a_w": 0.9833043309910273
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 30,
+   "ncomp": 2,
+   "python": {
+    "build_us": 101.76100022363244,
+    "eval_us": 291.1472000050708,
+    "a_w": 0.9940817272508261
+   },
+   "fortran_official": {
+    "build_us": 19.2356,
+    "eval_us": 4.22898,
+    "eval_visc_us": 12.9424,
+    "err": 0,
+    "a_w": 0.9940817272511354
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.3466,
+    "eval_us": 4.05172,
+    "eval_visc_us": 10.9275,
+    "err": 0,
+    "a_w": 0.9940817272511354
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 31,
+   "ncomp": 4,
+   "python": {
+    "build_us": 119.4970000142348,
+    "eval_us": 361.7332000430906,
+    "a_w": 0.9678913722989005
+   },
+   "fortran_official": {
+    "build_us": 31.9053,
+    "eval_us": 5.77819,
+    "eval_visc_us": 18.3888,
+    "err": 0,
+    "a_w": 0.9678913723011074
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.6564,
+    "eval_us": 5.72545,
+    "eval_visc_us": 15.3194,
+    "err": 0,
+    "a_w": 0.9678913723011074
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 32,
+   "ncomp": 4,
+   "python": {
+    "build_us": 133.34833329281537,
+    "eval_us": 351.1438999339589,
+    "a_w": 0.9967096792549027
+   },
+   "fortran_official": {
+    "build_us": 33.1141,
+    "eval_us": 5.98157,
+    "eval_visc_us": 18.6328,
+    "err": 0,
+    "a_w": 0.9967096792549525
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.8012,
+    "eval_us": 5.58663,
+    "eval_visc_us": 15.0538,
+    "err": 0,
+    "a_w": 0.9967096792549525
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 33,
+   "ncomp": 10,
+   "python": {
+    "build_us": 307.435999881515,
+    "eval_us": 117819.38670001182,
+    "a_w": 0.889860413267631
+   },
+   "fortran_official": {
+    "build_us": 129.903,
+    "eval_us": 32.3151,
+    "eval_visc_us": 109.542,
+    "err": 0,
+    "a_w": 0.8897131876357615
+   },
+   "fortran_O3_nobc": {
+    "build_us": 127.468,
+    "eval_us": 28.5252,
+    "eval_visc_us": 79.7073,
+    "err": 0,
+    "a_w": 0.8897131876357617
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 34,
+   "ncomp": 5,
+   "python": {
+    "build_us": 183.46000009235772,
+    "eval_us": 6993.023200084281,
+    "a_w": 0.9231001315759694
+   },
+   "fortran_official": {
+    "build_us": 66.4111,
+    "eval_us": 53.0074,
+    "eval_visc_us": 114.904,
+    "err": 0,
+    "a_w": 0.9231001316024204
+   },
+   "fortran_O3_nobc": {
+    "build_us": 67.0112,
+    "eval_us": 47.5844,
+    "eval_visc_us": 100.288,
+    "err": 0,
+    "a_w": 0.9231001316024207
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 35,
+   "ncomp": 7,
+   "python": {
+    "build_us": 200.41733326555308,
+    "eval_us": 6033.720999948855,
+    "a_w": 0.9966084504823353
+   },
+   "fortran_official": {
+    "build_us": 72.1594,
+    "eval_us": 33.7916,
+    "eval_visc_us": 82.8935,
+    "err": 0,
+    "a_w": 0.9966084504820293
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.8318,
+    "eval_us": 30.0435,
+    "eval_visc_us": 64.6203,
+    "err": 0,
+    "a_w": 0.9966084504820293
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 36,
+   "ncomp": 2,
+   "python": {
+    "build_us": 132.00699989586914,
+    "eval_us": 4577.094499927625,
+    "a_w": 0.99999057994329
+   },
+   "fortran_official": {
+    "build_us": 37.6229,
+    "eval_us": 27.3027,
+    "eval_visc_us": 58.699,
+    "err": 0,
+    "a_w": 0.9999905799432897
+   },
+   "fortran_O3_nobc": {
+    "build_us": 36.3581,
+    "eval_us": 24.2397,
+    "eval_visc_us": 50.5843,
+    "err": 0,
+    "a_w": 0.9999905799432897
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 37,
+   "ncomp": 2,
+   "python": {
+    "build_us": 99.21400002591933,
+    "eval_us": 294.2507000625483,
+    "a_w": 0.9999920944950552
+   },
+   "fortran_official": {
+    "build_us": 19.2639,
+    "eval_us": 4.24688,
+    "eval_visc_us": 13.8567,
+    "err": 0,
+    "a_w": 0.999992094495055
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.3041,
+    "eval_us": 4.14615,
+    "eval_visc_us": 11.3084,
+    "err": 0,
+    "a_w": 0.999992094495055
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 38,
+   "ncomp": 7,
+   "python": {
+    "build_us": 172.18066659552278,
+    "eval_us": 3991.446100008034,
+    "a_w": 0.967920795693039
+   },
+   "fortran_official": {
+    "build_us": 51.3616,
+    "eval_us": 63.7667,
+    "eval_visc_us": 135.543,
+    "err": 0,
+    "a_w": 0.9679207956841281
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.6771,
+    "eval_us": 56.1755,
+    "eval_visc_us": 121.835,
+    "err": 0,
+    "a_w": 0.9679207956841281
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 39,
+   "ncomp": 4,
+   "python": {
+    "build_us": 193.92800004425226,
+    "eval_us": 22718.127600001026,
+    "a_w": 0.9927769582827627
+   },
+   "fortran_official": {
+    "build_us": 68.5103,
+    "eval_us": 25.5401,
+    "eval_visc_us": 77.4159,
+    "err": 0,
+    "a_w": 0.9920113275602501
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.3075,
+    "eval_us": 23.8286,
+    "eval_visc_us": 60.1928,
+    "err": 0,
+    "a_w": 0.9920113275602501
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 40,
+   "ncomp": 10,
+   "python": {
+    "build_us": 339.857000047535,
+    "eval_us": 20379.695600058767,
+    "a_w": 0.9469260188047728
+   },
+   "fortran_official": {
+    "build_us": 154.734,
+    "eval_us": 49.593,
+    "eval_visc_us": 143.998,
+    "err": 0,
+    "a_w": 0.9469260187975755
+   },
+   "fortran_O3_nobc": {
+    "build_us": 151.961,
+    "eval_us": 47.5202,
+    "eval_visc_us": 176.02,
+    "err": 0,
+    "a_w": 0.9469260187975752
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 41,
+   "ncomp": 5,
+   "python": {
+    "build_us": 139.90700002371645,
+    "eval_us": 364.2167000180052,
+    "a_w": 0.9961885848942685
+   },
+   "fortran_official": {
+    "build_us": 39.7904,
+    "eval_us": 5.79067,
+    "eval_visc_us": 17.9161,
+    "err": 0,
+    "a_w": 0.9961885848934603
+   },
+   "fortran_O3_nobc": {
+    "build_us": 56.2924,
+    "eval_us": 8.31282,
+    "eval_visc_us": 14.7057,
+    "err": 0,
+    "a_w": 0.9961885848934603
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 42,
+   "ncomp": 4,
+   "python": {
+    "build_us": 120.8239997746811,
+    "eval_us": 356.8258000086644,
+    "a_w": 0.9020708721790214
+   },
+   "fortran_official": {
+    "build_us": 33.2348,
+    "eval_us": 5.81641,
+    "eval_visc_us": 17.9112,
+    "err": 0,
+    "a_w": 0.902070872187995
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.0533,
+    "eval_us": 5.48887,
+    "eval_visc_us": 14.5618,
+    "err": 0,
+    "a_w": 0.902070872187995
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 43,
+   "ncomp": 3,
+   "python": {
+    "build_us": 137.20500010094838,
+    "eval_us": 5021.516899978451,
+    "a_w": 0.9982048650365921
+   },
+   "fortran_official": {
+    "build_us": 39.2773,
+    "eval_us": 26.0243,
+    "eval_visc_us": 56.6111,
+    "err": 0,
+    "a_w": 0.9982048650364405
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.1697,
+    "eval_us": 23.6421,
+    "eval_visc_us": 51.43,
+    "err": 0,
+    "a_w": 0.9982048650364405
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 44,
+   "ncomp": 3,
+   "python": {
+    "build_us": 103.81400018862526,
+    "eval_us": 320.66189996839967,
+    "a_w": 0.9414195742186453
+   },
+   "fortran_official": {
+    "build_us": 27.0252,
+    "eval_us": 5.26545,
+    "eval_visc_us": 15.9545,
+    "err": 0,
+    "a_w": 0.9414195742213298
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.9737,
+    "eval_us": 4.69082,
+    "eval_visc_us": 12.4356,
+    "err": 0,
+    "a_w": 0.9414195742213298
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 45,
+   "ncomp": 4,
+   "python": {
+    "build_us": 164.38566672150046,
+    "eval_us": 10420.534300010331,
+    "a_w": 0.9120042166143504
+   },
+   "fortran_official": {
+    "build_us": 49.0375,
+    "eval_us": 88.8925,
+    "eval_visc_us": 223.761,
+    "err": 0,
+    "a_w": 0.9120042166119313
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.1114,
+    "eval_us": 74.4642,
+    "eval_visc_us": 153.207,
+    "err": 0,
+    "a_w": 0.9120042166119313
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 46,
+   "ncomp": 4,
+   "python": {
+    "build_us": 117.91366675121633,
+    "eval_us": 346.8086999419029,
+    "a_w": 0.6222570118348656
+   },
+   "fortran_official": {
+    "build_us": 50.232,
+    "eval_us": 7.55013,
+    "eval_visc_us": 18.1258,
+    "err": 0,
+    "a_w": 0.6222570118236112
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.8234,
+    "eval_us": 5.45199,
+    "eval_visc_us": 14.7745,
+    "err": 0,
+    "a_w": 0.6222570118236112
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 47,
+   "ncomp": 7,
+   "python": {
+    "build_us": 155.597666586497,
+    "eval_us": 395.18909998150775,
+    "a_w": 0.9772741334361446
+   },
+   "fortran_official": {
+    "build_us": 48.4601,
+    "eval_us": 6.74715,
+    "eval_visc_us": 21.3473,
+    "err": 0,
+    "a_w": 0.977274133433452
+   },
+   "fortran_O3_nobc": {
+    "build_us": 46.6256,
+    "eval_us": 6.48198,
+    "eval_visc_us": 16.9337,
+    "err": 0,
+    "a_w": 0.977274133433452
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 48,
+   "ncomp": 2,
+   "python": {
+    "build_us": 163.52133328230897,
+    "eval_us": 10629.542199967545,
+    "a_w": 0.9999529758195467
+   },
+   "fortran_official": {
+    "build_us": 52.0272,
+    "eval_us": 25.1294,
+    "eval_visc_us": 85.6172,
+    "err": 0,
+    "a_w": 0.9999527433757871
+   },
+   "fortran_O3_nobc": {
+    "build_us": 52.4178,
+    "eval_us": 23.0927,
+    "eval_visc_us": 53.974,
+    "err": 0,
+    "a_w": 0.9999527433757871
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 49,
+   "ncomp": 5,
+   "python": {
+    "build_us": 143.07133339267844,
+    "eval_us": 368.3367000121507,
+    "a_w": 0.9831440691834702
+   },
+   "fortran_official": {
+    "build_us": 39.4347,
+    "eval_us": 5.62819,
+    "eval_visc_us": 17.8675,
+    "err": 0,
+    "a_w": 0.9831440691794697
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.9758,
+    "eval_us": 5.39079,
+    "eval_visc_us": 14.6166,
+    "err": 0,
+    "a_w": 0.9831440691794697
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 50,
+   "ncomp": 2,
+   "python": {
+    "build_us": 112.45699988648994,
+    "eval_us": 290.82660003041383,
+    "a_w": 0.9998267359107067
+   },
+   "fortran_official": {
+    "build_us": 19.0033,
+    "eval_us": 4.62695,
+    "eval_visc_us": 20.7602,
+    "err": 0,
+    "a_w": 0.9998267359107014
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.1321,
+    "eval_us": 4.13776,
+    "eval_visc_us": 11.2595,
+    "err": 0,
+    "a_w": 0.9998267359107014
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 51,
+   "ncomp": 7,
+   "python": {
+    "build_us": 261.40933338562417,
+    "eval_us": 22920.81089999556,
+    "a_w": 0.9635272365464765
+   },
+   "fortran_official": {
+    "build_us": 106.883,
+    "eval_us": 38.3656,
+    "eval_visc_us": 146.024,
+    "err": 0,
+    "a_w": 0.9635272365599468
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.087,
+    "eval_us": 32.8352,
+    "eval_visc_us": 106.397,
+    "err": 0,
+    "a_w": 0.9635272365599468
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 52,
+   "ncomp": 4,
+   "python": {
+    "build_us": 232.15233341034036,
+    "eval_us": 48045.36439996809,
+    "a_w": 0.9662183360402644
+   },
+   "fortran_official": {
+    "build_us": 76.4315,
+    "eval_us": 33.3618,
+    "eval_visc_us": 94.632,
+    "err": 0,
+    "a_w": 0.9662183360382728
+   },
+   "fortran_O3_nobc": {
+    "build_us": 73.5856,
+    "eval_us": 28.2721,
+    "eval_visc_us": 114.55,
+    "err": 0,
+    "a_w": 0.9662183360382728
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 53,
+   "ncomp": 3,
+   "python": {
+    "build_us": 143.8596667261057,
+    "eval_us": 4392.810399986047,
+    "a_w": 0.9959434309253445
+   },
+   "fortran_official": {
+    "build_us": 33.6905,
+    "eval_us": 24.6214,
+    "eval_visc_us": 55.6144,
+    "err": 0,
+    "a_w": 0.9959434309258561
+   },
+   "fortran_O3_nobc": {
+    "build_us": 32.3292,
+    "eval_us": 21.9938,
+    "eval_visc_us": 46.9662,
+    "err": 0,
+    "a_w": 0.9959434309258561
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 54,
+   "ncomp": 4,
+   "python": {
+    "build_us": 220.1516666294386,
+    "eval_us": 12691.821199950937,
+    "a_w": 0.9846658883010541
+   },
+   "fortran_official": {
+    "build_us": 77.0352,
+    "eval_us": 30.512,
+    "eval_visc_us": 104.899,
+    "err": 0,
+    "a_w": 0.9846651761526292
+   },
+   "fortran_O3_nobc": {
+    "build_us": 74.8823,
+    "eval_us": 26.378,
+    "eval_visc_us": 92.0983,
+    "err": 0,
+    "a_w": 0.9846651761526292
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 55,
+   "ncomp": 7,
+   "python": {
+    "build_us": 168.22566673605857,
+    "eval_us": 4077.135199986514,
+    "a_w": 0.9698873139560441
+   },
+   "fortran_official": {
+    "build_us": 49.8689,
+    "eval_us": 44.9375,
+    "eval_visc_us": 98.3965,
+    "err": 0,
+    "a_w": 0.9698873139566238
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.0703,
+    "eval_us": 40.1484,
+    "eval_visc_us": 83.0721,
+    "err": 0,
+    "a_w": 0.9698873139566235
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 56,
+   "ncomp": 3,
+   "python": {
+    "build_us": 184.10500009243455,
+    "eval_us": 58668.909199968766,
+    "a_w": 0.9824465796796413
+   },
+   "fortran_official": {
+    "build_us": 68.8909,
+    "eval_us": 25.8428,
+    "eval_visc_us": 73.6454,
+    "err": 0,
+    "a_w": 0.9823284092591844
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.6322,
+    "eval_us": 23.5235,
+    "eval_visc_us": 57.6422,
+    "err": 0,
+    "a_w": 0.9823284092591844
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 57,
+   "ncomp": 3,
+   "python": {
+    "build_us": 118.59900011283268,
+    "eval_us": 319.4464000443986,
+    "a_w": 0.9891299940607678
+   },
+   "fortran_official": {
+    "build_us": 25.6835,
+    "eval_us": 4.96397,
+    "eval_visc_us": 15.4624,
+    "err": 0,
+    "a_w": 0.9891299940606468
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.5049,
+    "eval_us": 4.65219,
+    "eval_visc_us": 11.9966,
+    "err": 0,
+    "a_w": 0.9891299940606468
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 58,
+   "ncomp": 10,
+   "python": {
+    "build_us": 220.88999988530608,
+    "eval_us": 7156.401900010678,
+    "a_w": 0.9907791831869639
+   },
+   "fortran_official": {
+    "build_us": 85.8932,
+    "eval_us": 44.2499,
+    "eval_visc_us": 102.742,
+    "err": 0,
+    "a_w": 0.9907791831885916
+   },
+   "fortran_O3_nobc": {
+    "build_us": 81.855,
+    "eval_us": 35.3045,
+    "eval_visc_us": 80.5647,
+    "err": 0,
+    "a_w": 0.9907791831885916
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 59,
+   "ncomp": 3,
+   "python": {
+    "build_us": 123.74633327757087,
+    "eval_us": 322.2000999812735,
+    "a_w": 0.9993815349120305
+   },
+   "fortran_official": {
+    "build_us": 25.5916,
+    "eval_us": 5.03354,
+    "eval_visc_us": 15.4717,
+    "err": 0,
+    "a_w": 0.9993815349120297
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.5033,
+    "eval_us": 4.71771,
+    "eval_visc_us": 12.1822,
+    "err": 0,
+    "a_w": 0.9993815349120297
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 60,
+   "ncomp": 4,
+   "python": {
+    "build_us": 163.24966660855958,
+    "eval_us": 3695.208499993896,
+    "a_w": 0.9975780312983566
+   },
+   "fortran_official": {
+    "build_us": 49.2927,
+    "eval_us": 26.3139,
+    "eval_visc_us": 60.4442,
+    "err": 0,
+    "a_w": 0.9975780312985271
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.9545,
+    "eval_us": 23.9132,
+    "eval_visc_us": 49.7216,
+    "err": 0,
+    "a_w": 0.9975780312985271
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 61,
+   "ncomp": 10,
+   "python": {
+    "build_us": 181.25399977482934,
+    "eval_us": 450.35200000711484,
+    "a_w": 0.585545841363163
+   },
+   "fortran_official": {
+    "build_us": 70.8623,
+    "eval_us": 7.44501,
+    "eval_visc_us": 24.1841,
+    "err": 0,
+    "a_w": 0.5855458413511286
+   },
+   "fortran_O3_nobc": {
+    "build_us": 68.565,
+    "eval_us": 7.4037,
+    "eval_visc_us": 19.4771,
+    "err": 0,
+    "a_w": 0.5855458413511286
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 62,
+   "ncomp": 7,
+   "python": {
+    "build_us": 148.64866655746786,
+    "eval_us": 397.15120001346804,
+    "a_w": 0.9647804858724338
+   },
+   "fortran_official": {
+    "build_us": 49.7289,
+    "eval_us": 6.73619,
+    "eval_visc_us": 21.5948,
+    "err": 0,
+    "a_w": 0.9647804858702917
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.3005,
+    "eval_us": 8.00088,
+    "eval_visc_us": 16.9434,
+    "err": 0,
+    "a_w": 0.9647804858702917
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 63,
+   "ncomp": 4,
+   "python": {
+    "build_us": 127.35633329915194,
+    "eval_us": 350.2111999296176,
+    "a_w": 0.9874971514592153
+   },
+   "fortran_official": {
+    "build_us": 32.366,
+    "eval_us": 5.83426,
+    "eval_visc_us": 18.7136,
+    "err": 0,
+    "a_w": 0.9874971514605942
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.9177,
+    "eval_us": 5.61829,
+    "eval_visc_us": 14.4204,
+    "err": 0,
+    "a_w": 0.9874971514605942
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 64,
+   "ncomp": 3,
+   "python": {
+    "build_us": 198.12333357549505,
+    "eval_us": 14742.529100021784,
+    "a_w": 0.9995120486708848
+   },
+   "fortran_official": {
+    "build_us": 53.0846,
+    "eval_us": 24.7608,
+    "eval_visc_us": 85.0744,
+    "err": 0,
+    "a_w": 0.9994836524532653
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.4268,
+    "eval_us": 22.8078,
+    "eval_visc_us": 61.4806,
+    "err": 0,
+    "a_w": 0.9994836524532653
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 65,
+   "ncomp": 7,
+   "python": {
+    "build_us": 200.55733330082148,
+    "eval_us": 3673.7182999786455,
+    "a_w": 0.9859750593888656
+   },
+   "fortran_official": {
+    "build_us": 60.5813,
+    "eval_us": 29.2509,
+    "eval_visc_us": 68.5986,
+    "err": 0,
+    "a_w": 0.9859750593889247
+   },
+   "fortran_O3_nobc": {
+    "build_us": 59.0209,
+    "eval_us": 24.3702,
+    "eval_visc_us": 53.275,
+    "err": 0,
+    "a_w": 0.9859750593889247
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 66,
+   "ncomp": 10,
+   "python": {
+    "build_us": 262.75033330117975,
+    "eval_us": 28790.042499986157,
+    "a_w": 0.9352762085920125
+   },
+   "fortran_official": {
+    "build_us": 109.448,
+    "eval_us": 29.8188,
+    "eval_visc_us": 89.2186,
+    "err": 0,
+    "a_w": 0.9351948768528132
+   },
+   "fortran_O3_nobc": {
+    "build_us": 129.006,
+    "eval_us": 26.3443,
+    "eval_visc_us": 70.0413,
+    "err": 0,
+    "a_w": 0.9351948768528132
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 67,
+   "ncomp": 3,
+   "python": {
+    "build_us": 107.89133345194084,
+    "eval_us": 332.75529995080433,
+    "a_w": 0.9588283009878176
+   },
+   "fortran_official": {
+    "build_us": 27.092,
+    "eval_us": 4.96028,
+    "eval_visc_us": 15.4903,
+    "err": 0,
+    "a_w": 0.9588283009855036
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.0183,
+    "eval_us": 4.70317,
+    "eval_visc_us": 12.3259,
+    "err": 0,
+    "a_w": 0.9588283009855036
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 68,
+   "ncomp": 2,
+   "python": {
+    "build_us": 142.58466671890346,
+    "eval_us": 4750.758199952543,
+    "a_w": 0.9999880546342056
+   },
+   "fortran_official": {
+    "build_us": 38.7621,
+    "eval_us": 26.4171,
+    "eval_visc_us": 60.4642,
+    "err": 0,
+    "a_w": 0.9999880546342061
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.2912,
+    "eval_us": 23.8307,
+    "eval_visc_us": 51.1686,
+    "err": 0,
+    "a_w": 0.9999880546342061
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 69,
+   "ncomp": 7,
+   "python": {
+    "build_us": 161.46433335961774,
+    "eval_us": 431.7507999985537,
+    "a_w": 0.9689802307119515
+   },
+   "fortran_official": {
+    "build_us": 48.572,
+    "eval_us": 6.82074,
+    "eval_visc_us": 21.8299,
+    "err": 0,
+    "a_w": 0.9689802307148498
+   },
+   "fortran_O3_nobc": {
+    "build_us": 46.5546,
+    "eval_us": 6.43865,
+    "eval_visc_us": 17.1642,
+    "err": 0,
+    "a_w": 0.9689802307148498
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 70,
+   "ncomp": 5,
+   "python": {
+    "build_us": 127.63166675237395,
+    "eval_us": 364.2132000095444,
+    "a_w": 0.9984746210050826
+   },
+   "fortran_official": {
+    "build_us": 36.9236,
+    "eval_us": 5.92651,
+    "eval_visc_us": 18.483,
+    "err": 0,
+    "a_w": 0.9984746210049897
+   },
+   "fortran_O3_nobc": {
+    "build_us": 35.5475,
+    "eval_us": 5.45501,
+    "eval_visc_us": 14.0699,
+    "err": 0,
+    "a_w": 0.9984746210049897
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 71,
+   "ncomp": 2,
+   "python": {
+    "build_us": 156.78833339431245,
+    "eval_us": 12038.071200004197,
+    "a_w": 0.9996559810953037
+   },
+   "fortran_official": {
+    "build_us": 35.8894,
+    "eval_us": 23.5658,
+    "eval_visc_us": 66.4109,
+    "err": 0,
+    "a_w": 0.9986316919354039
+   },
+   "fortran_O3_nobc": {
+    "build_us": 34.7424,
+    "eval_us": 21.1803,
+    "eval_visc_us": 52.045,
+    "err": 0,
+    "a_w": 0.9986316919354039
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 72,
+   "ncomp": 3,
+   "python": {
+    "build_us": 119.6470002469141,
+    "eval_us": 328.7090999947395,
+    "a_w": 0.9995133729568095
+   },
+   "fortran_official": {
+    "build_us": 26.0857,
+    "eval_us": 5.78423,
+    "eval_visc_us": 16.5635,
+    "err": 0,
+    "a_w": 0.9995133729567882
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.9918,
+    "eval_us": 4.71565,
+    "eval_visc_us": 12.5806,
+    "err": 0,
+    "a_w": 0.9995133729567882
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 73,
+   "ncomp": 4,
+   "python": {
+    "build_us": 206.25600003162012,
+    "eval_us": 12900.814099975833,
+    "a_w": 0.9987971643520822
+   },
+   "fortran_official": {
+    "build_us": 75.273,
+    "eval_us": 30.6821,
+    "eval_visc_us": 106.619,
+    "err": 0,
+    "a_w": 0.9987971060775659
+   },
+   "fortran_O3_nobc": {
+    "build_us": 72.3915,
+    "eval_us": 26.3263,
+    "eval_visc_us": 88.9242,
+    "err": 0,
+    "a_w": 0.9987971060775659
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 74,
+   "ncomp": 10,
+   "python": {
+    "build_us": 199.25800006603822,
+    "eval_us": 457.77389996146667,
+    "a_w": 0.8426036792423603
+   },
+   "fortran_official": {
+    "build_us": 70.775,
+    "eval_us": 7.4865,
+    "eval_visc_us": 24.2503,
+    "err": 0,
+    "a_w": 0.84260367925101
+   },
+   "fortran_O3_nobc": {
+    "build_us": 68.4163,
+    "eval_us": 7.11413,
+    "eval_visc_us": 19.3243,
+    "err": 0,
+    "a_w": 0.84260367925101
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 75,
+   "ncomp": 7,
+   "python": {
+    "build_us": 192.76366674603196,
+    "eval_us": 4060.592600035306,
+    "a_w": 0.9937615781118697
+   },
+   "fortran_official": {
+    "build_us": 66.5828,
+    "eval_us": 31.8495,
+    "eval_visc_us": 71.5436,
+    "err": 0,
+    "a_w": 0.9937615781125868
+   },
+   "fortran_O3_nobc": {
+    "build_us": 63.8364,
+    "eval_us": 26.7262,
+    "eval_visc_us": 59.459,
+    "err": 0,
+    "a_w": 0.9937615781125868
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 76,
+   "ncomp": 3,
+   "python": {
+    "build_us": 102.93699991355727,
+    "eval_us": 335.09670001876657,
+    "a_w": 0.970860442056864
+   },
+   "fortran_official": {
+    "build_us": 27.5088,
+    "eval_us": 4.97555,
+    "eval_visc_us": 15.2928,
+    "err": 0,
+    "a_w": 0.97086044206203
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.7251,
+    "eval_us": 4.82587,
+    "eval_visc_us": 12.311,
+    "err": 0,
+    "a_w": 0.97086044206203
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 77,
+   "ncomp": 7,
+   "python": {
+    "build_us": 193.41833315896415,
+    "eval_us": 15255.69710001946,
+    "a_w": 0.9257786016002201
+   },
+   "fortran_official": {
+    "build_us": 68.7443,
+    "eval_us": 67.8206,
+    "eval_visc_us": 145.414,
+    "err": 0,
+    "a_w": 0.925778601591854
+   },
+   "fortran_O3_nobc": {
+    "build_us": 68.3732,
+    "eval_us": 61.5441,
+    "eval_visc_us": 126.661,
+    "err": 0,
+    "a_w": 0.925778601591854
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 78,
+   "ncomp": 3,
+   "python": {
+    "build_us": 148.6503333580913,
+    "eval_us": 3711.9322999387805,
+    "a_w": 0.9997685539283352
+   },
+   "fortran_official": {
+    "build_us": 39.2835,
+    "eval_us": 21.2103,
+    "eval_visc_us": 48.831,
+    "err": 0,
+    "a_w": 0.999768553928246
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.199,
+    "eval_us": 20.4795,
+    "eval_visc_us": 43.7591,
+    "err": 0,
+    "a_w": 0.999768553928246
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 79,
+   "ncomp": 10,
+   "python": {
+    "build_us": 267.79233333703206,
+    "eval_us": 22094.781700070598,
+    "a_w": 0.9740013571163407
+   },
+   "fortran_official": {
+    "build_us": 102.851,
+    "eval_us": 32.8633,
+    "eval_visc_us": 93.2454,
+    "err": 0,
+    "a_w": 0.9505731120401248
+   },
+   "fortran_O3_nobc": {
+    "build_us": 100.666,
+    "eval_us": 27.2393,
+    "eval_visc_us": 70.778,
+    "err": 0,
+    "a_w": 0.9505731120401248
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 80,
+   "ncomp": 3,
+   "python": {
+    "build_us": 107.06200009735767,
+    "eval_us": 323.72559999203077,
+    "a_w": 0.9810940271706183
+   },
+   "fortran_official": {
+    "build_us": 25.9086,
+    "eval_us": 4.9321,
+    "eval_visc_us": 15.5088,
+    "err": 0,
+    "a_w": 0.9810940271725586
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.3545,
+    "eval_us": 4.66215,
+    "eval_visc_us": 12.1658,
+    "err": 0,
+    "a_w": 0.9810940271725586
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 81,
+   "ncomp": 10,
+   "python": {
+    "build_us": 182.01266660374435,
+    "eval_us": 452.0401999798196,
+    "a_w": 0.9673234710101044
+   },
+   "fortran_official": {
+    "build_us": 69.6777,
+    "eval_us": 7.68465,
+    "eval_visc_us": 24.7124,
+    "err": 0,
+    "a_w": 0.9673234710101957
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.309,
+    "eval_us": 7.10408,
+    "eval_visc_us": 27.5412,
+    "err": 0,
+    "a_w": 0.9673234710101957
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 82,
+   "ncomp": 7,
+   "python": {
+    "build_us": 162.31433316230928,
+    "eval_us": 399.7633999460959,
+    "a_w": 0.9609070669538758
+   },
+   "fortran_official": {
+    "build_us": 48.6896,
+    "eval_us": 6.74937,
+    "eval_visc_us": 21.1778,
+    "err": 0,
+    "a_w": 0.9609070669549151
+   },
+   "fortran_O3_nobc": {
+    "build_us": 47.1283,
+    "eval_us": 6.43718,
+    "eval_visc_us": 17.1114,
+    "err": 0,
+    "a_w": 0.9609070669549151
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 83,
+   "ncomp": 4,
+   "python": {
+    "build_us": 114.8363335232716,
+    "eval_us": 359.5225000026403,
+    "a_w": 0.9106630923064075
+   },
+   "fortran_official": {
+    "build_us": 35.0119,
+    "eval_us": 5.83687,
+    "eval_visc_us": 17.6574,
+    "err": 0,
+    "a_w": 0.910663092320954
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.4558,
+    "eval_us": 5.45863,
+    "eval_visc_us": 14.2635,
+    "err": 0,
+    "a_w": 0.910663092320954
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 84,
+   "ncomp": 4,
+   "python": {
+    "build_us": 234.11333343877536,
+    "eval_us": 14559.364299930166,
+    "a_w": 0.9414381095357621
+   },
+   "fortran_official": {
+    "build_us": 89.8386,
+    "eval_us": 6818.83,
+    "eval_visc_us": 12871.8,
+    "err": 17000,
+    "a_w": 0.9413884994848746
+   },
+   "fortran_O3_nobc": {
+    "build_us": 86.2897,
+    "eval_us": 5431.47,
+    "eval_visc_us": 10407.1,
+    "err": 17000,
+    "a_w": 0.9413885076569605
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 85,
+   "ncomp": 7,
+   "python": {
+    "build_us": 151.78433356292467,
+    "eval_us": 398.6108999924909,
+    "a_w": 0.9153336290829688
+   },
+   "fortran_official": {
+    "build_us": 47.2931,
+    "eval_us": 6.70077,
+    "eval_visc_us": 20.9938,
+    "err": 0,
+    "a_w": 0.9153336290931421
+   },
+   "fortran_O3_nobc": {
+    "build_us": 46.1092,
+    "eval_us": 6.46294,
+    "eval_visc_us": 16.6395,
+    "err": 0,
+    "a_w": 0.915333629093142
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 86,
+   "ncomp": 7,
+   "python": {
+    "build_us": 247.1436664563953,
+    "eval_us": 11378.572400008125,
+    "a_w": 0.7025246335163501
+   },
+   "fortran_official": {
+    "build_us": 67.681,
+    "eval_us": 68.2332,
+    "eval_visc_us": 146.904,
+    "err": 0,
+    "a_w": 0.7025246335269507
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.7886,
+    "eval_us": 61.5632,
+    "eval_visc_us": 127.095,
+    "err": 0,
+    "a_w": 0.7025246335269507
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 87,
+   "ncomp": 3,
+   "python": {
+    "build_us": 102.62099992056999,
+    "eval_us": 324.8754999731318,
+    "a_w": 0.969278589917139
+   },
+   "fortran_official": {
+    "build_us": 27.4085,
+    "eval_us": 5.0842,
+    "eval_visc_us": 15.4568,
+    "err": 0,
+    "a_w": 0.9692785899120164
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.5532,
+    "eval_us": 4.57644,
+    "eval_visc_us": 12.1558,
+    "err": 0,
+    "a_w": 0.9692785899120164
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 88,
+   "ncomp": 2,
+   "python": {
+    "build_us": 89.59100008117578,
+    "eval_us": 285.4315000149654,
+    "a_w": 0.9496648283864318
+   },
+   "fortran_official": {
+    "build_us": 19.0219,
+    "eval_us": 4.23591,
+    "eval_visc_us": 13.4521,
+    "err": 0,
+    "a_w": 0.9496648283882833
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.0256,
+    "eval_us": 3.99039,
+    "eval_visc_us": 10.7575,
+    "err": 0,
+    "a_w": 0.9496648283882833
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 89,
+   "ncomp": 3,
+   "python": {
+    "build_us": 179.26366642010785,
+    "eval_us": 39647.3978999893,
+    "a_w": 0.9803958697530564
+   },
+   "fortran_official": {
+    "build_us": 51.9771,
+    "eval_us": 24.4104,
+    "eval_visc_us": 110.654,
+    "err": 0,
+    "a_w": 0.9799214440045562
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.2606,
+    "eval_us": 22.1888,
+    "eval_visc_us": 54.5236,
+    "err": 0,
+    "a_w": 0.9799214440045562
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 90,
+   "ncomp": 4,
+   "python": {
+    "build_us": 236.0240002114248,
+    "eval_us": 26984.254299986787,
+    "a_w": 0.932948014478136
+   },
+   "fortran_official": {
+    "build_us": 71.89,
+    "eval_us": 29.8222,
+    "eval_visc_us": 93.7,
+    "err": 0,
+    "a_w": 0.9328095018928386
+   },
+   "fortran_O3_nobc": {
+    "build_us": 70.1881,
+    "eval_us": 25.8931,
+    "eval_visc_us": 75.8869,
+    "err": 0,
+    "a_w": 0.9328095018928388
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 91,
+   "ncomp": 3,
+   "python": {
+    "build_us": 119.76533338990218,
+    "eval_us": 332.15920002476196,
+    "a_w": 0.996729123709177
+   },
+   "fortran_official": {
+    "build_us": 26.0152,
+    "eval_us": 4.94179,
+    "eval_visc_us": 15.8043,
+    "err": 0,
+    "a_w": 0.9967291237087723
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.3973,
+    "eval_us": 4.7213,
+    "eval_visc_us": 12.4779,
+    "err": 0,
+    "a_w": 0.9967291237087723
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 92,
+   "ncomp": 3,
+   "python": {
+    "build_us": 187.38033304543933,
+    "eval_us": 26220.619200012152,
+    "a_w": 0.998188967799963
+   },
+   "fortran_official": {
+    "build_us": 51.6894,
+    "eval_us": 24.1814,
+    "eval_visc_us": 73.6198,
+    "err": 0,
+    "a_w": 0.9928925346440848
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.2591,
+    "eval_us": 22.3198,
+    "eval_visc_us": 66.1841,
+    "err": 0,
+    "a_w": 0.9928925346440848
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 93,
+   "ncomp": 7,
+   "python": {
+    "build_us": 251.86966649926035,
+    "eval_us": 110518.66059997337,
+    "a_w": 0.9254138578426396
+   },
+   "fortran_official": {
+    "build_us": 103.502,
+    "eval_us": 31.7859,
+    "eval_visc_us": 112.999,
+    "err": 0,
+    "a_w": 0.9250689160410697
+   },
+   "fortran_O3_nobc": {
+    "build_us": 99.9144,
+    "eval_us": 27.5916,
+    "eval_visc_us": 75.3193,
+    "err": 0,
+    "a_w": 0.92506891604107
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 94,
+   "ncomp": 4,
+   "python": {
+    "build_us": 133.86966656980803,
+    "eval_us": 377.90989999848534,
+    "a_w": 0.9993104756574187
+   },
+   "fortran_official": {
+    "build_us": 31.5498,
+    "eval_us": 5.82522,
+    "eval_visc_us": 18.4472,
+    "err": 0,
+    "a_w": 0.9993104756574609
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.6487,
+    "eval_us": 5.55333,
+    "eval_visc_us": 14.5705,
+    "err": 0,
+    "a_w": 0.9993104756574609
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 95,
+   "ncomp": 10,
+   "python": {
+    "build_us": 244.65466685796855,
+    "eval_us": 16757.2317000122,
+    "a_w": 0.9985750343444281
+   },
+   "fortran_official": {
+    "build_us": 88.5114,
+    "eval_us": 29.4313,
+    "eval_visc_us": 98.9799,
+    "err": 0,
+    "a_w": 0.9962985212645212
+   },
+   "fortran_O3_nobc": {
+    "build_us": 86.3623,
+    "eval_us": 23.8821,
+    "eval_visc_us": 85.884,
+    "err": 0,
+    "a_w": 0.9962985212645212
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 96,
+   "ncomp": 2,
+   "python": {
+    "build_us": 90.45466686075088,
+    "eval_us": 297.76209994452074,
+    "a_w": 0.9996299370738075
+   },
+   "fortran_official": {
+    "build_us": 19.3111,
+    "eval_us": 4.37333,
+    "eval_visc_us": 14.3749,
+    "err": 0,
+    "a_w": 0.9996299370738168
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.0583,
+    "eval_us": 4.00791,
+    "eval_visc_us": 10.9909,
+    "err": 0,
+    "a_w": 0.9996299370738168
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 97,
+   "ncomp": 3,
+   "python": {
+    "build_us": 153.4040002297843,
+    "eval_us": 321.97099999393686,
+    "a_w": 0.9998859408078214
+   },
+   "fortran_official": {
+    "build_us": 29.6846,
+    "eval_us": 5.54332,
+    "eval_visc_us": 16.1005,
+    "err": 0,
+    "a_w": 0.9998859408078223
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.3135,
+    "eval_us": 4.67298,
+    "eval_visc_us": 11.9315,
+    "err": 0,
+    "a_w": 0.9998859408078223
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 98,
+   "ncomp": 3,
+   "python": {
+    "build_us": 168.09699991426896,
+    "eval_us": 163127.7709000642,
+    "a_w": 0.9095211534157152
+   },
+   "fortran_official": {
+    "build_us": 51.2776,
+    "eval_us": 24.8919,
+    "eval_visc_us": 82.543,
+    "err": 0,
+    "a_w": 0.9095878334230124
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.2331,
+    "eval_us": 22.6161,
+    "eval_visc_us": 72.2149,
+    "err": 0,
+    "a_w": 0.9095878334230126
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 99,
+   "ncomp": 7,
+   "python": {
+    "build_us": 235.73233344601854,
+    "eval_us": 71836.30050003558,
+    "a_w": 0.9175139344148923
+   },
+   "fortran_official": {
+    "build_us": 86.8197,
+    "eval_us": 32.1688,
+    "eval_visc_us": 90.0733,
+    "err": 0,
+    "a_w": 0.9039351881612018
+   },
+   "fortran_O3_nobc": {
+    "build_us": 82.8884,
+    "eval_us": 27.1044,
+    "eval_visc_us": 68.7903,
+    "err": 0,
+    "a_w": 0.9039351881612016
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 100,
+   "ncomp": 4,
+   "python": {
+    "build_us": 114.97200011945097,
+    "eval_us": 352.3282000060135,
+    "a_w": 0.9951420150304249
+   },
+   "fortran_official": {
+    "build_us": 38.6052,
+    "eval_us": 5.90809,
+    "eval_visc_us": 17.8831,
+    "err": 0,
+    "a_w": 0.9951420150299953
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.0374,
+    "eval_us": 5.45929,
+    "eval_visc_us": 13.766,
+    "err": 0,
+    "a_w": 0.9951420150299953
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 101,
+   "ncomp": 5,
+   "python": {
+    "build_us": 165.36666680622147,
+    "eval_us": 374.5379000065441,
+    "a_w": 0.9629219243896571
+   },
+   "fortran_official": {
+    "build_us": 60.2225,
+    "eval_us": 10.4393,
+    "eval_visc_us": 31.645,
+    "err": 0,
+    "a_w": 0.9629219243922306
+   },
+   "fortran_O3_nobc": {
+    "build_us": 36.1279,
+    "eval_us": 5.40731,
+    "eval_visc_us": 14.3864,
+    "err": 0,
+    "a_w": 0.9629219243922306
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 102,
+   "ncomp": 7,
+   "python": {
+    "build_us": 215.34533334488515,
+    "eval_us": 4011.6178000062064,
+    "a_w": 0.9789866185390421
+   },
+   "fortran_official": {
+    "build_us": 71.9449,
+    "eval_us": 32.29,
+    "eval_visc_us": 70.3913,
+    "err": 0,
+    "a_w": 0.9789866185405296
+   },
+   "fortran_O3_nobc": {
+    "build_us": 67.0183,
+    "eval_us": 27.3857,
+    "eval_visc_us": 61.0051,
+    "err": 0,
+    "a_w": 0.9789866185405292
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 103,
+   "ncomp": 4,
+   "python": {
+    "build_us": 273.6346665794069,
+    "eval_us": 14650.549199996021,
+    "a_w": 0.99903219590197
+   },
+   "fortran_official": {
+    "build_us": 67.6415,
+    "eval_us": 27.6999,
+    "eval_visc_us": 104.627,
+    "err": 0,
+    "a_w": 0.9990415394031634
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.2071,
+    "eval_us": 23.0278,
+    "eval_visc_us": 57.6833,
+    "err": 0,
+    "a_w": 0.9990415394031634
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 104,
+   "ncomp": 10,
+   "python": {
+    "build_us": 194.3769999949533,
+    "eval_us": 557.2066000240739,
+    "a_w": 0.9350711894084506
+   },
+   "fortran_official": {
+    "build_us": 66.806,
+    "eval_us": 7.53861,
+    "eval_visc_us": 24.4631,
+    "err": 0,
+    "a_w": 0.9350711894162566
+   },
+   "fortran_O3_nobc": {
+    "build_us": 62.9377,
+    "eval_us": 7.12116,
+    "eval_visc_us": 19.6083,
+    "err": 0,
+    "a_w": 0.9350711894162566
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 105,
+   "ncomp": 5,
+   "python": {
+    "build_us": 128.39099993774047,
+    "eval_us": 386.6994999953022,
+    "a_w": 0.9900899138441388
+   },
+   "fortran_official": {
+    "build_us": 43.9101,
+    "eval_us": 6.14775,
+    "eval_visc_us": 18.031,
+    "err": 0,
+    "a_w": 0.9900899138469286
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.6427,
+    "eval_us": 5.51672,
+    "eval_visc_us": 14.0604,
+    "err": 0,
+    "a_w": 0.9900899138469286
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 106,
+   "ncomp": 4,
+   "python": {
+    "build_us": 193.05466685182182,
+    "eval_us": 238606.71669999647,
+    "a_w": 0.9992579983784634
+   },
+   "fortran_official": {
+    "build_us": 49.7148,
+    "eval_us": 36.1993,
+    "eval_visc_us": 98.8416,
+    "err": 0,
+    "a_w": 0.9992348529968862
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.9931,
+    "eval_us": 30.1291,
+    "eval_visc_us": 69.9951,
+    "err": 0,
+    "a_w": 0.9992348529968862
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 107,
+   "ncomp": 7,
+   "python": {
+    "build_us": 160.6083333172137,
+    "eval_us": 403.77180002906243,
+    "a_w": 0.9081217339031044
+   },
+   "fortran_official": {
+    "build_us": 52.0345,
+    "eval_us": 6.71662,
+    "eval_visc_us": 30.0845,
+    "err": 0,
+    "a_w": 0.9081217339121445
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.0433,
+    "eval_us": 6.38924,
+    "eval_visc_us": 17.3882,
+    "err": 0,
+    "a_w": 0.9081217339121445
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 108,
+   "ncomp": 5,
+   "python": {
+    "build_us": 218.61533332412364,
+    "eval_us": 31555.22460001521,
+    "a_w": 0.9711236797761204
+   },
+   "fortran_official": {
+    "build_us": 85.0707,
+    "eval_us": 28.1289,
+    "eval_visc_us": 77.933,
+    "err": 0,
+    "a_w": 0.9709488680684485
+   },
+   "fortran_O3_nobc": {
+    "build_us": 82.5538,
+    "eval_us": 26.0125,
+    "eval_visc_us": 72.4142,
+    "err": 0,
+    "a_w": 0.9709488680684485
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 109,
+   "ncomp": 5,
+   "python": {
+    "build_us": 160.78666643200754,
+    "eval_us": 5943.166300039593,
+    "a_w": 0.9903899853828203
+   },
+   "fortran_official": {
+    "build_us": 49.7196,
+    "eval_us": 28.1114,
+    "eval_visc_us": 64.4583,
+    "err": 0,
+    "a_w": 0.9903899853814179
+   },
+   "fortran_O3_nobc": {
+    "build_us": 62.9713,
+    "eval_us": 24.9024,
+    "eval_visc_us": 55.2395,
+    "err": 0,
+    "a_w": 0.9903899853814179
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 110,
+   "ncomp": 3,
+   "python": {
+    "build_us": 234.48433330486296,
+    "eval_us": 13479.255300080695,
+    "a_w": 0.9999563332643432
+   },
+   "fortran_official": {
+    "build_us": 61.8948,
+    "eval_us": 27.2669,
+    "eval_visc_us": 85.2167,
+    "err": 0,
+    "a_w": 0.9999562898447688
+   },
+   "fortran_O3_nobc": {
+    "build_us": 60.9349,
+    "eval_us": 24.0303,
+    "eval_visc_us": 63.6771,
+    "err": 0,
+    "a_w": 0.9999562898447688
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 111,
+   "ncomp": 4,
+   "python": {
+    "build_us": 124.44000003597466,
+    "eval_us": 358.1903999474889,
+    "a_w": 0.942732564394134
+   },
+   "fortran_official": {
+    "build_us": 31.8872,
+    "eval_us": 5.81507,
+    "eval_visc_us": 18.394,
+    "err": 0,
+    "a_w": 0.9427325644015283
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.2301,
+    "eval_us": 6.29219,
+    "eval_visc_us": 15.4534,
+    "err": 0,
+    "a_w": 0.9427325644015283
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 112,
+   "ncomp": 7,
+   "python": {
+    "build_us": 155.44233338005142,
+    "eval_us": 486.92029995436314,
+    "a_w": 0.967981529276794
+   },
+   "fortran_official": {
+    "build_us": 52.0147,
+    "eval_us": 6.7195,
+    "eval_visc_us": 21.0659,
+    "err": 0,
+    "a_w": 0.967981529271567
+   },
+   "fortran_O3_nobc": {
+    "build_us": 52.5655,
+    "eval_us": 6.42046,
+    "eval_visc_us": 17.4276,
+    "err": 0,
+    "a_w": 0.967981529271567
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 113,
+   "ncomp": 5,
+   "python": {
+    "build_us": 136.90466676052893,
+    "eval_us": 366.8000999823562,
+    "a_w": 0.9672733654921405
+   },
+   "fortran_official": {
+    "build_us": 39.0984,
+    "eval_us": 5.71382,
+    "eval_visc_us": 17.8833,
+    "err": 0,
+    "a_w": 0.9672733655008581
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.1892,
+    "eval_us": 5.61028,
+    "eval_visc_us": 14.4382,
+    "err": 0,
+    "a_w": 0.9672733655008581
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 114,
+   "ncomp": 4,
+   "python": {
+    "build_us": 161.911999991086,
+    "eval_us": 7215.281299977505,
+    "a_w": 0.967659175007489
+   },
+   "fortran_official": {
+    "build_us": 50.14,
+    "eval_us": 55.1031,
+    "eval_visc_us": 118.48,
+    "err": 0,
+    "a_w": 0.9676591749906315
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.465,
+    "eval_us": 53.2264,
+    "eval_visc_us": 103.521,
+    "err": 0,
+    "a_w": 0.9676591749906315
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 115,
+   "ncomp": 3,
+   "python": {
+    "build_us": 192.6433333210298,
+    "eval_us": 31566.215900056704,
+    "a_w": 0.9623713126985083
+   },
+   "fortran_official": {
+    "build_us": 69.4225,
+    "eval_us": 25.8033,
+    "eval_visc_us": 72.2194,
+    "err": 0,
+    "a_w": 0.9621435952256276
+   },
+   "fortran_O3_nobc": {
+    "build_us": 67.7572,
+    "eval_us": 22.6914,
+    "eval_visc_us": 56.8249,
+    "err": 0,
+    "a_w": 0.9621435952256276
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 116,
+   "ncomp": 3,
+   "python": {
+    "build_us": 207.60000006703194,
+    "eval_us": 333884.09660001344,
+    "a_w": 0.9548254878405499
+   },
+   "fortran_official": {
+    "build_us": 84.26,
+    "eval_us": 39.8261,
+    "eval_visc_us": 103.028,
+    "err": 0,
+    "a_w": 0.9526862669008173
+   },
+   "fortran_O3_nobc": {
+    "build_us": 77.4923,
+    "eval_us": 33.8486,
+    "eval_visc_us": 83.7627,
+    "err": 0,
+    "a_w": 0.9526862669008173
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 117,
+   "ncomp": 3,
+   "python": {
+    "build_us": 112.40766646854657,
+    "eval_us": 324.5949000302062,
+    "a_w": 0.9996471515451596
+   },
+   "fortran_official": {
+    "build_us": 26.3744,
+    "eval_us": 5.16185,
+    "eval_visc_us": 15.6814,
+    "err": 0,
+    "a_w": 0.9996471515451554
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.0205,
+    "eval_us": 4.72648,
+    "eval_visc_us": 12.534,
+    "err": 0,
+    "a_w": 0.9996471515451554
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 118,
+   "ncomp": 10,
+   "python": {
+    "build_us": 186.6630000222358,
+    "eval_us": 455.9857000458578,
+    "a_w": 0.9841033957734333
+   },
+   "fortran_official": {
+    "build_us": 69.7154,
+    "eval_us": 8.47562,
+    "eval_visc_us": 24.2954,
+    "err": 0,
+    "a_w": 0.984103395778614
+   },
+   "fortran_O3_nobc": {
+    "build_us": 68.1882,
+    "eval_us": 7.19791,
+    "eval_visc_us": 20.3663,
+    "err": 0,
+    "a_w": 0.984103395778614
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 119,
+   "ncomp": 4,
+   "python": {
+    "build_us": 130.6470000296637,
+    "eval_us": 353.02959995533456,
+    "a_w": 0.9995421798451218
+   },
+   "fortran_official": {
+    "build_us": 36.6872,
+    "eval_us": 5.91525,
+    "eval_visc_us": 19.9626,
+    "err": 0,
+    "a_w": 0.9995421798450179
+   },
+   "fortran_O3_nobc": {
+    "build_us": 36.1106,
+    "eval_us": 5.55057,
+    "eval_visc_us": 14.5729,
+    "err": 0,
+    "a_w": 0.9995421798450179
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 120,
+   "ncomp": 10,
+   "python": {
+    "build_us": 251.2779998748253,
+    "eval_us": 7366.967599955387,
+    "a_w": 0.9173816730769967
+   },
+   "fortran_official": {
+    "build_us": 106.282,
+    "eval_us": 38.0733,
+    "eval_visc_us": 94.2642,
+    "err": 0,
+    "a_w": 0.9173816730811521
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.426,
+    "eval_us": 30.3131,
+    "eval_visc_us": 69.7114,
+    "err": 0,
+    "a_w": 0.9173816730811521
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 121,
+   "ncomp": 7,
+   "python": {
+    "build_us": 155.72566674867025,
+    "eval_us": 403.6558000734658,
+    "a_w": 0.8918432263564912
+   },
+   "fortran_official": {
+    "build_us": 51.2654,
+    "eval_us": 6.76916,
+    "eval_visc_us": 21.9001,
+    "err": 0,
+    "a_w": 0.8918432263658125
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.8934,
+    "eval_us": 6.41214,
+    "eval_visc_us": 17.2098,
+    "err": 0,
+    "a_w": 0.8918432263658125
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 122,
+   "ncomp": 5,
+   "python": {
+    "build_us": 138.182000227971,
+    "eval_us": 424.6006000357738,
+    "a_w": 0.9779280529206326
+   },
+   "fortran_official": {
+    "build_us": 37.4838,
+    "eval_us": 5.77703,
+    "eval_visc_us": 18.1589,
+    "err": 0,
+    "a_w": 0.977928052921081
+   },
+   "fortran_O3_nobc": {
+    "build_us": 35.6297,
+    "eval_us": 5.50087,
+    "eval_visc_us": 14.7537,
+    "err": 0,
+    "a_w": 0.977928052921081
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 123,
+   "ncomp": 10,
+   "python": {
+    "build_us": 324.8489999047403,
+    "eval_us": 281506.1010000136,
+    "a_w": 0.9401743571811639
+   },
+   "fortran_official": {
+    "build_us": 128.718,
+    "eval_us": 38.9311,
+    "eval_visc_us": 117.849,
+    "err": 0,
+    "a_w": 0.9398059377799971
+   },
+   "fortran_O3_nobc": {
+    "build_us": 119.288,
+    "eval_us": 32.1571,
+    "eval_visc_us": 86.0397,
+    "err": 0,
+    "a_w": 0.9398059377799971
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 124,
+   "ncomp": 2,
+   "python": {
+    "build_us": 128.98066658332633,
+    "eval_us": 4448.341799979971,
+    "a_w": 0.9997099745770167
+   },
+   "fortran_official": {
+    "build_us": 39.3885,
+    "eval_us": 24.2962,
+    "eval_visc_us": 53.9896,
+    "err": 0,
+    "a_w": 0.9997099745770842
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.3159,
+    "eval_us": 21.4378,
+    "eval_visc_us": 46.3868,
+    "err": 0,
+    "a_w": 0.9997099745770842
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 125,
+   "ncomp": 7,
+   "python": {
+    "build_us": 263.37066659228486,
+    "eval_us": 8878.059200014832,
+    "a_w": 0.9643231422203407
+   },
+   "fortran_official": {
+    "build_us": 105.317,
+    "eval_us": 34.8091,
+    "eval_visc_us": 100.393,
+    "err": 0,
+    "a_w": 0.9643231422231576
+   },
+   "fortran_O3_nobc": {
+    "build_us": 110.057,
+    "eval_us": 31.7309,
+    "eval_visc_us": 87.6573,
+    "err": 0,
+    "a_w": 0.9643231422231572
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 126,
+   "ncomp": 7,
+   "python": {
+    "build_us": 261.3946668740634,
+    "eval_us": 11924.636299954727,
+    "a_w": 0.9651594451227079
+   },
+   "fortran_official": {
+    "build_us": 114.145,
+    "eval_us": 29.6122,
+    "eval_visc_us": 98.9342,
+    "err": 0,
+    "a_w": 0.9651566251205959
+   },
+   "fortran_O3_nobc": {
+    "build_us": 111.437,
+    "eval_us": 26.3236,
+    "eval_visc_us": 80.0588,
+    "err": 0,
+    "a_w": 0.9651566251205959
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 127,
+   "ncomp": 7,
+   "python": {
+    "build_us": 186.9543333062514,
+    "eval_us": 9879.83400000303,
+    "a_w": 0.9128065695073286
+   },
+   "fortran_official": {
+    "build_us": 63.9305,
+    "eval_us": 56.3009,
+    "eval_visc_us": 122.27,
+    "err": 0,
+    "a_w": 0.9128065695137533
+   },
+   "fortran_O3_nobc": {
+    "build_us": 62.3423,
+    "eval_us": 47.3745,
+    "eval_visc_us": 97.1609,
+    "err": 0,
+    "a_w": 0.9128065695137533
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 128,
+   "ncomp": 10,
+   "python": {
+    "build_us": 246.20433335561148,
+    "eval_us": 65024.81690004061,
+    "a_w": 0.813210847482629
+   },
+   "fortran_official": {
+    "build_us": 91.67,
+    "eval_us": 29.4512,
+    "eval_visc_us": 113.805,
+    "err": 0,
+    "a_w": 0.7671923177905858
+   },
+   "fortran_O3_nobc": {
+    "build_us": 96.0151,
+    "eval_us": 24.0908,
+    "eval_visc_us": 73.1324,
+    "err": 0,
+    "a_w": 0.7671923177905858
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 129,
+   "ncomp": 10,
+   "python": {
+    "build_us": 287.99833338174113,
+    "eval_us": 511.75709995732177,
+    "a_w": 0.9115272377927535
+   },
+   "fortran_official": {
+    "build_us": 74.5942,
+    "eval_us": 8.04074,
+    "eval_visc_us": 32.8315,
+    "err": 0,
+    "a_w": 0.911527237811238
+   },
+   "fortran_O3_nobc": {
+    "build_us": 69.388,
+    "eval_us": 7.09168,
+    "eval_visc_us": 20.2125,
+    "err": 0,
+    "a_w": 0.911527237811238
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 130,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.18399998444754,
+    "eval_us": 340.27560004687984,
+    "a_w": 0.9905830340720015
+   },
+   "fortran_official": {
+    "build_us": 28.9569,
+    "eval_us": 4.97832,
+    "eval_visc_us": 15.7295,
+    "err": 0,
+    "a_w": 0.9905830340692101
+   },
+   "fortran_O3_nobc": {
+    "build_us": 27.7163,
+    "eval_us": 4.71106,
+    "eval_visc_us": 12.8595,
+    "err": 0,
+    "a_w": 0.9905830340692101
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 131,
+   "ncomp": 5,
+   "python": {
+    "build_us": 132.6360000651524,
+    "eval_us": 368.3726000417664,
+    "a_w": 0.9939342388402815
+   },
+   "fortran_official": {
+    "build_us": 39.3567,
+    "eval_us": 6.77859,
+    "eval_visc_us": 19.3311,
+    "err": 0,
+    "a_w": 0.9939342388411356
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.5096,
+    "eval_us": 5.45154,
+    "eval_visc_us": 14.8611,
+    "err": 0,
+    "a_w": 0.9939342388411356
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 132,
+   "ncomp": 10,
+   "python": {
+    "build_us": 257.968666725598,
+    "eval_us": 46871.585700046126,
+    "a_w": 0.819262233110056
+   },
+   "fortran_official": {
+    "build_us": 109.468,
+    "eval_us": 33.2035,
+    "eval_visc_us": 116.087,
+    "err": 0,
+    "a_w": 0.8191215805856532
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.311,
+    "eval_us": 28.2558,
+    "eval_visc_us": 71.2686,
+    "err": 0,
+    "a_w": 0.8191215805856534
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 133,
+   "ncomp": 5,
+   "python": {
+    "build_us": 158.80266649522432,
+    "eval_us": 5928.913800016744,
+    "a_w": 0.9879481166812837
+   },
+   "fortran_official": {
+    "build_us": 49.3304,
+    "eval_us": 28.5722,
+    "eval_visc_us": 66.434,
+    "err": 0,
+    "a_w": 0.9879481166812214
+   },
+   "fortran_O3_nobc": {
+    "build_us": 47.7644,
+    "eval_us": 25.864,
+    "eval_visc_us": 59.616,
+    "err": 0,
+    "a_w": 0.9879481166812214
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 134,
+   "ncomp": 7,
+   "python": {
+    "build_us": 246.9086666678777,
+    "eval_us": 32336.84210008505,
+    "a_w": 0.9704419385623011
+   },
+   "fortran_official": {
+    "build_us": 90.3409,
+    "eval_us": 31.3887,
+    "eval_visc_us": 85.4114,
+    "err": 0,
+    "a_w": 0.9704179527173866
+   },
+   "fortran_O3_nobc": {
+    "build_us": 91.3027,
+    "eval_us": 28.4782,
+    "eval_visc_us": 66.7732,
+    "err": 0,
+    "a_w": 0.9704179527173866
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 135,
+   "ncomp": 5,
+   "python": {
+    "build_us": 126.61200010673687,
+    "eval_us": 396.88279994152253,
+    "a_w": 0.9812576054703904
+   },
+   "fortran_official": {
+    "build_us": 43.052,
+    "eval_us": 5.88915,
+    "eval_visc_us": 19.1957,
+    "err": 0,
+    "a_w": 0.9812576054688689
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.4095,
+    "eval_us": 5.88267,
+    "eval_visc_us": 14.5036,
+    "err": 0,
+    "a_w": 0.9812576054688689
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 136,
+   "ncomp": 2,
+   "python": {
+    "build_us": 102.17633310579306,
+    "eval_us": 297.6232000037271,
+    "a_w": 0.999886107478051
+   },
+   "fortran_official": {
+    "build_us": 20.907,
+    "eval_us": 4.53895,
+    "eval_visc_us": 14.5857,
+    "err": 0,
+    "a_w": 0.9998861074780415
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.8745,
+    "eval_us": 4.238,
+    "eval_visc_us": 10.656,
+    "err": 0,
+    "a_w": 0.9998861074780415
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 137,
+   "ncomp": 5,
+   "python": {
+    "build_us": 155.85400008906922,
+    "eval_us": 411.42499994748505,
+    "a_w": 0.999785596959772
+   },
+   "fortran_official": {
+    "build_us": 37.1257,
+    "eval_us": 5.84331,
+    "eval_visc_us": 18.299,
+    "err": 0,
+    "a_w": 0.9997855969597642
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.9907,
+    "eval_us": 5.69406,
+    "eval_visc_us": 15.4329,
+    "err": 0,
+    "a_w": 0.9997855969597642
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 138,
+   "ncomp": 3,
+   "python": {
+    "build_us": 155.50433333070637,
+    "eval_us": 4287.754400047561,
+    "a_w": 0.9998004066770263
+   },
+   "fortran_official": {
+    "build_us": 40.6605,
+    "eval_us": 23.4971,
+    "eval_visc_us": 51.2199,
+    "err": 0,
+    "a_w": 0.9998004066770779
+   },
+   "fortran_O3_nobc": {
+    "build_us": 45.7514,
+    "eval_us": 23.6426,
+    "eval_visc_us": 47.5726,
+    "err": 0,
+    "a_w": 0.9998004066770779
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 139,
+   "ncomp": 7,
+   "python": {
+    "build_us": 227.75399975216715,
+    "eval_us": 695.4378000045836,
+    "a_w": 0.9674234075052389
+   },
+   "fortran_official": {
+    "build_us": 48.0602,
+    "eval_us": 7.3844,
+    "eval_visc_us": 21.8969,
+    "err": 0,
+    "a_w": 0.967423407505412
+   },
+   "fortran_O3_nobc": {
+    "build_us": 46.7649,
+    "eval_us": 6.83753,
+    "eval_visc_us": 17.1164,
+    "err": 0,
+    "a_w": 0.967423407505412
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 140,
+   "ncomp": 3,
+   "python": {
+    "build_us": 234.5153334317729,
+    "eval_us": 7722.617099989293,
+    "a_w": 0.9996185945470932
+   },
+   "fortran_official": {
+    "build_us": 49.0961,
+    "eval_us": 33.7741,
+    "eval_visc_us": 77.4763,
+    "err": 0,
+    "a_w": 0.9996185945470616
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.8972,
+    "eval_us": 31.0443,
+    "eval_visc_us": 62.4945,
+    "err": 0,
+    "a_w": 0.9996185945470616
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 141,
+   "ncomp": 4,
+   "python": {
+    "build_us": 370.13766662615427,
+    "eval_us": 45952.01919992178,
+    "a_w": 0.9393808172830744
+   },
+   "fortran_official": {
+    "build_us": 89.3559,
+    "eval_us": 37.8965,
+    "eval_visc_us": 104.712,
+    "err": 0,
+    "a_w": 0.9393808172927579
+   },
+   "fortran_O3_nobc": {
+    "build_us": 90.0875,
+    "eval_us": 32.3098,
+    "eval_visc_us": 80.2701,
+    "err": 0,
+    "a_w": 0.9393808172927579
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 142,
+   "ncomp": 7,
+   "python": {
+    "build_us": 150.94166671284862,
+    "eval_us": 414.02370006835554,
+    "a_w": 0.9191634073127478
+   },
+   "fortran_official": {
+    "build_us": 50.326,
+    "eval_us": 7.3002,
+    "eval_visc_us": 21.3124,
+    "err": 0,
+    "a_w": 0.919163407314253
+   },
+   "fortran_O3_nobc": {
+    "build_us": 47.6715,
+    "eval_us": 6.51849,
+    "eval_visc_us": 17.0882,
+    "err": 0,
+    "a_w": 0.919163407314253
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 143,
+   "ncomp": 3,
+   "python": {
+    "build_us": 193.6993330673431,
+    "eval_us": 12315.096599922981,
+    "a_w": 0.999452720778881
+   },
+   "fortran_official": {
+    "build_us": 63.2696,
+    "eval_us": 28.2114,
+    "eval_visc_us": 74.2701,
+    "err": 0,
+    "a_w": 0.9994522455042418
+   },
+   "fortran_O3_nobc": {
+    "build_us": 63.5215,
+    "eval_us": 23.7787,
+    "eval_visc_us": 78.512,
+    "err": 0,
+    "a_w": 0.9994522455042418
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 144,
+   "ncomp": 7,
+   "python": {
+    "build_us": 208.99533349923635,
+    "eval_us": 19654.404299944872,
+    "a_w": 0.9960940926969628
+   },
+   "fortran_official": {
+    "build_us": 72.8697,
+    "eval_us": 31.6905,
+    "eval_visc_us": 113.84,
+    "err": 0,
+    "a_w": 0.9960701389792105
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.9403,
+    "eval_us": 23.8578,
+    "eval_visc_us": 57.1068,
+    "err": 0,
+    "a_w": 0.9960701389792105
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 145,
+   "ncomp": 5,
+   "python": {
+    "build_us": 248.55400018471602,
+    "eval_us": 27345.063100074185,
+    "a_w": 0.9197883304446854
+   },
+   "fortran_official": {
+    "build_us": 169.653,
+    "eval_us": 36.5544,
+    "eval_visc_us": 98.0172,
+    "err": 0,
+    "a_w": 0.9197883304507137
+   },
+   "fortran_O3_nobc": {
+    "build_us": 102.755,
+    "eval_us": 29.8737,
+    "eval_visc_us": 76.9115,
+    "err": 0,
+    "a_w": 0.9197883304507137
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 146,
+   "ncomp": 4,
+   "python": {
+    "build_us": 206.46199997524187,
+    "eval_us": 24133.18069993693,
+    "a_w": 0.9861870258024322
+   },
+   "fortran_official": {
+    "build_us": 66.865,
+    "eval_us": 25.3952,
+    "eval_visc_us": 79.5042,
+    "err": 0,
+    "a_w": 0.9844552196448583
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.8278,
+    "eval_us": 23.6141,
+    "eval_visc_us": 75.829,
+    "err": 0,
+    "a_w": 0.9844552196448583
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 147,
+   "ncomp": 4,
+   "python": {
+    "build_us": 235.419999929339,
+    "eval_us": 336724.72660000494,
+    "a_w": 0.9760500198945555
+   },
+   "fortran_official": {
+    "build_us": 70.7378,
+    "eval_us": 26.3915,
+    "eval_visc_us": 71.2441,
+    "err": 0,
+    "a_w": 0.9761323730189418
+   },
+   "fortran_O3_nobc": {
+    "build_us": 67.2891,
+    "eval_us": 23.532,
+    "eval_visc_us": 56.8856,
+    "err": 0,
+    "a_w": 0.9761323730189418
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 148,
+   "ncomp": 7,
+   "python": {
+    "build_us": 176.6626667934664,
+    "eval_us": 3849.052099940309,
+    "a_w": 0.9501939864080187
+   },
+   "fortran_official": {
+    "build_us": 60.3126,
+    "eval_us": 29.978,
+    "eval_visc_us": 67.3294,
+    "err": 0,
+    "a_w": 0.9501939864042753
+   },
+   "fortran_O3_nobc": {
+    "build_us": 58.1397,
+    "eval_us": 25.0976,
+    "eval_visc_us": 53.3201,
+    "err": 0,
+    "a_w": 0.9501939864042753
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 149,
+   "ncomp": 3,
+   "python": {
+    "build_us": 155.45333341530446,
+    "eval_us": 4690.496399962285,
+    "a_w": 0.9982065395464176
+   },
+   "fortran_official": {
+    "build_us": 51.7716,
+    "eval_us": 34.1659,
+    "eval_visc_us": 76.8319,
+    "err": 0,
+    "a_w": 0.998206539545785
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.8678,
+    "eval_us": 31.6872,
+    "eval_visc_us": 67.9871,
+    "err": 0,
+    "a_w": 0.998206539545785
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 150,
+   "ncomp": 7,
+   "python": {
+    "build_us": 161.80933319750088,
+    "eval_us": 4739.265899934253,
+    "a_w": 0.9948924278031146
+   },
+   "fortran_official": {
+    "build_us": 52.2711,
+    "eval_us": 33.3322,
+    "eval_visc_us": 73.4202,
+    "err": 0,
+    "a_w": 0.9948924278022646
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.3898,
+    "eval_us": 29.366,
+    "eval_visc_us": 61.2647,
+    "err": 0,
+    "a_w": 0.9948924278022646
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 151,
+   "ncomp": 7,
+   "python": {
+    "build_us": 222.5949998925595,
+    "eval_us": 32218.31399996518,
+    "a_w": 0.9823910635781334
+   },
+   "fortran_official": {
+    "build_us": 87.3883,
+    "eval_us": 29.0403,
+    "eval_visc_us": 90.4384,
+    "err": 0,
+    "a_w": 0.9823955759883662
+   },
+   "fortran_O3_nobc": {
+    "build_us": 85.5622,
+    "eval_us": 24.444,
+    "eval_visc_us": 59.5787,
+    "err": 0,
+    "a_w": 0.9823955759883662
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 152,
+   "ncomp": 4,
+   "python": {
+    "build_us": 126.6209998599758,
+    "eval_us": 356.0905000085768,
+    "a_w": 0.9792885123882473
+   },
+   "fortran_official": {
+    "build_us": 33.1757,
+    "eval_us": 5.82526,
+    "eval_visc_us": 17.7928,
+    "err": 0,
+    "a_w": 0.9792885123888088
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.8191,
+    "eval_us": 5.58401,
+    "eval_visc_us": 19.6647,
+    "err": 0,
+    "a_w": 0.9792885123888088
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 153,
+   "ncomp": 10,
+   "python": {
+    "build_us": 275.48899985655834,
+    "eval_us": 36531.86080000523,
+    "a_w": 0.9243504649334003
+   },
+   "fortran_official": {
+    "build_us": 103.37,
+    "eval_us": 237.849,
+    "eval_visc_us": 115.565,
+    "err": 0,
+    "a_w": 0.8835538089628769
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.517,
+    "eval_us": 181.12,
+    "eval_visc_us": 367.803,
+    "err": 0,
+    "a_w": 0.8835538089636678
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 154,
+   "ncomp": 3,
+   "python": {
+    "build_us": 123.45100003585685,
+    "eval_us": 323.3282999644871,
+    "a_w": 0.9977153322583882
+   },
+   "fortran_official": {
+    "build_us": 33.4532,
+    "eval_us": 4.88475,
+    "eval_visc_us": 15.6282,
+    "err": 0,
+    "a_w": 0.9977153322586615
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.1978,
+    "eval_us": 4.6231,
+    "eval_visc_us": 12.0509,
+    "err": 0,
+    "a_w": 0.9977153322586615
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 155,
+   "ncomp": 2,
+   "python": {
+    "build_us": 88.27500005281763,
+    "eval_us": 288.3860999645549,
+    "a_w": 0.9999926662225265
+   },
+   "fortran_official": {
+    "build_us": 19.1067,
+    "eval_us": 4.3857,
+    "eval_visc_us": 13.2989,
+    "err": 0,
+    "a_w": 0.9999926662225265
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.0606,
+    "eval_us": 3.99658,
+    "eval_visc_us": 10.8507,
+    "err": 0,
+    "a_w": 0.9999926662225265
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 156,
+   "ncomp": 3,
+   "python": {
+    "build_us": 116.96799992932938,
+    "eval_us": 325.38310006202664,
+    "a_w": 0.9878954411794342
+   },
+   "fortran_official": {
+    "build_us": 28.2727,
+    "eval_us": 4.9708,
+    "eval_visc_us": 18.0417,
+    "err": 0,
+    "a_w": 0.9878954411794229
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.4127,
+    "eval_us": 4.62834,
+    "eval_visc_us": 12.3228,
+    "err": 0,
+    "a_w": 0.9878954411794229
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 157,
+   "ncomp": 7,
+   "python": {
+    "build_us": 152.62166683290465,
+    "eval_us": 413.3815000386676,
+    "a_w": 0.9715744640764183
+   },
+   "fortran_official": {
+    "build_us": 51.0411,
+    "eval_us": 6.85367,
+    "eval_visc_us": 22.013,
+    "err": 0,
+    "a_w": 0.9715744640762788
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.1008,
+    "eval_us": 6.39348,
+    "eval_visc_us": 16.7373,
+    "err": 0,
+    "a_w": 0.9715744640762788
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 158,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.32266670048314,
+    "eval_us": 345.66460008136346,
+    "a_w": 0.9999795161606411
+   },
+   "fortran_official": {
+    "build_us": 29.4445,
+    "eval_us": 5.02,
+    "eval_visc_us": 16.3925,
+    "err": 0,
+    "a_w": 0.9999795161606408
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.2444,
+    "eval_us": 4.63588,
+    "eval_visc_us": 12.5325,
+    "err": 0,
+    "a_w": 0.9999795161606408
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 159,
+   "ncomp": 3,
+   "python": {
+    "build_us": 167.5146668276284,
+    "eval_us": 28775.613499965402,
+    "a_w": 0.9936462554733615
+   },
+   "fortran_official": {
+    "build_us": 42.4704,
+    "eval_us": 26.2537,
+    "eval_visc_us": 87.0576,
+    "err": 0,
+    "a_w": 0.9811550892645975
+   },
+   "fortran_O3_nobc": {
+    "build_us": 40.2133,
+    "eval_us": 23.4832,
+    "eval_visc_us": 72.0572,
+    "err": 0,
+    "a_w": 0.9811550892645975
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 160,
+   "ncomp": 7,
+   "python": {
+    "build_us": 151.73233350651572,
+    "eval_us": 402.1945000204141,
+    "a_w": 0.9082508056355394
+   },
+   "fortran_official": {
+    "build_us": 53.1759,
+    "eval_us": 6.94122,
+    "eval_visc_us": 24.2221,
+    "err": 0,
+    "a_w": 0.9082508056371555
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.2434,
+    "eval_us": 6.89477,
+    "eval_visc_us": 17.2023,
+    "err": 0,
+    "a_w": 0.9082508056371555
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 161,
+   "ncomp": 7,
+   "python": {
+    "build_us": 190.1440000438015,
+    "eval_us": 4513.32110005751,
+    "a_w": 0.9148356103756733
+   },
+   "fortran_official": {
+    "build_us": 66.4298,
+    "eval_us": 57.1861,
+    "eval_visc_us": 137.896,
+    "err": 0,
+    "a_w": 0.9148356103497969
+   },
+   "fortran_O3_nobc": {
+    "build_us": 60.9885,
+    "eval_us": 45.0256,
+    "eval_visc_us": 93.2867,
+    "err": 0,
+    "a_w": 0.9148356103497969
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 162,
+   "ncomp": 3,
+   "python": {
+    "build_us": 107.20400011147528,
+    "eval_us": 328.7849999651371,
+    "a_w": 0.9700041430945192
+   },
+   "fortran_official": {
+    "build_us": 28.335,
+    "eval_us": 5.38154,
+    "eval_visc_us": 15.2577,
+    "err": 0,
+    "a_w": 0.9700041430844101
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.9082,
+    "eval_us": 5.17057,
+    "eval_visc_us": 12.4013,
+    "err": 0,
+    "a_w": 0.9700041430844101
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 163,
+   "ncomp": 10,
+   "python": {
+    "build_us": 263.0726667121053,
+    "eval_us": 19621.04679996628,
+    "a_w": 0.9943162404973588
+   },
+   "fortran_official": {
+    "build_us": 108.433,
+    "eval_us": 30.669,
+    "eval_visc_us": 131.89,
+    "err": 0,
+    "a_w": 0.9936596998939927
+   },
+   "fortran_O3_nobc": {
+    "build_us": 105.654,
+    "eval_us": 26.1822,
+    "eval_visc_us": 114.007,
+    "err": 0,
+    "a_w": 0.9936596998939927
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 164,
+   "ncomp": 3,
+   "python": {
+    "build_us": 101.8109999980273,
+    "eval_us": 327.8180000052089,
+    "a_w": 0.9999837361316899
+   },
+   "fortran_official": {
+    "build_us": 26.3488,
+    "eval_us": 5.21525,
+    "eval_visc_us": 15.4729,
+    "err": 0,
+    "a_w": 0.9999837361316894
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.5683,
+    "eval_us": 4.7196,
+    "eval_visc_us": 12.076,
+    "err": 0,
+    "a_w": 0.9999837361316894
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 165,
+   "ncomp": 4,
+   "python": {
+    "build_us": 186.3403334330845,
+    "eval_us": 21435.692600061884,
+    "a_w": 0.995652409772832
+   },
+   "fortran_official": {
+    "build_us": 63.6057,
+    "eval_us": 28.0665,
+    "eval_visc_us": 74.3315,
+    "err": 0,
+    "a_w": 0.9956651365345262
+   },
+   "fortran_O3_nobc": {
+    "build_us": 59.3267,
+    "eval_us": 23.2828,
+    "eval_visc_us": 56.5772,
+    "err": 0,
+    "a_w": 0.9956651365345262
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 166,
+   "ncomp": 3,
+   "python": {
+    "build_us": 103.58133325401771,
+    "eval_us": 327.85740004328545,
+    "a_w": 0.9992116387640034
+   },
+   "fortran_official": {
+    "build_us": 26.0394,
+    "eval_us": 4.95872,
+    "eval_visc_us": 17.0671,
+    "err": 0,
+    "a_w": 0.9992116387640194
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.2972,
+    "eval_us": 4.71881,
+    "eval_visc_us": 12.9923,
+    "err": 0,
+    "a_w": 0.9992116387640194
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 167,
+   "ncomp": 4,
+   "python": {
+    "build_us": 161.63533352179607,
+    "eval_us": 6662.626000070304,
+    "a_w": 0.9730448467359828
+   },
+   "fortran_official": {
+    "build_us": 64.559,
+    "eval_us": 44.2437,
+    "eval_visc_us": 92.7359,
+    "err": 0,
+    "a_w": 0.973044846740392
+   },
+   "fortran_O3_nobc": {
+    "build_us": 62.5625,
+    "eval_us": 33.1335,
+    "eval_visc_us": 71.8021,
+    "err": 0,
+    "a_w": 0.973044846740392
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 168,
+   "ncomp": 4,
+   "python": {
+    "build_us": 179.79166689959433,
+    "eval_us": 19274.698099980014,
+    "a_w": 0.9940052324459847
+   },
+   "fortran_official": {
+    "build_us": 65.1109,
+    "eval_us": 27.6198,
+    "eval_visc_us": 100.588,
+    "err": 0,
+    "a_w": 0.994005383864067
+   },
+   "fortran_O3_nobc": {
+    "build_us": 61.7527,
+    "eval_us": 23.8336,
+    "eval_visc_us": 58.2533,
+    "err": 0,
+    "a_w": 0.994005383864067
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 169,
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.44733349885792,
+    "eval_us": 286.160599989671,
+    "a_w": 0.9986876524107291
+   },
+   "fortran_official": {
+    "build_us": 19.6984,
+    "eval_us": 4.48934,
+    "eval_visc_us": 13.9615,
+    "err": 0,
+    "a_w": 0.9986876524107304
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.0618,
+    "eval_us": 4.05035,
+    "eval_visc_us": 10.8486,
+    "err": 0,
+    "a_w": 0.9986876524107304
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 170,
+   "ncomp": 2,
+   "python": {
+    "build_us": 115.12299988680752,
+    "eval_us": 3836.857499936741,
+    "a_w": 0.9999271321723651
+   },
+   "fortran_official": {
+    "build_us": 27.3062,
+    "eval_us": 20.0861,
+    "eval_visc_us": 45.8794,
+    "err": 0,
+    "a_w": 0.9999271321723745
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.4477,
+    "eval_us": 17.4255,
+    "eval_visc_us": 52.1891,
+    "err": 0,
+    "a_w": 0.9999271321723745
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 171,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.93866655249924,
+    "eval_us": 323.13650008291006,
+    "a_w": 0.9973456071407395
+   },
+   "fortran_official": {
+    "build_us": 25.6924,
+    "eval_us": 5.1434,
+    "eval_visc_us": 17.0547,
+    "err": 0,
+    "a_w": 0.997345607140963
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.0001,
+    "eval_us": 4.65946,
+    "eval_visc_us": 12.1428,
+    "err": 0,
+    "a_w": 0.997345607140963
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 172,
+   "ncomp": 4,
+   "python": {
+    "build_us": 174.61099984454145,
+    "eval_us": 8548.85850003484,
+    "a_w": 0.9564260814210978
+   },
+   "fortran_official": {
+    "build_us": 59.8749,
+    "eval_us": 51.0289,
+    "eval_visc_us": 115.988,
+    "err": 0,
+    "a_w": 0.9564260814195777
+   },
+   "fortran_O3_nobc": {
+    "build_us": 57.3225,
+    "eval_us": 41.8521,
+    "eval_visc_us": 89.1131,
+    "err": 0,
+    "a_w": 0.9564260814195777
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 173,
+   "ncomp": 7,
+   "python": {
+    "build_us": 152.76900012395345,
+    "eval_us": 401.74999994633254,
+    "a_w": 0.9504765221421803
+   },
+   "fortran_official": {
+    "build_us": 51.3586,
+    "eval_us": 6.91874,
+    "eval_visc_us": 21.8827,
+    "err": 0,
+    "a_w": 0.9504765221406236
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.6361,
+    "eval_us": 6.57095,
+    "eval_visc_us": 17.4239,
+    "err": 0,
+    "a_w": 0.9504765221406236
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 174,
+   "ncomp": 5,
+   "python": {
+    "build_us": 221.21866671416987,
+    "eval_us": 77263.60010001372,
+    "a_w": 0.9527062753195835
+   },
+   "fortran_official": {
+    "build_us": 80.3632,
+    "eval_us": 42.4651,
+    "eval_visc_us": 99.6938,
+    "err": 0,
+    "a_w": 0.9527062753431426
+   },
+   "fortran_O3_nobc": {
+    "build_us": 74.9167,
+    "eval_us": 31.706,
+    "eval_visc_us": 77.9279,
+    "err": 0,
+    "a_w": 0.9527062753431426
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 175,
+   "ncomp": 4,
+   "python": {
+    "build_us": 127.36566653378154,
+    "eval_us": 343.0873000070278,
+    "a_w": 0.9986646573493811
+   },
+   "fortran_official": {
+    "build_us": 31.7163,
+    "eval_us": 5.80382,
+    "eval_visc_us": 17.6572,
+    "err": 0,
+    "a_w": 0.998664657349275
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.0833,
+    "eval_us": 5.75741,
+    "eval_visc_us": 15.2006,
+    "err": 0,
+    "a_w": 0.998664657349275
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 176,
+   "ncomp": 4,
+   "python": {
+    "build_us": 127.34066664658408,
+    "eval_us": 360.0433000428893,
+    "a_w": 0.9812109630104688
+   },
+   "fortran_official": {
+    "build_us": 32.0973,
+    "eval_us": 6.01361,
+    "eval_visc_us": 18.5019,
+    "err": 0,
+    "a_w": 0.9812109630091298
+   },
+   "fortran_O3_nobc": {
+    "build_us": 32.0341,
+    "eval_us": 5.59566,
+    "eval_visc_us": 15.1599,
+    "err": 0,
+    "a_w": 0.9812109630091298
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 177,
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.60433350592696,
+    "eval_us": 308.06150007265387,
+    "a_w": 0.9996318887638351
+   },
+   "fortran_official": {
+    "build_us": 22.8003,
+    "eval_us": 6.70201,
+    "eval_visc_us": 20.4342,
+    "err": 0,
+    "a_w": 0.9996318887637677
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.5332,
+    "eval_us": 4.17076,
+    "eval_visc_us": 10.8445,
+    "err": 0,
+    "a_w": 0.9996318887637677
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 178,
+   "ncomp": 7,
+   "python": {
+    "build_us": 152.23166671300228,
+    "eval_us": 411.4816999390314,
+    "a_w": 0.9994786577764779
+   },
+   "fortran_official": {
+    "build_us": 57.1857,
+    "eval_us": 6.70717,
+    "eval_visc_us": 24.2272,
+    "err": 0,
+    "a_w": 0.9994786577764524
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.3357,
+    "eval_us": 6.52259,
+    "eval_visc_us": 17.4165,
+    "err": 0,
+    "a_w": 0.9994786577764524
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 179,
+   "ncomp": 7,
+   "python": {
+    "build_us": 178.00700000710398,
+    "eval_us": 406.9709000759758,
+    "a_w": 0.9405453390628067
+   },
+   "fortran_official": {
+    "build_us": 51.813,
+    "eval_us": 6.91309,
+    "eval_visc_us": 21.6973,
+    "err": 0,
+    "a_w": 0.9405453390692946
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.3525,
+    "eval_us": 6.50387,
+    "eval_visc_us": 18.3925,
+    "err": 0,
+    "a_w": 0.9405453390692946
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 180,
+   "ncomp": 4,
+   "python": {
+    "build_us": 157.8473335636469,
+    "eval_us": 3963.5001999158703,
+    "a_w": 0.9740943421418669
+   },
+   "fortran_official": {
+    "build_us": 53.6315,
+    "eval_us": 26.8817,
+    "eval_visc_us": 61.9367,
+    "err": 0,
+    "a_w": 0.9740943421494895
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.871,
+    "eval_us": 23.4831,
+    "eval_visc_us": 50.9244,
+    "err": 0,
+    "a_w": 0.9740943421494895
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 181,
+   "ncomp": 7,
+   "python": {
+    "build_us": 287.87799995673896,
+    "eval_us": 48196.76699999036,
+    "a_w": 0.972039887012769
+   },
+   "fortran_official": {
+    "build_us": 118.885,
+    "eval_us": 45.8427,
+    "eval_visc_us": 128.418,
+    "err": 0,
+    "a_w": 0.9720398870158324
+   },
+   "fortran_O3_nobc": {
+    "build_us": 121.251,
+    "eval_us": 38.415,
+    "eval_visc_us": 102.928,
+    "err": 0,
+    "a_w": 0.9720398870158324
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 182,
+   "ncomp": 4,
+   "python": {
+    "build_us": 231.14566677880552,
+    "eval_us": 19254.914700013614,
+    "a_w": 0.9958952046478028
+   },
+   "fortran_official": {
+    "build_us": 87.3938,
+    "eval_us": 45.7045,
+    "eval_visc_us": 170.103,
+    "err": 0,
+    "a_w": 0.9958952046486169
+   },
+   "fortran_O3_nobc": {
+    "build_us": 89.446,
+    "eval_us": 36.4196,
+    "eval_visc_us": 112.626,
+    "err": 0,
+    "a_w": 0.9958952046486169
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 183,
+   "ncomp": 7,
+   "python": {
+    "build_us": 215.89600025132918,
+    "eval_us": 3922.2645000336342,
+    "a_w": 0.9911881689445446
+   },
+   "fortran_official": {
+    "build_us": 86.2735,
+    "eval_us": 39.565,
+    "eval_visc_us": 92.619,
+    "err": 0,
+    "a_w": 0.9911881689437169
+   },
+   "fortran_O3_nobc": {
+    "build_us": 84.0548,
+    "eval_us": 32.7385,
+    "eval_visc_us": 79.8066,
+    "err": 0,
+    "a_w": 0.9911881689437169
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 184,
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.82499996110953,
+    "eval_us": 289.76149997106404,
+    "a_w": 0.9999744775674012
+   },
+   "fortran_official": {
+    "build_us": 19.176,
+    "eval_us": 4.34982,
+    "eval_visc_us": 14.1159,
+    "err": 0,
+    "a_w": 0.9999744775673961
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.9023,
+    "eval_us": 4.62905,
+    "eval_visc_us": 11.1446,
+    "err": 0,
+    "a_w": 0.9999744775673961
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 185,
+   "ncomp": 2,
+   "python": {
+    "build_us": 85.3663335268114,
+    "eval_us": 285.70810000019264,
+    "a_w": 0.998932076947681
+   },
+   "fortran_official": {
+    "build_us": 23.1413,
+    "eval_us": 4.75292,
+    "eval_visc_us": 13.5333,
+    "err": 0,
+    "a_w": 0.9989320769475941
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.2028,
+    "eval_us": 4.74552,
+    "eval_visc_us": 11.1627,
+    "err": 0,
+    "a_w": 0.9989320769475941
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 186,
+   "ncomp": 5,
+   "python": {
+    "build_us": 203.5026667120595,
+    "eval_us": 14535.395299935772,
+    "a_w": 0.9996054397784648
+   },
+   "fortran_official": {
+    "build_us": 71.8181,
+    "eval_us": 27.7114,
+    "eval_visc_us": 76.899,
+    "err": 0,
+    "a_w": 0.9995274418624465
+   },
+   "fortran_O3_nobc": {
+    "build_us": 69.9544,
+    "eval_us": 23.1868,
+    "eval_visc_us": 60.9319,
+    "err": 0,
+    "a_w": 0.9995274418624465
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 187,
+   "ncomp": 3,
+   "python": {
+    "build_us": 109.58000014701004,
+    "eval_us": 331.3659000014013,
+    "a_w": 0.9976288136380186
+   },
+   "fortran_official": {
+    "build_us": 26.616,
+    "eval_us": 5.16433,
+    "eval_visc_us": 20.7146,
+    "err": 0,
+    "a_w": 0.9976288136372261
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.5214,
+    "eval_us": 4.86831,
+    "eval_visc_us": 12.2634,
+    "err": 0,
+    "a_w": 0.9976288136372261
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 188,
+   "ncomp": 7,
+   "python": {
+    "build_us": 174.48166666630036,
+    "eval_us": 399.2785999798798,
+    "a_w": 0.9638097806892928
+   },
+   "fortran_official": {
+    "build_us": 68.2721,
+    "eval_us": 7.48465,
+    "eval_visc_us": 21.3883,
+    "err": 0,
+    "a_w": 0.9638097806910202
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.4906,
+    "eval_us": 6.40939,
+    "eval_visc_us": 17.1203,
+    "err": 0,
+    "a_w": 0.9638097806910202
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 189,
+   "ncomp": 4,
+   "python": {
+    "build_us": 112.26400026013532,
+    "eval_us": 376.4555000088876,
+    "a_w": 0.9910866206865584
+   },
+   "fortran_official": {
+    "build_us": 31.9583,
+    "eval_us": 7.01587,
+    "eval_visc_us": 17.9682,
+    "err": 0,
+    "a_w": 0.9910866206848216
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.6057,
+    "eval_us": 6.41239,
+    "eval_visc_us": 14.2342,
+    "err": 0,
+    "a_w": 0.9910866206848216
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 190,
+   "ncomp": 5,
+   "python": {
+    "build_us": 145.58266684616683,
+    "eval_us": 366.06109997592284,
+    "a_w": 0.9991907241990483
+   },
+   "fortran_official": {
+    "build_us": 38.8094,
+    "eval_us": 5.77752,
+    "eval_visc_us": 17.4713,
+    "err": 0,
+    "a_w": 0.9991907241989401
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.0071,
+    "eval_us": 5.75277,
+    "eval_visc_us": 14.8094,
+    "err": 0,
+    "a_w": 0.9991907241989401
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 191,
+   "ncomp": 7,
+   "python": {
+    "build_us": 209.95833347114967,
+    "eval_us": 7520.817699969484,
+    "a_w": 0.9324709034596089
+   },
+   "fortran_official": {
+    "build_us": 87.4339,
+    "eval_us": 60.4381,
+    "eval_visc_us": 138.227,
+    "err": 0,
+    "a_w": 0.9324709034465914
+   },
+   "fortran_O3_nobc": {
+    "build_us": 86.5482,
+    "eval_us": 48.4391,
+    "eval_visc_us": 103.54,
+    "err": 0,
+    "a_w": 0.9324709034465914
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 192,
+   "ncomp": 5,
+   "python": {
+    "build_us": 169.95499997089306,
+    "eval_us": 24466.211699927953,
+    "a_w": 0.9714812064530912
+   },
+   "fortran_official": {
+    "build_us": 52.0154,
+    "eval_us": 24.0908,
+    "eval_visc_us": 62.0556,
+    "err": 0,
+    "a_w": 0.9148203373073988
+   },
+   "fortran_O3_nobc": {
+    "build_us": 52.4186,
+    "eval_us": 23.7261,
+    "eval_visc_us": 64.548,
+    "err": 0,
+    "a_w": 0.9148203373073988
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 193,
+   "ncomp": 7,
+   "python": {
+    "build_us": 206.3450001514866,
+    "eval_us": 6150.115699983871,
+    "a_w": 0.8934798748104317
+   },
+   "fortran_official": {
+    "build_us": 83.6868,
+    "eval_us": 69.2625,
+    "eval_visc_us": 152.318,
+    "err": 0,
+    "a_w": 0.8934798748210022
+   },
+   "fortran_O3_nobc": {
+    "build_us": 83.1417,
+    "eval_us": 55.4578,
+    "eval_visc_us": 121.077,
+    "err": 0,
+    "a_w": 0.8934798748210022
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 194,
+   "ncomp": 4,
+   "python": {
+    "build_us": 203.473333385773,
+    "eval_us": 16459.125300025335,
+    "a_w": 0.9983732214197912
+   },
+   "fortran_official": {
+    "build_us": 68.493,
+    "eval_us": 25.2123,
+    "eval_visc_us": 83.3663,
+    "err": 0,
+    "a_w": 0.9983783232605681
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.7723,
+    "eval_us": 23.1527,
+    "eval_visc_us": 56.9693,
+    "err": 0,
+    "a_w": 0.9983783232605681
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 195,
+   "ncomp": 2,
+   "python": {
+    "build_us": 107.45800015380762,
+    "eval_us": 298.932399982732,
+    "a_w": 0.9997984177261392
+   },
+   "fortran_official": {
+    "build_us": 20.0657,
+    "eval_us": 4.26391,
+    "eval_visc_us": 13.6887,
+    "err": 0,
+    "a_w": 0.9997984177261215
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.9814,
+    "eval_us": 4.13165,
+    "eval_visc_us": 10.6835,
+    "err": 0,
+    "a_w": 0.9997984177261215
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 196,
+   "ncomp": 5,
+   "python": {
+    "build_us": 127.05100016319193,
+    "eval_us": 362.3020999839355,
+    "a_w": 0.9735246213135088
+   },
+   "fortran_official": {
+    "build_us": 41.3571,
+    "eval_us": 5.74908,
+    "eval_visc_us": 17.5424,
+    "err": 0,
+    "a_w": 0.9735246213137471
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.6204,
+    "eval_us": 5.39829,
+    "eval_visc_us": 14.2531,
+    "err": 0,
+    "a_w": 0.9735246213137471
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 197,
+   "ncomp": 4,
+   "python": {
+    "build_us": 166.85366669359306,
+    "eval_us": 5630.458399991767,
+    "a_w": 0.9972232718956651
+   },
+   "fortran_official": {
+    "build_us": 57.9438,
+    "eval_us": 43.781,
+    "eval_visc_us": 98.9109,
+    "err": 0,
+    "a_w": 0.9972232718959635
+   },
+   "fortran_O3_nobc": {
+    "build_us": 57.3718,
+    "eval_us": 36.7472,
+    "eval_visc_us": 77.034,
+    "err": 0,
+    "a_w": 0.9972232718959635
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 198,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.29866665112786,
+    "eval_us": 336.24580000832793,
+    "a_w": 0.9537814060670101
+   },
+   "fortran_official": {
+    "build_us": 26.974,
+    "eval_us": 4.96827,
+    "eval_visc_us": 16.205,
+    "err": 0,
+    "a_w": 0.9537814060698134
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.3714,
+    "eval_us": 4.68913,
+    "eval_visc_us": 12.2575,
+    "err": 0,
+    "a_w": 0.9537814060698134
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 199,
+   "ncomp": 7,
+   "python": {
+    "build_us": 159.81266672800606,
+    "eval_us": 401.0718000245106,
+    "a_w": 0.9795770473596367
+   },
+   "fortran_official": {
+    "build_us": 49.9898,
+    "eval_us": 6.71498,
+    "eval_visc_us": 20.9579,
+    "err": 0,
+    "a_w": 0.9795770473603587
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.3048,
+    "eval_us": 6.92154,
+    "eval_visc_us": 16.8365,
+    "err": 0,
+    "a_w": 0.9795770473603587
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 200,
+   "ncomp": 7,
+   "python": {
+    "build_us": 149.2389998626701,
+    "eval_us": 398.13299999877927,
+    "a_w": 0.9107872620002344
+   },
+   "fortran_official": {
+    "build_us": 47.5877,
+    "eval_us": 6.83323,
+    "eval_visc_us": 20.8929,
+    "err": 0,
+    "a_w": 0.9107872619870998
+   },
+   "fortran_O3_nobc": {
+    "build_us": 57.825,
+    "eval_us": 9.4938,
+    "eval_visc_us": 17.0387,
+    "err": 0,
+    "a_w": 0.9107872619870998
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 201,
+   "ncomp": 4,
+   "python": {
+    "build_us": 156.14499989169417,
+    "eval_us": 3717.3263000113366,
+    "a_w": 0.9889611363143476
+   },
+   "fortran_official": {
+    "build_us": 38.6538,
+    "eval_us": 27.8602,
+    "eval_visc_us": 62.8269,
+    "err": 0,
+    "a_w": 0.9889611363079492
+   },
+   "fortran_O3_nobc": {
+    "build_us": 38.4371,
+    "eval_us": 22.793,
+    "eval_visc_us": 58.6369,
+    "err": 0,
+    "a_w": 0.9889611363079492
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 202,
+   "ncomp": 5,
+   "python": {
+    "build_us": 128.11966674538175,
+    "eval_us": 365.2840000540891,
+    "a_w": 0.9591302709530978
+   },
+   "fortran_official": {
+    "build_us": 39.375,
+    "eval_us": 5.69548,
+    "eval_visc_us": 17.9078,
+    "err": 0,
+    "a_w": 0.9591302709610576
+   },
+   "fortran_O3_nobc": {
+    "build_us": 41.1174,
+    "eval_us": 5.24563,
+    "eval_visc_us": 13.8235,
+    "err": 0,
+    "a_w": 0.9591302709610576
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 203,
+   "ncomp": 10,
+   "python": {
+    "build_us": 217.92099990610345,
+    "eval_us": 6824.050000068382,
+    "a_w": 0.9536829172591182
+   },
+   "fortran_official": {
+    "build_us": 83.598,
+    "eval_us": 36.4466,
+    "eval_visc_us": 89.6954,
+    "err": 0,
+    "a_w": 0.9536829172646645
+   },
+   "fortran_O3_nobc": {
+    "build_us": 81.3637,
+    "eval_us": 28.9479,
+    "eval_visc_us": 66.8663,
+    "err": 0,
+    "a_w": 0.9536829172646645
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 204,
+   "ncomp": 7,
+   "python": {
+    "build_us": 266.53999975678744,
+    "eval_us": 281966.41049999016,
+    "a_w": 0.9771080006082642
+   },
+   "fortran_official": {
+    "build_us": 104.508,
+    "eval_us": 34.364,
+    "eval_visc_us": 103.881,
+    "err": 0,
+    "a_w": 0.9771098310897965
+   },
+   "fortran_O3_nobc": {
+    "build_us": 101.515,
+    "eval_us": 29.8283,
+    "eval_visc_us": 81.2227,
+    "err": 0,
+    "a_w": 0.9771098310897965
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 205,
+   "ncomp": 3,
+   "python": {
+    "build_us": 107.83266649620298,
+    "eval_us": 329.83179999064305,
+    "a_w": 0.9995680271383477
+   },
+   "fortran_official": {
+    "build_us": 25.3173,
+    "eval_us": 4.93152,
+    "eval_visc_us": 15.3025,
+    "err": 0,
+    "a_w": 0.999568027138342
+   },
+   "fortran_O3_nobc": {
+    "build_us": 23.8724,
+    "eval_us": 4.64963,
+    "eval_visc_us": 12.584,
+    "err": 0,
+    "a_w": 0.999568027138342
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 206,
+   "ncomp": 7,
+   "python": {
+    "build_us": 288.76899978058646,
+    "eval_us": 6563.588700009859,
+    "a_w": 0.9890625277495062
+   },
+   "fortran_official": {
+    "build_us": 120.778,
+    "eval_us": 41.604,
+    "eval_visc_us": 118.768,
+    "err": 0,
+    "a_w": 0.9890625277501295
+   },
+   "fortran_O3_nobc": {
+    "build_us": 116.037,
+    "eval_us": 36.5143,
+    "eval_visc_us": 97.4258,
+    "err": 0,
+    "a_w": 0.9890625277501295
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 207,
+   "ncomp": 2,
+   "python": {
+    "build_us": 183.06399973274287,
+    "eval_us": 27125.646700005746,
+    "a_w": 0.9620938757314104
+   },
+   "fortran_official": {
+    "build_us": 51.71,
+    "eval_us": 24.1141,
+    "eval_visc_us": 66.8913,
+    "err": 0,
+    "a_w": 0.9617197488415339
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.4474,
+    "eval_us": 28.7394,
+    "eval_visc_us": 91.534,
+    "err": 0,
+    "a_w": 0.9617197488415339
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 208,
+   "ncomp": 10,
+   "python": {
+    "build_us": 306.43033308782225,
+    "eval_us": 747184.6055000242,
+    "a_w": 0.9821638961307152
+   },
+   "fortran_official": {
+    "build_us": 120.009,
+    "eval_us": 45.2388,
+    "eval_visc_us": 133.709,
+    "err": 0,
+    "a_w": 0.9820766896621498
+   },
+   "fortran_O3_nobc": {
+    "build_us": 119.694,
+    "eval_us": 36.741,
+    "eval_visc_us": 104.207,
+    "err": 0,
+    "a_w": 0.9820766896621498
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 209,
+   "ncomp": 3,
+   "python": {
+    "build_us": 161.79700014617993,
+    "eval_us": 5633.769599990046,
+    "a_w": 0.9946179479925202
+   },
+   "fortran_official": {
+    "build_us": 52.1987,
+    "eval_us": 40.5337,
+    "eval_visc_us": 89.892,
+    "err": 0,
+    "a_w": 0.9946179479956428
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.6343,
+    "eval_us": 35.6631,
+    "eval_visc_us": 77.0579,
+    "err": 0,
+    "a_w": 0.9946179479956428
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 210,
+   "ncomp": 10,
+   "python": {
+    "build_us": 201.49000010860618,
+    "eval_us": 450.383099996543,
+    "a_w": 0.9291267271757003
+   },
+   "fortran_official": {
+    "build_us": 69.9015,
+    "eval_us": 7.46559,
+    "eval_visc_us": 23.9892,
+    "err": 0,
+    "a_w": 0.9291267271672898
+   },
+   "fortran_O3_nobc": {
+    "build_us": 69.3522,
+    "eval_us": 7.1431,
+    "eval_visc_us": 20.6016,
+    "err": 0,
+    "a_w": 0.9291267271672898
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 211,
+   "ncomp": 7,
+   "python": {
+    "build_us": 152.5536666425372,
+    "eval_us": 493.9852999996219,
+    "a_w": 0.9616823804076122
+   },
+   "fortran_official": {
+    "build_us": 47.8713,
+    "eval_us": 6.74667,
+    "eval_visc_us": 21.2838,
+    "err": 0,
+    "a_w": 0.9616823804025452
+   },
+   "fortran_O3_nobc": {
+    "build_us": 45.9176,
+    "eval_us": 6.87265,
+    "eval_visc_us": 16.8342,
+    "err": 0,
+    "a_w": 0.9616823804025452
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 212,
+   "ncomp": 3,
+   "python": {
+    "build_us": 116.36266663117567,
+    "eval_us": 350.20510003960226,
+    "a_w": 0.9999441146309697
+   },
+   "fortran_official": {
+    "build_us": 27.7953,
+    "eval_us": 4.91151,
+    "eval_visc_us": 15.5079,
+    "err": 0,
+    "a_w": 0.9999441146309663
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.9792,
+    "eval_us": 4.6367,
+    "eval_visc_us": 12.4534,
+    "err": 0,
+    "a_w": 0.9999441146309663
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 213,
+   "ncomp": 4,
+   "python": {
+    "build_us": 137.98433337797178,
+    "eval_us": 370.6608000356937,
+    "a_w": 0.9706299431944885
+   },
+   "fortran_official": {
+    "build_us": 33.2744,
+    "eval_us": 5.85973,
+    "eval_visc_us": 18.2949,
+    "err": 0,
+    "a_w": 0.9706299431910497
+   },
+   "fortran_O3_nobc": {
+    "build_us": 36.4413,
+    "eval_us": 5.5793,
+    "eval_visc_us": 14.317,
+    "err": 0,
+    "a_w": 0.9706299431910497
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 214,
+   "ncomp": 2,
+   "python": {
+    "build_us": 173.3023333751286,
+    "eval_us": 10449.431800043385,
+    "a_w": 0.9999952556621718
+   },
+   "fortran_official": {
+    "build_us": 51.3919,
+    "eval_us": 24.3272,
+    "eval_visc_us": 72.0287,
+    "err": 0,
+    "a_w": 0.9999952412129548
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.597,
+    "eval_us": 22.5185,
+    "eval_visc_us": 60.573,
+    "err": 0,
+    "a_w": 0.9999952412129548
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 215,
+   "ncomp": 4,
+   "python": {
+    "build_us": 134.44700016407296,
+    "eval_us": 358.35139997288934,
+    "a_w": 0.8892494756780638
+   },
+   "fortran_official": {
+    "build_us": 33.2523,
+    "eval_us": 5.79375,
+    "eval_visc_us": 18.3499,
+    "err": 0,
+    "a_w": 0.8892494756727991
+   },
+   "fortran_O3_nobc": {
+    "build_us": 33.4585,
+    "eval_us": 5.65796,
+    "eval_visc_us": 14.4592,
+    "err": 0,
+    "a_w": 0.8892494756727991
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 216,
+   "ncomp": 2,
+   "python": {
+    "build_us": 98.46566657264096,
+    "eval_us": 289.9809999689751,
+    "a_w": 0.9998755396263213
+   },
+   "fortran_official": {
+    "build_us": 20.1609,
+    "eval_us": 4.2674,
+    "eval_visc_us": 14.3263,
+    "err": 0,
+    "a_w": 0.9998755396263163
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.2211,
+    "eval_us": 4.02621,
+    "eval_visc_us": 10.7178,
+    "err": 0,
+    "a_w": 0.9998755396263163
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 217,
+   "ncomp": 7,
+   "python": {
+    "build_us": 312.9169999738224,
+    "eval_us": 56795.24950000996,
+    "a_w": 0.9255370540704568
+   },
+   "fortran_official": {
+    "build_us": 122.4,
+    "eval_us": 39.3689,
+    "eval_visc_us": 147.416,
+    "err": 0,
+    "a_w": 0.9255370540605531
+   },
+   "fortran_O3_nobc": {
+    "build_us": 115.915,
+    "eval_us": 33.6351,
+    "eval_visc_us": 111.399,
+    "err": 0,
+    "a_w": 0.9255370540605531
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 218,
+   "ncomp": 2,
+   "python": {
+    "build_us": 160.9833334441646,
+    "eval_us": 32945.42650000949,
+    "a_w": 0.9705567457285762
+   },
+   "fortran_official": {
+    "build_us": 53.5672,
+    "eval_us": 24.0904,
+    "eval_visc_us": 61.9683,
+    "err": 0,
+    "a_w": 0.9702910812182685
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.5671,
+    "eval_us": 23.4117,
+    "eval_visc_us": 57.0057,
+    "err": 0,
+    "a_w": 0.9702910812182685
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 219,
+   "ncomp": 2,
+   "python": {
+    "build_us": 100.47400004017011,
+    "eval_us": 289.8165000260633,
+    "a_w": 0.9999610934194507
+   },
+   "fortran_official": {
+    "build_us": 19.1156,
+    "eval_us": 4.2327,
+    "eval_visc_us": 13.3742,
+    "err": 0,
+    "a_w": 0.9999610934194499
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.6488,
+    "eval_us": 4.70945,
+    "eval_visc_us": 11.1554,
+    "err": 0,
+    "a_w": 0.9999610934194499
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 220,
+   "ncomp": 7,
+   "python": {
+    "build_us": 193.07500012170445,
+    "eval_us": 3997.7247000024363,
+    "a_w": 0.9879579812958877
+   },
+   "fortran_official": {
+    "build_us": 72.8218,
+    "eval_us": 41.0032,
+    "eval_visc_us": 84.2596,
+    "err": 0,
+    "a_w": 0.987957981295913
+   },
+   "fortran_O3_nobc": {
+    "build_us": 57.3522,
+    "eval_us": 29.5394,
+    "eval_visc_us": 64.6776,
+    "err": 0,
+    "a_w": 0.987957981295913
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 221,
+   "ncomp": 5,
+   "python": {
+    "build_us": 218.43299994846652,
+    "eval_us": 23654.19429997928,
+    "a_w": 0.9930531982389016
+   },
+   "fortran_official": {
+    "build_us": 78.5494,
+    "eval_us": 27.9051,
+    "eval_visc_us": 91.6123,
+    "err": 0,
+    "a_w": 0.992768585201147
+   },
+   "fortran_O3_nobc": {
+    "build_us": 61.1364,
+    "eval_us": 23.6766,
+    "eval_visc_us": 61.995,
+    "err": 0,
+    "a_w": 0.992768585201147
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 222,
+   "ncomp": 2,
+   "python": {
+    "build_us": 102.5810000404211,
+    "eval_us": 287.4074999454024,
+    "a_w": 0.9984239880129324
+   },
+   "fortran_official": {
+    "build_us": 20.6268,
+    "eval_us": 4.38542,
+    "eval_visc_us": 15.0621,
+    "err": 0,
+    "a_w": 0.9984239880129937
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.2416,
+    "eval_us": 4.13425,
+    "eval_visc_us": 11.1589,
+    "err": 0,
+    "a_w": 0.9984239880129937
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 223,
+   "ncomp": 10,
+   "python": {
+    "build_us": 244.36399993040442,
+    "eval_us": 6488.414900013595,
+    "a_w": 0.9496467108811836
+   },
+   "fortran_official": {
+    "build_us": 108.096,
+    "eval_us": 36.5206,
+    "eval_visc_us": 89.8524,
+    "err": 0,
+    "a_w": 0.9496467108800114
+   },
+   "fortran_O3_nobc": {
+    "build_us": 103.668,
+    "eval_us": 31.534,
+    "eval_visc_us": 68.4316,
+    "err": 0,
+    "a_w": 0.9496467108800114
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 224,
+   "ncomp": 5,
+   "python": {
+    "build_us": 164.9516664959568,
+    "eval_us": 3948.770200076978,
+    "a_w": 0.9379647672877377
+   },
+   "fortran_official": {
+    "build_us": 50.0927,
+    "eval_us": 53.4182,
+    "eval_visc_us": 120.08,
+    "err": 0,
+    "a_w": 0.9379647672885422
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.5248,
+    "eval_us": 47.1486,
+    "eval_visc_us": 98.9246,
+    "err": 0,
+    "a_w": 0.9379647672885423
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 225,
+   "ncomp": 3,
+   "python": {
+    "build_us": 189.84633334184764,
+    "eval_us": 95166.21470002065,
+    "a_w": 0.9641774682498723
+   },
+   "fortran_official": {
+    "build_us": 71.591,
+    "eval_us": 27.2154,
+    "eval_visc_us": 70.3916,
+    "err": 0,
+    "a_w": 0.9636390203045789
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.2005,
+    "eval_us": 23.3339,
+    "eval_visc_us": 58.0929,
+    "err": 0,
+    "a_w": 0.9636390203045789
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 226,
+   "ncomp": 7,
+   "python": {
+    "build_us": 254.71066661945468,
+    "eval_us": 11869.557600039116,
+    "a_w": 0.9580674643858448
+   },
+   "fortran_official": {
+    "build_us": 76.4439,
+    "eval_us": 30.6648,
+    "eval_visc_us": 87.6508,
+    "err": 0,
+    "a_w": 0.957850089742551
+   },
+   "fortran_O3_nobc": {
+    "build_us": 72.0292,
+    "eval_us": 26.4913,
+    "eval_visc_us": 69.5062,
+    "err": 0,
+    "a_w": 0.957850089742551
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 227,
+   "ncomp": 5,
+   "python": {
+    "build_us": 200.69766681748055,
+    "eval_us": 20115.521699972305,
+    "a_w": 0.9987374727008446
+   },
+   "fortran_official": {
+    "build_us": 66.4351,
+    "eval_us": 27.1396,
+    "eval_visc_us": 125.516,
+    "err": 0,
+    "a_w": 0.9986499072968973
+   },
+   "fortran_O3_nobc": {
+    "build_us": 64.4045,
+    "eval_us": 23.4216,
+    "eval_visc_us": 73.7862,
+    "err": 0,
+    "a_w": 0.9986499072968973
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 228,
+   "ncomp": 2,
+   "python": {
+    "build_us": 86.68033327315545,
+    "eval_us": 286.54150000875234,
+    "a_w": 0.9999670300999389
+   },
+   "fortran_official": {
+    "build_us": 19.937,
+    "eval_us": 4.27028,
+    "eval_visc_us": 13.4106,
+    "err": 0,
+    "a_w": 0.9999670300999398
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.9752,
+    "eval_us": 4.00016,
+    "eval_visc_us": 10.7698,
+    "err": 0,
+    "a_w": 0.9999670300999398
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 229,
+   "ncomp": 7,
+   "python": {
+    "build_us": 296.4476667936348,
+    "eval_us": 11145.156899965514,
+    "a_w": 0.9939162361324355
+   },
+   "fortran_official": {
+    "build_us": 131.055,
+    "eval_us": 40.4287,
+    "eval_visc_us": 128.956,
+    "err": 0,
+    "a_w": 0.9939162361318454
+   },
+   "fortran_O3_nobc": {
+    "build_us": 112.905,
+    "eval_us": 32.454,
+    "eval_visc_us": 102.737,
+    "err": 0,
+    "a_w": 0.9939162361318454
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 230,
+   "ncomp": 7,
+   "python": {
+    "build_us": 160.2896666857608,
+    "eval_us": 400.1040000730427,
+    "a_w": 0.9521801489415351
+   },
+   "fortran_official": {
+    "build_us": 53.4188,
+    "eval_us": 6.93872,
+    "eval_visc_us": 20.9197,
+    "err": 0,
+    "a_w": 0.9521801489329343
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.005,
+    "eval_us": 6.35138,
+    "eval_visc_us": 16.5891,
+    "err": 0,
+    "a_w": 0.9521801489329343
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 231,
+   "ncomp": 5,
+   "python": {
+    "build_us": 185.9466665337095,
+    "eval_us": 13117.00619999101,
+    "a_w": 0.9999215971641061
+   },
+   "fortran_official": {
+    "build_us": 52.8384,
+    "eval_us": 25.6022,
+    "eval_visc_us": 84.7496,
+    "err": 0,
+    "a_w": 0.9990389868175978
+   },
+   "fortran_O3_nobc": {
+    "build_us": 50.4018,
+    "eval_us": 21.8658,
+    "eval_visc_us": 58.0914,
+    "err": 0,
+    "a_w": 0.9990389868175978
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 232,
+   "ncomp": 2,
+   "python": {
+    "build_us": 117.7956664832891,
+    "eval_us": 3421.82700005651,
+    "a_w": 0.9997249179171276
+   },
+   "fortran_official": {
+    "build_us": 26.4036,
+    "eval_us": 21.8388,
+    "eval_visc_us": 48.044,
+    "err": 0,
+    "a_w": 0.9997249179171772
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.9766,
+    "eval_us": 18.6219,
+    "eval_visc_us": 39.5423,
+    "err": 0,
+    "a_w": 0.9997249179171772
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 233,
+   "ncomp": 10,
+   "python": {
+    "build_us": 341.5119999772287,
+    "eval_us": 23825.041800046165,
+    "a_w": 0.9974670623674893
+   },
+   "fortran_official": {
+    "build_us": 156.384,
+    "eval_us": 5047.11,
+    "eval_visc_us": 10073.5,
+    "err": 17000,
+    "a_w": 0.9971467021043507
+   },
+   "fortran_O3_nobc": {
+    "build_us": 149.771,
+    "eval_us": 4107.92,
+    "eval_visc_us": 8368.91,
+    "err": 17000,
+    "a_w": 0.9971467021100366
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 234,
+   "ncomp": 4,
+   "python": {
+    "build_us": 121.88133344655701,
+    "eval_us": 375.7102999770723,
+    "a_w": 0.9161790712537319
+   },
+   "fortran_official": {
+    "build_us": 33.5259,
+    "eval_us": 5.80945,
+    "eval_visc_us": 17.9962,
+    "err": 0,
+    "a_w": 0.9161790712441136
+   },
+   "fortran_O3_nobc": {
+    "build_us": 32.8809,
+    "eval_us": 5.62428,
+    "eval_visc_us": 14.2902,
+    "err": 0,
+    "a_w": 0.9161790712441136
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 235,
+   "ncomp": 10,
+   "python": {
+    "build_us": 299.2890000920549,
+    "eval_us": 15880.867800024134,
+    "a_w": 0.9536705018165533
+   },
+   "fortran_official": {
+    "build_us": 129.648,
+    "eval_us": 32.8188,
+    "eval_visc_us": 121.498,
+    "err": 0,
+    "a_w": 0.9536669889199287
+   },
+   "fortran_O3_nobc": {
+    "build_us": 126.224,
+    "eval_us": 28.9308,
+    "eval_visc_us": 91.2845,
+    "err": 0,
+    "a_w": 0.9536669889199287
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 236,
+   "ncomp": 2,
+   "python": {
+    "build_us": 181.59566661779536,
+    "eval_us": 12008.158800017554,
+    "a_w": 0.9999897342701449
+   },
+   "fortran_official": {
+    "build_us": 51.4126,
+    "eval_us": 24.0031,
+    "eval_visc_us": 73.3462,
+    "err": 0,
+    "a_w": 0.9999896928991083
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.7827,
+    "eval_us": 22.2348,
+    "eval_visc_us": 66.3629,
+    "err": 0,
+    "a_w": 0.9999896928991083
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 237,
+   "ncomp": 2,
+   "python": {
+    "build_us": 85.73266677558422,
+    "eval_us": 287.4046000215458,
+    "a_w": 0.9999881801768961
+   },
+   "fortran_official": {
+    "build_us": 19.4827,
+    "eval_us": 4.29606,
+    "eval_visc_us": 13.6304,
+    "err": 0,
+    "a_w": 0.9999881801768963
+   },
+   "fortran_O3_nobc": {
+    "build_us": 18.3855,
+    "eval_us": 4.07259,
+    "eval_visc_us": 10.7492,
+    "err": 0,
+    "a_w": 0.9999881801768963
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 238,
+   "ncomp": 4,
+   "python": {
+    "build_us": 114.7626665745823,
+    "eval_us": 348.5447999992175,
+    "a_w": 0.9473259417979408
+   },
+   "fortran_official": {
+    "build_us": 33.8749,
+    "eval_us": 6.22898,
+    "eval_visc_us": 17.9937,
+    "err": 0,
+    "a_w": 0.9473259418034776
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.3704,
+    "eval_us": 5.66844,
+    "eval_visc_us": 14.5446,
+    "err": 0,
+    "a_w": 0.9473259418034776
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 239,
+   "ncomp": 3,
+   "python": {
+    "build_us": 189.03433344045575,
+    "eval_us": 25757.830800012016,
+    "a_w": 0.9914975040010177
+   },
+   "fortran_official": {
+    "build_us": 68.6255,
+    "eval_us": 25.3812,
+    "eval_visc_us": 75.3347,
+    "err": 0,
+    "a_w": 0.9914300209813262
+   },
+   "fortran_O3_nobc": {
+    "build_us": 65.3998,
+    "eval_us": 22.9939,
+    "eval_visc_us": 69.4135,
+    "err": 0,
+    "a_w": 0.9914300209813262
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 240,
+   "ncomp": 3,
+   "python": {
+    "build_us": 109.3540001117314,
+    "eval_us": 323.2336000110081,
+    "a_w": 0.9899319344764582
+   },
+   "fortran_official": {
+    "build_us": 28.3878,
+    "eval_us": 5.03372,
+    "eval_visc_us": 16.2861,
+    "err": 0,
+    "a_w": 0.9899319344795605
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.5011,
+    "eval_us": 4.6607,
+    "eval_visc_us": 12.881,
+    "err": 0,
+    "a_w": 0.9899319344795605
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 241,
+   "ncomp": 7,
+   "python": {
+    "build_us": 201.9033333150825,
+    "eval_us": 37801.410500014754,
+    "a_w": 0.9876438654509145
+   },
+   "fortran_official": {
+    "build_us": 87.9654,
+    "eval_us": 30.9046,
+    "eval_visc_us": 83.7668,
+    "err": 0,
+    "a_w": 0.9872399232469228
+   },
+   "fortran_O3_nobc": {
+    "build_us": 66.9194,
+    "eval_us": 23.4054,
+    "eval_visc_us": 60.2592,
+    "err": 0,
+    "a_w": 0.9872399232469228
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 242,
+   "ncomp": 4,
+   "python": {
+    "build_us": 137.788333328596,
+    "eval_us": 364.58010008573183,
+    "a_w": 0.9374271145800513
+   },
+   "fortran_official": {
+    "build_us": 33.0485,
+    "eval_us": 5.88186,
+    "eval_visc_us": 18.6059,
+    "err": 0,
+    "a_w": 0.9374271145700527
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.9196,
+    "eval_us": 5.43699,
+    "eval_visc_us": 15.0883,
+    "err": 0,
+    "a_w": 0.9374271145700527
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 243,
+   "ncomp": 10,
+   "python": {
+    "build_us": 187.27733337679334,
+    "eval_us": 483.8344999370747,
+    "a_w": 0.90338598643112
+   },
+   "fortran_official": {
+    "build_us": 67.857,
+    "eval_us": 7.39907,
+    "eval_visc_us": 24.0867,
+    "err": 0,
+    "a_w": 0.9033859864323013
+   },
+   "fortran_O3_nobc": {
+    "build_us": 64.6847,
+    "eval_us": 7.55501,
+    "eval_visc_us": 20.478,
+    "err": 0,
+    "a_w": 0.9033859864323013
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 244,
+   "ncomp": 10,
+   "python": {
+    "build_us": 304.87366651262465,
+    "eval_us": 8849.39569996277,
+    "a_w": 0.9852688420562417
+   },
+   "fortran_official": {
+    "build_us": 122.047,
+    "eval_us": 37.741,
+    "eval_visc_us": 129.882,
+    "err": 0,
+    "a_w": 0.9852688420572481
+   },
+   "fortran_O3_nobc": {
+    "build_us": 119.221,
+    "eval_us": 31.4094,
+    "eval_visc_us": 101.907,
+    "err": 0,
+    "a_w": 0.9852688420572481
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 245,
+   "ncomp": 3,
+   "python": {
+    "build_us": 136.66466657014098,
+    "eval_us": 3710.7746999936353,
+    "a_w": 0.9996272459647718
+   },
+   "fortran_official": {
+    "build_us": 39.289,
+    "eval_us": 22.2759,
+    "eval_visc_us": 47.0873,
+    "err": 0,
+    "a_w": 0.9996272459647403
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.9357,
+    "eval_us": 20.8333,
+    "eval_visc_us": 40.7363,
+    "err": 0,
+    "a_w": 0.9996272459647403
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 246,
+   "ncomp": 4,
+   "python": {
+    "build_us": 197.36066648571673,
+    "eval_us": 99194.07570005205,
+    "a_w": 0.9640227176211381
+   },
+   "fortran_official": {
+    "build_us": 67.9304,
+    "eval_us": 25.4538,
+    "eval_visc_us": 71.2969,
+    "err": 0,
+    "a_w": 0.9629329549709659
+   },
+   "fortran_O3_nobc": {
+    "build_us": 67.4295,
+    "eval_us": 22.7461,
+    "eval_visc_us": 57.7821,
+    "err": 0,
+    "a_w": 0.9629329549709659
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 247,
+   "ncomp": 5,
+   "python": {
+    "build_us": 192.12066672480432,
+    "eval_us": 5531.824699937715,
+    "a_w": 0.9164800468542788
+   },
+   "fortran_official": {
+    "build_us": 66.5523,
+    "eval_us": 77.9856,
+    "eval_visc_us": 155.369,
+    "err": 0,
+    "a_w": 0.9164800468527623
+   },
+   "fortran_O3_nobc": {
+    "build_us": 64.0278,
+    "eval_us": 62.75,
+    "eval_visc_us": 132.922,
+    "err": 0,
+    "a_w": 0.9164800468527623
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 248,
+   "ncomp": 4,
+   "python": {
+    "build_us": 124.88733348921718,
+    "eval_us": 354.4958000020415,
+    "a_w": 0.9800153652382941
+   },
+   "fortran_official": {
+    "build_us": 56.5752,
+    "eval_us": 11.0426,
+    "eval_visc_us": 33.7841,
+    "err": 0,
+    "a_w": 0.9800153652402391
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.7488,
+    "eval_us": 5.51296,
+    "eval_visc_us": 14.3759,
+    "err": 0,
+    "a_w": 0.9800153652402391
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 249,
+   "ncomp": 10,
+   "python": {
+    "build_us": 232.0743333257269,
+    "eval_us": 476.95140001451364,
+    "a_w": 0.7791683816132906
+   },
+   "fortran_official": {
+    "build_us": 115.839,
+    "eval_us": 9.17888,
+    "eval_visc_us": 24.3461,
+    "err": 0,
+    "a_w": 0.7791683816222345
+   },
+   "fortran_O3_nobc": {
+    "build_us": 61.8337,
+    "eval_us": 7.08685,
+    "eval_visc_us": 19.6879,
+    "err": 0,
+    "a_w": 0.7791683816222345
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 250,
+   "ncomp": 4,
+   "python": {
+    "build_us": 123.96666685769256,
+    "eval_us": 349.07620001831674,
+    "a_w": 0.992593217796826
+   },
+   "fortran_official": {
+    "build_us": 34.3613,
+    "eval_us": 5.84438,
+    "eval_visc_us": 17.6052,
+    "err": 0,
+    "a_w": 0.992593217799991
+   },
+   "fortran_O3_nobc": {
+    "build_us": 32.6638,
+    "eval_us": 5.68868,
+    "eval_visc_us": 14.0276,
+    "err": 0,
+    "a_w": 0.992593217799991
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 251,
+   "ncomp": 3,
+   "python": {
+    "build_us": 103.67933312712314,
+    "eval_us": 337.37789999577217,
+    "a_w": 0.9630781477647522
+   },
+   "fortran_official": {
+    "build_us": 27.0185,
+    "eval_us": 5.41314,
+    "eval_visc_us": 15.5516,
+    "err": 0,
+    "a_w": 0.9630781477690881
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.7779,
+    "eval_us": 4.60352,
+    "eval_visc_us": 12.0492,
+    "err": 0,
+    "a_w": 0.9630781477690881
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 252,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.13133357158706,
+    "eval_us": 326.73369996700785,
+    "a_w": 0.995747463854131
+   },
+   "fortran_official": {
+    "build_us": 28.0069,
+    "eval_us": 5.17729,
+    "eval_visc_us": 15.844,
+    "err": 0,
+    "a_w": 0.9957474638554704
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.4193,
+    "eval_us": 4.6646,
+    "eval_visc_us": 13.2641,
+    "err": 0,
+    "a_w": 0.9957474638554704
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 253,
+   "ncomp": 5,
+   "python": {
+    "build_us": 159.6516667632386,
+    "eval_us": 5566.715599979943,
+    "a_w": 0.9964440173195562
+   },
+   "fortran_official": {
+    "build_us": 47.6915,
+    "eval_us": 29.5272,
+    "eval_visc_us": 66.0724,
+    "err": 0,
+    "a_w": 0.996444017319787
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.1877,
+    "eval_us": 25.0895,
+    "eval_visc_us": 55.6639,
+    "err": 0,
+    "a_w": 0.996444017319787
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 254,
+   "ncomp": 4,
+   "python": {
+    "build_us": 163.12300006878408,
+    "eval_us": 20314.496599985432,
+    "a_w": 0.9996410442113318
+   },
+   "fortran_official": {
+    "build_us": 44.8108,
+    "eval_us": 29.2363,
+    "eval_visc_us": 69.4731,
+    "err": 0,
+    "a_w": 0.9993875942248641
+   },
+   "fortran_O3_nobc": {
+    "build_us": 40.1247,
+    "eval_us": 25.0366,
+    "eval_visc_us": 56.0357,
+    "err": 0,
+    "a_w": 0.9993875942248641
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 255,
+   "ncomp": 7,
+   "python": {
+    "build_us": 156.47766667825636,
+    "eval_us": 397.9508000156784,
+    "a_w": 0.9995216072421899
+   },
+   "fortran_official": {
+    "build_us": 48.0186,
+    "eval_us": 6.91406,
+    "eval_visc_us": 22.0163,
+    "err": 0,
+    "a_w": 0.9995216072421996
+   },
+   "fortran_O3_nobc": {
+    "build_us": 45.7432,
+    "eval_us": 6.42436,
+    "eval_visc_us": 16.5455,
+    "err": 0,
+    "a_w": 0.9995216072421996
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 256,
+   "ncomp": 3,
+   "python": {
+    "build_us": 157.39833330978095,
+    "eval_us": 323.61879993914044,
+    "a_w": 0.9983701265300535
+   },
+   "fortran_official": {
+    "build_us": 25.9028,
+    "eval_us": 5.04552,
+    "eval_visc_us": 15.7036,
+    "err": 0,
+    "a_w": 0.9983701265300777
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.1242,
+    "eval_us": 4.70959,
+    "eval_visc_us": 12.4927,
+    "err": 0,
+    "a_w": 0.9983701265300777
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 257,
+   "ncomp": 7,
+   "python": {
+    "build_us": 158.72866636830926,
+    "eval_us": 396.1688999879698,
+    "a_w": 0.9991155778472729
+   },
+   "fortran_official": {
+    "build_us": 52.618,
+    "eval_us": 6.96135,
+    "eval_visc_us": 22.1768,
+    "err": 0,
+    "a_w": 0.9991155778472794
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.9109,
+    "eval_us": 6.42928,
+    "eval_visc_us": 18.9291,
+    "err": 0,
+    "a_w": 0.9991155778472794
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 258,
+   "ncomp": 4,
+   "python": {
+    "build_us": 197.84233336395118,
+    "eval_us": 7022.971200058237,
+    "a_w": 0.983801574704582
+   },
+   "fortran_official": {
+    "build_us": 61.0763,
+    "eval_us": 66.4017,
+    "eval_visc_us": 133.854,
+    "err": 0,
+    "a_w": 0.9838015747028868
+   },
+   "fortran_O3_nobc": {
+    "build_us": 59.3714,
+    "eval_us": 50.0834,
+    "eval_visc_us": 111.537,
+    "err": 0,
+    "a_w": 0.9838015747028868
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 259,
+   "ncomp": 7,
+   "python": {
+    "build_us": 286.82466684889124,
+    "eval_us": 18971.204700028466,
+    "a_w": 0.9763612661505844
+   },
+   "fortran_official": {
+    "build_us": 118.436,
+    "eval_us": 37.9514,
+    "eval_visc_us": 160.032,
+    "err": 0,
+    "a_w": 0.9763612661543636
+   },
+   "fortran_O3_nobc": {
+    "build_us": 117.946,
+    "eval_us": 32.0167,
+    "eval_visc_us": 142.833,
+    "err": 0,
+    "a_w": 0.9763612661543636
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 260,
+   "ncomp": 7,
+   "python": {
+    "build_us": 227.88066659510756,
+    "eval_us": 30248.27399995047,
+    "a_w": 0.9313517083774581
+   },
+   "fortran_official": {
+    "build_us": 86.386,
+    "eval_us": 31.8358,
+    "eval_visc_us": 84.6937,
+    "err": 0,
+    "a_w": 0.9295449452879405
+   },
+   "fortran_O3_nobc": {
+    "build_us": 84.1457,
+    "eval_us": 27.4534,
+    "eval_visc_us": 66.1636,
+    "err": 0,
+    "a_w": 0.9295449452879405
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 261,
+   "ncomp": 7,
+   "python": {
+    "build_us": 247.9556666609521,
+    "eval_us": 100514.08080007604,
+    "a_w": 0.9761376528190716
+   },
+   "fortran_official": {
+    "build_us": 99.8094,
+    "eval_us": 32.24,
+    "eval_visc_us": 98.7908,
+    "err": 0,
+    "a_w": 0.975814674662855
+   },
+   "fortran_O3_nobc": {
+    "build_us": 97.5896,
+    "eval_us": 27.607,
+    "eval_visc_us": 73.2983,
+    "err": 0,
+    "a_w": 0.975814674662855
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 262,
+   "ncomp": 3,
+   "python": {
+    "build_us": 106.38299985051465,
+    "eval_us": 319.9379000761837,
+    "a_w": 0.9996301606717309
+   },
+   "fortran_official": {
+    "build_us": 25.8916,
+    "eval_us": 5.0676,
+    "eval_visc_us": 15.9065,
+    "err": 0,
+    "a_w": 0.9996301606717629
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.5562,
+    "eval_us": 4.66341,
+    "eval_visc_us": 12.0343,
+    "err": 0,
+    "a_w": 0.9996301606717629
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 263,
+   "ncomp": 4,
+   "python": {
+    "build_us": 132.10166677405746,
+    "eval_us": 350.5313000459864,
+    "a_w": 0.9243897558989033
+   },
+   "fortran_official": {
+    "build_us": 33.1928,
+    "eval_us": 5.92769,
+    "eval_visc_us": 18.3104,
+    "err": 0,
+    "a_w": 0.924389755894796
+   },
+   "fortran_O3_nobc": {
+    "build_us": 31.9434,
+    "eval_us": 5.67936,
+    "eval_visc_us": 14.765,
+    "err": 0,
+    "a_w": 0.924389755894796
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 264,
+   "ncomp": 10,
+   "python": {
+    "build_us": 236.95866669489382,
+    "eval_us": 40587.97099996809,
+    "a_w": 0.9024026158920653
+   },
+   "fortran_official": {
+    "build_us": 89.0201,
+    "eval_us": 29.0669,
+    "eval_visc_us": 100.273,
+    "err": 0,
+    "a_w": 0.9015407561196054
+   },
+   "fortran_O3_nobc": {
+    "build_us": 87.2161,
+    "eval_us": 24.4954,
+    "eval_visc_us": 74.1701,
+    "err": 0,
+    "a_w": 0.9015407561196054
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 265,
+   "ncomp": 4,
+   "python": {
+    "build_us": 124.96666658989852,
+    "eval_us": 351.1999000693322,
+    "a_w": 0.9749923345576665
+   },
+   "fortran_official": {
+    "build_us": 33.4227,
+    "eval_us": 5.8321,
+    "eval_visc_us": 18.3653,
+    "err": 0,
+    "a_w": 0.9749923345563821
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.7581,
+    "eval_us": 5.71561,
+    "eval_visc_us": 15.1703,
+    "err": 0,
+    "a_w": 0.9749923345563821
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 266,
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.26966674051558,
+    "eval_us": 292.87949992067297,
+    "a_w": 0.9902025793264132
+   },
+   "fortran_official": {
+    "build_us": 20.0845,
+    "eval_us": 4.30217,
+    "eval_visc_us": 13.2212,
+    "err": 0,
+    "a_w": 0.9902025793274726
+   },
+   "fortran_O3_nobc": {
+    "build_us": 19.4253,
+    "eval_us": 4.16679,
+    "eval_visc_us": 10.8935,
+    "err": 0,
+    "a_w": 0.9902025793274726
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 267,
+   "ncomp": 5,
+   "python": {
+    "build_us": 134.7780001500117,
+    "eval_us": 367.890500001522,
+    "a_w": 0.9500434664110773
+   },
+   "fortran_official": {
+    "build_us": 39.7506,
+    "eval_us": 5.74111,
+    "eval_visc_us": 18.205,
+    "err": 0,
+    "a_w": 0.9500434664208404
+   },
+   "fortran_O3_nobc": {
+    "build_us": 37.9138,
+    "eval_us": 5.45394,
+    "eval_visc_us": 14.5691,
+    "err": 0,
+    "a_w": 0.9500434664208404
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 268,
+   "ncomp": 7,
+   "python": {
+    "build_us": 269.07299979939125,
+    "eval_us": 28914.06589997132,
+    "a_w": 0.9689310089251582
+   },
+   "fortran_official": {
+    "build_us": 103.434,
+    "eval_us": 35.2099,
+    "eval_visc_us": 125.686,
+    "err": 0,
+    "a_w": 0.968931008916744
+   },
+   "fortran_O3_nobc": {
+    "build_us": 106.176,
+    "eval_us": 30.3378,
+    "eval_visc_us": 97.1707,
+    "err": 0,
+    "a_w": 0.968931008916744
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 269,
+   "ncomp": 4,
+   "python": {
+    "build_us": 115.41433317082313,
+    "eval_us": 348.52460003094166,
+    "a_w": 0.9994890324435657
+   },
+   "fortran_official": {
+    "build_us": 32.0771,
+    "eval_us": 6.35236,
+    "eval_visc_us": 18.2033,
+    "err": 0,
+    "a_w": 0.9994890324435689
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.7878,
+    "eval_us": 5.50603,
+    "eval_visc_us": 14.7586,
+    "err": 0,
+    "a_w": 0.9994890324435689
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 270,
+   "ncomp": 7,
+   "python": {
+    "build_us": 156.34766684039883,
+    "eval_us": 3943.5374999811756,
+    "a_w": 0.9807782873588249
+   },
+   "fortran_official": {
+    "build_us": 51.2286,
+    "eval_us": 30.2772,
+    "eval_visc_us": 67.9016,
+    "err": 0,
+    "a_w": 0.9807782873615829
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.9612,
+    "eval_us": 27.9488,
+    "eval_visc_us": 58.9355,
+    "err": 0,
+    "a_w": 0.9807782873615829
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 271,
+   "ncomp": 3,
+   "python": {
+    "build_us": 104.70033339515794,
+    "eval_us": 322.4808000595658,
+    "a_w": 0.9984071260002593
+   },
+   "fortran_official": {
+    "build_us": 27.4391,
+    "eval_us": 5.04564,
+    "eval_visc_us": 16.2452,
+    "err": 0,
+    "a_w": 0.9984071260004679
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.6491,
+    "eval_us": 4.68863,
+    "eval_visc_us": 12.1994,
+    "err": 0,
+    "a_w": 0.9984071260004679
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 272,
+   "ncomp": 10,
+   "python": {
+    "build_us": 218.6726666574638,
+    "eval_us": 7562.920399959694,
+    "a_w": 0.9897371682595276
+   },
+   "fortran_official": {
+    "build_us": 86.9508,
+    "eval_us": 55.1373,
+    "eval_visc_us": 121.582,
+    "err": 0,
+    "a_w": 0.9897371682538416
+   },
+   "fortran_O3_nobc": {
+    "build_us": 83.1497,
+    "eval_us": 42.6339,
+    "eval_visc_us": 88.657,
+    "err": 0,
+    "a_w": 0.9897371682538416
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 273,
+   "ncomp": 7,
+   "python": {
+    "build_us": 152.95833327400032,
+    "eval_us": 427.7662999811582,
+    "a_w": 0.9559013598062246
+   },
+   "fortran_official": {
+    "build_us": 47.4923,
+    "eval_us": 7.02985,
+    "eval_visc_us": 21.9052,
+    "err": 0,
+    "a_w": 0.9559013598080468
+   },
+   "fortran_O3_nobc": {
+    "build_us": 46.3447,
+    "eval_us": 6.46635,
+    "eval_visc_us": 17.6696,
+    "err": 0,
+    "a_w": 0.9559013598080468
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 274,
+   "ncomp": 4,
+   "python": {
+    "build_us": 120.44600013420374,
+    "eval_us": 370.5308000462537,
+    "a_w": 0.9116067948993875
+   },
+   "fortran_official": {
+    "build_us": 31.6032,
+    "eval_us": 5.85767,
+    "eval_visc_us": 18.6689,
+    "err": 0,
+    "a_w": 0.9116067948937411
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.7827,
+    "eval_us": 5.7759,
+    "eval_visc_us": 14.689,
+    "err": 0,
+    "a_w": 0.9116067948937411
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 275,
+   "ncomp": 3,
+   "python": {
+    "build_us": 104.03733328227342,
+    "eval_us": 319.53010002325755,
+    "a_w": 0.995830142419184
+   },
+   "fortran_official": {
+    "build_us": 27.4174,
+    "eval_us": 4.98745,
+    "eval_visc_us": 16.0383,
+    "err": 0,
+    "a_w": 0.9958301424195052
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.833,
+    "eval_us": 4.92287,
+    "eval_visc_us": 12.6658,
+    "err": 0,
+    "a_w": 0.9958301424195052
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 276,
+   "ncomp": 7,
+   "python": {
+    "build_us": 268.34166662107845,
+    "eval_us": 2027746.1816999675,
+    "a_w": 0.9783109684234429
+   },
+   "fortran_official": {
+    "build_us": 106.904,
+    "eval_us": 39.5866,
+    "eval_visc_us": 115.878,
+    "err": 0,
+    "a_w": 0.9783061812369293
+   },
+   "fortran_O3_nobc": {
+    "build_us": 101.409,
+    "eval_us": 35.0797,
+    "eval_visc_us": 91.203,
+    "err": 0,
+    "a_w": 0.9783061812369293
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 277,
+   "ncomp": 4,
+   "python": {
+    "build_us": 120.02933332648051,
+    "eval_us": 401.868800054217,
+    "a_w": 0.9999850948566242
+   },
+   "fortran_official": {
+    "build_us": 32.268,
+    "eval_us": 5.87758,
+    "eval_visc_us": 18.1452,
+    "err": 0,
+    "a_w": 0.9999850948566243
+   },
+   "fortran_O3_nobc": {
+    "build_us": 30.5246,
+    "eval_us": 5.59456,
+    "eval_visc_us": 15.3787,
+    "err": 0,
+    "a_w": 0.9999850948566243
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 278,
+   "ncomp": 3,
+   "python": {
+    "build_us": 136.2810001713418,
+    "eval_us": 3659.364600025583,
+    "a_w": 0.9996605283681467
+   },
+   "fortran_official": {
+    "build_us": 39.135,
+    "eval_us": 22.5673,
+    "eval_visc_us": 51.4186,
+    "err": 0,
+    "a_w": 0.9996605283681573
+   },
+   "fortran_O3_nobc": {
+    "build_us": 39.1743,
+    "eval_us": 20.3698,
+    "eval_visc_us": 43.5348,
+    "err": 0,
+    "a_w": 0.9996605283681573
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 279,
+   "ncomp": 10,
+   "python": {
+    "build_us": 254.526666746339,
+    "eval_us": 23198.257700005342,
+    "a_w": 0.984880877487081
+   },
+   "fortran_official": {
+    "build_us": 89.8365,
+    "eval_us": 28.1945,
+    "eval_visc_us": 85.9466,
+    "err": 0,
+    "a_w": 0.957197040543275
+   },
+   "fortran_O3_nobc": {
+    "build_us": 88.3151,
+    "eval_us": 24.5321,
+    "eval_visc_us": 75.8658,
+    "err": 0,
+    "a_w": 0.9571970405432748
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 280,
+   "ncomp": 7,
+   "python": {
+    "build_us": 266.2666665855795,
+    "eval_us": 15979.026600052748,
+    "a_w": 0.9904976783196848
+   },
+   "fortran_official": {
+    "build_us": 90.3568,
+    "eval_us": 36.923,
+    "eval_visc_us": 102.953,
+    "err": 0,
+    "a_w": 0.9904976783196285
+   },
+   "fortran_O3_nobc": {
+    "build_us": 88.5191,
+    "eval_us": 34.8514,
+    "eval_visc_us": 171.009,
+    "err": 0,
+    "a_w": 0.9904976783196285
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 281,
+   "ncomp": 4,
+   "python": {
+    "build_us": 196.66633337086145,
+    "eval_us": 270093.9192000078,
+    "a_w": 0.99028829857359
+   },
+   "fortran_official": {
+    "build_us": 57.9345,
+    "eval_us": 38.149,
+    "eval_visc_us": 101.863,
+    "err": 0,
+    "a_w": 0.9901244656365148
+   },
+   "fortran_O3_nobc": {
+    "build_us": 78.8553,
+    "eval_us": 33.8223,
+    "eval_visc_us": 78.6434,
+    "err": 0,
+    "a_w": 0.9901244656365148
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 282,
+   "ncomp": 4,
+   "python": {
+    "build_us": 175.50333329078663,
+    "eval_us": 4266.142800042871,
+    "a_w": 0.9367798396768993
+   },
+   "fortran_official": {
+    "build_us": 60.3963,
+    "eval_us": 42.169,
+    "eval_visc_us": 92.9998,
+    "err": 0,
+    "a_w": 0.936779839675903
+   },
+   "fortran_O3_nobc": {
+    "build_us": 57.0337,
+    "eval_us": 34.3621,
+    "eval_visc_us": 71.8416,
+    "err": 0,
+    "a_w": 0.936779839675903
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 283,
+   "ncomp": 10,
+   "python": {
+    "build_us": 200.60600005914844,
+    "eval_us": 465.0638000384788,
+    "a_w": 0.9589616376880533
+   },
+   "fortran_official": {
+    "build_us": 63.6443,
+    "eval_us": 7.45782,
+    "eval_visc_us": 24.2597,
+    "err": 0,
+    "a_w": 0.958961637693603
+   },
+   "fortran_O3_nobc": {
+    "build_us": 61.3976,
+    "eval_us": 7.14213,
+    "eval_visc_us": 20.7581,
+    "err": 0,
+    "a_w": 0.958961637693603
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 284,
+   "ncomp": 7,
+   "python": {
+    "build_us": 247.26799983909586,
+    "eval_us": 59903.60300002067,
+    "a_w": 0.9260682868937302
+   },
+   "fortran_official": {
+    "build_us": 89.8928,
+    "eval_us": 28.6074,
+    "eval_visc_us": 94.3817,
+    "err": 0,
+    "a_w": 0.9258496258717532
+   },
+   "fortran_O3_nobc": {
+    "build_us": 85.5865,
+    "eval_us": 24.2542,
+    "eval_visc_us": 74.0639,
+    "err": 0,
+    "a_w": 0.9258496258717532
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 285,
+   "ncomp": 7,
+   "python": {
+    "build_us": 177.13699980959063,
+    "eval_us": 414.3942000155221,
+    "a_w": 0.9743744353239794
+   },
+   "fortran_official": {
+    "build_us": 51.033,
+    "eval_us": 6.81818,
+    "eval_visc_us": 21.4396,
+    "err": 0,
+    "a_w": 0.9743744353203116
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.9239,
+    "eval_us": 7.99814,
+    "eval_visc_us": 28.6116,
+    "err": 0,
+    "a_w": 0.9743744353203116
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 286,
+   "ncomp": 2,
+   "python": {
+    "build_us": 87.12233344946678,
+    "eval_us": 317.37789995531784,
+    "a_w": 0.9999960664962957
+   },
+   "fortran_official": {
+    "build_us": 20.3068,
+    "eval_us": 4.34777,
+    "eval_visc_us": 13.7883,
+    "err": 0,
+    "a_w": 0.9999960664962959
+   },
+   "fortran_O3_nobc": {
+    "build_us": 17.9482,
+    "eval_us": 3.98916,
+    "eval_visc_us": 10.9527,
+    "err": 0,
+    "a_w": 0.9999960664962959
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 287,
+   "ncomp": 3,
+   "python": {
+    "build_us": 146.4963334001368,
+    "eval_us": 336.42859998508357,
+    "a_w": 0.9975066463837364
+   },
+   "fortran_official": {
+    "build_us": 25.6974,
+    "eval_us": 4.99585,
+    "eval_visc_us": 15.2061,
+    "err": 0,
+    "a_w": 0.997506646383579
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.1321,
+    "eval_us": 4.67625,
+    "eval_visc_us": 12.0664,
+    "err": 0,
+    "a_w": 0.997506646383579
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 288,
+   "ncomp": 7,
+   "python": {
+    "build_us": 192.97166666850293,
+    "eval_us": 13650.786200014409,
+    "a_w": 0.9423483667340785
+   },
+   "fortran_official": {
+    "build_us": 63.1613,
+    "eval_us": 31.053,
+    "eval_visc_us": 71.1649,
+    "err": 0,
+    "a_w": 0.9423483667307971
+   },
+   "fortran_O3_nobc": {
+    "build_us": 58.8175,
+    "eval_us": 25.0016,
+    "eval_visc_us": 54.2389,
+    "err": 0,
+    "a_w": 0.9423483667307976
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 289,
+   "ncomp": 7,
+   "python": {
+    "build_us": 180.64266684329291,
+    "eval_us": 436.87689994840184,
+    "a_w": 0.5983482300204802
+   },
+   "fortran_official": {
+    "build_us": 51.8515,
+    "eval_us": 6.82353,
+    "eval_visc_us": 22.531,
+    "err": 0,
+    "a_w": 0.5983482300238102
+   },
+   "fortran_O3_nobc": {
+    "build_us": 51.1975,
+    "eval_us": 6.28867,
+    "eval_visc_us": 16.4055,
+    "err": 0,
+    "a_w": 0.5983482300238102
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 290,
+   "ncomp": 3,
+   "python": {
+    "build_us": 105.48799976580388,
+    "eval_us": 335.1493000081973,
+    "a_w": 0.9996316673991043
+   },
+   "fortran_official": {
+    "build_us": 25.3778,
+    "eval_us": 4.96008,
+    "eval_visc_us": 16.3252,
+    "err": 0,
+    "a_w": 0.9996316673991031
+   },
+   "fortran_O3_nobc": {
+    "build_us": 24.5256,
+    "eval_us": 4.73773,
+    "eval_visc_us": 11.7807,
+    "err": 0,
+    "a_w": 0.9996316673991031
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 291,
+   "ncomp": 3,
+   "python": {
+    "build_us": 117.05133359403892,
+    "eval_us": 322.26120001723757,
+    "a_w": 0.9834567356489625
+   },
+   "fortran_official": {
+    "build_us": 26.7554,
+    "eval_us": 5.06586,
+    "eval_visc_us": 17.733,
+    "err": 0,
+    "a_w": 0.9834567356476672
+   },
+   "fortran_O3_nobc": {
+    "build_us": 25.4931,
+    "eval_us": 4.65977,
+    "eval_visc_us": 13.202,
+    "err": 0,
+    "a_w": 0.9834567356476672
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 292,
+   "ncomp": 7,
+   "python": {
+    "build_us": 153.6363333798363,
+    "eval_us": 398.41019997766125,
+    "a_w": 0.940328144052669
+   },
+   "fortran_official": {
+    "build_us": 56.3296,
+    "eval_us": 6.91623,
+    "eval_visc_us": 21.0965,
+    "err": 0,
+    "a_w": 0.9403281440352202
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.7624,
+    "eval_us": 6.45719,
+    "eval_visc_us": 17.1119,
+    "err": 0,
+    "a_w": 0.9403281440352202
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 293,
+   "ncomp": 3,
+   "python": {
+    "build_us": 132.2343332503806,
+    "eval_us": 330.57459995688987,
+    "a_w": 0.9982518205962417
+   },
+   "fortran_official": {
+    "build_us": 27.7535,
+    "eval_us": 5.16218,
+    "eval_visc_us": 16.8048,
+    "err": 0,
+    "a_w": 0.998251820596203
+   },
+   "fortran_O3_nobc": {
+    "build_us": 26.9719,
+    "eval_us": 5.0983,
+    "eval_visc_us": 12.6259,
+    "err": 0,
+    "a_w": 0.998251820596203
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 294,
+   "ncomp": 7,
+   "python": {
+    "build_us": 161.28399996280982,
+    "eval_us": 407.4547000527673,
+    "a_w": 0.8219971102957295
+   },
+   "fortran_official": {
+    "build_us": 49.8425,
+    "eval_us": 7.52546,
+    "eval_visc_us": 21.0637,
+    "err": 0,
+    "a_w": 0.821997110301421
+   },
+   "fortran_O3_nobc": {
+    "build_us": 49.0576,
+    "eval_us": 6.68611,
+    "eval_visc_us": 17.1138,
+    "err": 0,
+    "a_w": 0.821997110301421
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 295,
+   "ncomp": 2,
+   "python": {
+    "build_us": 163.8483333105493,
+    "eval_us": 18563.44869993336,
+    "a_w": 0.9977888132297186
+   },
+   "fortran_official": {
+    "build_us": 53.517,
+    "eval_us": 25.294,
+    "eval_visc_us": 81.9006,
+    "err": 0,
+    "a_w": 0.997772334345547
+   },
+   "fortran_O3_nobc": {
+    "build_us": 54.2868,
+    "eval_us": 23.5237,
+    "eval_visc_us": 69.1706,
+    "err": 0,
+    "a_w": 0.997772334345547
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 296,
+   "ncomp": 7,
+   "python": {
+    "build_us": 219.15299991330053,
+    "eval_us": 13926.645700030349,
+    "a_w": 0.9991441297937275
+   },
+   "fortran_official": {
+    "build_us": 80.0309,
+    "eval_us": 25.848,
+    "eval_visc_us": 94.5819,
+    "err": 0,
+    "a_w": 0.9972363350640019
+   },
+   "fortran_O3_nobc": {
+    "build_us": 86.3125,
+    "eval_us": 24.5675,
+    "eval_visc_us": 72.1718,
+    "err": 0,
+    "a_w": 0.9972363350640019
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 297,
+   "ncomp": 7,
+   "python": {
+    "build_us": 154.50366663571913,
+    "eval_us": 423.2459999911953,
+    "a_w": 0.9814818385748505
+   },
+   "fortran_official": {
+    "build_us": 51.6363,
+    "eval_us": 6.82081,
+    "eval_visc_us": 21.0002,
+    "err": 0,
+    "a_w": 0.9814818385688344
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.7445,
+    "eval_us": 6.58529,
+    "eval_visc_us": 17.7312,
+    "err": 0,
+    "a_w": 0.9814818385688344
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 298,
+   "ncomp": 2,
+   "python": {
+    "build_us": 109.77699973106307,
+    "eval_us": 301.2426000168489,
+    "a_w": 0.9790086008151998
+   },
+   "fortran_official": {
+    "build_us": 19.647,
+    "eval_us": 4.37336,
+    "eval_visc_us": 13.7907,
+    "err": 0,
+    "a_w": 0.9790086008110045
+   },
+   "fortran_O3_nobc": {
+    "build_us": 22.3974,
+    "eval_us": 6.00869,
+    "eval_visc_us": 11.679,
+    "err": 0,
+    "a_w": 0.9790086008110045
+   }
+  },
+  {
+   "group": "p2_vary",
+   "label": 299,
+   "ncomp": 7,
+   "python": {
+    "build_us": 154.4103333799285,
+    "eval_us": 432.8971999711939,
+    "a_w": 0.9990808474394257
+   },
+   "fortran_official": {
+    "build_us": 48.2727,
+    "eval_us": 6.72985,
+    "eval_visc_us": 21.209,
+    "err": 0,
+    "a_w": 0.9990808474394157
+   },
+   "fortran_O3_nobc": {
+    "build_us": 48.1824,
+    "eval_us": 6.42451,
+    "eval_visc_us": 17.9695,
+    "err": 0,
+    "a_w": 0.9990808474394157
+   }
+  }
+ ]
+}
