@@ -1,5 +1,24 @@
 # Changelog
 
+## v3.1.0
+
+Adds compiled-derivative evaluation for the phase-equilibrium solver and re-measures all timings on one documented
+machine. The networks and accuracy results of v3.0.x are unchanged.
+
+- **JAX Gibbs functions** (`excess_gibbs/code/jax_surrogates.py`): the Part 1 and Part 2 release networks transcribed
+  to JAX with the same weights, for `aiomfac_py.gibbs_model.GibbsLiquidModel` (aiomfac-python `main`). ln a and the
+  Hessian are compiled once and reused; results agree with the torch classes to 1e-14, and the phase-equilibrium
+  solves of both papers (55 + 60 states) give the same states as torch and AIOMFAC, 9–19 times faster than torch
+  (`jax_check.py`, `jax_pe_bench.py`, `hvp_bench.py`).
+- **Timings on a cloud machine** (Intel Xeon 2.10 GHz, 2 vCPUs, 7.8 GiB, Ubuntu 24.04; one CPU thread):
+  `GE_cost.json`, `P2GE_cost.json`, `jax_*.json`, `hvp_bench.json` regenerated; new `cloud_timings.py`,
+  `cloud_timings_p2.py` → `cloud_timings.json`. These are the timings of the revised papers.
+- **Derivative-loss (Sobolev) experiments for GEXNet**, not used in the papers: derivative labels (`s2_dlabels.py`),
+  `gex_sob` and variants (weight, Huber loss, electroneutral directions), evaluation (`s2_sob_eval.py`). Derivative
+  terms along arbitrary directions in ln m degrade the held-out NH4+–HSO4- pair; restricted to electroneutral
+  directions they do not.
+- `requirements.txt`: adds `jax`.
+
 ## v3.0.1
 
 Documentation only: the top-level README now describes the excess-Gibbs-energy (v3) material, and `CITATION.cff`

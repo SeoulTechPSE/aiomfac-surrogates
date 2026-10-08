@@ -1,6 +1,7 @@
 # Python >= 3.10. Install aiomfac_py (with SMILES decomposition and the Tg predictor) from its repository:
 aiomfac_py[carbonate,smiles,tgml,tgml-smiles] @ git+https://github.com/SeoulTechPSE/aiomfac-python.git
 torch>=2.0
+jax                 # compiled derivatives for the phase-equilibrium solver (excess_gibbs/code/jax_surrogates.py)
 rdkit
 scikit-learn>=1.1
 scipy

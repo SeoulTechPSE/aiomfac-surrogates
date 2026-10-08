@@ -68,7 +68,7 @@ solve the dissociation equilibria with `speciation.speciate`. `s2_pe_gex.Surroga
 `aiomfac_py.phase_equilibrium.PhaseEquilibrium`.
 
 **Fast phase-equilibrium evaluation (JAX).** `code/jax_surrogates.py` transcribes the Part 1 and Part 2 release networks
-to JAX (same weights) as Gibbs functions for `aiomfac_py.gibbs_model.GibbsLiquidModel` (aiomfac_py after v1.1.0, with jax):
+to JAX (same weights) as Gibbs functions for `aiomfac_py.gibbs_model.GibbsLiquidModel` (`aiomfac_py` main branch, which includes `gibbs_model`; needs `jax`):
 ln a and the Hessian (forward-over-reverse) are compiled once and reused, instead of torch autograd at every call.
 
 | Item | Script → result |
@@ -77,6 +77,8 @@ ln a and the Hessian (forward-over-reverse) are compiled once and reused, instea
 | phase equilibrium of both papers (55 + 60 states): AIOMFAC, torch, JAX | `code/jax_pe_bench.py` → `results/jax_pe_bench.json` |
 | full Hessian vs Hessian-vector products (dense Newton vs Newton–CG) | `code/hvp_bench.py` → `results/hvp_bench.json` |
 | Sobolev-type derivative loss for GEXNet (derivative labels, `gex_sob`, evaluation) | `code/s2_dlabels.py` → `s2v2_dlabels.npz`; `S2_TAG=s2v2 S2_SEEDS=0 python s2_train.py gex_sob`; `code/s2_sob_eval.py` → `s2v2_sob_eval.json` |
+| derivative-loss variants (weight, Huber, electroneutral directions `SOB_DIR=neutral`); not used in the papers | `code/s2_sob_variants.sh`, `s2_train.py` options `SOB_LAMBDA`, `SOB_LOSS`, `SOB_DIR`, `S2_NAME` → `s2v2_models/gex_sob_*`, `s2v2_sob_eval.json`, `s2v2_logs/` |
+| cloud-machine timings of both papers (machine spec, JAX one-at-a-time, multicomponent AIOMFAC, LLE, ANOVA grid) | `code/cloud_timings.py`, `code/cloud_timings_p2.py` → `results/cloud_timings.json` (with `ge_cost.py` → `part1_reruns/results/GE_cost.json`, `s2_part2.py cost` → `P2GE_cost.json`) |
 
 **Cross term.** `results/s3_models/cross_seed{0,1,2}.pt` (class `Cross` in `code/s3_coupling.py`) for water + one
 organic + one salt, used with the two release ensembles above.
