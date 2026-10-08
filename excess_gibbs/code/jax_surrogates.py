@@ -159,6 +159,58 @@ def part2_gibbs(nets) -> GibbsFunction:
     return gf
 
 
+def part2x_gibbs(nets_x, names17, z17) -> GibbsFunction:
+    """Gibbs function of water + 17 free ions from an ensemble of extended networks (s4_extend.GEXNetX: the Part 2
+    GEXNet plus new input columns and a new Margules head for Li+, Mg2+, Br-), mean of G; same form as part2_gibbs."""
+    ni_ = len(names17)
+    n0 = len(P2_NAMES)
+    base = _stack([_linear_layers(n.base.f) for n in nets_x])
+    W_in = jnp.asarray(np.stack([n.new_in.weight.detach().double().numpy().T for n in nets_x]))      # (M, 3, H)
+    W_o = jnp.asarray(np.stack([n.new_out.weight.detach().double().numpy().T for n in nets_x]))     # (M, H, P)
+    b_o = jnp.asarray(np.stack([n.new_out.bias.detach().double().numpy() for n in nets_x]))
+    iu_old = np.triu_indices(n0 + 1); iu_old = (iu_old[0][1:], iu_old[1][1:])
+    iu = nets_x[0].iu.numpy(); npos = nets_x[0].new_pos.numpy()
+    iu_new = (iu[0][npos], iu[1][npos])
+    z2 = jnp.asarray(np.asarray(z17, float) ** 2)
+
+    def G(nw, ni, k):
+        m = ni / (nw * MW)
+        I = 0.5 * jnp.sum(m * z2)
+        s = jnp.sqrt(I + 1e-30)
+        gdh = -(4 * k["A"] / k["b"] ** 3) * _f_dh(k["b"] * s)
+        ntot = nw + jnp.sum(ni)
+        x = jnp.concatenate([nw[None], ni]) / ntot
+        inp = jnp.concatenate([jnp.log1p(m[:n0]), x[:1], k["tn"][None]])
+        M = base[0][0].shape[0]
+        h = jnp.einsum("mi,mio->mo", jnp.broadcast_to(inp, (M, inp.shape[0])), base[0][0]) + base[0][1] \
+            + jnp.einsum("i,mio->mo", jnp.log1p(m[n0:]), W_in)
+        h = h * jax.nn.sigmoid(h)
+        for W, b in base[1:-1]:
+            h = jnp.einsum("mi,mio->mo", h, W) + b
+            h = h * jax.nn.sigmoid(h)
+        hv_old = jnp.einsum("mi,mio->mo", h, base[-1][0]) + base[-1][1]
+        hv_new = jnp.einsum("mi,mio->mo", h, W_o) + b_o
+        sr = hv_old @ (x[iu_old[0]] * x[iu_old[1]]) + hv_new @ (x[iu_new[0]] * x[iu_new[1]])
+        return nw * MW * gdh + ntot * jnp.mean(sr)
+
+    dG_dni = jax.jit(jax.grad(G, argnums=1))
+
+    def consts(T):
+        A, b = debye_huckel_parameters(float(T))
+        k = {"tn": jnp.asarray((T - 293.15) / 20.0), "A": jnp.asarray(A), "b": jnp.asarray(b)}
+        k["ref"] = dG_dni(jnp.asarray(1.0 / MW), jnp.zeros(ni_), k)
+        return k
+
+    def g(n, k):
+        nw, ni = n[0], n[1:]
+        return ideal_mixing(n) - math.log(MW) * jnp.sum(ni) + G(nw, ni, k) - jnp.dot(ni, k["ref"])
+
+    keys = {"Ca2+": "Ca++", "Mg2+": "Mg++"}
+    gf = GibbsFunction(["Water"] + [keys.get(i, i) for i in names17], g, consts=consts, label="part2x_gex")
+    gf.G, gf.dG = G, jax.jit(jax.grad(G, argnums=(0, 1)))
+    return gf
+
+
 def part2_activity_fn(gf: GibbsFunction):
     """(m (14,) free molalities per kg water, T) -> (ln a_w, ln gamma_i molal (14,)), the interface of
     s2_part2.model_fn and speciation.speciate, with the compiled derivatives of ``gf`` (from :func:`part2_gibbs`)."""
@@ -184,4 +236,4 @@ def part2_liquid(ions, nets, gibbs: GibbsFunction | None = None) -> GibbsLiquidM
     return GibbsLiquidModel([], ions, gibbs or part2_gibbs(nets))
 
 
-__all__ = ["P2_NAMES", "part1_gibbs", "part2_gibbs", "part2_activity_fn", "part1_liquid", "part2_liquid", "ExplicitLiquidModel"]
+__all__ = ["P2_NAMES", "part1_gibbs", "part2_gibbs", "part2x_gibbs", "part2_activity_fn", "part1_liquid", "part2_liquid", "ExplicitLiquidModel"]

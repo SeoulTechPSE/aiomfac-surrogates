@@ -1,0 +1,1435 @@
+{
+ "jax_vs_torch_max": 7.66053886991358e-15,
+ "cases": {
+  "MgCl2": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 63.78363834657905,
+     "s": 0.03393268585205078
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 65.289166054065,
+     "s": 2.644765853881836
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.217118092459486,
+     "s": 0.04340171813964844
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.572242944229245,
+     "s": 0.1812448501586914
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 28.773449601060843,
+     "s": 0.034616708755493164
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 28.80929242300041,
+     "s": 0.04736328125
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 25.36250445977843,
+     "s": 0.03371858596801758
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 25.32893356082807,
+     "s": 0.05038857460021973
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.577041098067824,
+     "s": 0.035790205001831055
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.519561414494817,
+     "s": 0.05093050003051758
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 22.064661297861047,
+     "s": 0.040421485900878906
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 21.99399097974098,
+     "s": 0.049394845962524414
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.17315307980659,
+     "s": 0.03520083427429199
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.095143963538558,
+     "s": 0.04938650131225586
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 17.710985985277368,
+     "s": 0.04060769081115723
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 17.63785230408402,
+     "s": 0.06340527534484863
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.276194171346091,
+     "s": 0.03884625434875488
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.23064368849261,
+     "s": 0.05964231491088867
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.887033316734202,
+     "s": 0.03889966011047363
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.864301488416544,
+     "s": 0.0622410774230957
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 10.037367676185422,
+     "s": 0.03978562355041504
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 10.023848076358245,
+     "s": 0.06421852111816406
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "bischofite"
+     ],
+     "water": 0.0,
+     "s": 0.04534149169921875
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "bischofite"
+     ],
+     "water": 0.0,
+     "s": 0.06720805168151855
+    },
+    "same_state": true
+   }
+  ],
+  "MgSO4": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 27.12805454845532,
+     "s": 0.029737472534179688
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 28.140268093286075,
+     "s": 2.4212253093719482
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.06051826477050781
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07351517677307129
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.042244911193847656
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.06420350074768066
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.04999709129333496
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07005500793457031
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.049649715423583984
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07842564582824707
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.04976177215576172
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.08315849304199219
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.06408047676086426
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07595491409301758
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.05203557014465332
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07086038589477539
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.05367422103881836
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "epsomite"
+     ],
+     "water": 0.0,
+     "s": 0.07386970520019531
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.054177284240722656
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.07629680633544922
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.04792332649230957
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.06907176971435547
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.04568624496459961
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "kieserite"
+     ],
+     "water": 0.0,
+     "s": 0.06658434867858887
+    },
+    "same_state": true
+   }
+  ],
+  "Mg(NO3)2": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 60.74182920179496,
+     "s": 0.028511524200439453
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 62.07762619680467,
+     "s": 2.421229124069214
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.05048942565917969
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06576728820800781
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.047121286392211914
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06897664070129395
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04676628112792969
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06998920440673828
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.046990394592285156
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06709146499633789
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.0469365119934082
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.07947468757629395
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04522085189819336
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06454253196716309
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.05024266242980957
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.0649106502532959
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04612398147583008
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.06914567947387695
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04748678207397461
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.07361149787902832
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04554629325866699
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.07107281684875488
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.04541587829589844
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "Mg_nitrate_6H2O"
+     ],
+     "water": 0.0,
+     "s": 0.07104110717773438
+    },
+    "same_state": true
+   }
+  ],
+  "NaCl + MgCl2": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 68.06663980764016,
+     "s": 0.038710832595825195
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 68.78155981151376,
+     "s": 2.568828821182251
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.32519596886266,
+     "s": 0.06575345993041992
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.25873891865409,
+     "s": 0.09046554565429688
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 27.946897298846004,
+     "s": 0.0580596923828125
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 27.750957675882248,
+     "s": 0.07866191864013672
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 24.315024839636614,
+     "s": 0.07255315780639648
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 24.130048071034096,
+     "s": 0.09851908683776855
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 22.441929661724245,
+     "s": 0.06937789916992188
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 22.277036151362353,
+     "s": 0.0968165397644043
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.871177356240743,
+     "s": 0.06879663467407227
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.730846636417795,
+     "s": 0.10141420364379883
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 18.927886974611326,
+     "s": 0.07303214073181152
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 18.827194089804593,
+     "s": 0.10999894142150879
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 14.622680225851264,
+     "s": 0.09113144874572754
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 14.849032346732988,
+     "s": 0.16298580169677734
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 8.147904069680903,
+     "s": 0.11525440216064453
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 8.173429607336741,
+     "s": 0.14560914039611816
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 6.218189284079508,
+     "s": 0.11618494987487793
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 6.214942661418188,
+     "s": 0.15655970573425293
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 5.0998539169597255,
+     "s": 0.1049489974975586
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [
+      "halite"
+     ],
+     "water": 5.093165862437148,
+     "s": 0.17422795295715332
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "bischofite",
+      "halite"
+     ],
+     "water": 0.0,
+     "s": 0.06972289085388184
+    },
+    "surrogate": {
+     "status": "dry",
+     "n_liquids": 0,
+     "solids": [
+      "bischofite",
+      "halite"
+     ],
+     "water": 0.0,
+     "s": 0.07458615303039551
+    },
+    "same_state": true
+   }
+  ],
+  "NaBr": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.17920347298511,
+     "s": 0.026188373565673828
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 38.691143408954886,
+     "s": 2.5599184036254883
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.70756024681931,
+     "s": 0.030252456665039062
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.621070751359248,
+     "s": 0.040352582931518555
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.689712456362635,
+     "s": 0.03317070007324219
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.479392225302641,
+     "s": 0.048429012298583984
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.59196348891742,
+     "s": 0.03773307800292969
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.385507153049693,
+     "s": 0.05362224578857422
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.513459368219003,
+     "s": 0.04189562797546387
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.322057556339207,
+     "s": 0.06020522117614746
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 10.61207315010339,
+     "s": 0.05199241638183594
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 10.440471800101223,
+     "s": 0.07314586639404297
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 9.502871362426099,
+     "s": 0.07450723648071289
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 9.364417034802305,
+     "s": 0.10982799530029297
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 8.095857371191668,
+     "s": 0.043221473693847656
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 8.011237264749576,
+     "s": 0.05359292030334473
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 6.227688661402057,
+     "s": 0.03414344787597656
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 6.222453034446997,
+     "s": 0.04738211631774902
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 5.01929170733535,
+     "s": 0.03575396537780762
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 5.0545927953769425,
+     "s": 0.04907798767089844
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 4.151239588171737,
+     "s": 0.039101600646972656
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 4.199770025565663,
+     "s": 0.05948305130004883
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 3.4733024603639775,
+     "s": 0.03916764259338379
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 3.5179228127466144,
+     "s": 0.059622764587402344
+    },
+    "same_state": true
+   }
+  ],
+  "LiCl": [
+   {
+    "rh": 0.95,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 41.165670839104926,
+     "s": 0.026823997497558594
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 41.20935303104856,
+     "s": 2.550706386566162
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.9,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.086459185587266,
+     "s": 0.031482696533203125
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.14471715686535,
+     "s": 0.046567440032958984
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.85,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 16.79436117405196,
+     "s": 0.1070394515991211
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 16.86511032712072,
+     "s": 0.20483040809631348
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.82,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.59680403898172,
+     "s": 0.03332924842834473
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 14.667350710004412,
+     "s": 0.0464625358581543
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.8,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 13.464539464212706,
+     "s": 0.03535175323486328
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 13.533020670371325,
+     "s": 0.04887080192565918
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.78,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.515656246319631,
+     "s": 0.0374293327331543
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.581054131307843,
+     "s": 0.05055880546569824
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.75,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.342529823477356,
+     "s": 0.03609347343444824
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 11.40207394690566,
+     "s": 0.05180811882019043
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.7,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 9.838898766211866,
+     "s": 0.03790760040283203
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 9.887059612583394,
+     "s": 0.0533139705657959
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.6,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 7.786845879408658,
+     "s": 0.04362320899963379
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 7.811617632727416,
+     "s": 0.06841516494750977
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.5,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 6.391057074259074,
+     "s": 0.03797745704650879
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 6.395358422569442,
+     "s": 0.05995488166809082
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.4,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 5.327819439395422,
+     "s": 0.038247108459472656
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 5.315628319105937,
+     "s": 0.05960536003112793
+    },
+    "same_state": true
+   },
+   {
+    "rh": 0.3,
+    "aiomfac": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 4.443560205842852,
+     "s": 0.03697848320007324
+    },
+    "surrogate": {
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 4.418816506389648,
+     "s": 0.057617902755737305
+    },
+    "same_state": true
+   }
+  ]
+ },
+ "summary": {
+  "n": 72,
+  "same_state": 72,
+  "water_rel_err_median": 0.0051556638024280455,
+  "water_rel_err_max": 0.037312426625461415,
+  "time_aiomfac_s": 3.539839506149292,
+  "time_surrogate_s": 20.172309160232544
+ }
+}
