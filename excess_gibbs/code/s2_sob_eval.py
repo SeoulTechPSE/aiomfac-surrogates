@@ -41,7 +41,7 @@ def load(kind, seed):
     return net.float().eval()
 
 
-def deriv_mae(net, idx, n_max=4000):
+def deriv_mae(net, idx, n_max=4000, neutral=False):
     """MAE of the directional derivatives (water, ions) along one fixed random direction per composition (float64,
     central difference 1e-4 in ln m), against the AIOMFAC derivative labels."""
     rng = np.random.RandomState(1)
@@ -52,6 +52,8 @@ def deriv_mae(net, idx, n_max=4000):
     m = torch.tensor(S.M[idx]); tn = torch.tensor((S.T[idx] - 293.15) / 20)
     A = torch.tensor(S.AT[idx]); b = torch.tensor(S.BT[idx]); pr = torch.tensor(S.PRES[idx])
     v = torch.tensor(rng.normal(size=S.M[idx].shape)) * pr
+    if neutral:
+        v = S.neutral_directions(v, m)
     dw, di = S.directional(netd, m, tn, A, b, v, h=1e-4, create_graph=False)
     yw, yi, okw, oki = S.directional_labels(torch.tensor(S.DL[idx], dtype=torch.float64), v)
     oki = oki & pr
@@ -95,7 +97,9 @@ if __name__ == "__main__":
                 continue
             net = load(kind, seed)
             r = {**S.evaluate(net, te, kind), **{k + "_unseen": v for k, v in S.evaluate(net, tu, kind).items()},
-                 **deriv_mae(net, te), **{k + "_unseen": v for k, v in deriv_mae(net, tu).items()}, **pe(load(kind, seed), ref)}
+                 **deriv_mae(net, te), **{k + "_unseen": v for k, v in deriv_mae(net, tu).items()},
+                 **{k + "_neutral": v for k, v in deriv_mae(net, te, neutral=True).items()},
+                 **{k + "_neutral_unseen": v for k, v in deriv_mae(net, tu, neutral=True).items()}, **pe(load(kind, seed), ref)}
             res[f"{kind}_seed{seed}"] = r
             print(kind, seed, {k: round(v, 4) if isinstance(v, float) else v for k, v in r.items()}, flush=True)
             json.dump(res, open(out_path, "w"), indent=1)

@@ -146,6 +146,15 @@ def tens(idx):
 SOB_LAMBDA, SOB_H = float(os.environ.get("SOB_LAMBDA", "0.1")), 1.0e-2
 SOB_LOSS, SOB_DELTA = os.environ.get("SOB_LOSS", "mse"), float(os.environ.get("SOB_DELTA", "1.0"))
 RUN_NAME = os.environ.get("S2_NAME")                 # file name of a variant (default: the kind)
+SOB_DIR = os.environ.get("SOB_DIR", "random")         # "random" (any direction in ln m) or "neutral" (electroneutral)
+
+
+def neutral_directions(v, m):
+    """project directions v in ln m onto the electroneutral subspace sum_j z_j m_j v_j = 0 (molalities m), so that
+    the derivative loss only constrains composition changes by neutral combinations of ions (as in the solver)"""
+    zm = m * torch.as_tensor(Z, dtype=m.dtype)
+    nz = (zm * zm).sum(1, keepdim=True)
+    return v - zm * ((zm * v).sum(1, keepdim=True) / nz.clamp(min=1e-30))
 
 
 def _sob_term(r, ok):
@@ -187,6 +196,8 @@ def train(kind, seed, tr, max_epochs=400, patience=30, batch=256):
     if sob:                                              # scale of the directional-derivative labels
         g0 = torch.Generator().manual_seed(seed)
         v0 = torch.randn(Tf[0].shape, generator=g0) * Tf[6]
+        if SOB_DIR == "neutral":
+            v0 = neutral_directions(v0, Tf[0])
         yw0, yi0, okw0, oki0 = directional_labels(Tf[7], v0)
         sdw, sdi = float(yw0[okw0].std()), float(yi0[oki0].std())
 
@@ -197,6 +208,8 @@ def train(kind, seed, tr, max_epochs=400, patience=30, batch=256):
         out = li + (((pa - aw) / sw) ** 2).mean()
         if with_sob:
             v = torch.randn(m.shape) * pr                   # random direction among the species present
+            if SOB_DIR == "neutral":
+                v = neutral_directions(v, m)
             yw, yi_, okw, oki = directional_labels(B[7], v)
             dw, di = directional(net, m, tn, A, b, v)
             oki = oki & pr
