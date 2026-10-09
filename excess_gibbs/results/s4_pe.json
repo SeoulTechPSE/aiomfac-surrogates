@@ -9,14 +9,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 63.78363834657905,
-     "s": 0.03393268585205078
+     "s": 0.033733367919921875
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 65.289166054065,
-     "s": 2.644765853881836
+     "s": 2.5762789249420166
     },
     "same_state": true
    },
@@ -27,14 +27,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 38.217118092459486,
-     "s": 0.04340171813964844
+     "s": 0.04800152778625488
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 38.572242944229245,
-     "s": 0.1812448501586914
+     "s": 0.18936371803283691
     },
     "same_state": true
    },
@@ -45,14 +45,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 28.773449601060843,
-     "s": 0.034616708755493164
+     "s": 0.0368809700012207
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 28.80929242300041,
-     "s": 0.04736328125
+     "s": 0.05219602584838867
     },
     "same_state": true
    },
@@ -63,14 +63,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 25.36250445977843,
-     "s": 0.03371858596801758
+     "s": 0.039704084396362305
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 25.32893356082807,
-     "s": 0.05038857460021973
+     "s": 0.0512392520904541
     },
     "same_state": true
    },
@@ -81,14 +81,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 23.577041098067824,
-     "s": 0.035790205001831055
+     "s": 0.03586697578430176
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 23.519561414494817,
-     "s": 0.05093050003051758
+     "s": 0.0509493350982666
     },
     "same_state": true
    },
@@ -99,14 +99,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 22.064661297861047,
-     "s": 0.040421485900878906
+     "s": 0.035782575607299805
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 21.99399097974098,
-     "s": 0.049394845962524414
+     "s": 0.051123857498168945
     },
     "same_state": true
    },
@@ -117,14 +117,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 20.17315307980659,
-     "s": 0.03520083427429199
+     "s": 0.0368654727935791
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 20.095143963538558,
-     "s": 0.04938650131225586
+     "s": 0.05579829216003418
     },
     "same_state": true
    },
@@ -135,14 +135,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 17.710985985277368,
-     "s": 0.04060769081115723
+     "s": 0.04338431358337402
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 17.63785230408402,
-     "s": 0.06340527534484863
+     "s": 0.06588077545166016
     },
     "same_state": true
    },
@@ -153,14 +153,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 14.276194171346091,
-     "s": 0.03884625434875488
+     "s": 0.04386568069458008
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 14.23064368849261,
-     "s": 0.05964231491088867
+     "s": 0.06404280662536621
     },
     "same_state": true
    },
@@ -171,14 +171,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 11.887033316734202,
-     "s": 0.03889966011047363
+     "s": 0.03856921195983887
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 11.864301488416544,
-     "s": 0.0622410774230957
+     "s": 0.05873918533325195
     },
     "same_state": true
    },
@@ -189,14 +189,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 10.037367676185422,
-     "s": 0.03978562355041504
+     "s": 0.038228750228881836
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 10.023848076358245,
-     "s": 0.06421852111816406
+     "s": 0.05848360061645508
     },
     "same_state": true
    },
@@ -209,7 +209,7 @@
       "bischofite"
      ],
      "water": 0.0,
-     "s": 0.04534149169921875
+     "s": 0.04677891731262207
     },
     "surrogate": {
      "status": "dry",
@@ -218,7 +218,7 @@
       "bischofite"
      ],
      "water": 0.0,
-     "s": 0.06720805168151855
+     "s": 0.06479048728942871
     },
     "same_state": true
    }
@@ -231,14 +231,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 27.12805454845532,
-     "s": 0.029737472534179688
+     "s": 0.03127002716064453
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 28.140268093286075,
-     "s": 2.4212253093719482
+     "s": 2.4161899089813232
     },
     "same_state": true
    },
@@ -251,7 +251,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.06051826477050781
+     "s": 0.06347465515136719
     },
     "surrogate": {
      "status": "dry",
@@ -260,7 +260,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07351517677307129
+     "s": 0.07777738571166992
     },
     "same_state": true
    },
@@ -273,7 +273,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.042244911193847656
+     "s": 0.0446016788482666
     },
     "surrogate": {
      "status": "dry",
@@ -282,7 +282,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.06420350074768066
+     "s": 0.06670808792114258
     },
     "same_state": true
    },
@@ -295,7 +295,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.04999709129333496
+     "s": 0.05334877967834473
     },
     "surrogate": {
      "status": "dry",
@@ -304,7 +304,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07005500793457031
+     "s": 0.07585597038269043
     },
     "same_state": true
    },
@@ -317,7 +317,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.049649715423583984
+     "s": 0.058157920837402344
     },
     "surrogate": {
      "status": "dry",
@@ -326,7 +326,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07842564582824707
+     "s": 0.07238030433654785
     },
     "same_state": true
    },
@@ -339,7 +339,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.04976177215576172
+     "s": 0.05773591995239258
     },
     "surrogate": {
      "status": "dry",
@@ -348,7 +348,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.08315849304199219
+     "s": 0.07025384902954102
     },
     "same_state": true
    },
@@ -361,7 +361,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.06408047676086426
+     "s": 0.052306413650512695
     },
     "surrogate": {
      "status": "dry",
@@ -370,7 +370,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07595491409301758
+     "s": 0.07232117652893066
     },
     "same_state": true
    },
@@ -383,7 +383,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.05203557014465332
+     "s": 0.053687334060668945
     },
     "surrogate": {
      "status": "dry",
@@ -392,7 +392,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07086038589477539
+     "s": 0.07131505012512207
     },
     "same_state": true
    },
@@ -405,7 +405,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.05367422103881836
+     "s": 0.05146503448486328
     },
     "surrogate": {
      "status": "dry",
@@ -414,7 +414,7 @@
       "epsomite"
      ],
      "water": 0.0,
-     "s": 0.07386970520019531
+     "s": 0.07104849815368652
     },
     "same_state": true
    },
@@ -427,7 +427,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.054177284240722656
+     "s": 0.053867340087890625
     },
     "surrogate": {
      "status": "dry",
@@ -436,7 +436,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.07629680633544922
+     "s": 0.07590627670288086
     },
     "same_state": true
    },
@@ -449,7 +449,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.04792332649230957
+     "s": 0.05322623252868652
     },
     "surrogate": {
      "status": "dry",
@@ -458,7 +458,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.06907176971435547
+     "s": 0.07009649276733398
     },
     "same_state": true
    },
@@ -471,7 +471,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.04568624496459961
+     "s": 0.04893660545349121
     },
     "surrogate": {
      "status": "dry",
@@ -480,7 +480,7 @@
       "kieserite"
      ],
      "water": 0.0,
-     "s": 0.06658434867858887
+     "s": 0.06784915924072266
     },
     "same_state": true
    }
@@ -493,190 +493,158 @@
      "n_liquids": 1,
      "solids": [],
      "water": 60.74182920179496,
-     "s": 0.028511524200439453
+     "s": 0.029756546020507812
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 62.07762619680467,
-     "s": 2.421229124069214
+     "s": 2.543470859527588
     },
     "same_state": true
    },
    {
     "rh": 0.9,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.05048942565917969
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 35.40413338052261,
+     "s": 0.046958208084106445
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06576728820800781
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 36.04831814436005,
+     "s": 0.06476974487304688
     },
     "same_state": true
    },
    {
     "rh": 0.85,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.047121286392211914
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 26.309076749996095,
+     "s": 0.03354454040527344
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06897664070129395
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 26.607143466709964,
+     "s": 0.050885677337646484
     },
     "same_state": true
    },
    {
     "rh": 0.82,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.04676628112792969
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.059089070923612,
+     "s": 0.03540205955505371
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06998920440673828
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 23.25794949459505,
+     "s": 0.051293373107910156
     },
     "same_state": true
    },
    {
     "rh": 0.8,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.046990394592285156
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 21.365402721715505,
+     "s": 0.034888505935668945
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06709146499633789
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 21.522109627550066,
+     "s": 0.052503347396850586
     },
     "same_state": true
    },
    {
     "rh": 0.78,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.0469365119934082
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 19.935102838814302,
+     "s": 0.046662330627441406
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.07947468757629395
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 20.06217156667497,
+     "s": 0.05633115768432617
     },
     "same_state": true
    },
    {
     "rh": 0.75,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.04522085189819336
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 18.152514187512782,
+     "s": 0.037874460220336914
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06454253196716309
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 18.25073095323102,
+     "s": 0.05038595199584961
     },
     "same_state": true
    },
    {
     "rh": 0.7,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.05024266242980957
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 15.844893691753427,
+     "s": 0.03760504722595215
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.0649106502532959
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 15.918719449012077,
+     "s": 0.04994058609008789
     },
     "same_state": true
    },
    {
     "rh": 0.6,
     "aiomfac": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.04612398147583008
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.661632869879483,
+     "s": 0.039933204650878906
     },
     "surrogate": {
-     "status": "dry",
-     "n_liquids": 0,
-     "solids": [
-      "Mg_nitrate_6H2O"
-     ],
-     "water": 0.0,
-     "s": 0.06914567947387695
+     "status": "converged",
+     "n_liquids": 1,
+     "solids": [],
+     "water": 12.719269645763887,
+     "s": 0.06516003608703613
     },
     "same_state": true
    },
@@ -689,7 +657,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.04748678207397461
+     "s": 0.04673266410827637
     },
     "surrogate": {
      "status": "dry",
@@ -698,7 +666,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.07361149787902832
+     "s": 0.06283235549926758
     },
     "same_state": true
    },
@@ -711,7 +679,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.04554629325866699
+     "s": 0.050264596939086914
     },
     "surrogate": {
      "status": "dry",
@@ -720,7 +688,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.07107281684875488
+     "s": 0.06731224060058594
     },
     "same_state": true
    },
@@ -733,7 +701,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.04541587829589844
+     "s": 0.05687689781188965
     },
     "surrogate": {
      "status": "dry",
@@ -742,7 +710,7 @@
       "Mg_nitrate_6H2O"
      ],
      "water": 0.0,
-     "s": 0.07104110717773438
+     "s": 0.07624197006225586
     },
     "same_state": true
    }
@@ -755,14 +723,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 68.06663980764016,
-     "s": 0.038710832595825195
+     "s": 0.040636539459228516
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 68.78155981151376,
-     "s": 2.568828821182251
+     "s": 2.5613925457000732
     },
     "same_state": true
    },
@@ -773,14 +741,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 38.32519596886266,
-     "s": 0.06575345993041992
+     "s": 0.06706786155700684
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 38.25873891865409,
-     "s": 0.09046554565429688
+     "s": 0.09848880767822266
     },
     "same_state": true
    },
@@ -791,14 +759,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 27.946897298846004,
-     "s": 0.0580596923828125
+     "s": 0.06482505798339844
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 27.750957675882248,
-     "s": 0.07866191864013672
+     "s": 0.08529448509216309
     },
     "same_state": true
    },
@@ -809,14 +777,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 24.315024839636614,
-     "s": 0.07255315780639648
+     "s": 0.07441163063049316
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 24.130048071034096,
-     "s": 0.09851908683776855
+     "s": 0.09518694877624512
     },
     "same_state": true
    },
@@ -827,14 +795,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 22.441929661724245,
-     "s": 0.06937789916992188
+     "s": 0.06952714920043945
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 22.277036151362353,
-     "s": 0.0968165397644043
+     "s": 0.09348464012145996
     },
     "same_state": true
    },
@@ -845,14 +813,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 20.871177356240743,
-     "s": 0.06879663467407227
+     "s": 0.07489776611328125
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 20.730846636417795,
-     "s": 0.10141420364379883
+     "s": 0.10074043273925781
     },
     "same_state": true
    },
@@ -863,14 +831,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 18.927886974611326,
-     "s": 0.07303214073181152
+     "s": 0.07432770729064941
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 18.827194089804593,
-     "s": 0.10999894142150879
+     "s": 0.11606192588806152
     },
     "same_state": true
    },
@@ -883,7 +851,7 @@
       "halite"
      ],
      "water": 14.622680225851264,
-     "s": 0.09113144874572754
+     "s": 0.09136843681335449
     },
     "surrogate": {
      "status": "converged",
@@ -892,7 +860,7 @@
       "halite"
      ],
      "water": 14.849032346732988,
-     "s": 0.16298580169677734
+     "s": 0.14411234855651855
     },
     "same_state": true
    },
@@ -905,7 +873,7 @@
       "halite"
      ],
      "water": 8.147904069680903,
-     "s": 0.11525440216064453
+     "s": 0.1031789779663086
     },
     "surrogate": {
      "status": "converged",
@@ -914,7 +882,7 @@
       "halite"
      ],
      "water": 8.173429607336741,
-     "s": 0.14560914039611816
+     "s": 0.15640616416931152
     },
     "same_state": true
    },
@@ -927,7 +895,7 @@
       "halite"
      ],
      "water": 6.218189284079508,
-     "s": 0.11618494987487793
+     "s": 0.10731005668640137
     },
     "surrogate": {
      "status": "converged",
@@ -936,7 +904,7 @@
       "halite"
      ],
      "water": 6.214942661418188,
-     "s": 0.15655970573425293
+     "s": 0.15949153900146484
     },
     "same_state": true
    },
@@ -949,7 +917,7 @@
       "halite"
      ],
      "water": 5.0998539169597255,
-     "s": 0.1049489974975586
+     "s": 0.10845065116882324
     },
     "surrogate": {
      "status": "converged",
@@ -958,7 +926,7 @@
       "halite"
      ],
      "water": 5.093165862437148,
-     "s": 0.17422795295715332
+     "s": 0.18459248542785645
     },
     "same_state": true
    },
@@ -972,7 +940,7 @@
       "halite"
      ],
      "water": 0.0,
-     "s": 0.06972289085388184
+     "s": 0.06851005554199219
     },
     "surrogate": {
      "status": "dry",
@@ -982,7 +950,7 @@
       "halite"
      ],
      "water": 0.0,
-     "s": 0.07458615303039551
+     "s": 0.07270026206970215
     },
     "same_state": true
    }
@@ -995,14 +963,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 38.17920347298511,
-     "s": 0.026188373565673828
+     "s": 0.028798341751098633
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 38.691143408954886,
-     "s": 2.5599184036254883
+     "s": 2.5327227115631104
     },
     "same_state": true
    },
@@ -1013,14 +981,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 20.70756024681931,
-     "s": 0.030252456665039062
+     "s": 0.028984546661376953
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 20.621070751359248,
-     "s": 0.040352582931518555
+     "s": 0.03985452651977539
     },
     "same_state": true
    },
@@ -1031,14 +999,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 14.689712456362635,
-     "s": 0.03317070007324219
+     "s": 0.033463239669799805
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 14.479392225302641,
-     "s": 0.048429012298583984
+     "s": 0.048860788345336914
     },
     "same_state": true
    },
@@ -1049,14 +1017,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 12.59196348891742,
-     "s": 0.03773307800292969
+     "s": 0.041516780853271484
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 12.385507153049693,
-     "s": 0.05362224578857422
+     "s": 0.05631279945373535
     },
     "same_state": true
    },
@@ -1067,14 +1035,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 11.513459368219003,
-     "s": 0.04189562797546387
+     "s": 0.045349836349487305
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 11.322057556339207,
-     "s": 0.06020522117614746
+     "s": 0.05845379829406738
     },
     "same_state": true
    },
@@ -1085,14 +1053,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 10.61207315010339,
-     "s": 0.05199241638183594
+     "s": 0.05097675323486328
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 10.440471800101223,
-     "s": 0.07314586639404297
+     "s": 0.07163095474243164
     },
     "same_state": true
    },
@@ -1103,14 +1071,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 9.502871362426099,
-     "s": 0.07450723648071289
+     "s": 0.07575440406799316
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 9.364417034802305,
-     "s": 0.10982799530029297
+     "s": 0.10831046104431152
     },
     "same_state": true
    },
@@ -1121,14 +1089,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 8.095857371191668,
-     "s": 0.043221473693847656
+     "s": 0.04309988021850586
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 8.011237264749576,
-     "s": 0.05359292030334473
+     "s": 0.05215716361999512
     },
     "same_state": true
    },
@@ -1139,14 +1107,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 6.227688661402057,
-     "s": 0.03414344787597656
+     "s": 0.03799128532409668
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 6.222453034446997,
-     "s": 0.04738211631774902
+     "s": 0.04746365547180176
     },
     "same_state": true
    },
@@ -1157,14 +1125,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 5.01929170733535,
-     "s": 0.03575396537780762
+     "s": 0.03659486770629883
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 5.0545927953769425,
-     "s": 0.04907798767089844
+     "s": 0.048519134521484375
     },
     "same_state": true
    },
@@ -1175,14 +1143,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 4.151239588171737,
-     "s": 0.039101600646972656
+     "s": 0.04293203353881836
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 4.199770025565663,
-     "s": 0.05948305130004883
+     "s": 0.05753898620605469
     },
     "same_state": true
    },
@@ -1193,14 +1161,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 3.4733024603639775,
-     "s": 0.03916764259338379
+     "s": 0.03943657875061035
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 3.5179228127466144,
-     "s": 0.059622764587402344
+     "s": 0.059166669845581055
     },
     "same_state": true
    }
@@ -1213,14 +1181,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 41.165670839104926,
-     "s": 0.026823997497558594
+     "s": 0.028500795364379883
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 41.20935303104856,
-     "s": 2.550706386566162
+     "s": 2.516573667526245
     },
     "same_state": true
    },
@@ -1231,14 +1199,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 23.086459185587266,
-     "s": 0.031482696533203125
+     "s": 0.037953853607177734
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 23.14471715686535,
-     "s": 0.046567440032958984
+     "s": 0.04861855506896973
     },
     "same_state": true
    },
@@ -1249,14 +1217,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 16.79436117405196,
-     "s": 0.1070394515991211
+     "s": 0.11327552795410156
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 16.86511032712072,
-     "s": 0.20483040809631348
+     "s": 0.20931386947631836
     },
     "same_state": true
    },
@@ -1267,14 +1235,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 14.59680403898172,
-     "s": 0.03332924842834473
+     "s": 0.03405594825744629
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 14.667350710004412,
-     "s": 0.0464625358581543
+     "s": 0.04776167869567871
     },
     "same_state": true
    },
@@ -1285,14 +1253,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 13.464539464212706,
-     "s": 0.03535175323486328
+     "s": 0.03684854507446289
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 13.533020670371325,
-     "s": 0.04887080192565918
+     "s": 0.0488123893737793
     },
     "same_state": true
    },
@@ -1303,14 +1271,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 12.515656246319631,
-     "s": 0.0374293327331543
+     "s": 0.03943490982055664
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 12.581054131307843,
-     "s": 0.05055880546569824
+     "s": 0.05093812942504883
     },
     "same_state": true
    },
@@ -1321,14 +1289,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 11.342529823477356,
-     "s": 0.03609347343444824
+     "s": 0.03849959373474121
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 11.40207394690566,
-     "s": 0.05180811882019043
+     "s": 0.05074429512023926
     },
     "same_state": true
    },
@@ -1339,14 +1307,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 9.838898766211866,
-     "s": 0.03790760040283203
+     "s": 0.0405428409576416
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 9.887059612583394,
-     "s": 0.0533139705657959
+     "s": 0.05466127395629883
     },
     "same_state": true
    },
@@ -1357,14 +1325,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 7.786845879408658,
-     "s": 0.04362320899963379
+     "s": 0.04143691062927246
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 7.811617632727416,
-     "s": 0.06841516494750977
+     "s": 0.058878183364868164
     },
     "same_state": true
    },
@@ -1375,14 +1343,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 6.391057074259074,
-     "s": 0.03797745704650879
+     "s": 0.03846549987792969
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 6.395358422569442,
-     "s": 0.05995488166809082
+     "s": 0.0612947940826416
     },
     "same_state": true
    },
@@ -1393,14 +1361,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 5.327819439395422,
-     "s": 0.038247108459472656
+     "s": 0.038564205169677734
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 5.315628319105937,
-     "s": 0.05960536003112793
+     "s": 0.060898780822753906
     },
     "same_state": true
    },
@@ -1411,14 +1379,14 @@
      "n_liquids": 1,
      "solids": [],
      "water": 4.443560205842852,
-     "s": 0.03697848320007324
+     "s": 0.03982043266296387
     },
     "surrogate": {
      "status": "converged",
      "n_liquids": 1,
      "solids": [],
      "water": 4.418816506389648,
-     "s": 0.057617902755737305
+     "s": 0.05959153175354004
     },
     "same_state": true
    }
@@ -1427,9 +1395,9 @@
  "summary": {
   "n": 72,
   "same_state": 72,
-  "water_rel_err_median": 0.0051556638024280455,
+  "water_rel_err_median": 0.005284724934500384,
   "water_rel_err_max": 0.037312426625461415,
-  "time_aiomfac_s": 3.539839506149292,
-  "time_surrogate_s": 20.172309160232544
+  "time_aiomfac_s": 3.5730483531951904,
+  "time_surrogate_s": 20.054747104644775
  }
 }

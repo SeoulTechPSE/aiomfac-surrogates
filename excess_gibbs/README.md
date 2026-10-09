@@ -91,7 +91,7 @@ predicted exactly as before), compared with fine-tuning all weights with the ori
 | labels (31 603 compositions with a new ion after filtering) | `code/s4_data.py` → `results/s4_labels.npz` |
 | frozen / full / scratch runs, data-efficiency curve, release ensemble (5) | `code/s4_run_all.sh` (`s4_extend.py`) → `results/s4_runs.jsonl`, `results/s4_models/` |
 | summary (per ion, by ionic strength, starting point) | `code/s4_eval.py` → `results/s4_summary.json` |
-| phase equilibrium of MgCl2, MgSO4, Mg(NO3)2, NaCl + MgCl2, NaBr, LiCl (72 states) | `code/s4_pe.py` → `results/s4_pe.json` |
+| phase equilibrium of MgCl2, MgSO4, Mg(NO3)2, NaCl + MgCl2, NaBr, LiCl (72 states; needs aiomfac_py with the anchored Mg(NO3)2·6H2O, fix/mg-nitrate-solid / v1.3.0) | `code/s4_pe.py` → `results/s4_pe.json` |
 
 **Cross term.** `results/s3_models/cross_seed{0,1,2}.pt` (class `Cross` in `code/s3_coupling.py`) for water + one
 organic + one salt, used with the two release ensembles above.
