@@ -80,5 +80,18 @@ ln a and the Hessian (forward-over-reverse) are compiled once and reused, instea
 | derivative-loss variants (weight, Huber, electroneutral directions `SOB_DIR=neutral`); not used in the papers | `code/s2_sob_variants.sh`, `s2_train.py` options `SOB_LAMBDA`, `SOB_LOSS`, `SOB_DIR`, `S2_NAME` → `s2v2_models/gex_sob_*`, `s2v2_sob_eval.json`, `s2v2_logs/` |
 | cloud-machine timings of both papers (machine spec, JAX one-at-a-time, multicomponent AIOMFAC, LLE, ANOVA grid) | `code/cloud_timings.py`, `code/cloud_timings_p2.py` → `results/cloud_timings.json` (with `ge_cost.py` → `part1_reruns/results/GE_cost.json`, `s2_part2.py cost` → `P2GE_cost.json`) |
 
+**Extension to Li+, Mg2+ and Br- (Part 2, Sects. 2.13 and 3.12).** The three ions of aiomfac_py's validated set that
+the 14-ion basis leaves out are added to the trained GEXNet with AIOMFAC labels standing in for measurements
+(Part 2, Sect. 4.1): new input columns and a new Margules head only (6963 parameters, base frozen; existing systems are
+predicted exactly as before), compared with fine-tuning all weights with the original data (rehearsal) and with a
+17-ion network trained from scratch.  Mg2+/Br- is a held-out ion pair.
+
+| Item | Script → result |
+|---|---|
+| labels (31 603 compositions with a new ion after filtering) | `code/s4_data.py` → `results/s4_labels.npz` |
+| frozen / full / scratch runs, data-efficiency curve, release ensemble (5) | `code/s4_run_all.sh` (`s4_extend.py`) → `results/s4_runs.jsonl`, `results/s4_models/` |
+| summary (per ion, by ionic strength, starting point) | `code/s4_eval.py` → `results/s4_summary.json` |
+| phase equilibrium of MgCl2, MgSO4, Mg(NO3)2, NaCl + MgCl2, NaBr, LiCl (72 states; needs aiomfac_py with the anchored Mg(NO3)2·6H2O, fix/mg-nitrate-solid / v1.3.0) | `code/s4_pe.py` → `results/s4_pe.json` |
+
 **Cross term.** `results/s3_models/cross_seed{0,1,2}.pt` (class `Cross` in `code/s3_coupling.py`) for water + one
 organic + one salt, used with the two release ensembles above.
