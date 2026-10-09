@@ -1,5 +1,21 @@
 # Changelog
 
+## v3.2.0
+
+Adds the comparison with the reference Fortran code and the extension of the Part 2 electrolyte surrogate to three
+further ions. The networks and results of v3.1.0 are unchanged.
+
+- **Fortran AIOMFAC timings** (`excess_gibbs/code/fortran_bench.py`, `code/fortran_bench/`): a driver around
+  `AIOMFAC_inout` of andizuend/AIOMFAC (AIOMFAC-web 3.14, gfortran -O3), timed on the cost cases of both papers on the
+  same machine (3.2 µs per binary evaluation, 4.3 µs for NaCl, 65 µs to build and evaluate a varying ion combination)
+  → `results/fortran_bench.json`.
+- **Extension to Li+, Mg2+ and Br-** (Part 2, Sects. 2.13 and 3.12): AIOMFAC labels on a 17-ion basis (`s4_data.py`),
+  the trained GEXNet extended by new input columns and a new Margules head with the base frozen, compared with
+  fine-tuning and training from scratch (`s4_extend.py`, `s4_run_all.sh`, `s4_eval.py`), a release ensemble of five
+  frozen extensions, its JAX Gibbs function (`jax_surrogates.part2x_gibbs`), and phase equilibria of Mg, Li and Br
+  salt particles (`s4_pe.py`, 72/72 same state as AIOMFAC). Mg2+/Br- is held out as an unseen ion pair.
+- `requirements.txt`: aiomfac_py pinned to v1.3.0 (anchored Mg(NO3)2·6H2O solid, used by `s4_pe.py`).
+
 ## v3.1.0
 
 Adds compiled-derivative evaluation for the phase-equilibrium solver and re-measures all timings on one documented
